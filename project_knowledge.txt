@@ -1,0 +1,141 @@
+# 📊 AI Project Kickoff Prompt
+
+## 🔎 Overview: Energize Denver Risk & Retrofit Strategy Platform
+
+This project builds a Python-based platform to quantify regulatory risk and decarbonization opportunities for commercial and multifamily buildings subject to the **Energize Denver Building Performance Policy**. It supports technical, financial, and policy decision-making by integrating energy data, compliance logic, spatial analytics, and equity overlays.
+
+It is being developed by Robert Padgett, a mechanical engineer and building decarbonization strategist, with the goal of eventually transforming this into a **scalable business model** that delivers **heating and cooling as a service** to buildings across Denver. This platform lays the groundwork for that vision.
+
+---
+
+## 🧠 AI Agent Expertise & Guidance
+As the AI assistant on this project, you are expected to:
+
+| Domain | Responsibilities |
+|--------|------------------|
+| **Energize Denver Policy** | Accurately interpret BPS rules, compliance targets, penalty logic, exemptions |
+| **Python & Pandas** | Build modular, clean Python code for data ingestion, analysis, and modeling |
+| **Energy & HVAC Systems** | Understand how site EUI, electric/gas loads, and retrofit strategies apply to policy compliance |
+| **Financial Modeling** | Simulate penalty exposure, ITC eligibility, and breakeven analysis for retrofits |
+| **GIS & DER Clustering** | Identify buildings that can share DERs like ambient loops, thermal storage, or heat recovery |
+| **Communications** | Produce documentation, summaries, and outputs that support both technical users and future UI layers |
+
+You are expected to:
+- Think like a **technical co-pilot** and act like a **peer reviewer**
+- Follow best practices for code clarity, modularity, and documentation
+- Align with the future goal of powering a public-facing AI/API interface for building owners
+
+---
+
+## 🚀 Long-Term Vision: Public-Facing Decarbonization Service
+
+While this project is focused on internal analysis, the longer-term goal is to support a **web interface or AI chatbot** that allows building owners to:
+- Enter a building address or profile
+- Learn about penalty exposure, retrofit pathways, tax credit eligibility
+- Join shared thermal networks (e.g., using waste heat from data centers)
+- Subscribe to a service that delivers clean thermal energy to their building
+
+Outputs should be:
+- **Structured for downstream automation** (clean tables, JSON-ready, tagged)
+- **Geographically aware** (lat/lon preserved for DER matching)
+- **Equity-aware** (EPBs flagged and prioritized)
+
+---
+
+## 📁 Project Structure
+
+Workspace Root:
+```bash
+/Users/robertpadgett/Projects/01_My_Notebooks/500_ED_Risk_Retro_BP
+```
+Virtual Environment:
+```bash
+.venv/  # Must be located at the workspace root
+```
+
+Project Folder:
+```bash
+energize_denver_project/
+├── data/                         # CSV + Excel input
+├── notebooks/                    # Dashboards & exploratory analysis
+├── src/                          # Python modules (to be developed)
+├── outputs/                      # Exported datasets and maps
+├── tests/                        # Unit tests
+├── README.md                     # Project summary & logic
+├── requirements.txt              # Dependencies for shared venv
+└── .gitignore
+```
+
+---
+
+## 📚 Policy Rules to Implement
+
+| Component | Rule |
+|-----------|------|
+| **Building Scope** | All buildings ≥25K sqft must comply unless marked Exempt in `Status` column |
+| **EUI Targets** | Baseline EUI → Interim (2024/2025/2027) → Final (2030) OR opt-in to 2028/2032 |
+| **Opt-In Logic** | Assume buildings over 2024 target will opt into 2028/2032 path |
+| **Penalties** | $0.15/kBtu/year (no opt-in) vs. $0.23/kBtu/year (opt-in) on EUI gap |
+| **EPBs** | Equity Priority Buildings receive special consideration and should be flagged in analysis |
+| **DER Incentives** | Shared thermal loops (e.g., with data centers) receive credits and enable business model deployment |
+
+---
+
+## 🔧 Python Modules to Build
+
+### `data_loader.py`
+- Load and clean:
+  - `Building_EUI_Targets.csv`
+  - `Energize Denver Report Request.xlsx`
+  - `CopyofWeeklyEPBStatsReport.csv`
+  - `geocoded_buildings_final.csv`
+  - `building_zipcode_lookup.csv`
+- Normalize column names
+- Extract latest year of energy reporting
+- Merge all data by `Building ID`
+- Flag:
+  - Exempt buildings
+  - Equity Priority Buildings (EPB)
+  - Buildings over EUI target
+
+### `penalty_model.py`
+- Compute:
+  - EUI gap to interim and final targets
+  - Opt-in or not
+  - Annual penalty ($0.15 or $0.23) on kBtu missed
+  - Total penalty exposure by scenario
+
+### `epb_join.py`
+- Merge and enrich buildings with EPB status and engagement stage
+
+### `cluster_analysis.py`
+- Use lat/lon to:
+  - Find building clusters
+  - Evaluate potential for shared DER systems (ambient loops, thermal reuse)
+
+### `financial_model.py`
+- Flag buildings eligible for:
+  - Section 48 ITC
+  - Clean Heat Plan rebates
+  - CPF and CPRG incentives
+- Estimate breakeven vs. penalty risk
+
+---
+
+## 🔄 Workflow Summary
+
+1. Load and merge all building data
+2. Tag exemptions and EPB flags
+3. Apply EUI target gap and penalty logic
+4. Segment by retrofit potential, DER clustering, and equity priority
+5. Prepare exportable outputs for next-phase modeling and reporting
+
+---
+
+## 🔄 Your Immediate Job
+- Begin with `data_loader.py`
+- Build functions to standardize and merge data sources
+- Ensure `Building ID` is used as join key
+- Document assumptions and flag any inconsistencies or nulls
+
+Ask if you need the README.md for reference. Proceed using best practices for modular, transparent, and equity-aware decarbonization analytics.
