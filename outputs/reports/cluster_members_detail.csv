@@ -1,0 +1,920 @@
+cluster_id,anchor_building_id,anchor_building_name,building_id,building_name,building_address,distance_m,property_type,is_epb,sqft
+cluster_3172,3172,Unknown,3178,Unknown,Unknown,53.54,Office,False,544805.0
+cluster_3172,3172,Unknown,3174,Unknown,Unknown,109.82,Wholesale Club/Supercenter,False,70254.0
+cluster_3172,3172,Unknown,6119,Unknown,Unknown,187.55,Office,False,106000.0
+cluster_3172,3172,Unknown,3158,Unknown,Unknown,263.85,Laboratory,True,50264.0
+cluster_3172,3172,Unknown,3159,Unknown,Unknown,268.72,Office,True,25216.0
+cluster_3172,3172,Unknown,3175,Unknown,Unknown,330.37,Manufacturing/Industrial Plant,False,40373.0
+cluster_3172,3172,Unknown,3194,Unknown,Unknown,369.58,Multifamily Housing,True,89740.0
+cluster_3172,3172,Unknown,5139,Unknown,Unknown,392.98,Multifamily Housing,True,97956.0
+cluster_3172,3172,Unknown,3169,Unknown,Unknown,401.38,Manufacturing/Industrial,False,34516.0
+cluster_3172,3172,Unknown,6246,Unknown,Unknown,420.69,Office,True,84783.0
+cluster_3172,3172,Unknown,5869,Unknown,Unknown,449.41,Multifamily Housing,True,46121.0
+cluster_3172,3172,Unknown,3155,Unknown,Unknown,481.89,Multifamily Housing,True,59800.0
+cluster_3172,3172,Unknown,6011,Unknown,Unknown,487.07,Multifamily Housing,False,356280.0
+cluster_1489,1489,Unknown,1490,Unknown,Unknown,86.05,Non-Refrigerated Warehouse,False,57520.0
+cluster_1489,1489,Unknown,5410,Unknown,Unknown,99.45,Self-Storage Facility,False,123583.0
+cluster_1489,1489,Unknown,1508,Unknown,Unknown,130.65,Manufacturing/Industrial,False,42130.0
+cluster_1489,1489,Unknown,1492,Unknown,Unknown,147.63,Non-Refrigerated Warehouse,False,29376.0
+cluster_1489,1489,Unknown,1491,Unknown,Unknown,158.12,Non-Refrigerated Warehouse,False,38080.0
+cluster_1489,1489,Unknown,1507,Unknown,Unknown,173.5,Non-Refrigerated Warehouse,False,48550.0
+cluster_1489,1489,Unknown,1494,Unknown,Unknown,224.55,Manufacturing/Industrial Plant,False,46000.0
+cluster_1489,1489,Unknown,1496,Unknown,Unknown,224.9,Manufacturing/Industrial Plant,False,42707.0
+cluster_1489,1489,Unknown,1509,Unknown,Unknown,228.39,Non-Refrigerated Warehouse,False,43069.0
+cluster_1489,1489,Unknown,1522,Unknown,Unknown,292.81,Other - Recreation,False,26920.0
+cluster_1489,1489,Unknown,1493,Unknown,Unknown,306.48,Manufacturing/Industrial Plant,False,30060.0
+cluster_1489,1489,Unknown,1504,Unknown,Unknown,311.59,Non-Refrigerated Warehouse,False,49500.0
+cluster_1489,1489,Unknown,1502,Unknown,Unknown,315.86,Non-Refrigerated Warehouse,False,121302.0
+cluster_1489,1489,Unknown,1477,Unknown,Unknown,318.08,MIXED USE PROPERTY,False,74000.0
+cluster_1489,1489,Unknown,1483,Unknown,Unknown,325.12,Office,True,32890.0
+cluster_1489,1489,Unknown,5412,Unknown,Unknown,396.96,Non-Refrigerated Warehouse,False,41764.0
+cluster_1489,1489,Unknown,1481,Unknown,Unknown,417.52,Distribution Center,False,269200.0
+cluster_1489,1489,Unknown,1510,Unknown,Unknown,424.82,Other,True,29600.0
+cluster_1489,1489,Unknown,1478,Unknown,Unknown,457.48,Office,False,45800.0
+cluster_1489,1489,Unknown,5486,Unknown,Unknown,466.53,Office,True,36701.0
+cluster_1489,1489,Unknown,1519,Unknown,Unknown,482.67,Non-Refrigerated Warehouse,False,124256.0
+cluster_2210,2210,Unknown,2211,Unknown,Unknown,44.96,Social/Meeting Hall,False,25257.0
+cluster_2210,2210,Unknown,6166,Unknown,Unknown,111.22,Multifamily Housing,False,143212.0
+cluster_2210,2210,Unknown,5860,Unknown,Unknown,111.55,Multifamily Housing,False,154117.0
+cluster_2210,2210,Unknown,2733,Unknown,Unknown,125.85,Multifamily Housing,False,91225.0
+cluster_2210,2210,Unknown,2535,Unknown,Unknown,177.93,Non-Refrigerated Warehouse,False,26174.0
+cluster_2210,2210,Unknown,2209,Unknown,Unknown,185.45,Multifamily Housing,False,42500.0
+cluster_2210,2210,Unknown,5310,Unknown,Unknown,255.18,Multifamily Housing,False,75006.0
+cluster_2210,2210,Unknown,2146,Unknown,Unknown,317.82,Medical Office,False,61054.0
+cluster_2210,2210,Unknown,2540,Unknown,Unknown,326.61,Worship Facility,True,35476.0
+cluster_2210,2210,Unknown,2539,Unknown,Unknown,331.42,Library,False,39373.0
+cluster_2210,2210,Unknown,2536,Unknown,Unknown,359.88,Pre-school/Daycare,False,56000.0
+cluster_2210,2210,Unknown,2145,Unknown,Unknown,399.67,Office,False,30875.0
+cluster_2210,2210,Unknown,2143,Unknown,Unknown,410.05,Office,False,35340.0
+cluster_2210,2210,Unknown,5303,Unknown,Unknown,453.6,Multifamily Housing,False,160077.0
+cluster_2210,2210,Unknown,2537,Unknown,Unknown,454.96,Other - Utility,False,38094.0
+cluster_2210,2210,Unknown,2207,Unknown,Unknown,475.85,K-12 School,False,82164.0
+cluster_2210,2210,Unknown,2541,Unknown,Unknown,487.97,Office,True,61932.0
+cluster_3653,3653,Unknown,3652,Unknown,Unknown,65.51,Self-Storage Facility,False,66216.0
+cluster_3653,3653,Unknown,3657,Unknown,Unknown,233.26,Non-Refrigerated Warehouse,False,25138.0
+cluster_3653,3653,Unknown,3669,Unknown,Unknown,266.83,Office,False,47376.0
+cluster_3653,3653,Unknown,6202,Unknown,Unknown,274.44,Multifamily Housing,False,60367.0
+cluster_3653,3653,Unknown,3656,Unknown,Unknown,309.42,Manufacturing/Industrial,False,44239.0
+cluster_3653,3653,Unknown,3658,Unknown,Unknown,333.31,Distribution Center,False,34000.0
+cluster_3653,3653,Unknown,3654,Unknown,Unknown,371.64,Non-Refrigerated Warehouse,False,26200.0
+cluster_3653,3653,Unknown,3670,Unknown,Unknown,383.44,Self-Storage Facility,False,109125.0
+cluster_3653,3653,Unknown,3651,Unknown,Unknown,461.15,Residential Care Facility,True,36561.0
+cluster_3653,3653,Unknown,5684,Unknown,Unknown,492.93,Office,False,1316894.0
+cluster_3022,3022,Unknown,5153,Unknown,Unknown,122.77,Retail Store,False,54906.0
+cluster_3022,3022,Unknown,6228,Unknown,Unknown,132.06,Multifamily Housing,False,90665.0
+cluster_3022,3022,Unknown,3028,Unknown,Unknown,137.39,Office,False,217247.0
+cluster_3022,3022,Unknown,5635,Unknown,Unknown,140.17,Office,False,308238.0
+cluster_3022,3022,Unknown,3025,Unknown,Unknown,155.72,Multifamily Housing,False,89759.0
+cluster_3022,3022,Unknown,5605,Unknown,Unknown,176.6,Hotel,False,175897.0
+cluster_3022,3022,Unknown,3027,Unknown,Unknown,203.0,Multifamily Housing,False,37125.0
+cluster_3022,3022,Unknown,3029,Unknown,Unknown,212.99,Multifamily Housing,True,120602.0
+cluster_3022,3022,Unknown,5200,Unknown,Unknown,214.62,Hotel,False,40000.0
+cluster_3022,3022,Unknown,6122,Unknown,Unknown,228.43,Multifamily Housing,False,196260.0
+cluster_3022,3022,Unknown,3003,Unknown,Unknown,230.9,Multifamily Housing,False,69562.0
+cluster_3022,3022,Unknown,5154,Unknown,Unknown,238.9,Multifamily Housing,False,126300.0
+cluster_3022,3022,Unknown,3032,Unknown,Unknown,265.13,Multifamily Housing,False,28600.0
+cluster_3022,3022,Unknown,3004,Unknown,Unknown,274.1,Multifamily Housing,False,48368.0
+cluster_3022,3022,Unknown,3038,Unknown,Unknown,280.38,Library,False,540315.0
+cluster_3022,3022,Unknown,3021,Unknown,Unknown,299.27,Museum,False,426185.0
+cluster_3022,3022,Unknown,3099,Unknown,Unknown,302.0,Other - Technology/Science,False,45511.0
+cluster_3022,3022,Unknown,5720,Unknown,Unknown,303.06,Multifamily Housing,False,173338.0
+cluster_3022,3022,Unknown,3033,Unknown,Unknown,315.5,Worship Facility,True,38000.0
+cluster_3022,3022,Unknown,3097,Unknown,Unknown,326.38,Multifamily Housing,False,157800.0
+cluster_3022,3022,Unknown,3030,Unknown,Unknown,333.41,Office,False,48000.0
+cluster_3022,3022,Unknown,3019,Unknown,Unknown,349.28,Office,False,50000.0
+cluster_3022,3022,Unknown,2727,Unknown,Unknown,354.03,Multifamily Housing,True,85740.0
+cluster_3022,3022,Unknown,3020,Unknown,Unknown,356.01,Museum,False,27500.0
+cluster_3022,3022,Unknown,3095,Unknown,Unknown,356.02,Multifamily Housing,False,67676.0
+cluster_3022,3022,Unknown,3078,Unknown,Unknown,357.53,MIXED USE PROPERTY,False,28987.0
+cluster_3022,3022,Unknown,5182,Unknown,Unknown,360.28,Other - Entertainment/Public Assembly,False,41275.0
+cluster_3022,3022,Unknown,5126,Unknown,Unknown,374.52,Other - Services,False,45330.0
+cluster_3022,3022,Unknown,3039,Unknown,Unknown,389.24,Museum,False,210000.0
+cluster_3022,3022,Unknown,3101,Unknown,Unknown,409.57,Office,False,45000.0
+cluster_3022,3022,Unknown,2995,Unknown,Unknown,411.66,Office,False,134900.0
+cluster_3022,3022,Unknown,6065,Unknown,Unknown,411.84,Museum,False,36106.0
+cluster_3022,3022,Unknown,3094,Unknown,Unknown,415.85,Multifamily Housing,False,143000.0
+cluster_3022,3022,Unknown,3093,Unknown,Unknown,420.98,Multifamily Housing,True,85751.0
+cluster_3022,3022,Unknown,2992,Unknown,Unknown,423.47,Office,False,41504.0
+cluster_3022,3022,Unknown,2994,Unknown,Unknown,431.63,Financial Office,False,44216.0
+cluster_3022,3022,Unknown,2991,Unknown,Unknown,437.09,Worship Facility,False,33312.0
+cluster_3022,3022,Unknown,3006,Unknown,Unknown,454.63,Multifamily Housing,False,210962.0
+cluster_3022,3022,Unknown,3120,Unknown,Unknown,459.09,Multifamily Housing,False,191256.0
+cluster_3022,3022,Unknown,6175,Unknown,Unknown,463.05,Multifamily Housing,False,25704.0
+cluster_3022,3022,Unknown,3018,Unknown,Unknown,469.59,Multifamily Housing,False,47117.0
+cluster_3022,3022,Unknown,5640,Unknown,Unknown,480.96,Multifamily Housing,False,284701.0
+cluster_3022,3022,Unknown,3042,Unknown,Unknown,483.93,Multifamily Housing,False,41280.0
+cluster_3022,3022,Unknown,3109,Unknown,Unknown,485.57,Multifamily Housing,False,55652.0
+cluster_3022,3022,Unknown,3040,Unknown,Unknown,486.1,Multifamily Housing,False,50762.0
+cluster_3022,3022,Unknown,3086,Unknown,Unknown,493.79,Office,False,29900.0
+cluster_3197,3197,Unknown,3195,Unknown,Unknown,205.69,Multifamily Housing,True,117467.0
+cluster_3197,3197,Unknown,3196,Unknown,Unknown,239.36,Multifamily Housing,True,96267.0
+cluster_3197,3197,Unknown,3192,Unknown,Unknown,273.24,Multifamily Housing,True,117649.0
+cluster_3197,3197,Unknown,3199,Unknown,Unknown,472.36,Office,False,30000.0
+cluster_3197,3197,Unknown,5915,Unknown,Unknown,493.76,Mixed Use Property,True,44655.0
+cluster_3765,3765,Unknown,3688,Unknown,Unknown,129.82,Multifamily Housing,True,144082.0
+cluster_3765,3765,Unknown,3681,Unknown,Unknown,158.54,Multifamily Housing,True,67800.0
+cluster_3765,3765,Unknown,3763,Unknown,Unknown,189.48,Multifamily Housing,False,25681.0
+cluster_3765,3765,Unknown,5269,Unknown,Unknown,215.9,Multifamily Housing,False,29732.0
+cluster_3765,3765,Unknown,5261,Unknown,Unknown,217.22,Multifamily Housing,False,25690.0
+cluster_3765,3765,Unknown,3764,Unknown,Unknown,260.32,Multifamily Housing,False,39670.0
+cluster_3765,3765,Unknown,3726,Unknown,Unknown,328.38,Multifamily Housing,False,118935.0
+cluster_3765,3765,Unknown,3684,Unknown,Unknown,385.92,Residence Hall/Dormitory,False,170382.0
+cluster_3765,3765,Unknown,3686,Unknown,Unknown,404.3,Multifamily Housing,False,61500.0
+cluster_3765,3765,Unknown,5267,Unknown,Unknown,426.2,Multifamily Housing,False,265436.0
+cluster_3765,3765,Unknown,3727,Unknown,Unknown,452.01,Multifamily Housing,False,49310.0
+cluster_1848,1848,Unknown,6324,Unknown,Unknown,254.49,College/University,False,158974.0
+cluster_1848,1848,Unknown,6326,Unknown,Unknown,254.49,College/University,False,130724.0
+cluster_1848,1848,Unknown,6325,Unknown,Unknown,254.49,Laboratory,False,70906.0
+cluster_1848,1848,Unknown,6213,Unknown,Unknown,275.88,Multifamily Housing,True,163370.0
+cluster_1848,1848,Unknown,1897,Unknown,Unknown,327.93,Non-Refrigerated Warehouse,True,62648.0
+cluster_1848,1848,Unknown,2096,Unknown,Unknown,354.93,K-12 School,False,66004.0
+cluster_3250,3250,Unknown,3249,Unknown,Unknown,108.39,Non-Refrigerated Warehouse,False,37521.0
+cluster_3250,3250,Unknown,3251,Unknown,Unknown,219.45,Non-Refrigerated Warehouse,False,116307.0
+cluster_3250,3250,Unknown,3240,Unknown,Unknown,225.19,Distribution Center,False,34302.0
+cluster_3250,3250,Unknown,3247,Unknown,Unknown,233.4,Distribution Center,False,94609.0
+cluster_3250,3250,Unknown,3242,Unknown,Unknown,283.54,Non-Refrigerated Warehouse,False,28672.0
+cluster_3250,3250,Unknown,3241,Unknown,Unknown,290.97,Manufacturing/Industrial Plant,True,33042.0
+cluster_3250,3250,Unknown,3239,Unknown,Unknown,322.84,Retail Store,False,48500.0
+cluster_3250,3250,Unknown,3252,Unknown,Unknown,351.13,Manufacturing/Industrial Plant,False,75000.0
+cluster_3250,3250,Unknown,3312,Unknown,Unknown,355.43,Distribution Center,False,26038.0
+cluster_3250,3250,Unknown,3225,Unknown,Unknown,402.29,Office,False,45000.0
+cluster_3250,3250,Unknown,3265,Unknown,Unknown,417.55,Non-Refrigerated Warehouse,False,288879.0
+cluster_3250,3250,Unknown,3224,Unknown,Unknown,433.11,Non-Refrigerated Warehouse,False,45304.0
+cluster_3250,3250,Unknown,3313,Unknown,Unknown,447.02,Manufacturing/Industrial Plant,False,28364.0
+cluster_3250,3250,Unknown,3243,Unknown,Unknown,462.69,Distribution Center,False,90411.0
+cluster_3250,3250,Unknown,3317,Unknown,Unknown,473.73,Manufacturing/Industrial Plant,False,72300.0
+cluster_3250,3250,Unknown,3253,Unknown,Unknown,475.4,Office,False,45008.0
+cluster_1900,1900,Unknown,1910,Unknown,Unknown,96.35,"Repair Services (Vehicle, Shoe, Locksmith, etc.)",False,26940.0
+cluster_1900,1900,Unknown,1913,Unknown,Unknown,150.21,Manufacturing/Industrial Plant,False,80279.0
+cluster_1900,1900,Unknown,1903,Unknown,Unknown,170.77,Non-Refrigerated Warehouse,False,47669.0
+cluster_1900,1900,Unknown,1904,Unknown,Unknown,170.93,Distribution Center,False,95263.0
+cluster_1900,1900,Unknown,1911,Unknown,Unknown,201.08,Hotel,False,165625.0
+cluster_1900,1900,Unknown,1905,Unknown,Unknown,232.95,Non-Refrigerated Warehouse,False,27836.0
+cluster_1900,1900,Unknown,1914,Unknown,Unknown,252.78,Manufacturing/Industrial Plant,False,693996.0
+cluster_1900,1900,Unknown,1906,Unknown,Unknown,296.77,Non-Refrigerated Warehouse,False,40811.0
+cluster_1900,1900,Unknown,2018,Unknown,Unknown,376.15,Mixed Use Property,False,34777.0
+cluster_1900,1900,Unknown,2017,Unknown,Unknown,383.3,Mixed Use Property,False,26565.0
+cluster_1900,1900,Unknown,2012,Unknown,Unknown,400.36,Non-Refrigerated Warehouse,False,53847.0
+cluster_1900,1900,Unknown,1919,Unknown,Unknown,415.69,Non-Refrigerated Warehouse,False,109970.0
+cluster_1900,1900,Unknown,2008,Unknown,Unknown,424.58,Hotel,True,120000.0
+cluster_1900,1900,Unknown,2011,Unknown,Unknown,431.28,Office,False,98454.0
+cluster_1900,1900,Unknown,1920,Unknown,Unknown,437.38,Manufacturing/Industrial Plant,False,38078.0
+cluster_1900,1900,Unknown,1908,Unknown,Unknown,441.42,Non-Refrigerated Warehouse,False,73480.0
+cluster_1485,1485,Unknown,1480,Unknown,Unknown,72.76,Non-Refrigerated Warehouse,False,35972.0
+cluster_1485,1485,Unknown,1406,Unknown,Unknown,141.37,Police Station,False,40228.0
+cluster_1485,1485,Unknown,1479,Unknown,Unknown,165.48,Worship Facility,False,27069.0
+cluster_1485,1485,Unknown,1512,Unknown,Unknown,173.63,Distribution Center,True,52300.0
+cluster_1485,1485,Unknown,1487,Unknown,Unknown,188.63,Distribution Center,False,27350.0
+cluster_1485,1485,Unknown,1488,Unknown,Unknown,236.85,Manufacturing/Industrial Plant,False,54210.0
+cluster_1485,1485,Unknown,1404,Unknown,Unknown,243.98,Non-Refrigerated Warehouse,False,35848.0
+cluster_1485,1485,Unknown,1497,Unknown,Unknown,249.46,Distribution Center,False,45000.0
+cluster_1485,1485,Unknown,1513,Unknown,Unknown,422.83,Other - Lodging/Residential,True,91115.0
+cluster_1485,1485,Unknown,1799,Unknown,Unknown,490.95,K-12 School,False,70945.0
+cluster_3274,3274,Unknown,3301,Unknown,Unknown,65.7,Retail Store,False,97429.0
+cluster_3274,3274,Unknown,3302,Unknown,Unknown,103.78,Refrigerated Warehouse,False,96633.0
+cluster_3274,3274,Unknown,3283,Unknown,Unknown,128.2,Manufacturing/Industrial Plant,False,42500.0
+cluster_3274,3274,Unknown,3304,Unknown,Unknown,186.59,Non-Refrigerated Warehouse,False,65726.0
+cluster_3274,3274,Unknown,3307,Unknown,Unknown,198.27,Office,False,43827.0
+cluster_3274,3274,Unknown,3308,Unknown,Unknown,246.42,Distribution Center,False,135630.0
+cluster_3274,3274,Unknown,3281,Unknown,Unknown,267.95,Manufacturing/Industrial Plant,False,75274.0
+cluster_3274,3274,Unknown,3315,Unknown,Unknown,304.14,Distribution Center,False,44887.0
+cluster_3274,3274,Unknown,3305,Unknown,Unknown,311.98,Manufacturing/Industrial Plant,False,106000.0
+cluster_3274,3274,Unknown,5148,Unknown,Unknown,316.44,Fitness Center/Health Club/Gym,False,31005.0
+cluster_3274,3274,Unknown,3200,Unknown,Unknown,390.93,Vocational School,True,27051.0
+cluster_3274,3274,Unknown,3309,Unknown,Unknown,409.74,Self-Storage Facility,False,329450.0
+cluster_3274,3274,Unknown,3295,Unknown,Unknown,431.45,Other - Utility,False,121141.0
+cluster_3274,3274,Unknown,3276,Unknown,Unknown,453.96,Non-Refrigerated Warehouse,False,69529.0
+cluster_3274,3274,Unknown,3292,Unknown,Unknown,466.78,Non-Refrigerated Warehouse,False,37247.0
+cluster_3274,3274,Unknown,3290,Unknown,Unknown,467.48,Manufacturing/Industrial Plant,False,48796.0
+cluster_3274,3274,Unknown,5476,Unknown,Unknown,475.93,Self-Storage Facility,False,90639.0
+cluster_3274,3274,Unknown,3286,Unknown,Unknown,479.77,Non-Refrigerated Warehouse,False,51633.0
+cluster_3274,3274,Unknown,6422,Unknown,Unknown,486.15,Non-Refrigerated Warehouse,False,47915.0
+cluster_1212,1212,Unknown,1211,Unknown,Unknown,154.15,Distribution Center,False,136693.0
+cluster_1212,1212,Unknown,6451,Unknown,Unknown,162.01,Distribution Center,False,28395.0
+cluster_1212,1212,Unknown,1216,Unknown,Unknown,167.41,Mixed Use Property,False,28395.0
+cluster_1212,1212,Unknown,1209,Unknown,Unknown,170.44,Manufacturing/Industrial Plant,False,76564.0
+cluster_1212,1212,Unknown,1229,Unknown,Unknown,191.46,Non-Refrigerated Warehouse,False,45450.0
+cluster_1212,1212,Unknown,1219,Unknown,Unknown,201.58,Distribution Center,False,50000.0
+cluster_1212,1212,Unknown,1228,Unknown,Unknown,220.34,Manufacturing/Industrial Plant,False,48313.0
+cluster_1212,1212,Unknown,1231,Unknown,Unknown,231.11,Non-Refrigerated Warehouse,False,61111.0
+cluster_1212,1212,Unknown,1218,Unknown,Unknown,233.46,Non-Refrigerated Warehouse,False,48000.0
+cluster_1212,1212,Unknown,1214,Unknown,Unknown,248.83,Distribution Center,False,51558.0
+cluster_1212,1212,Unknown,1215,Unknown,Unknown,255.32,Distribution Center,False,71600.0
+cluster_1212,1212,Unknown,1210,Unknown,Unknown,258.22,Distribution Center,False,81750.0
+cluster_1212,1212,Unknown,1213,Unknown,Unknown,269.0,Manufacturing/Industrial Plant,False,58194.0
+cluster_1212,1212,Unknown,1226,Unknown,Unknown,299.47,Distribution Center,False,43186.0
+cluster_1212,1212,Unknown,1227,Unknown,Unknown,301.52,Non-Refrigerated Warehouse,False,42403.0
+cluster_1212,1212,Unknown,1234,Unknown,Unknown,302.88,Distribution Center,False,71300.0
+cluster_1212,1212,Unknown,1220,Unknown,Unknown,312.68,Non-Refrigerated Warehouse,False,52915.0
+cluster_1212,1212,Unknown,1221,Unknown,Unknown,344.18,Manufacturing/Industrial Plant,False,64800.0
+cluster_1212,1212,Unknown,1631,Unknown,Unknown,355.67,Hotel,False,166188.0
+cluster_1212,1212,Unknown,1644,Unknown,Unknown,355.67,Strip Mall,False,150279.0
+cluster_1212,1212,Unknown,1208,Unknown,Unknown,355.9,Non-Refrigerated Warehouse,False,80800.0
+cluster_1212,1212,Unknown,1233,Unknown,Unknown,370.82,Manufacturing/Industrial Plant,False,70000.0
+cluster_1212,1212,Unknown,1232,Unknown,Unknown,386.71,Manufacturing/Industrial Plant,False,59940.0
+cluster_1212,1212,Unknown,1230,Unknown,Unknown,389.8,Distribution Center,False,44622.0
+cluster_1212,1212,Unknown,1238,Unknown,Unknown,390.3,Manufacturing/Industrial Plant,False,26152.0
+cluster_1212,1212,Unknown,1207,Unknown,Unknown,408.57,Food Sales,False,51020.0
+cluster_1212,1212,Unknown,1240,Unknown,Unknown,423.75,Distribution Center,False,65183.0
+cluster_1212,1212,Unknown,1225,Unknown,Unknown,424.81,Manufacturing/Industrial Plant,False,53000.0
+cluster_1212,1212,Unknown,1618,Unknown,Unknown,434.08,Distribution Center,False,42311.0
+cluster_1212,1212,Unknown,1206,Unknown,Unknown,434.43,Non-Refrigerated Warehouse,False,78938.0
+cluster_1212,1212,Unknown,1205,Unknown,Unknown,449.2,Non-Refrigerated Warehouse,False,33685.0
+cluster_1212,1212,Unknown,1287,Unknown,Unknown,451.38,Non-Refrigerated Warehouse,False,161511.0
+cluster_1212,1212,Unknown,1625,Unknown,Unknown,451.41,K-12 School,True,117821.0
+cluster_1212,1212,Unknown,1239,Unknown,Unknown,457.61,Distribution Center,False,39832.0
+cluster_1212,1212,Unknown,1222,Unknown,Unknown,461.29,Manufacturing/Industrial Plant,False,53440.0
+cluster_1212,1212,Unknown,5568,Unknown,Unknown,461.29,Office,False,76624.0
+cluster_1212,1212,Unknown,1190,Unknown,Unknown,475.51,Distribution Center,False,119983.0
+cluster_1212,1212,Unknown,1626,Unknown,Unknown,482.21,Manufacturing/Industrial Plant,False,51260.0
+cluster_2604,2604,Unknown,2602,Unknown,Unknown,46.52,Multifamily Housing,True,179962.0
+cluster_2604,2604,Unknown,6259,Unknown,Unknown,52.24,Hotel,False,264893.0
+cluster_2604,2604,Unknown,5525,Unknown,Unknown,59.95,Office,False,91333.0
+cluster_2604,2604,Unknown,2607,Unknown,Unknown,88.08,Office,False,136403.0
+cluster_2604,2604,Unknown,5518,Unknown,Unknown,97.05,Hotel,False,76664.0
+cluster_2604,2604,Unknown,2605,Unknown,Unknown,107.01,Office,False,36821.0
+cluster_2604,2604,Unknown,5598,Unknown,Unknown,111.74,Data Center,False,188272.0
+cluster_2604,2604,Unknown,2606,Unknown,Unknown,113.3,Hotel,False,151442.0
+cluster_2604,2604,Unknown,5504,Unknown,Unknown,116.36,Multifamily Housing,False,108000.0
+cluster_2604,2604,Unknown,5528,Unknown,Unknown,127.4,MIXED USE PROPERTY,False,75020.0
+cluster_2604,2604,Unknown,5519,Unknown,Unknown,130.99,Retail Store,False,56250.0
+cluster_2604,2604,Unknown,5691,Unknown,Unknown,148.55,Office,False,223890.0
+cluster_2604,2604,Unknown,2620,Unknown,Unknown,152.23,Multifamily Housing,False,715347.0
+cluster_2604,2604,Unknown,2593,Unknown,Unknown,155.69,Office,False,195426.0
+cluster_2604,2604,Unknown,5686,Unknown,Unknown,166.02,Other - Utility,False,415978.0
+cluster_2604,2604,Unknown,2600,Unknown,Unknown,180.28,Multifamily Housing,True,337000.0
+cluster_2604,2604,Unknown,5223,Unknown,Unknown,182.93,Office,False,78827.0
+cluster_2604,2604,Unknown,5630,Unknown,Unknown,184.86,Hotel,False,224653.0
+cluster_2604,2604,Unknown,5692,Unknown,Unknown,188.27,Other - Utility,False,439983.0
+cluster_2604,2604,Unknown,2617,Unknown,Unknown,189.47,Hotel,False,386897.0
+cluster_2604,2604,Unknown,5228,Unknown,Unknown,206.18,Multifamily Housing,False,31903.0
+cluster_2604,2604,Unknown,2588,Unknown,Unknown,208.47,Office,False,564714.0
+cluster_2604,2604,Unknown,5678,Unknown,Unknown,213.79,Multifamily Housing,False,605271.0
+cluster_2604,2604,Unknown,6391,Unknown,Unknown,216.32,Office,False,1125813.0
+cluster_2604,2604,Unknown,5601,Unknown,Unknown,218.1,Hotel,False,215104.0
+cluster_2604,2604,Unknown,2598,Unknown,Unknown,219.51,Multifamily Housing,False,48290.0
+cluster_2604,2604,Unknown,5530,Unknown,Unknown,220.15,Multifamily Housing,False,110987.0
+cluster_2604,2604,Unknown,2619,Unknown,Unknown,227.68,Mixed Use Property,False,370670.0
+cluster_2604,2604,Unknown,2587,Unknown,Unknown,231.55,Hotel,False,158630.0
+cluster_2604,2604,Unknown,5807,Unknown,Unknown,237.17,Performing Arts,False,180881.0
+cluster_2604,2604,Unknown,2586,Unknown,Unknown,242.07,Office,False,584629.0
+cluster_2604,2604,Unknown,2594,Unknown,Unknown,244.32,Office,False,173000.0
+cluster_2604,2604,Unknown,2595,Unknown,Unknown,245.07,Supermarket/Grocery Store,False,45137.0
+cluster_2604,2604,Unknown,5529,Unknown,Unknown,248.73,Office,False,106231.0
+cluster_2604,2604,Unknown,5522,Unknown,Unknown,252.55,Multifamily Housing,False,167051.0
+cluster_2604,2604,Unknown,5611,Unknown,Unknown,253.88,Office,False,220495.0
+cluster_2604,2604,Unknown,2599,Unknown,Unknown,259.22,Office,False,58848.0
+cluster_2604,2604,Unknown,2652,Unknown,Unknown,262.23,Hotel,False,249000.0
+cluster_2604,2604,Unknown,2579,Unknown,Unknown,269.27,Hotel,False,139283.0
+cluster_2604,2604,Unknown,2618,Unknown,Unknown,280.1,Hotel,False,972744.0
+cluster_2604,2604,Unknown,5681,Unknown,Unknown,280.31,Office,False,784291.0
+cluster_2604,2604,Unknown,6107,Unknown,Unknown,281.26,Office,False,101106.0
+cluster_2604,2604,Unknown,2585,Unknown,Unknown,285.4,Office,False,37447.0
+cluster_2604,2604,Unknown,2575,Unknown,Unknown,297.59,Office,False,751708.0
+cluster_2604,2604,Unknown,2578,Unknown,Unknown,301.5,Multifamily Housing,False,51070.0
+cluster_2604,2604,Unknown,2609,Unknown,Unknown,307.58,Office,False,633640.0
+cluster_2604,2604,Unknown,2597,Unknown,Unknown,311.08,Office,False,675937.0
+cluster_2604,2604,Unknown,2487,Unknown,Unknown,311.67,Performing Arts,False,132202.0
+cluster_2604,2604,Unknown,2616,Unknown,Unknown,319.22,Mixed Use Property,False,850000.0
+cluster_2604,2604,Unknown,5244,Unknown,Unknown,329.27,Multifamily Housing,False,50320.0
+cluster_2604,2604,Unknown,5580,Unknown,Unknown,335.94,Hotel,False,164267.0
+cluster_2604,2604,Unknown,5226,Unknown,Unknown,340.94,Office,False,81600.0
+cluster_2604,2604,Unknown,2644,Unknown,Unknown,341.85,Office,False,151200.0
+cluster_2604,2604,Unknown,2580,Unknown,Unknown,342.19,Office,False,755539.0
+cluster_2604,2604,Unknown,6015,Unknown,Unknown,343.24,Multifamily Housing,False,425288.0
+cluster_2604,2604,Unknown,6265,Unknown,Unknown,347.59,Hotel,False,155130.0
+cluster_2604,2604,Unknown,5744,Unknown,Unknown,348.33,Hotel,False,93000.0
+cluster_2604,2604,Unknown,2583,Unknown,Unknown,349.86,Office,False,662337.0
+cluster_2604,2604,Unknown,2584,Unknown,Unknown,349.86,Hotel,False,389210.0
+cluster_2604,2604,Unknown,2651,Unknown,Unknown,352.3,Hotel,False,197184.0
+cluster_2604,2604,Unknown,2574,Unknown,Unknown,378.0,Office,False,459693.0
+cluster_2604,2604,Unknown,5462,Unknown,Unknown,378.4,Office,False,95710.0
+cluster_2604,2604,Unknown,2576,Unknown,Unknown,379.84,Office,False,1188373.0
+cluster_2604,2604,Unknown,5806,Unknown,Unknown,385.69,Performing Arts,False,249981.0
+cluster_2604,2604,Unknown,6319,Unknown,Unknown,388.18,Office,False,38268.0
+cluster_2604,2604,Unknown,2491,Unknown,Unknown,391.98,Performing Arts,False,133000.0
+cluster_2604,2604,Unknown,5490,Unknown,Unknown,396.29,Office,False,674240.0
+cluster_2604,2604,Unknown,2493,Unknown,Unknown,397.03,Office,False,45000.0
+cluster_2604,2604,Unknown,2499,Unknown,Unknown,398.12,Convention Center,False,2200000.0
+cluster_2604,2604,Unknown,2643,Unknown,Unknown,414.63,Office,False,275305.0
+cluster_2604,2604,Unknown,5240,Unknown,Unknown,421.17,Convention Center,False,61575.0
+cluster_2604,2604,Unknown,5654,Unknown,Unknown,421.71,Office,False,354828.0
+cluster_2604,2604,Unknown,5667,Unknown,Unknown,422.77,Performing Arts,False,190609.0
+cluster_2604,2604,Unknown,2610,Unknown,Unknown,423.65,Mixed Use Property,False,176407.0
+cluster_2604,2604,Unknown,2611,Unknown,Unknown,423.65,Multifamily Housing,False,73884.0
+cluster_2604,2604,Unknown,2639,Unknown,Unknown,424.22,Multifamily Housing,False,412143.0
+cluster_2604,2604,Unknown,2581,Unknown,Unknown,427.24,Office,False,526766.0
+cluster_2604,2604,Unknown,2623,Unknown,Unknown,427.38,Hotel,False,531000.0
+cluster_2604,2604,Unknown,2570,Unknown,Unknown,435.33,Office,False,607979.0
+cluster_2604,2604,Unknown,2649,Unknown,Unknown,436.55,Hotel,False,212164.0
+cluster_2604,2604,Unknown,2573,Unknown,Unknown,438.21,Office,False,1542706.0
+cluster_2604,2604,Unknown,2486,Unknown,Unknown,441.9,Fitness Center/Health Club/Gym,False,228262.0
+cluster_2604,2604,Unknown,5183,Unknown,Unknown,443.76,Office,False,39804.0
+cluster_2604,2604,Unknown,2622,Unknown,Unknown,451.27,Office,False,804403.0
+cluster_2604,2604,Unknown,2489,Unknown,Unknown,458.57,Multifamily Housing,False,73677.0
+cluster_2604,2604,Unknown,2571,Unknown,Unknown,461.77,Office,False,1051200.0
+cluster_2604,2604,Unknown,2641,Unknown,Unknown,466.32,Multifamily Housing,False,88943.0
+cluster_2604,2604,Unknown,2641,Unknown,Unknown,466.32,Multifamily Housing,False,88943.0
+cluster_2604,2604,Unknown,2417,Unknown,Unknown,474.55,Multifamily Housing,False,379410.0
+cluster_2604,2604,Unknown,2403,Unknown,Unknown,482.7,Multifamily Housing,False,350030.0
+cluster_2604,2604,Unknown,5626,Unknown,Unknown,487.15,Hotel,False,306000.0
+cluster_2604,2604,Unknown,2627,Unknown,Unknown,497.38,Office,False,176820.0
+cluster_3542,3542,Unknown,5619,Unknown,Unknown,116.58,Multifamily Housing,False,189677.0
+cluster_3542,3542,Unknown,6179,Unknown,Unknown,128.01,Multifamily Housing,False,288570.0
+cluster_3542,3542,Unknown,5272,Unknown,Unknown,154.57,Manufacturing/Industrial Plant,False,35618.0
+cluster_3542,3542,Unknown,3389,Unknown,Unknown,185.26,Multifamily Housing,False,428106.0
+cluster_3542,3542,Unknown,6303,Unknown,Unknown,241.42,Multifamily Housing,False,413342.0
+cluster_3542,3542,Unknown,3388,Unknown,Unknown,285.67,Multifamily Housing,False,39320.0
+cluster_3542,3542,Unknown,3391,Unknown,Unknown,318.26,Multifamily Housing,False,28134.0
+cluster_3542,3542,Unknown,3535,Unknown,Unknown,320.22,"Repair Services (Vehicle, Shoe, Locksmith, Etc.)",False,30805.0
+cluster_3542,3542,Unknown,3539,Unknown,Unknown,342.18,Retail Store,False,130601.0
+cluster_3542,3542,Unknown,3533,Unknown,Unknown,377.46,Supermarket/Grocery Store,False,50645.0
+cluster_3542,3542,Unknown,3537,Unknown,Unknown,487.15,Retail Store,False,114059.0
+cluster_2151,2151,Unknown,2153,Unknown,Unknown,47.45,Non-Refrigerated Warehouse,False,92500.0
+cluster_2151,2151,Unknown,2152,Unknown,Unknown,123.48,Non-Refrigerated Warehouse,False,42000.0
+cluster_2151,2151,Unknown,6030,Unknown,Unknown,157.44,Multifamily Housing,False,47180.0
+cluster_2151,2151,Unknown,6143,Unknown,Unknown,184.73,Office,False,176795.0
+cluster_2151,2151,Unknown,6141,Unknown,Unknown,219.52,Office,False,110467.0
+cluster_2151,2151,Unknown,6190,Unknown,Unknown,236.0,Hotel,False,82130.0
+cluster_2151,2151,Unknown,6142,Unknown,Unknown,256.35,Multifamily Housing,False,65700.0
+cluster_2151,2151,Unknown,5845,Unknown,Unknown,266.44,MIXED USE PROPERTY,False,160423.0
+cluster_2151,2151,Unknown,2156,Unknown,Unknown,276.99,Other - Restaurant/Bar,False,27000.0
+cluster_2151,2151,Unknown,6272,Unknown,Unknown,298.38,Office,False,230246.0
+cluster_2151,2151,Unknown,6017,Unknown,Unknown,308.1,Office,False,267686.0
+cluster_2151,2151,Unknown,6148,Unknown,Unknown,314.55,Hotel,False,109332.0
+cluster_2151,2151,Unknown,5844,Unknown,Unknown,317.82,Office,False,138276.0
+cluster_2151,2151,Unknown,6145,Unknown,Unknown,327.61,Office,False,39936.0
+cluster_2151,2151,Unknown,2068,Unknown,Unknown,395.39,Office,False,175786.0
+cluster_2151,2151,Unknown,5675,Unknown,Unknown,396.34,Manufacturing/Industrial Plant,False,765000.0
+cluster_2151,2151,Unknown,2158,Unknown,Unknown,422.05,Social/Meeting Hall,False,34375.0
+cluster_2151,2151,Unknown,6149,Unknown,Unknown,426.54,Multifamily Housing,False,40108.0
+cluster_2151,2151,Unknown,2160,Unknown,Unknown,437.03,Other - Entertainment/Public Assembly,False,63687.0
+cluster_2151,2151,Unknown,6146,Unknown,Unknown,461.61,Multifamily Housing,False,206810.0
+cluster_1194,1194,Unknown,6063,Unknown,Unknown,108.41,Manufacturing/Industrial Plant,False,36436.0
+cluster_1194,1194,Unknown,1193,Unknown,Unknown,124.49,Non-Refrigerated Warehouse,False,40300.0
+cluster_1194,1194,Unknown,1192,Unknown,Unknown,148.14,Non-Refrigerated Warehouse,False,235029.0
+cluster_1194,1194,Unknown,1198,Unknown,Unknown,169.89,Distribution Center,False,288390.0
+cluster_1194,1194,Unknown,1197,Unknown,Unknown,176.06,Distribution Center,False,25060.0
+cluster_1194,1194,Unknown,1186,Unknown,Unknown,210.09,non-refrigerated warehouse,False,105519.0
+cluster_1194,1194,Unknown,1187,Unknown,Unknown,225.22,Distribution Center,False,82924.0
+cluster_1194,1194,Unknown,1152,Unknown,Unknown,270.82,Non-Refrigerated Warehouse,False,114046.0
+cluster_1194,1194,Unknown,5901,Unknown,Unknown,320.63,Refrigerated Warehouse,False,56000.0
+cluster_1194,1194,Unknown,1184,Unknown,Unknown,333.89,Mixed Use Property,False,60280.0
+cluster_1194,1194,Unknown,1195,Unknown,Unknown,350.83,Non-Refrigerated Warehouse,False,205121.0
+cluster_1194,1194,Unknown,1189,Unknown,Unknown,371.94,Other,False,38700.0
+cluster_1194,1194,Unknown,1191,Unknown,Unknown,441.92,Manufacturing/Industrial Plant,False,50169.0
+cluster_1194,1194,Unknown,1181,Unknown,Unknown,451.82,Non-Refrigerated Warehouse,False,77009.0
+cluster_1194,1194,Unknown,1202,Unknown,Unknown,483.33,Manufacturing/Industrial Plant,False,83072.0
+cluster_1471,1471,Unknown,4811,Unknown,Unknown,62.0,Office,False,144048.0
+cluster_1471,1471,Unknown,1472,Unknown,Unknown,91.84,Distribution Center,False,38700.0
+cluster_1471,1471,Unknown,1499,Unknown,Unknown,229.3,Distribution Center,False,100340.0
+cluster_1471,1471,Unknown,1469,Unknown,Unknown,260.92,Distribution Center,False,92160.0
+cluster_1471,1471,Unknown,1500,Unknown,Unknown,273.28,Refrigerated Warehouse,False,63040.0
+cluster_1471,1471,Unknown,1470,Unknown,Unknown,275.94,Distribution Center,False,51200.0
+cluster_1471,1471,Unknown,1503,Unknown,Unknown,316.1,Manufacturing/Industrial Plant,False,31459.0
+cluster_1471,1471,Unknown,1450,Unknown,Unknown,356.33,Non-Refrigerated Warehouse,False,88313.0
+cluster_1471,1471,Unknown,1514,Unknown,Unknown,366.99,Manufacturing/Industrial Plant,False,31137.0
+cluster_1471,1471,Unknown,1518,Unknown,Unknown,380.22,Distribution Center,False,99750.0
+cluster_1471,1471,Unknown,1462,Unknown,Unknown,435.96,Distribution Center,False,155203.0
+cluster_1471,1471,Unknown,1476,Unknown,Unknown,474.93,Manufacturing/Industrial Plant,False,118994.0
+cluster_1471,1471,Unknown,1429,Unknown,Unknown,477.22,Distribution Center,False,107946.0
+cluster_1471,1471,Unknown,1520,Unknown,Unknown,477.71,Distribution Center,False,245340.0
+cluster_1471,1471,Unknown,1517,Unknown,Unknown,490.83,Distribution Center,False,72000.0
+cluster_1471,1471,Unknown,1468,Unknown,Unknown,492.85,Manufacturing/Industrial Plant,False,57388.0
+cluster_6420,6420,Unknown,1583,Unknown,Unknown,97.79,Distribution Center,False,179282.0
+cluster_6420,6420,Unknown,5556,Unknown,Unknown,234.17,Distribution Center,False,72382.0
+cluster_6420,6420,Unknown,1585,Unknown,Unknown,272.85,Distribution Center,False,270372.0
+cluster_6420,6420,Unknown,5836,Unknown,Unknown,300.38,Mixed Use Property,False,121028.0
+cluster_6420,6420,Unknown,1580,Unknown,Unknown,319.55,Non-Refrigerated Warehouse,False,148902.0
+cluster_6420,6420,Unknown,6421,Unknown,Unknown,327.53,Manufacturing/Industrial Plant,False,37150.0
+cluster_6420,6420,Unknown,5837,Unknown,Unknown,327.53,Distribution Center,False,646975.0
+cluster_6420,6420,Unknown,5562,Unknown,Unknown,353.69,Distribution Center,False,105800.0
+cluster_6420,6420,Unknown,6270,Unknown,Unknown,425.55,Non-Refrigerated Warehouse,False,132308.0
+cluster_6420,6420,Unknown,1581,Unknown,Unknown,466.17,Office,False,135145.0
+cluster_1664,1664,Unknown,1658,Unknown,Unknown,72.48,Distribution Center,False,455250.0
+cluster_1664,1664,Unknown,5152,Unknown,Unknown,158.25,Self-Storage Facility,False,68400.0
+cluster_1664,1664,Unknown,1655,Unknown,Unknown,187.1,Distribution Center,False,100000.0
+cluster_1664,1664,Unknown,1656,Unknown,Unknown,216.77,Manufacturing/Industrial Plant,False,100000.0
+cluster_1664,1664,Unknown,1657,Unknown,Unknown,308.29,Hotel,False,41894.0
+cluster_1664,1664,Unknown,1665,Unknown,Unknown,355.14,Hotel,False,34828.0
+cluster_1664,1664,Unknown,1661,Unknown,Unknown,366.91,Distribution Center,False,249600.0
+cluster_1664,1664,Unknown,1607,Unknown,Unknown,405.66,K-12 School,False,124352.0
+cluster_1664,1664,Unknown,1666,Unknown,Unknown,409.73,Non-Refrigerated Warehouse,False,27775.0
+cluster_1664,1664,Unknown,1640,Unknown,Unknown,417.17,Non-Refrigerated Warehouse,False,85400.0
+cluster_1664,1664,Unknown,1731,Unknown,Unknown,444.91,Distribution Center,False,31946.0
+cluster_1664,1664,Unknown,1663,Unknown,Unknown,451.28,Manufacturing/Industrial Plant,False,243820.0
+cluster_1664,1664,Unknown,1591,Unknown,Unknown,470.81,Distribution Center,False,322400.0
+cluster_1617,1617,Unknown,1629,Unknown,Unknown,89.72,Manufacturing/Industrial Plant,False,155000.0
+cluster_1617,1617,Unknown,1614,Unknown,Unknown,120.18,Manufacturing/Industrial Plant,False,35960.0
+cluster_1617,1617,Unknown,5143,Unknown,Unknown,180.33,Non-Refrigerated Warehouse,False,163304.0
+cluster_1617,1617,Unknown,1605,Unknown,Unknown,248.5,Non-Refrigerated Warehouse,False,336454.0
+cluster_1617,1617,Unknown,1624,Unknown,Unknown,255.15,Manufacturing/Industrial Plant,False,106321.0
+cluster_1617,1617,Unknown,1606,Unknown,Unknown,307.32,Vocational School,False,195000.0
+cluster_1617,1617,Unknown,1633,Unknown,Unknown,322.85,Manufacturing/Industrial Plant,False,275437.0
+cluster_1617,1617,Unknown,5820,Unknown,Unknown,326.48,Office,False,101345.0
+cluster_1617,1617,Unknown,1620,Unknown,Unknown,384.62,Non-Refrigerated Warehouse,False,56796.0
+cluster_1617,1617,Unknown,1619,Unknown,Unknown,412.94,Manufacturing/Industrial Plant,False,38356.0
+cluster_1617,1617,Unknown,1603,Unknown,Unknown,477.05,Distribution Center,False,336458.0
+cluster_1617,1617,Unknown,1608,Unknown,Unknown,489.29,Manufacturing/Industrial Plant,False,41770.0
+cluster_1617,1617,Unknown,1604,Unknown,Unknown,495.04,Non-Refrigerated Warehouse,False,89867.0
+cluster_1204,1204,Unknown,1613,Unknown,Unknown,141.46,Distribution Center,False,63636.0
+cluster_1204,1204,Unknown,1602,Unknown,Unknown,148.95,Distribution Center,False,104891.0
+cluster_1204,1204,Unknown,1270,Unknown,Unknown,153.97,Non-Refrigerated Warehouse,False,98304.0
+cluster_1204,1204,Unknown,1612,Unknown,Unknown,159.15,Refrigerated Warehouse,False,29975.0
+cluster_1204,1204,Unknown,1268,Unknown,Unknown,170.19,Non-Refrigerated Warehouse,False,46356.0
+cluster_1204,1204,Unknown,1600,Unknown,Unknown,229.57,Distribution Center,False,118000.0
+cluster_1204,1204,Unknown,1262,Unknown,Unknown,249.73,Manufacturing/Industrial Plant,False,89908.0
+cluster_1204,1204,Unknown,1269,Unknown,Unknown,272.82,Non-Refrigerated Warehouse,False,98784.0
+cluster_1204,1204,Unknown,1261,Unknown,Unknown,323.89,Manufacturing/Industrial Plant,False,50544.0
+cluster_1204,1204,Unknown,1601,Unknown,Unknown,334.25,Non-Refrigerated Warehouse,False,39877.0
+cluster_1204,1204,Unknown,1259,Unknown,Unknown,346.07,Non-Refrigerated Warehouse,False,63569.0
+cluster_1204,1204,Unknown,1267,Unknown,Unknown,356.79,Distribution Center,False,69243.0
+cluster_1204,1204,Unknown,1616,Unknown,Unknown,378.13,Distribution Center,False,171360.0
+cluster_1204,1204,Unknown,1260,Unknown,Unknown,384.76,Non-Refrigerated Warehouse,False,54160.0
+cluster_1204,1204,Unknown,5629,Unknown,Unknown,395.36,Non-Refrigerated Warehouse,False,255680.0
+cluster_1204,1204,Unknown,1252,Unknown,Unknown,407.44,Manufacturing/Industrial Plant,False,38194.0
+cluster_1204,1204,Unknown,1621,Unknown,Unknown,408.04,Distribution Center,False,50440.0
+cluster_1204,1204,Unknown,1596,Unknown,Unknown,412.51,Manufacturing/Industrial Plant,False,39184.0
+cluster_1204,1204,Unknown,1615,Unknown,Unknown,427.68,Food Service,False,30500.0
+cluster_1204,1204,Unknown,1251,Unknown,Unknown,432.33,Non-Refrigerated Warehouse,False,60632.0
+cluster_1204,1204,Unknown,1258,Unknown,Unknown,461.74,Non-Refrigerated Warehouse,False,136559.0
+cluster_1204,1204,Unknown,1623,Unknown,Unknown,481.49,Manufacturing/Industrial Plant,False,59247.0
+cluster_1204,1204,Unknown,1264,Unknown,Unknown,494.12,Manufacturing/Industrial Plant,False,50460.0
+cluster_1204,1204,Unknown,1266,Unknown,Unknown,495.3,Distribution Center,False,152920.0
+cluster_1122,1122,Unknown,1118,Unknown,Unknown,67.14,Other - Services,False,43585.0
+cluster_1122,1122,Unknown,1121,Unknown,Unknown,191.93,K-12 School,False,45355.0
+cluster_1122,1122,Unknown,1119,Unknown,Unknown,195.35,Office,False,61958.0
+cluster_1122,1122,Unknown,6188,Unknown,Unknown,198.67,Hotel,False,82475.0
+cluster_1122,1122,Unknown,1117,Unknown,Unknown,216.3,Hotel,False,72203.0
+cluster_1122,1122,Unknown,1071,Unknown,Unknown,256.56,Office,False,92226.0
+cluster_1122,1122,Unknown,5438,Unknown,Unknown,271.06,Office,False,75000.0
+cluster_1122,1122,Unknown,1123,Unknown,Unknown,281.92,Hotel,False,74296.0
+cluster_1122,1122,Unknown,6315,Unknown,Unknown,283.57,Office,False,62972.0
+cluster_1122,1122,Unknown,1125,Unknown,Unknown,329.17,Hotel,False,93875.0
+cluster_1122,1122,Unknown,1120,Unknown,Unknown,343.95,Hotel,False,59037.0
+cluster_1122,1122,Unknown,5676,Unknown,Unknown,452.79,Multifamily Housing,False,469978.0
+cluster_3757,3757,Unknown,3752,Unknown,Unknown,80.04,College/University,False,54288.0
+cluster_3757,3757,Unknown,3775,Unknown,Unknown,125.06,College/University,False,71304.0
+cluster_3757,3757,Unknown,3754,Unknown,Unknown,148.65,College/University,False,43920.0
+cluster_3757,3757,Unknown,3760,Unknown,Unknown,164.07,College/University,False,58167.0
+cluster_3757,3757,Unknown,6248,Unknown,Unknown,171.61,Residence Hall/Dormitory,False,139121.0
+cluster_3757,3757,Unknown,3749,Unknown,Unknown,182.79,College/University,False,149729.0
+cluster_3757,3757,Unknown,3759,Unknown,Unknown,187.55,College/University,False,46695.0
+cluster_3757,3757,Unknown,3751,Unknown,Unknown,226.4,College/University,False,154595.0
+cluster_3757,3757,Unknown,3768,Unknown,Unknown,228.69,College/University,False,174569.0
+cluster_3757,3757,Unknown,3767,Unknown,Unknown,260.79,College/University,False,32161.0
+cluster_3757,3757,Unknown,3758,Unknown,Unknown,276.17,Residence Hall/Dormitory,False,35026.0
+cluster_3757,3757,Unknown,3750,Unknown,Unknown,277.95,College/University,False,162780.0
+cluster_3757,3757,Unknown,3766,Unknown,Unknown,332.26,College/University,False,46456.0
+cluster_3757,3757,Unknown,3747,Unknown,Unknown,345.05,Residence Hall/Dormitory,False,100071.0
+cluster_3757,3757,Unknown,3769,Unknown,Unknown,348.37,College/University,False,193370.0
+cluster_3757,3757,Unknown,3746,Unknown,Unknown,355.89,College/University,False,79543.0
+cluster_3757,3757,Unknown,3745,Unknown,Unknown,361.09,College/University,False,77293.0
+cluster_3757,3757,Unknown,3755,Unknown,Unknown,400.83,College/University,False,33547.0
+cluster_3757,3757,Unknown,3756,Unknown,Unknown,416.45,College/University,False,42371.0
+cluster_3757,3757,Unknown,3771,Unknown,Unknown,417.76,K-12 School,False,30225.0
+cluster_3757,3757,Unknown,3770,Unknown,Unknown,417.76,College/University,False,64671.0
+cluster_3757,3757,Unknown,5302,Unknown,Unknown,435.12,Multifamily Housing,False,28000.0
+cluster_3757,3757,Unknown,3748,Unknown,Unknown,466.68,College/University,False,110536.0
+cluster_3757,3757,Unknown,3793,Unknown,Unknown,471.08,College/University,False,40098.0
+cluster_3757,3757,Unknown,3683,Unknown,Unknown,486.59,Residence Hall/Dormitory,False,173080.0
+cluster_4556,4556,Unknown,4558,Unknown,Unknown,151.63,Self-Storage Facility,False,72416.0
+cluster_4556,4556,Unknown,4555,Unknown,Unknown,156.17,K-12 School,False,39787.0
+cluster_4556,4556,Unknown,4563,Unknown,Unknown,160.79,Multifamily Housing,False,216775.0
+cluster_4556,4556,Unknown,5466,Unknown,Unknown,179.02,Worship Facility,False,27112.0
+cluster_4556,4556,Unknown,5458,Unknown,Unknown,195.45,Self-Storage Facility,False,76269.0
+cluster_4556,4556,Unknown,4570,Unknown,Unknown,235.48,Multifamily Housing,False,34776.0
+cluster_4556,4556,Unknown,4557,Unknown,Unknown,249.69,Vehicle Dealership,False,27034.0
+cluster_4556,4556,Unknown,4560,Unknown,Unknown,252.49,Non-Refrigerated Warehouse,False,56203.0
+cluster_4556,4556,Unknown,4561,Unknown,Unknown,263.5,"Repair Services (Vehicle, Shoe, Locksmith, etc.)",False,32276.0
+cluster_4556,4556,Unknown,4562,Unknown,Unknown,341.54,Distribution Center,False,28170.0
+cluster_4556,4556,Unknown,4588,Unknown,Unknown,394.69,Senior Living Community,False,28234.0
+cluster_4556,4556,Unknown,6242,Unknown,Unknown,492.15,Multifamily Housing,False,405996.0
+cluster_1313,1313,Unknown,4702,Unknown,Unknown,72.46,Self-Storage Facility,False,84000.0
+cluster_1313,1313,Unknown,1461,Unknown,Unknown,198.33,Manufacturing/Industrial Plant,False,167904.0
+cluster_1313,1313,Unknown,1323,Unknown,Unknown,225.25,Distribution Center,False,86788.0
+cluster_1313,1313,Unknown,1863,Unknown,Unknown,236.7,Strip Mall,False,35554.0
+cluster_1313,1313,Unknown,5448,Unknown,Unknown,244.7,Manufacturing/Industrial Plant,False,25261.0
+cluster_1313,1313,Unknown,1372,Unknown,Unknown,257.8,Other - Lodging/Residential,False,45654.0
+cluster_1313,1313,Unknown,1369,Unknown,Unknown,258.1,Manufacturing/Industrial Plant,False,195333.0
+cluster_1313,1313,Unknown,2093,Unknown,Unknown,287.46,Manufacturing/Industrial Plant,False,37000.0
+cluster_1313,1313,Unknown,1374,Unknown,Unknown,309.08,Distribution Center,False,50626.0
+cluster_1313,1313,Unknown,2095,Unknown,Unknown,319.35,Manufacturing/Industrial Plant,False,46977.0
+cluster_1313,1313,Unknown,1324,Unknown,Unknown,350.04,Distribution Center,False,767000.0
+cluster_1313,1313,Unknown,1314,Unknown,Unknown,350.37,Manufacturing/Industrial Plant,False,44780.0
+cluster_1313,1313,Unknown,1373,Unknown,Unknown,372.87,Non-Refrigerated Warehouse,False,43880.0
+cluster_1313,1313,Unknown,2092,Unknown,Unknown,381.47,Non-Refrigerated Warehouse,False,27300.0
+cluster_1313,1313,Unknown,1319,Unknown,Unknown,391.46,Refrigerated Warehouse,False,175043.0
+cluster_1313,1313,Unknown,1364,Unknown,Unknown,396.85,Other - Lodging/Residential,False,82122.0
+cluster_1313,1313,Unknown,1865,Unknown,Unknown,406.0,Manufacturing/Industrial Plant,False,61425.0
+cluster_1313,1313,Unknown,1371,Unknown,Unknown,408.89,Manufacturing/Industrial Plant,False,87758.0
+cluster_1313,1313,Unknown,2084,Unknown,Unknown,434.78,Manufacturing/Industrial Plant,False,29000.0
+cluster_1313,1313,Unknown,1464,Unknown,Unknown,441.51,Mixed Use Property,False,53893.0
+cluster_1313,1313,Unknown,1430,Unknown,Unknown,441.51,Distribution Center,False,39794.0
+cluster_1313,1313,Unknown,1425,Unknown,Unknown,441.51,Non-Refrigerated Warehouse,False,43460.0
+cluster_1313,1313,Unknown,1463,Unknown,Unknown,441.51,MIXED USE PROPERTY,False,41268.0
+cluster_1313,1313,Unknown,1428,Unknown,Unknown,441.51,Non-Refrigerated Warehouse,False,44484.0
+cluster_1313,1313,Unknown,2094,Unknown,Unknown,458.14,Office,False,34609.0
+cluster_1313,1313,Unknown,1322,Unknown,Unknown,460.09,Manufacturing/Industrial Plant,False,60079.0
+cluster_1313,1313,Unknown,1866,Unknown,Unknown,472.35,Distribution Center,False,61547.0
+cluster_1647,1647,Unknown,1649,Unknown,Unknown,201.72,Manufacturing/Industrial Plant,False,132333.0
+cluster_1647,1647,Unknown,1651,Unknown,Unknown,218.2,Manufacturing/Industrial Plant,False,85908.0
+cluster_1647,1647,Unknown,1635,Unknown,Unknown,271.36,Non-Refrigerated Warehouse,False,69696.0
+cluster_1647,1647,Unknown,1638,Unknown,Unknown,295.45,Non-Refrigerated Warehouse,False,110054.0
+cluster_1647,1647,Unknown,1582,Unknown,Unknown,350.37,Non-Refrigerated Warehouse,False,172627.0
+cluster_1647,1647,Unknown,1634,Unknown,Unknown,358.31,Distribution Center,False,50000.0
+cluster_1647,1647,Unknown,1639,Unknown,Unknown,363.11,Non-Refrigerated Warehouse,False,164420.0
+cluster_1647,1647,Unknown,1650,Unknown,Unknown,383.77,Manufacturing/Industrial Plant,False,86036.0
+cluster_1647,1647,Unknown,1642,Unknown,Unknown,384.45,Strip Mall,False,45290.0
+cluster_1647,1647,Unknown,1637,Unknown,Unknown,436.11,Distribution Center,False,200000.0
+cluster_1647,1647,Unknown,1654,Unknown,Unknown,469.71,Manufacturing/Industrial Plant,False,27494.0
+cluster_1647,1647,Unknown,1653,Unknown,Unknown,483.24,Manufacturing/Industrial Plant,False,49590.0
+cluster_1647,1647,Unknown,1636,Unknown,Unknown,497.46,Distribution Center,False,355110.0
+cluster_3322,3322,Unknown,3323,Unknown,Unknown,55.37,Distribution Center,False,32000.0
+cluster_3322,3322,Unknown,3326,Unknown,Unknown,102.15,Pre-school/Daycare,True,26975.0
+cluster_3322,3322,Unknown,3324,Unknown,Unknown,151.21,Retail Store,False,45363.0
+cluster_3322,3322,Unknown,5492,Unknown,Unknown,208.23,Office,False,253000.0
+cluster_3322,3322,Unknown,3321,Unknown,Unknown,231.24,Non-Refrigerated Warehouse,False,251591.0
+cluster_3322,3322,Unknown,3314,Unknown,Unknown,351.06,Distribution Center,False,70240.0
+cluster_3322,3322,Unknown,3327,Unknown,Unknown,404.01,Distribution Center,False,60777.0
+cluster_3322,3322,Unknown,3270,Unknown,Unknown,421.04,Non-Refrigerated Warehouse,False,45999.0
+cluster_3322,3322,Unknown,3268,Unknown,Unknown,496.74,Non-Refrigerated Warehouse,False,40054.0
+cluster_1821,1821,Unknown,1825,Unknown,Unknown,149.08,K-12 School,False,334550.0
+cluster_1821,1821,Unknown,1826,Unknown,Unknown,169.2,K-12 School,False,168340.0
+cluster_1821,1821,Unknown,1818,Unknown,Unknown,204.68,K-12 School,False,202718.0
+cluster_1821,1821,Unknown,1816,Unknown,Unknown,494.36,Multifamily Housing,False,25411.0
+cluster_3795,3795,Unknown,3794,Unknown,Unknown,79.77,Laboratory,False,43259.0
+cluster_3795,3795,Unknown,3791,Unknown,Unknown,168.39,Laboratory,False,64770.0
+cluster_3795,3795,Unknown,5808,Unknown,Unknown,218.24,Laboratory,False,129600.0
+cluster_3795,3795,Unknown,3799,Unknown,Unknown,243.38,Multifamily Housing,False,55892.0
+cluster_3795,3795,Unknown,3792,Unknown,Unknown,257.87,Laboratory,False,41000.0
+cluster_3795,3795,Unknown,5623,Unknown,Unknown,300.79,Multifamily Housing,False,244326.0
+cluster_3795,3795,Unknown,3732,Unknown,Unknown,326.91,Multifamily Housing,False,99490.0
+cluster_3795,3795,Unknown,3798,Unknown,Unknown,340.22,Multifamily Housing,False,73483.0
+cluster_3795,3795,Unknown,6112,Unknown,Unknown,345.63,Multifamily Housing,False,58531.0
+cluster_3795,3795,Unknown,3734,Unknown,Unknown,355.38,Multifamily Housing,False,84437.0
+cluster_3795,3795,Unknown,3790,Unknown,Unknown,359.41,Performing Arts,False,181298.0
+cluster_3795,3795,Unknown,3733,Unknown,Unknown,393.26,Multifamily Housing,False,100500.0
+cluster_3795,3795,Unknown,5881,Unknown,Unknown,465.85,Multifamily Housing,False,103500.0
+cluster_1162,1162,Unknown,1161,Unknown,Unknown,152.22,Mixed Use Property,False,81981.0
+cluster_1162,1162,Unknown,1160,Unknown,Unknown,159.73,Mixed Use Property,False,54738.0
+cluster_1162,1162,Unknown,1158,Unknown,Unknown,170.98,Non-Refrigerated Warehouse,False,167995.0
+cluster_1162,1162,Unknown,1171,Unknown,Unknown,220.84,Non-Refrigerated Warehouse,False,228376.0
+cluster_1162,1162,Unknown,1153,Unknown,Unknown,228.51,Distribution Center,False,172400.0
+cluster_1162,1162,Unknown,1155,Unknown,Unknown,259.83,Non-Refrigerated Warehouse,False,100000.0
+cluster_1162,1162,Unknown,1159,Unknown,Unknown,300.09,Non-Refrigerated Warehouse,False,167972.0
+cluster_1162,1162,Unknown,1163,Unknown,Unknown,326.24,Distribution Center,False,115009.0
+cluster_1162,1162,Unknown,1166,Unknown,Unknown,335.36,Distribution Center,False,307074.0
+cluster_1162,1162,Unknown,1169,Unknown,Unknown,337.68,Manufacturing/Industrial Plant,False,100000.0
+cluster_1162,1162,Unknown,1165,Unknown,Unknown,341.4,Distribution Center,False,193365.0
+cluster_1162,1162,Unknown,1156,Unknown,Unknown,365.2,Distribution Center,False,210000.0
+cluster_1162,1162,Unknown,1157,Unknown,Unknown,374.34,Distribution Center,False,168560.0
+cluster_1162,1162,Unknown,6463,Unknown,Unknown,425.76,Manufacturing/Industrial Plant,False,66878.0
+cluster_1162,1162,Unknown,1154,Unknown,Unknown,425.76,Distribution Center,False,92042.0
+cluster_1162,1162,Unknown,1168,Unknown,Unknown,452.2,Distribution Center,False,91892.0
+cluster_1162,1162,Unknown,1244,Unknown,Unknown,480.6,Non-Refrigerated Warehouse,False,57240.0
+cluster_1162,1162,Unknown,1243,Unknown,Unknown,496.88,Non-Refrigerated Warehouse,False,39382.0
+cluster_1875,1875,Unknown,1884,Unknown,Unknown,94.34,Manufacturing/Industrial Plant,False,108812.0
+cluster_1875,1875,Unknown,1876,Unknown,Unknown,98.97,Manufacturing/Industrial Plant,False,25866.0
+cluster_1875,1875,Unknown,1885,Unknown,Unknown,215.93,Restaurant,True,31150.0
+cluster_1875,1875,Unknown,1921,Unknown,Unknown,226.76,Distribution Center,False,38845.0
+cluster_1875,1875,Unknown,1879,Unknown,Unknown,270.79,Manufacturing/Industrial Plant,False,40530.0
+cluster_1875,1875,Unknown,1881,Unknown,Unknown,290.28,Manufacturing/Industrial Plant,False,45775.0
+cluster_1875,1875,Unknown,6093,Unknown,Unknown,341.76,Refrigerated Warehouse,False,60155.0
+cluster_1875,1875,Unknown,1922,Unknown,Unknown,388.9,Mixed Use Property,False,77924.0
+cluster_1875,1875,Unknown,6121,Unknown,Unknown,415.13,Non-Refrigerated Warehouse,False,58347.0
+cluster_1689,1689,Unknown,1685,Unknown,Unknown,154.06,Non-Refrigerated Warehouse,False,110221.0
+cluster_1689,1689,Unknown,1683,Unknown,Unknown,181.23,Distribution Center,False,229330.0
+cluster_1689,1689,Unknown,1730,Unknown,Unknown,219.34,Manufacturing/Industrial Plant,False,200000.0
+cluster_1689,1689,Unknown,1716,Unknown,Unknown,220.25,Distribution Center,False,120000.0
+cluster_1689,1689,Unknown,1690,Unknown,Unknown,225.59,Manufacturing/Industrial Plant,False,165000.0
+cluster_1689,1689,Unknown,1729,Unknown,Unknown,237.84,Non-Refrigerated Warehouse,False,153600.0
+cluster_1689,1689,Unknown,1717,Unknown,Unknown,287.44,Manufacturing/Industrial Plant,False,125949.0
+cluster_1689,1689,Unknown,1701,Unknown,Unknown,332.18,Non-Refrigerated Warehouse,False,51732.0
+cluster_1689,1689,Unknown,1702,Unknown,Unknown,332.18,Distribution Center,False,138000.0
+cluster_1689,1689,Unknown,1709,Unknown,Unknown,356.11,Non-Refrigerated Warehouse,False,133535.0
+cluster_1689,1689,Unknown,1728,Unknown,Unknown,356.83,Distribution Center,False,80000.0
+cluster_1689,1689,Unknown,1699,Unknown,Unknown,382.79,Distribution Center,False,99168.0
+cluster_1689,1689,Unknown,1711,Unknown,Unknown,412.11,Non-Refrigerated Warehouse,False,148560.0
+cluster_1689,1689,Unknown,1705,Unknown,Unknown,433.66,Distribution Center,False,66008.0
+cluster_1689,1689,Unknown,5168,Unknown,Unknown,476.79,manufacturing/industrial plant,False,148000.0
+cluster_1689,1689,Unknown,1700,Unknown,Unknown,477.54,Non-Refrigerated Warehouse,False,160232.0
+cluster_1689,1689,Unknown,1713,Unknown,Unknown,483.42,Distribution Center,False,86000.0
+cluster_1689,1689,Unknown,1707,Unknown,Unknown,484.18,Distribution Center,False,42017.0
+cluster_1689,1689,Unknown,5608,Unknown,Unknown,489.78,Non-Refrigerated Warehouse,False,213860.0
+cluster_1689,1689,Unknown,1703,Unknown,Unknown,493.2,Non-Refrigerated Warehouse,False,83753.0
+cluster_1336,1336,Unknown,1335,Unknown,Unknown,47.31,Manufacturing/Industrial Plant,False,32397.0
+cluster_1336,1336,Unknown,1332,Unknown,Unknown,109.06,Non-Refrigerated Warehouse,False,36789.0
+cluster_1336,1336,Unknown,1361,Unknown,Unknown,132.15,Manufacturing/Industrial Plant,False,39600.0
+cluster_1336,1336,Unknown,1356,Unknown,Unknown,134.23,Manufacturing/Industrial Plant,False,28646.0
+cluster_1336,1336,Unknown,1410,Unknown,Unknown,164.78,Distribution Center,False,59370.0
+cluster_1336,1336,Unknown,1449,Unknown,Unknown,170.57,Manufacturing/Industrial Plant,False,57800.0
+cluster_1336,1336,Unknown,1342,Unknown,Unknown,223.0,Manufacturing/Industrial Plant,False,41076.0
+cluster_1336,1336,Unknown,1339,Unknown,Unknown,228.62,Non-Refrigerated Warehouse,False,25440.0
+cluster_1336,1336,Unknown,1360,Unknown,Unknown,247.53,Fitness Center/Health Club/Gym,False,29204.0
+cluster_1336,1336,Unknown,6021,Unknown,Unknown,255.69,Manufacturing/Industrial Plant,False,36465.0
+cluster_1336,1336,Unknown,1484,Unknown,Unknown,259.02,Non-Refrigerated Warehouse,False,41240.0
+cluster_1336,1336,Unknown,1348,Unknown,Unknown,292.11,Non-Refrigerated Warehouse,False,40000.0
+cluster_1336,1336,Unknown,1347,Unknown,Unknown,305.4,Non-Refrigerated Warehouse,False,33000.0
+cluster_1336,1336,Unknown,1458,Unknown,Unknown,317.31,Distribution Center,False,28000.0
+cluster_1336,1336,Unknown,1495,Unknown,Unknown,332.74,Non-Refrigerated Warehouse,False,29255.0
+cluster_1336,1336,Unknown,1451,Unknown,Unknown,346.82,Manufacturing/Industrial Plant,False,25600.0
+cluster_1336,1336,Unknown,1353,Unknown,Unknown,348.73,Manufacturing/Industrial Plant,False,223376.0
+cluster_1336,1336,Unknown,1340,Unknown,Unknown,357.91,Non-Refrigerated Warehouse,False,74650.0
+cluster_1336,1336,Unknown,1355,Unknown,Unknown,363.56,Distribution Center,False,31428.0
+cluster_1336,1336,Unknown,1418,Unknown,Unknown,379.46,Non-Refrigerated Warehouse,False,45615.0
+cluster_1336,1336,Unknown,1475,Unknown,Unknown,408.48,Non-Refrigerated Warehouse,False,220591.0
+cluster_1336,1336,Unknown,1482,Unknown,Unknown,416.39,Non-Refrigerated Warehouse,False,60000.0
+cluster_1336,1336,Unknown,1465,Unknown,Unknown,417.07,Non-Refrigerated Warehouse,False,31355.0
+cluster_1336,1336,Unknown,1420,Unknown,Unknown,428.08,Distribution Center,False,26957.0
+cluster_1336,1336,Unknown,1415,Unknown,Unknown,428.62,Manufacturing/Industrial Plant,False,150001.0
+cluster_1336,1336,Unknown,1334,Unknown,Unknown,451.18,Manufacturing/Industrial Plant,False,80751.0
+cluster_1336,1336,Unknown,1397,Unknown,Unknown,469.85,Manufacturing/Industrial Plant,False,30224.0
+cluster_1336,1336,Unknown,1338,Unknown,Unknown,473.01,Distribution Center,False,128157.0
+cluster_1336,1336,Unknown,1405,Unknown,Unknown,474.11,Manufacturing/Industrial Plant,False,52800.0
+cluster_1336,1336,Unknown,1486,Unknown,Unknown,481.96,Manufacturing/Industrial Plant,False,64794.0
+cluster_1336,1336,Unknown,1333,Unknown,Unknown,489.86,Distribution Center,False,97495.0
+cluster_1336,1336,Unknown,1498,Unknown,Unknown,492.77,Distribution Center,False,32950.0
+cluster_1336,1336,Unknown,1511,Unknown,Unknown,496.46,Non-Refrigerated Warehouse,False,31936.0
+cluster_2042,2042,Unknown,2058,Unknown,Unknown,126.64,Non-Refrigerated Warehouse,False,27549.0
+cluster_2042,2042,Unknown,6108,Unknown,Unknown,153.31,Bar/Nightclub,False,60861.0
+cluster_2042,2042,Unknown,6109,Unknown,Unknown,245.07,Office,False,89792.0
+cluster_2042,2042,Unknown,2053,Unknown,Unknown,277.31,Indoor Arena,False,237959.0
+cluster_2042,2042,Unknown,5815,Unknown,Unknown,290.2,Self-Storage Facility,False,65000.0
+cluster_2042,2042,Unknown,2060,Unknown,Unknown,290.2,Museum,False,65000.0
+cluster_2042,2042,Unknown,2057,Unknown,Unknown,451.65,Stadium (Closed),False,583625.0
+cluster_3311,3311,Unknown,6424,Unknown,Unknown,146.69,Distribution Center,False,97908.0
+cluster_3311,3311,Unknown,3310,Unknown,Unknown,146.69,Distribution Center,False,232870.0
+cluster_3311,3311,Unknown,3188,Unknown,Unknown,254.48,Manufacturing/Industrial Plant,False,91282.0
+cluster_3311,3311,Unknown,3187,Unknown,Unknown,314.14,Non-Refrigerated Warehouse,False,40000.0
+cluster_3311,3311,Unknown,3186,Unknown,Unknown,354.0,Multifamily Housing,True,30175.0
+cluster_3311,3311,Unknown,3189,Unknown,Unknown,449.54,Office,False,38108.0
+cluster_1433,1433,Unknown,6423,Unknown,Unknown,128.8,Other,False,50712.0
+cluster_1433,1433,Unknown,1434,Unknown,Unknown,135.88,Non-Refrigerated Warehouse,False,47870.0
+cluster_1433,1433,Unknown,1438,Unknown,Unknown,160.72,Non-Refrigerated Warehouse,False,82403.0
+cluster_1433,1433,Unknown,1432,Unknown,Unknown,181.22,Non-Refrigerated Warehouse,False,46464.0
+cluster_1433,1433,Unknown,1442,Unknown,Unknown,242.55,Non-Refrigerated Warehouse,False,65600.0
+cluster_1433,1433,Unknown,1447,Unknown,Unknown,294.69,Non-Refrigerated Warehouse,False,44324.0
+cluster_1433,1433,Unknown,1439,Unknown,Unknown,326.32,Hotel,False,70833.0
+cluster_1433,1433,Unknown,1441,Unknown,Unknown,349.25,Non-Refrigerated Warehouse,False,28800.0
+cluster_1433,1433,Unknown,1448,Unknown,Unknown,399.15,Non-Refrigerated Warehouse,False,26830.0
+cluster_1433,1433,Unknown,1427,Unknown,Unknown,422.58,Manufacturing/Industrial Plant,False,28396.0
+cluster_1433,1433,Unknown,1437,Unknown,Unknown,431.51,Hotel,True,105736.0
+cluster_1294,1294,Unknown,1291,Unknown,Unknown,112.93,Non-Refrigerated Warehouse,False,56933.0
+cluster_1294,1294,Unknown,1293,Unknown,Unknown,123.79,Distribution Center,False,56370.0
+cluster_1294,1294,Unknown,1292,Unknown,Unknown,178.47,Distribution Center,False,147885.0
+cluster_1294,1294,Unknown,1579,Unknown,Unknown,220.62,Non-Refrigerated Warehouse,False,347984.0
+cluster_1294,1294,Unknown,1289,Unknown,Unknown,242.55,Distribution Center,False,144511.0
+cluster_1294,1294,Unknown,1627,Unknown,Unknown,275.89,Manufacturing/Industrial Plant,False,35275.0
+cluster_1294,1294,Unknown,1295,Unknown,Unknown,328.17,Distribution Center,False,94796.0
+cluster_1294,1294,Unknown,1609,Unknown,Unknown,391.01,Distribution Center,False,149986.0
+cluster_1294,1294,Unknown,1297,Unknown,Unknown,431.14,Non-Refrigerated Warehouse,False,171438.0
+cluster_1294,1294,Unknown,1296,Unknown,Unknown,454.36,Distribution Center,False,90126.0
+cluster_1294,1294,Unknown,1282,Unknown,Unknown,464.65,Manufacturing/Industrial Plant,False,352094.0
+cluster_1346,1346,Unknown,1349,Unknown,Unknown,69.78,Non-Refrigerated Warehouse,False,59678.0
+cluster_1346,1346,Unknown,1350,Unknown,Unknown,148.62,Non-Refrigerated Warehouse,False,68000.0
+cluster_1346,1346,Unknown,1375,Unknown,Unknown,339.91,Distribution Center,False,49975.0
+cluster_1346,1346,Unknown,1344,Unknown,Unknown,346.41,Distribution Center,False,200243.0
+cluster_1346,1346,Unknown,1345,Unknown,Unknown,383.41,Distribution Center,False,41550.0
+cluster_1346,1346,Unknown,1377,Unknown,Unknown,418.03,Manufacturing/Industrial Plant,False,28598.0
+cluster_1346,1346,Unknown,1363,Unknown,Unknown,420.45,Refrigerated Warehouse,False,59120.0
+cluster_1346,1346,Unknown,1366,Unknown,Unknown,451.11,Refrigerated Warehouse,False,1798900.0
+cluster_3546,3546,Unknown,3543,Unknown,Unknown,52.72,Retail Store,False,32500.0
+cluster_3546,3546,Unknown,3548,Unknown,Unknown,87.92,Wholesale Club/Supercenter,False,40209.0
+cluster_3546,3546,Unknown,3545,Unknown,Unknown,104.12,Manufacturing/Industrial,False,38526.0
+cluster_3546,3546,Unknown,3550,Unknown,Unknown,211.02,Non-Refrigerated Warehouse,False,50000.0
+cluster_3546,3546,Unknown,3659,Unknown,Unknown,267.15,Retail Store,False,65021.0
+cluster_3546,3546,Unknown,3665,Unknown,Unknown,290.12,Non-Refrigerated Warehouse,False,203231.0
+cluster_3546,3546,Unknown,3590,Unknown,Unknown,336.99,Manufacturing/Industrial Plant,False,31040.0
+cluster_3546,3546,Unknown,3661,Unknown,Unknown,427.74,Office,False,47554.0
+cluster_3546,3546,Unknown,3579,Unknown,Unknown,440.66,Non-Refrigerated Warehouse,False,36112.0
+cluster_3546,3546,Unknown,3631,Unknown,Unknown,475.11,Distribution Center,False,38450.0
+cluster_3546,3546,Unknown,5537,Unknown,Unknown,482.35,Distribution Center,False,76654.0
+cluster_3546,3546,Unknown,3580,Unknown,Unknown,496.56,Manufacturing/Industrial Plant,False,47216.0
+cluster_1409,1409,Unknown,1402,Unknown,Unknown,73.43,Distribution Center,False,32838.0
+cluster_1409,1409,Unknown,1412,Unknown,Unknown,100.47,Non-Refrigerated Warehouse,False,80460.0
+cluster_1409,1409,Unknown,1408,Unknown,Unknown,105.36,Manufacturing/Industrial Plant,False,80137.0
+cluster_1409,1409,Unknown,1414,Unknown,Unknown,154.07,Manufacturing/Industrial Plant,False,74240.0
+cluster_1409,1409,Unknown,1403,Unknown,Unknown,177.27,Vehicle Dealership,False,65344.0
+cluster_1409,1409,Unknown,1419,Unknown,Unknown,213.44,Manufacturing/Industrial Plant,False,69378.0
+cluster_1409,1409,Unknown,1417,Unknown,Unknown,234.54,Manufacturing/Industrial Plant,False,29244.0
+cluster_1409,1409,Unknown,1396,Unknown,Unknown,281.65,Vehicle Repair Services,False,35962.0
+cluster_1409,1409,Unknown,1395,Unknown,Unknown,312.31,Non-Refrigerated Warehouse,False,51410.0
+cluster_1409,1409,Unknown,1400,Unknown,Unknown,316.3,Manufacturing/Industrial Plant,False,66851.0
+cluster_1409,1409,Unknown,1394,Unknown,Unknown,372.99,Self-Storage Facility,False,77904.0
+cluster_1409,1409,Unknown,1393,Unknown,Unknown,411.72,Manufacturing/Industrial Plant,False,34022.0
+cluster_1409,1409,Unknown,5342,Unknown,Unknown,454.97,Manufacturing/Industrial Plant,False,75073.0
+cluster_1235,1235,Unknown,1237,Unknown,Unknown,106.84,Distribution Center,False,55136.0
+cluster_1235,1235,Unknown,1257,Unknown,Unknown,107.07,Manufacturing/Industrial Plant,False,87424.0
+cluster_1235,1235,Unknown,1236,Unknown,Unknown,128.12,Distribution Center,False,59232.0
+cluster_1235,1235,Unknown,1265,Unknown,Unknown,198.93,Wholesale Club/Supercenter,False,72625.0
+cluster_1235,1235,Unknown,1245,Unknown,Unknown,224.82,Non-Refrigerated Warehouse,False,107220.0
+cluster_1235,1235,Unknown,1263,Unknown,Unknown,246.51,non-refrigerated warehouse,False,51132.0
+cluster_1235,1235,Unknown,1248,Unknown,Unknown,274.79,Manufacturing/Industrial Plant,False,31695.0
+cluster_1235,1235,Unknown,1167,Unknown,Unknown,292.3,Distribution Center,False,107000.0
+cluster_1235,1235,Unknown,1203,Unknown,Unknown,409.35,Non-Refrigerated Warehouse,False,153162.0
+cluster_1235,1235,Unknown,1250,Unknown,Unknown,443.3,Manufacturing/Industrial Plant,False,27238.0
+cluster_3345,3345,Unknown,3346,Unknown,Unknown,178.09,Distribution Center,False,25989.0
+cluster_3345,3345,Unknown,3560,Unknown,Unknown,324.91,Distribution Center,False,75000.0
+cluster_3345,3345,Unknown,3377,Unknown,Unknown,357.75,Manufacturing/Industrial Plant,False,29375.0
+cluster_3345,3345,Unknown,6339,Unknown,Unknown,364.4,Vehicle Dealership,False,48148.0
+cluster_3345,3345,Unknown,3558,Unknown,Unknown,367.58,Office,False,26511.0
+cluster_3345,3345,Unknown,6095,Unknown,Unknown,373.2,Multifamily Housing,False,198920.0
+cluster_3345,3345,Unknown,6224,Unknown,Unknown,442.25,Multifamily Housing,False,68029.0
+cluster_3345,3345,Unknown,3557,Unknown,Unknown,471.41,Other,False,49700.0
+cluster_3345,3345,Unknown,3562,Unknown,Unknown,480.49,Manufacturing/Industrial Plant,False,27000.0
+cluster_1283,1283,Unknown,1285,Unknown,Unknown,163.58,Manufacturing/Industrial Plant,False,34112.0
+cluster_1283,1283,Unknown,1284,Unknown,Unknown,203.08,Distribution Center,False,25780.0
+cluster_1283,1283,Unknown,1286,Unknown,Unknown,215.29,Distribution Center,False,126591.0
+cluster_1283,1283,Unknown,1280,Unknown,Unknown,238.22,Non-Refrigerated Warehouse,False,323860.0
+cluster_1283,1283,Unknown,1279,Unknown,Unknown,241.15,Non-Refrigerated Warehouse,False,129442.0
+cluster_1283,1283,Unknown,1288,Unknown,Unknown,342.63,Distribution Center,False,119728.0
+cluster_1283,1283,Unknown,1281,Unknown,Unknown,393.48,Distribution Center,False,119000.0
+cluster_1283,1283,Unknown,1278,Unknown,Unknown,393.82,Non-Refrigerated Warehouse,False,47500.0
+cluster_3277,3277,Unknown,3280,Unknown,Unknown,108.34,Distribution Center,False,30400.0
+cluster_3277,3277,Unknown,3336,Unknown,Unknown,160.77,Distribution Center,False,30647.0
+cluster_3277,3277,Unknown,3296,Unknown,Unknown,213.65,Manufacturing/Industrial Plant,False,38459.0
+cluster_3277,3277,Unknown,3334,Unknown,Unknown,222.31,Retail Store,True,30082.0
+cluster_3277,3277,Unknown,3275,Unknown,Unknown,268.88,Non-Refrigerated Warehouse,False,28925.0
+cluster_3277,3277,Unknown,3297,Unknown,Unknown,295.75,Office,False,31876.0
+cluster_3277,3277,Unknown,5802,Unknown,Unknown,344.18,Non-Refrigerated Warehouse,False,29056.0
+cluster_3277,3277,Unknown,5801,Unknown,Unknown,344.18,Office,False,39546.0
+cluster_3277,3277,Unknown,5803,Unknown,Unknown,354.84,Veterinary Office,False,36476.0
+cluster_1995,1995,Unknown,1991,Unknown,Unknown,107.62,MIXED USE PROPERTY,False,57370.0
+cluster_1995,1995,Unknown,1998,Unknown,Unknown,187.0,Non-Refrigerated Warehouse,False,39943.0
+cluster_1995,1995,Unknown,1996,Unknown,Unknown,215.65,Non-Refrigerated Warehouse,False,151393.0
+cluster_1995,1995,Unknown,1992,Unknown,Unknown,260.73,Non-Refrigerated Warehouse,False,25336.0
+cluster_1995,1995,Unknown,1999,Unknown,Unknown,331.62,Manufacturing/Industrial Plant,False,45672.0
+cluster_1995,1995,Unknown,5432,Unknown,Unknown,340.78,Manufacturing/Industrial Plant,False,43600.0
+cluster_1995,1995,Unknown,1988,Unknown,Unknown,380.85,POLICE STATION,False,40131.0
+cluster_1995,1995,Unknown,1987,Unknown,Unknown,455.51,Refrigerated Warehouse,False,85780.0
+cluster_3565,3565,Unknown,3555,Unknown,Unknown,198.0,Food Service,False,29100.0
+cluster_3565,3565,Unknown,3566,Unknown,Unknown,211.87,Non-Refrigerated Warehouse,False,28000.0
+cluster_3565,3565,Unknown,3564,Unknown,Unknown,257.9,Distribution Center,False,45710.0
+cluster_3565,3565,Unknown,3577,Unknown,Unknown,353.72,Distribution Center,False,30240.0
+cluster_3565,3565,Unknown,3578,Unknown,Unknown,354.24,Mixed Use Property,False,82394.0
+cluster_3565,3565,Unknown,3563,Unknown,Unknown,358.56,Office,True,46297.0
+cluster_3565,3565,Unknown,3584,Unknown,Unknown,481.8,Non-Refrigerated Warehouse,False,72364.0
+cluster_1272,1272,Unknown,5670,Unknown,Unknown,301.33,Non-Refrigerated Warehouse,False,392426.0
+cluster_1272,1272,Unknown,1271,Unknown,Unknown,326.68,Refrigerated Warehouse,False,448289.0
+cluster_1272,1272,Unknown,5671,Unknown,Unknown,337.25,Manufacturing/Industrial Plant,False,391974.0
+cluster_1272,1272,Unknown,5627,Unknown,Unknown,481.65,Distribution Center,False,261027.0
+cluster_1321,1321,Unknown,5447,Unknown,Unknown,169.22,Manufacturing/Industrial Plant,False,223502.0
+cluster_1321,1321,Unknown,1316,Unknown,Unknown,177.74,Manufacturing/Industrial Plant,False,129919.0
+cluster_1321,1321,Unknown,1308,Unknown,Unknown,341.2,Retail Store,False,41000.0
+cluster_1321,1321,Unknown,1311,Unknown,Unknown,353.71,Other - Services,False,54806.0
+cluster_1321,1321,Unknown,1309,Unknown,Unknown,380.2,Non-Refrigerated Warehouse,False,40200.0
+cluster_1321,1321,Unknown,1310,Unknown,Unknown,380.2,Non-Refrigerated Warehouse,False,88975.0
+cluster_1321,1321,Unknown,1330,Unknown,Unknown,396.31,Non-Refrigerated Warehouse,False,77080.0
+cluster_1321,1321,Unknown,1325,Unknown,Unknown,444.1,Manufacturing/Industrial Plant,False,173064.0
+cluster_1321,1321,Unknown,1857,Unknown,Unknown,485.91,Manufacturing/Industrial Plant,False,25350.0
+cluster_2109,2109,Unknown,2108,Unknown,Unknown,157.19,Non-Refrigerated Warehouse,False,54773.0
+cluster_2109,2109,Unknown,2115,Unknown,Unknown,229.82,Worship Facility,True,45871.0
+cluster_2109,2109,Unknown,2107,Unknown,Unknown,293.79,Wholesale Club/Supercenter,False,89728.0
+cluster_2109,2109,Unknown,5894,Unknown,Unknown,403.35,Multifamily Housing,False,79344.0
+cluster_2109,2109,Unknown,6026,Unknown,Unknown,485.15,Self-Storage Facility,False,45375.0
+cluster_2109,2109,Unknown,2116,Unknown,Unknown,496.31,K-12 School,False,54169.0
+cluster_1610,1610,Unknown,1611,Unknown,Unknown,64.19,Retail Store,False,37122.0
+cluster_1610,1610,Unknown,1630,Unknown,Unknown,184.3,Distribution Center,True,115610.0
+cluster_1610,1610,Unknown,5132,Unknown,Unknown,295.19,Self-Storage Facility,False,136385.0
+cluster_3831,3831,Unknown,3828,Unknown,Unknown,161.83,Distribution Center,False,87386.0
+cluster_3831,3831,Unknown,6468,Unknown,Unknown,161.83,Distribution Center,False,35087.0
+cluster_3831,3831,Unknown,3829,Unknown,Unknown,166.25,Non-Refrigerated Warehouse,False,78787.0
+cluster_3831,3831,Unknown,3841,Unknown,Unknown,189.34,Non-Refrigerated Warehouse,False,37000.0
+cluster_3831,3831,Unknown,3830,Unknown,Unknown,226.49,Distribution Center,False,97255.0
+cluster_3831,3831,Unknown,3842,Unknown,Unknown,228.17,Manufacturing/Industrial Plant,False,48888.0
+cluster_3831,3831,Unknown,3843,Unknown,Unknown,288.71,Distribution Center,False,49402.0
+cluster_3831,3831,Unknown,3848,Unknown,Unknown,294.35,Manufacturing/Industrial Plant,False,40245.0
+cluster_3831,3831,Unknown,3844,Unknown,Unknown,325.8,Distribution Center,False,49402.0
+cluster_3831,3831,Unknown,3840,Unknown,Unknown,381.34,Manufacturing/Industrial Plant,False,28000.0
+cluster_3831,3831,Unknown,3836,Unknown,Unknown,388.42,Manufacturing/Industrial Plant,False,49524.0
+cluster_3831,3831,Unknown,3834,Unknown,Unknown,415.99,Manufacturing/Industrial Plant,False,41600.0
+cluster_3831,3831,Unknown,3837,Unknown,Unknown,457.79,Manufacturing/Industrial Plant,False,59000.0
+cluster_3338,3338,Unknown,3339,Unknown,Unknown,80.96,Non-Refrigerated Warehouse,False,33831.0
+cluster_3338,3338,Unknown,3343,Unknown,Unknown,256.18,Manufacturing/Industrial Plant,False,42594.0
+cluster_3338,3338,Unknown,5379,Unknown,Unknown,355.59,Multifamily Housing,True,146484.0
+cluster_3338,3338,Unknown,3383,Unknown,Unknown,367.5,Manufacturing/Industrial Plant,False,76793.0
+cluster_3338,3338,Unknown,3373,Unknown,Unknown,401.47,K-12 School,False,67467.0
+cluster_3338,3338,Unknown,3387,Unknown,Unknown,409.37,Manufacturing/Industrial Plant,False,50938.0
+cluster_5497,5497,Unknown,1019,Unknown,Unknown,141.51,Hotel,False,72203.0
+cluster_5497,5497,Unknown,6342,Unknown,Unknown,186.61,Hotel,False,57899.0
+cluster_5497,5497,Unknown,1014,Unknown,Unknown,226.84,Hotel,False,92657.0
+cluster_5497,5497,Unknown,1013,Unknown,Unknown,292.59,Hotel,False,80287.0
+cluster_5497,5497,Unknown,5499,Unknown,Unknown,329.16,Hotel,False,66781.0
+cluster_5497,5497,Unknown,6131,Unknown,Unknown,401.57,Hotel,False,44347.0
+cluster_5497,5497,Unknown,1011,Unknown,Unknown,411.65,Hotel,False,53920.0
+cluster_5497,5497,Unknown,1012,Unknown,Unknown,414.47,Hotel,False,107400.0
+cluster_5497,5497,Unknown,6132,Unknown,Unknown,424.55,Hotel,False,89838.0
+cluster_5497,5497,Unknown,6211,Unknown,Unknown,433.71,Hotel,False,110192.0
+cluster_5497,5497,Unknown,1001,Unknown,Unknown,473.33,Hotel,False,58929.0
+cluster_6114,6114,Unknown,1925,Unknown,Unknown,373.34,Residential Care Facility,True,106703.0
+cluster_6114,6114,Unknown,6349,Unknown,Unknown,448.84,Multifamily Housing,False,84015.0
+cluster_6114,6114,Unknown,6271,Unknown,Unknown,471.71,Multifamily Housing,False,156136.0
+cluster_1844,1844,Unknown,1855,Unknown,Unknown,97.38,Other - Entertainment/Public Assembly,False,32250.0
+cluster_1844,1844,Unknown,1860,Unknown,Unknown,159.17,Refrigerated Warehouse,False,30000.0
+cluster_1844,1844,Unknown,1845,Unknown,Unknown,189.06,Mixed Use Property,False,40622.0
+cluster_1844,1844,Unknown,1862,Unknown,Unknown,257.69,Manufacturing/Industrial Plant,False,61014.0
+cluster_1844,1844,Unknown,1847,Unknown,Unknown,294.29,Manufacturing/Industrial Plant,False,59569.0
+cluster_1844,1844,Unknown,1861,Unknown,Unknown,297.2,Non-Refrigerated Warehouse,False,25205.0
+cluster_1844,1844,Unknown,1852,Unknown,Unknown,401.85,"Repair Services (Vehicle, Shoe, Locksmith, etc.)",False,41389.0
+cluster_1844,1844,Unknown,1846,Unknown,Unknown,490.55,Manufacturing/Industrial Plant,False,40028.0
+cluster_1712,1712,Unknown,1720,Unknown,Unknown,206.91,Office,False,26571.0
+cluster_1712,1712,Unknown,1725,Unknown,Unknown,222.01,Distribution Center,False,54662.0
+cluster_1712,1712,Unknown,1715,Unknown,Unknown,227.42,Distribution Center,False,30750.0
+cluster_1712,1712,Unknown,1726,Unknown,Unknown,265.79,Other,False,75265.0
+cluster_1712,1712,Unknown,1719,Unknown,Unknown,298.29,"Repair Services (Vehicle, Shoe, Locksmith, etc.)",False,25500.0
+cluster_1712,1712,Unknown,1714,Unknown,Unknown,305.85,Distribution Center,False,27500.0
+cluster_1712,1712,Unknown,1718,Unknown,Unknown,462.03,Hotel,False,35000.0
+cluster_1712,1712,Unknown,1721,Unknown,Unknown,479.1,Non-Refrigerated Warehouse,False,26400.0
+cluster_1329,1329,Unknown,1326,Unknown,Unknown,148.6,Manufacturing/Industrial Plant,False,40200.0
+cluster_1329,1329,Unknown,1327,Unknown,Unknown,199.55,Distribution Center,False,47800.0
+cluster_1329,1329,Unknown,1328,Unknown,Unknown,232.43,Non-Refrigerated Warehouse,False,102267.0
+cluster_1329,1329,Unknown,1351,Unknown,Unknown,345.48,Distribution Center,False,167180.0
+cluster_1329,1329,Unknown,1343,Unknown,Unknown,413.54,Distribution Center,False,138000.0
+cluster_1329,1329,Unknown,1362,Unknown,Unknown,444.17,Manufacturing/Industrial Plant,False,160000.0
+cluster_1890,1890,Unknown,1887,Unknown,Unknown,119.24,Refrigerated Warehouse,False,144078.0
+cluster_1890,1890,Unknown,5464,Unknown,Unknown,211.21,Manufacturing/Industrial Plant,False,76400.0
+cluster_1890,1890,Unknown,1891,Unknown,Unknown,321.52,Manufacturing/Industrial Plant,False,27624.0
+cluster_1890,1890,Unknown,1883,Unknown,Unknown,360.86,Manufacturing/Industrial Plant,False,185355.0
+cluster_1890,1890,Unknown,1886,Unknown,Unknown,378.26,Self-Storage Facility,False,26500.0
+cluster_1985,1985,Unknown,1986,Unknown,Unknown,96.12,Distribution Center,False,38236.0
+cluster_1985,1985,Unknown,5733,Unknown,Unknown,196.8,K-12 School,False,50167.0
+cluster_1985,1985,Unknown,1989,Unknown,Unknown,242.56,Wholesale Club/Supercenter,False,68642.0
+cluster_1985,1985,Unknown,1935,Unknown,Unknown,423.43,Distribution Center,False,108000.0
+cluster_1985,1985,Unknown,5270,Unknown,Unknown,459.51,Multifamily Housing,False,37620.0
+cluster_1985,1985,Unknown,1928,Unknown,Unknown,460.48,Supermarket/Grocery Store,False,33008.0
+cluster_3586,3586,Unknown,3582,Unknown,Unknown,141.46,Distribution Center,False,35903.0
+cluster_3586,3586,Unknown,3632,Unknown,Unknown,245.47,Multifamily Housing,False,25592.0
+cluster_3586,3586,Unknown,3589,Unknown,Unknown,259.79,Distribution Center,False,43943.0
+cluster_3586,3586,Unknown,5545,Unknown,Unknown,304.28,Distribution Center,False,40668.0
+cluster_3586,3586,Unknown,5140,Unknown,Unknown,428.17,Multifamily Housing,False,96000.0
+cluster_3586,3586,Unknown,3585,Unknown,Unknown,445.16,Non-Refrigerated Warehouse,False,28863.0
+cluster_3586,3586,Unknown,3575,Unknown,Unknown,492.34,Multifamily Housing,False,50324.0
+cluster_3586,3586,Unknown,3587,Unknown,Unknown,495.7,Non-Refrigerated Warehouse,False,46000.0
+cluster_3633,3633,Unknown,3635,Unknown,Unknown,178.88,Distribution Center,False,49720.0
+cluster_3633,3633,Unknown,3634,Unknown,Unknown,229.86,Manufacturing/Industrial Plant,False,28304.0
+cluster_3633,3633,Unknown,3660,Unknown,Unknown,268.62,Vehicle Dealership,False,42500.0
+cluster_3633,3633,Unknown,3636,Unknown,Unknown,293.26,Manufacturing/Industrial Plant,False,95063.0
+cluster_3633,3633,Unknown,3637,Unknown,Unknown,433.75,Office,False,27690.0
+cluster_3633,3633,Unknown,3655,Unknown,Unknown,468.85,Retail Store,False,128794.0
+cluster_4514,4514,Unknown,4512,Unknown,Unknown,82.89,Non-Refrigerated Warehouse,False,40102.0
+cluster_4514,4514,Unknown,4513,Unknown,Unknown,191.64,Non-Refrigerated Warehouse,False,42373.0
+cluster_4514,4514,Unknown,4515,Unknown,Unknown,213.06,Distribution Center,False,52000.0
+cluster_4514,4514,Unknown,4507,Unknown,Unknown,226.07,Mixed Use Property,False,113724.0
+cluster_4514,4514,Unknown,4511,Unknown,Unknown,394.96,Strip Mall,False,140990.0
+cluster_2029,2029,Unknown,2030,Unknown,Unknown,106.51,Prison/Incarceration,False,33070.0
+cluster_2029,2029,Unknown,2007,Unknown,Unknown,116.14,Distribution Center,False,151000.0
+cluster_2029,2029,Unknown,2027,Unknown,Unknown,359.9,Residence Hall/Dormitory,False,137500.0
+cluster_2029,2029,Unknown,2032,Unknown,Unknown,462.6,Distribution Center,False,45154.0
+cluster_2029,2029,Unknown,2021,Unknown,Unknown,476.12,College/University,False,33280.0
+cluster_1459,1459,Unknown,2047,Unknown,Unknown,94.72,Manufacturing/Industrial Plant,False,462285.0
+cluster_1459,1459,Unknown,2051,Unknown,Unknown,187.0,Non-Refrigerated Warehouse,False,31952.0
+cluster_1459,1459,Unknown,2103,Unknown,Unknown,411.56,Distribution Center,False,58341.0
+cluster_2071,2071,Unknown,2123,Unknown,Unknown,161.41,K-12 School,False,66652.0
+cluster_2071,2071,Unknown,2074,Unknown,Unknown,342.11,Mixed Use Property,False,33239.0
+cluster_2071,2071,Unknown,2097,Unknown,Unknown,448.19,Manufacturing/Industrial Plant,False,127371.0
+cluster_6455,6455,Unknown,6456,Unknown,Unknown,66.42,Mixed Use Property,False,30979.0
+cluster_6455,6455,Unknown,3811,Unknown,Unknown,72.25,Distribution Center,False,52192.0
+cluster_6455,6455,Unknown,6457,Unknown,Unknown,94.97,Distribution Center,False,39338.0
+cluster_6455,6455,Unknown,6454,Unknown,Unknown,109.06,Distribution Center,False,33196.0
+cluster_6455,6455,Unknown,3809,Unknown,Unknown,265.71,"Repair Services (Vehicle, Shoe, Locksmith, etc.)",False,93417.0
+cluster_6455,6455,Unknown,3823,Unknown,Unknown,387.86,Manufacturing/Industrial Plant,False,63000.0
+cluster_3804,3804,Unknown,6262,Unknown,Unknown,187.65,Multifamily Housing,False,102308.0
+cluster_3804,3804,Unknown,6305,Unknown,Unknown,192.71,Multifamily Housing,False,290052.0
+cluster_3804,3804,Unknown,6415,Unknown,Unknown,329.53,Multifamily Housing,False,165070.0
+cluster_3804,3804,Unknown,3672,Unknown,Unknown,417.17,Manufacturing/Industrial Plant,False,55778.0
+cluster_3804,3804,Unknown,5882,Unknown,Unknown,478.78,Multifamily Housing,False,37084.0
+cluster_2257,2257,Unknown,2259,Unknown,Unknown,157.19,K-12 School,False,64800.0
+cluster_2257,2257,Unknown,5848,Unknown,Unknown,216.24,Multifamily Housing,False,36454.0
+cluster_2257,2257,Unknown,2261,Unknown,Unknown,386.14,Multifamily Housing,False,35977.0
+cluster_2257,2257,Unknown,2004,Unknown,Unknown,477.39,Office,False,44181.0
+cluster_1704,1704,Unknown,5992,Unknown,Unknown,157.21,Distribution Center,False,36089.0
+cluster_1704,1704,Unknown,1698,Unknown,Unknown,295.93,K-12 School,False,110450.0
+cluster_1704,1704,Unknown,5838,Unknown,Unknown,397.06,Multifamily Housing,False,46353.0
+cluster_1704,1704,Unknown,1706,Unknown,Unknown,434.89,Multifamily Housing,False,50363.0
+cluster_1539,1539,Unknown,1543,Unknown,Unknown,50.49,Distribution Center,False,124800.0
+cluster_1539,1539,Unknown,1540,Unknown,Unknown,56.44,Manufacturing/Industrial Plant,False,44596.0
+cluster_1539,1539,Unknown,1549,Unknown,Unknown,137.47,Distribution Center,False,46130.0
+cluster_1539,1539,Unknown,1538,Unknown,Unknown,332.51,Manufacturing/Industrial Plant,False,64664.0
+cluster_1539,1539,Unknown,1542,Unknown,Unknown,447.26,Office,False,40000.0
+cluster_2105,2105,Unknown,2110,Unknown,Unknown,124.66,Manufacturing/Industrial Plant,False,34000.0
+cluster_2105,2105,Unknown,2091,Unknown,Unknown,349.58,Non-Refrigerated Warehouse,False,27000.0
+cluster_2105,2105,Unknown,2098,Unknown,Unknown,461.93,K-12 School,False,151620.0
+cluster_2105,2105,Unknown,2090,Unknown,Unknown,481.55,Manufacturing/Industrial Plant,False,78110.0
+cluster_2082,2082,Unknown,2081,Unknown,Unknown,192.43,Non-Refrigerated Warehouse,False,51152.0
+cluster_2082,2082,Unknown,1851,Unknown,Unknown,193.54,"Repair Services (Vehicle, Shoe, Locksmith, etc.)",False,30046.0
+cluster_2082,2082,Unknown,1850,Unknown,Unknown,273.69,Vehicle Dealership,False,42920.0
+cluster_2082,2082,Unknown,2080,Unknown,Unknown,347.06,Non-Refrigerated Warehouse,False,120576.0
+cluster_2082,2082,Unknown,1853,Unknown,Unknown,357.65,Non-Refrigerated Warehouse,False,28581.0
+cluster_2082,2082,Unknown,2088,Unknown,Unknown,480.78,Manufacturing/Industrial Plant,False,66260.0
+cluster_1178,1178,Unknown,1176,Unknown,Unknown,0.0,Non-Refrigerated Warehouse,False,104048.0
+cluster_1178,1178,Unknown,1179,Unknown,Unknown,159.34,Non-Refrigerated Warehouse,False,65737.0
+cluster_1178,1178,Unknown,6136,Unknown,Unknown,196.87,Non-Refrigerated Warehouse,False,209078.0
+cluster_1178,1178,Unknown,1180,Unknown,Unknown,206.99,Non-Refrigerated Warehouse,False,86055.0
+cluster_3851,3851,Unknown,3852,Unknown,Unknown,176.32,K-12 School,False,95623.0
+cluster_3851,3851,Unknown,3846,Unknown,Unknown,264.46,Office,False,26367.0
+cluster_3851,3851,Unknown,3849,Unknown,Unknown,361.24,Supermarket/Grocery Store,False,61249.0
+cluster_3851,3851,Unknown,3855,Unknown,Unknown,421.41,Retail Store,False,100343.0
+cluster_3819,3819,Unknown,3824,Unknown,Unknown,245.95,Distribution Center,False,37500.0
+cluster_3819,3819,Unknown,3821,Unknown,Unknown,295.57,Manufacturing/Industrial Plant,False,26474.0
+cluster_3819,3819,Unknown,3807,Unknown,Unknown,395.53,Multifamily Housing,False,55650.0

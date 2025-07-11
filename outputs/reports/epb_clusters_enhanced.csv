@@ -1,0 +1,26 @@
+cluster_id,anchor_building_id,anchor_building_name,anchor_building_address,anchor_property_type,member_count,total_buildings,total_sqft,total_thermal_load_mmbtu,total_cooling_load_tons,avg_distance_m,max_distance_m,epb_count,epb_percentage,total_penalty_exposure,property_type_diversity,opt_in_count,thermal_diversity_score,economic_potential_score,epb_density,penalty_per_epb,epb_opportunity_score
+cluster_3172,3172,Unknown,Unknown,Manufacturing/Industrial Plant,13,14,1633806.0,0.0,4085.0,324.37,487.07,7,50.0,15257023.0,6,11,0,75.0,0.5,2179574.7,54.6
+cluster_1489,1489,Unknown,Unknown,Manufacturing/Industrial Plant,21,22,1395017.0,0.0,3488.0,285.2,482.67,3,13.64,51604957.0,9,16,0,60.45,0.14,17201652.34,43.22
+cluster_2210,2210,Unknown,Unknown,Manufacturing/Industrial Plant,17,18,1197751.0,0.0,2994.0,295.88,487.97,2,11.11,7969860.0,11,10,0,59.44,0.11,3984930.2,42.21
+cluster_3022,3022,Unknown,Unknown,College/University,46,47,5192264.0,0.0,12981.0,335.4,493.79,4,8.51,32630824.0,13,26,0,58.4,0.09,8157705.98,42.08
+cluster_3197,3197,Unknown,Unknown,Manufacturing/Industrial Plant,5,6,462198.0,0.0,1155.0,336.88,493.76,4,66.67,1773471.0,4,3,0,58.0,0.67,443367.86,41.8
+cluster_3653,3653,Unknown,Unknown,Manufacturing/Industrial Plant,10,11,1800689.0,0.0,4502.0,319.19,492.93,1,9.09,5171625.0,8,7,0,58.64,0.09,5171624.69,41.35
+cluster_3765,3765,Unknown,Unknown,College/University,11,12,1438218.0,0.0,3596.0,288.01,452.01,2,16.67,7343025.0,3,6,0,57.67,0.17,3671512.69,40.97
+cluster_1848,1848,Unknown,Unknown,Manufacturing/Industrial Plant,6,7,735626.0,0.0,1839.0,287.04,354.93,2,28.57,10522531.0,6,5,0,57.43,0.29,5261265.65,40.8
+cluster_1485,1485,Unknown,Unknown,Manufacturing/Industrial Plant,10,11,520425.0,0.0,1301.0,238.59,490.95,2,18.18,10085527.0,7,9,0,57.27,0.18,5042763.36,40.69
+cluster_3250,3250,Unknown,Unknown,Manufacturing/Industrial Plant,16,17,1161780.0,0.0,2904.0,343.88,475.4,1,5.88,33707672.0,5,11,0,57.35,0.06,33707671.75,40.45
+cluster_1900,1900,Unknown,Unknown,Manufacturing/Industrial Plant,16,17,1776013.0,0.0,4440.0,305.12,441.42,1,5.88,12773940.0,7,12,0,57.35,0.06,12773939.79,40.45
+cluster_3274,3274,Unknown,Unknown,Manufacturing/Industrial Plant,19,20,1614297.0,0.0,4036.0,325.88,486.15,1,5.0,31125995.0,10,16,0,57.0,0.05,31125995.2,40.2
+cluster_2604,2604,Unknown,Unknown,Data Center,92,93,31420341.0,0.0,78551.0,299.72,497.38,2,2.15,326665564.0,12,56,0,55.86,0.02,163332782.21,39.7
+cluster_1212,1212,Unknown,Unknown,Manufacturing/Industrial Plant,38,39,2750902.0,0.0,6877.0,335.38,482.21,1,2.56,59666966.0,9,33,0,56.03,0.03,59666965.64,39.52
+cluster_3322,3322,Unknown,Unknown,Manufacturing/Industrial Plant,9,10,977639.0,0.0,2444.0,269.01,496.74,1,10.0,32892073.0,6,8,0,53.0,0.1,32892072.81,37.4
+cluster_1821,1821,Unknown,Unknown,College/University,4,5,1331086.0,0.0,3328.0,254.33,494.36,1,20.0,8254511.0,3,3,0,53.0,0.2,8254510.64,37.4
+cluster_1875,1875,Unknown,Unknown,Manufacturing/Industrial Plant,9,10,513538.0,0.0,1284.0,260.32,415.13,1,10.0,19581593.0,6,5,0,53.0,0.1,19581592.78,37.4
+cluster_3311,3311,Unknown,Unknown,Manufacturing/Industrial Plant,6,7,562199.0,0.0,1405.0,277.59,449.54,1,14.29,13010219.0,5,4,0,51.71,0.14,13010219.3,36.5
+cluster_1433,1433,Unknown,Unknown,Manufacturing/Industrial Plant,11,12,626308.0,0.0,1566.0,279.33,431.51,1,8.33,7645040.0,4,11,0,51.33,0.08,7645040.25,36.23
+cluster_3277,3277,Unknown,Unknown,Manufacturing/Industrial Plant,9,10,325360.0,0.0,813.0,256.99,354.84,1,10.0,13242312.0,6,7,0,48.0,0.1,13242311.53,33.9
+cluster_3565,3565,Unknown,Unknown,Manufacturing/Industrial Plant,7,8,359677.0,0.0,899.0,316.58,481.8,1,12.5,4944327.0,6,6,0,47.0,0.12,4944327.07,33.2
+cluster_2109,2109,Unknown,Unknown,Manufacturing/Industrial Plant,6,7,400119.0,0.0,1000.0,344.27,496.31,1,14.29,1909813.0,7,7,0,46.71,0.14,1909812.8,33.0
+cluster_1610,1610,Unknown,Unknown,Manufacturing/Industrial Plant,3,4,343523.0,0.0,859.0,181.23,295.19,1,25.0,12596633.0,4,4,0,46.0,0.25,12596632.93,32.5
+cluster_3338,3338,Unknown,Unknown,Manufacturing/Industrial Plant,6,7,452700.0,0.0,1132.0,311.85,409.37,1,14.29,2701111.0,4,6,0,44.71,0.14,2701110.74,31.6
+cluster_6114,6114,Unknown,Unknown,Manufacturing/Industrial Plant,3,4,376897.0,0.0,942.0,431.3,471.71,1,25.0,2870004.0,3,3,0,44.0,0.25,2870004.04,31.1

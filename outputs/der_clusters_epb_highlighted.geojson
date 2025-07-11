@@ -1,0 +1,3729 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.871232670206,
+          39.707346167279
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_4141",
+        "anchor_building": "4141",
+        "member_count": 24,
+        "total_sqft": 1580369.0,
+        "economic_score": 90.0,
+        "epb_percentage": 72.0,
+        "total_penalty": 11037509.227500001
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.941355169258,
+          39.671393208984
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_3740",
+        "anchor_building": "3740",
+        "member_count": 10,
+        "total_sqft": 1075514.0,
+        "economic_score": 88.18181818181819,
+        "epb_percentage": 45.45454545454545,
+        "total_penalty": 7242141.42
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0218644151335,
+          39.73510093871738
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_3213",
+        "anchor_building": "3213",
+        "member_count": 10,
+        "total_sqft": 988574.0,
+        "economic_score": 83.18181818181819,
+        "epb_percentage": 45.45454545454545,
+        "total_penalty": 3504214.1936999997
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.969666304518,
+          39.762609982753
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_2134",
+        "anchor_building": "2134",
+        "member_count": 8,
+        "total_sqft": 509063.0,
+        "economic_score": 80.77777777777777,
+        "epb_percentage": 44.44444444444444,
+        "total_penalty": 4455738.211199999
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.983166784506,
+          39.746655407244
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_2666",
+        "anchor_building": "2666",
+        "member_count": 30,
+        "total_sqft": 5058755.0,
+        "economic_score": 80.32258064516128,
+        "epb_percentage": 25.806451612903224,
+        "total_penalty": 8761163.084999999
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.930582914935,
+          39.731719232971
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_3989",
+        "anchor_building": "3989",
+        "member_count": 8,
+        "total_sqft": 1659851.0,
+        "economic_score": 79.33333333333333,
+        "epb_percentage": 33.33333333333333,
+        "total_penalty": 18543262.993800003
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.003762126436,
+          39.729728991971
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_3197",
+        "anchor_building": "3197",
+        "member_count": 8,
+        "total_sqft": 736143.0,
+        "economic_score": 79.0,
+        "epb_percentage": 77.77777777777779,
+        "total_penalty": 2451356.745
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.005846873394,
+          39.739376939712
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_6011",
+        "anchor_building": "6011",
+        "member_count": 6,
+        "total_sqft": 695512.0,
+        "economic_score": 78.14285714285714,
+        "epb_percentage": 42.857142857142854,
+        "total_penalty": 7465872.3324
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0413516431448,
+          39.7408851
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_2356",
+        "anchor_building": "2356",
+        "member_count": 11,
+        "total_sqft": 1759439.0,
+        "economic_score": 78.0,
+        "epb_percentage": 25.0,
+        "total_penalty": 4689393.288
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.974606011517,
+          39.746934524619
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_5613",
+        "anchor_building": "5613",
+        "member_count": 25,
+        "total_sqft": 2948493.0,
+        "economic_score": 77.6923076923077,
+        "epb_percentage": 19.230769230769234,
+        "total_penalty": 10439426.351400005
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.95302177265,
+          39.742127293601
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_2801",
+        "anchor_building": "2801",
+        "member_count": 15,
+        "total_sqft": 1875819.0,
+        "economic_score": 77.5,
+        "epb_percentage": 18.75,
+        "total_penalty": 13540583.0529
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.958933528959,
+          39.681224762314
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_3726",
+        "anchor_building": "3726",
+        "member_count": 16,
+        "total_sqft": 2061152.0,
+        "economic_score": 77.05882352941177,
+        "epb_percentage": 17.647058823529413,
+        "total_penalty": 8112558.864
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9805631025671,
+          39.734794
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_3006",
+        "anchor_building": "3006",
+        "member_count": 33,
+        "total_sqft": 2505714.0,
+        "economic_score": 77.05882352941177,
+        "epb_percentage": 17.647058823529413,
+        "total_penalty": 17604966.4689
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.986768320662,
+          39.697662889817
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_5643",
+        "anchor_building": "5643",
+        "member_count": 9,
+        "total_sqft": 1965107.0,
+        "economic_score": 77.0,
+        "epb_percentage": 20.0,
+        "total_penalty": 2061176.0849999997
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.969109162438,
+          39.736204
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_2943",
+        "anchor_building": "2943",
+        "member_count": 18,
+        "total_sqft": 1143926.0,
+        "economic_score": 76.42105263157895,
+        "epb_percentage": 21.052631578947366,
+        "total_penalty": 4022428.6944
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9953005178316,
+          39.73375498975722
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_3056",
+        "anchor_building": "3056",
+        "member_count": 12,
+        "total_sqft": 1634796.0,
+        "economic_score": 76.15384615384616,
+        "epb_percentage": 15.384615384615385,
+        "total_penalty": 4498938.209999999
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.024353109777,
+          39.694493021674
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_3612",
+        "anchor_building": "3612",
+        "member_count": 9,
+        "total_sqft": 540484.0,
+        "economic_score": 76.0,
+        "epb_percentage": 30.0,
+        "total_penalty": 3102913.272
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.898031123401,
+          39.654127200904
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_4630",
+        "anchor_building": "4630",
+        "member_count": 13,
+        "total_sqft": 1914130.0,
+        "economic_score": 75.71428571428572,
+        "epb_percentage": 14.285714285714285,
+        "total_penalty": 12609649.9209
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.980169499749,
+          39.742487002976
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_6383",
+        "anchor_building": "6383",
+        "member_count": 13,
+        "total_sqft": 1117651.0,
+        "economic_score": 75.71428571428572,
+        "epb_percentage": 14.285714285714285,
+        "total_penalty": 4068988.4291999997
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.913105054252,
+          39.770619603698
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_1489",
+        "anchor_building": "1489",
+        "member_count": 21,
+        "total_sqft": 1395017.0,
+        "economic_score": 75.45454545454545,
+        "epb_percentage": 13.636363636363635,
+        "total_penalty": 51604957.017
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.919450909327,
+          39.675195743179
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_4533",
+        "anchor_building": "4533",
+        "member_count": 11,
+        "total_sqft": 992389.0,
+        "economic_score": 75.0,
+        "epb_percentage": 25.0,
+        "total_penalty": 9808515.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9945747343815,
+          39.75176605
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_2385",
+        "anchor_building": "2385",
+        "member_count": 35,
+        "total_sqft": 6580956.0,
+        "economic_score": 74.44444444444444,
+        "epb_percentage": 11.11111111111111,
+        "total_penalty": 16913672.732699998
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9887710151006,
+          39.75834835000001
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_2221",
+        "anchor_building": "2221",
+        "member_count": 26,
+        "total_sqft": 4164789.0,
+        "economic_score": 74.44444444444444,
+        "epb_percentage": 11.11111111111111,
+        "total_penalty": 5938596.3837
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.979239527592,
+          39.754798132812
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_2210",
+        "anchor_building": "2210",
+        "member_count": 17,
+        "total_sqft": 1197751.0,
+        "economic_score": 74.44444444444444,
+        "epb_percentage": 11.11111111111111,
+        "total_penalty": 7969860.4077
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.963060610445,
+          39.734911313157
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_2924",
+        "anchor_building": "2924",
+        "member_count": 31,
+        "total_sqft": 2282634.0,
+        "economic_score": 74.25,
+        "epb_percentage": 15.625,
+        "total_penalty": 20788328.605499998
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.97448685,
+          39.7293147
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_2976",
+        "anchor_building": "2976",
+        "member_count": 25,
+        "total_sqft": 1733588.0,
+        "economic_score": 74.15384615384616,
+        "epb_percentage": 15.384615384615385,
+        "total_penalty": 8337178.327199998
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9409604893939,
+          39.7312801
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_2894",
+        "anchor_building": "2894",
+        "member_count": 19,
+        "total_sqft": 2575147.0,
+        "economic_score": 74.0,
+        "epb_percentage": 10.0,
+        "total_penalty": 8822920.3008
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0189794955464,
+          39.74939919008031
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_3254",
+        "anchor_building": "3254",
+        "member_count": 11,
+        "total_sqft": 1726215.0,
+        "economic_score": 73.33333333333334,
+        "epb_percentage": 8.333333333333332,
+        "total_penalty": 15089807.79
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.948220786149,
+          39.715694584751
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_3484",
+        "anchor_building": "3484",
+        "member_count": 37,
+        "total_sqft": 4233268.0,
+        "economic_score": 73.15789473684211,
+        "epb_percentage": 7.894736842105263,
+        "total_penalty": 20800913.3664
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.943389038063,
+          39.681331002936
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_3715",
+        "anchor_building": "3715",
+        "member_count": 12,
+        "total_sqft": 1873800.0,
+        "economic_score": 73.07692307692308,
+        "epb_percentage": 7.6923076923076925,
+        "total_penalty": 5914233.0606
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.025684156001,
+          39.666961864413
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_3883",
+        "anchor_building": "3883",
+        "member_count": 7,
+        "total_sqft": 453974.0,
+        "economic_score": 73.0,
+        "epb_percentage": 50.0,
+        "total_penalty": 5470278.7572
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.988500021858,
+          39.736076984432
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_5154",
+        "anchor_building": "5154",
+        "member_count": 39,
+        "total_sqft": 5219350.0,
+        "economic_score": 73.0,
+        "epb_percentage": 7.5,
+        "total_penalty": 31453185.8022
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.871065367419,
+          39.671254404667
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_4498",
+        "anchor_building": "4498",
+        "member_count": 7,
+        "total_sqft": 1904147.0,
+        "economic_score": 73.0,
+        "epb_percentage": 25.0,
+        "total_penalty": 9344337.5079
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.934685018349,
+          39.681790163592
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_4575",
+        "anchor_building": "4575",
+        "member_count": 14,
+        "total_sqft": 1861931.0,
+        "economic_score": 72.66666666666666,
+        "epb_percentage": 6.666666666666667,
+        "total_penalty": 3536394.0624
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.95915,
+          39.783887
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_1848",
+        "anchor_building": "1848",
+        "member_count": 6,
+        "total_sqft": 735626.0,
+        "economic_score": 72.42857142857143,
+        "epb_percentage": 28.57142857142857,
+        "total_penalty": 10522531.307400001
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.016684841838,
+          39.72627506113
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_3250",
+        "anchor_building": "3250",
+        "member_count": 16,
+        "total_sqft": 1161780.0,
+        "economic_score": 72.35294117647058,
+        "epb_percentage": 5.88235294117647,
+        "total_penalty": 33707671.749
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.99323435,
+          39.7864682
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_1900",
+        "anchor_building": "1900",
+        "member_count": 16,
+        "total_sqft": 1776013.0,
+        "economic_score": 72.35294117647058,
+        "epb_percentage": 5.88235294117647,
+        "total_penalty": 12773939.794200001
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9417751287533,
+          39.7100547
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_3503",
+        "anchor_building": "3503",
+        "member_count": 16,
+        "total_sqft": 2574475.0,
+        "economic_score": 72.35294117647058,
+        "epb_percentage": 5.88235294117647,
+        "total_penalty": 8125895.283599998
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.988892797841,
+          39.744060956754
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_2637",
+        "anchor_building": "2637",
+        "member_count": 86,
+        "total_sqft": 27875625.0,
+        "economic_score": 72.29885057471265,
+        "epb_percentage": 5.747126436781609,
+        "total_penalty": 108992434.8915
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.921525095087,
+          39.770563612585
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_1485",
+        "anchor_building": "1485",
+        "member_count": 10,
+        "total_sqft": 520425.0,
+        "economic_score": 72.27272727272728,
+        "epb_percentage": 18.181818181818183,
+        "total_penalty": 10085526.7218
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9893550916571,
+          39.72977135
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_3090",
+        "anchor_building": "3090",
+        "member_count": 35,
+        "total_sqft": 6601773.0,
+        "economic_score": 72.22222222222223,
+        "epb_percentage": 5.555555555555555,
+        "total_penalty": 16488149.635200005
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.051364211855,
+          39.654797124516
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_3868",
+        "anchor_building": "3868",
+        "member_count": 7,
+        "total_sqft": 1067204.0,
+        "economic_score": 72.0,
+        "epb_percentage": 12.5,
+        "total_penalty": 5128230.549599999
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.006031778178,
+          39.724209424911
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_3274",
+        "anchor_building": "3274",
+        "member_count": 19,
+        "total_sqft": 1614297.0,
+        "economic_score": 72.0,
+        "epb_percentage": 5.0,
+        "total_penalty": 31125995.196
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0214913420093,
+          39.75664185
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_2316",
+        "anchor_building": "2316",
+        "member_count": 19,
+        "total_sqft": 1938829.0,
+        "economic_score": 72.0,
+        "epb_percentage": 5.0,
+        "total_penalty": 5361502.054500001
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.927450010985,
+          39.707408989643
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_4375",
+        "anchor_building": "4375",
+        "member_count": 8,
+        "total_sqft": 865623.0,
+        "economic_score": 71.88888888888889,
+        "epb_percentage": 22.22222222222222,
+        "total_penalty": 6264395.080800001
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9871654974903,
+          39.7633413
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_2173",
+        "anchor_building": "2173",
+        "member_count": 23,
+        "total_sqft": 3344274.0,
+        "economic_score": 71.66666666666667,
+        "epb_percentage": 4.166666666666666,
+        "total_penalty": 7880163.731399997
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.895459974602,
+          39.721117005554
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_4039",
+        "anchor_building": "4039",
+        "member_count": 23,
+        "total_sqft": 3043581.0,
+        "economic_score": 71.66666666666667,
+        "epb_percentage": 4.166666666666666,
+        "total_penalty": 6659249.3078999985
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.908848891458,
+          39.699049843335
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_4348",
+        "anchor_building": "4348",
+        "member_count": 11,
+        "total_sqft": 885950.0,
+        "economic_score": 71.66666666666666,
+        "epb_percentage": 16.666666666666664,
+        "total_penalty": 11237990.8386
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0192228123684,
+          39.743952
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_2378",
+        "anchor_building": "2378",
+        "member_count": 5,
+        "total_sqft": 2035125.0,
+        "economic_score": 71.66666666666666,
+        "epb_percentage": 16.666666666666664,
+        "total_penalty": 8045289.843000001
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.003199449276,
+          39.752276018147
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_2465",
+        "anchor_building": "2465",
+        "member_count": 50,
+        "total_sqft": 6423505.0,
+        "economic_score": 71.56862745098039,
+        "epb_percentage": 3.9215686274509802,
+        "total_penalty": 23297371.6173
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.933477102282,
+          39.698914517508
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_4388",
+        "anchor_building": "4388",
+        "member_count": 10,
+        "total_sqft": 1086653.0,
+        "economic_score": 71.27272727272728,
+        "epb_percentage": 18.181818181818183,
+        "total_penalty": 6288862.3041
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.980014791709,
+          39.7190585
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_3361",
+        "anchor_building": "3361",
+        "member_count": 16,
+        "total_sqft": 1706513.0,
+        "economic_score": 71.05882352941177,
+        "epb_percentage": 17.647058823529413,
+        "total_penalty": 9501185.9607
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.861819038569,
+          39.787363293482
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_1212",
+        "anchor_building": "1212",
+        "member_count": 38,
+        "total_sqft": 2750902.0,
+        "economic_score": 71.02564102564102,
+        "epb_percentage": 2.564102564102564,
+        "total_penalty": 59666965.6389
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.037816865042,
+          39.7555193
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_2344",
+        "anchor_building": "2344",
+        "member_count": 4,
+        "total_sqft": 656660.0,
+        "economic_score": 71.0,
+        "epb_percentage": 40.0,
+        "total_penalty": 8021954.8941
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.010180470721,
+          39.75871605
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_2278",
+        "anchor_building": "2278",
+        "member_count": 40,
+        "total_sqft": 3804722.0,
+        "economic_score": 70.97560975609755,
+        "epb_percentage": 2.4390243902439024,
+        "total_penalty": 6005804.0604
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.001063572709,
+          39.756651539242
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_5647",
+        "anchor_building": "5647",
+        "member_count": 48,
+        "total_sqft": 12329142.0,
+        "economic_score": 70.81632653061224,
+        "epb_percentage": 2.0408163265306123,
+        "total_penalty": 30580490.7249
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.996804057153,
+          39.746328722567
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_5678",
+        "anchor_building": "5678",
+        "member_count": 50,
+        "total_sqft": 17542546.0,
+        "economic_score": 70.3921568627451,
+        "epb_percentage": 0.0,
+        "total_penalty": 271231045.4163
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.965054581391,
+          39.678286444246
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_3757",
+        "anchor_building": "3757",
+        "member_count": 25,
+        "total_sqft": 2169194.0,
+        "economic_score": 70.38461538461539,
+        "epb_percentage": 0.0,
+        "total_penalty": 10478788.9983
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.848017564438,
+          39.776393351972
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_1662",
+        "anchor_building": "1662",
+        "member_count": 15,
+        "total_sqft": 1650011.0,
+        "economic_score": 70.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 2874382.9551
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.85925652313,
+          39.795131515616
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_1198",
+        "anchor_building": "1198",
+        "member_count": 17,
+        "total_sqft": 1777203.0,
+        "economic_score": 70.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 14645830.215
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.876973854786,
+          39.770970637803
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_6420",
+        "anchor_building": "6420",
+        "member_count": 10,
+        "total_sqft": 1901821.0,
+        "economic_score": 70.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 14757969.205500001
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.913517946803,
+          39.776802933671
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_1471",
+        "anchor_building": "1471",
+        "member_count": 16,
+        "total_sqft": 1529712.0,
+        "economic_score": 70.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 15834601.5336
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.955640363021,
+          39.716663951854
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_5340",
+        "anchor_building": "5340",
+        "member_count": 28,
+        "total_sqft": 2976885.0,
+        "economic_score": 70.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 20758223.2293
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.993130520449,
+          39.710069782897
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_3542",
+        "anchor_building": "3542",
+        "member_count": 11,
+        "total_sqft": 1840845.0,
+        "economic_score": 70.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 15983869.455
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.899830382736,
+          39.759299130998
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_5890",
+        "anchor_building": "5890",
+        "member_count": 11,
+        "total_sqft": 1972854.0,
+        "economic_score": 70.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 60321324.6162
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.856826944676,
+          39.784198747847
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_1204",
+        "anchor_building": "1204",
+        "member_count": 24,
+        "total_sqft": 2011163.0,
+        "economic_score": 70.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 41992835.0901
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9705742743056,
+          39.77911375
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_2053",
+        "anchor_building": "2053",
+        "member_count": 9,
+        "total_sqft": 1576583.0,
+        "economic_score": 70.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 62115343.2573
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.975022675924,
+          39.771555778464
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_2151",
+        "anchor_building": "2151",
+        "member_count": 20,
+        "total_sqft": 2948437.0,
+        "economic_score": 70.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 30788349.472499996
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.897644969121,
+          39.633451518432
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_4872",
+        "anchor_building": "4872",
+        "member_count": 16,
+        "total_sqft": 4428190.0,
+        "economic_score": 70.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 6325183.456799999
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9810274300153,
+          39.7674664
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_2189",
+        "anchor_building": "2189",
+        "member_count": 17,
+        "total_sqft": 1888300.0,
+        "economic_score": 70.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 1180786.8065999998
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.938623590832,
+          39.784330301818
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_1313",
+        "anchor_building": "1313",
+        "member_count": 27,
+        "total_sqft": 2544539.0,
+        "economic_score": 70.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 49673155.038
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.858098395568,
+          39.779358240673
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_1617",
+        "anchor_building": "1617",
+        "member_count": 12,
+        "total_sqft": 1896191.0,
+        "economic_score": 70.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 48878654.8035
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.8955074487309,
+          39.78351085
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_1554",
+        "anchor_building": "1554",
+        "member_count": 11,
+        "total_sqft": 1066052.0,
+        "economic_score": 70.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 2763879.5999999996
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9820691994659,
+          39.73011205
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_3123",
+        "anchor_building": "3123",
+        "member_count": 11,
+        "total_sqft": 866542.0,
+        "economic_score": 69.0,
+        "epb_percentage": 25.0,
+        "total_penalty": 5649786.8091
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.988506140648,
+          39.689533198108
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_3653",
+        "anchor_building": "3653",
+        "member_count": 9,
+        "total_sqft": 1764128.0,
+        "economic_score": 69.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 5171624.692800001
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.984072365325,
+          39.725184198341
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_5625",
+        "anchor_building": "5625",
+        "member_count": 10,
+        "total_sqft": 972316.0,
+        "economic_score": 68.63636363636364,
+        "epb_percentage": 9.090909090909092,
+        "total_penalty": 2155641.5796
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.910171555779,
+          39.628308340734
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_4833",
+        "anchor_building": "4833",
+        "member_count": 15,
+        "total_sqft": 3182494.0,
+        "economic_score": 68.5,
+        "epb_percentage": 6.25,
+        "total_penalty": 7450979.752800001
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0283682807386,
+          39.73910124022726
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_3207",
+        "anchor_building": "3207",
+        "member_count": 8,
+        "total_sqft": 1478904.0,
+        "economic_score": 68.44444444444444,
+        "epb_percentage": 11.11111111111111,
+        "total_penalty": 3920887.4585999995
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.960163992345,
+          39.74402579467
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_5617",
+        "anchor_building": "5617",
+        "member_count": 12,
+        "total_sqft": 776892.0,
+        "economic_score": 68.07692307692308,
+        "epb_percentage": 7.6923076923076925,
+        "total_penalty": 1755473.2949999992
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.907452634027,
+          39.637829135003
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_5582",
+        "anchor_building": "5582",
+        "member_count": 12,
+        "total_sqft": 1883784.0,
+        "economic_score": 68.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 4082395.8599999994
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.895960541859,
+          39.624823522579
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_5637",
+        "anchor_building": "5637",
+        "member_count": 12,
+        "total_sqft": 1947449.0,
+        "economic_score": 68.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 5436096.6636
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0458452528267,
+          39.730756
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_3235",
+        "anchor_building": "3235",
+        "member_count": 4,
+        "total_sqft": 323077.0,
+        "economic_score": 68.0,
+        "epb_percentage": 60.0,
+        "total_penalty": 1027293.8783999998
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.935509965259,
+          39.667136752823
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_4604",
+        "anchor_building": "4604",
+        "member_count": 9,
+        "total_sqft": 722239.0,
+        "economic_score": 68.0,
+        "epb_percentage": 10.0,
+        "total_penalty": 3489996.0438
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.938513536443,
+          39.693934032551
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_4423",
+        "anchor_building": "4423",
+        "member_count": 11,
+        "total_sqft": 1444593.0,
+        "economic_score": 68.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 7685502.5145000005
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9930872424187,
+          39.73993397814783
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_2654",
+        "anchor_building": "2654",
+        "member_count": 8,
+        "total_sqft": 1253662.0,
+        "economic_score": 68.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 6620781.975
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.851752121398,
+          39.797121966163
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_1153",
+        "anchor_building": "1153",
+        "member_count": 13,
+        "total_sqft": 1774513.0,
+        "economic_score": 68.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 21241105.605
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0141588201646,
+          39.71580740350688
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_3322",
+        "anchor_building": "3322",
+        "member_count": 9,
+        "total_sqft": 977639.0,
+        "economic_score": 68.0,
+        "epb_percentage": 10.0,
+        "total_penalty": 32892072.806399997
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.976102097414,
+          39.788383664465
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_1875",
+        "anchor_building": "1875",
+        "member_count": 9,
+        "total_sqft": 513538.0,
+        "economic_score": 68.0,
+        "epb_percentage": 10.0,
+        "total_penalty": 19581592.785
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.8367072496944,
+          39.77162005
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_1689",
+        "anchor_building": "1689",
+        "member_count": 20,
+        "total_sqft": 2687775.0,
+        "economic_score": 68.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 16850036.8866
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.86267944093,
+          39.770396184069
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_1647",
+        "anchor_building": "1647",
+        "member_count": 13,
+        "total_sqft": 1670381.0,
+        "economic_score": 68.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 44405541.135000005
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.923889546154,
+          39.777482622199
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_1336",
+        "anchor_building": "1336",
+        "member_count": 33,
+        "total_sqft": 1995554.0,
+        "economic_score": 68.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 56519093.228099994
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.905822437678,
+          39.748050072113
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_1818",
+        "anchor_building": "1818",
+        "member_count": 5,
+        "total_sqft": 1370579.0,
+        "economic_score": 67.66666666666666,
+        "epb_percentage": 16.666666666666664,
+        "total_penalty": 8704399.093800003
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.988365157036,
+          39.715233999172
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_3386",
+        "anchor_building": "3386",
+        "member_count": 8,
+        "total_sqft": 624283.0,
+        "economic_score": 67.44444444444444,
+        "epb_percentage": 11.11111111111111,
+        "total_penalty": 1152110.3891999999
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.974051967717,
+          39.670584439147
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_3780",
+        "anchor_building": "3780",
+        "member_count": 7,
+        "total_sqft": 1288082.0,
+        "economic_score": 67.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 31791381.960900005
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.879548440166,
+          39.787734695611
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_1274",
+        "anchor_building": "1274",
+        "member_count": 4,
+        "total_sqft": 756006.0,
+        "economic_score": 67.0,
+        "epb_percentage": 20.0,
+        "total_penalty": 3277359.1635
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.7557628,
+          39.7958504
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_5101",
+        "anchor_building": "5101",
+        "member_count": 7,
+        "total_sqft": 8361749.0,
+        "economic_score": 67.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 70634667.87539999
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.85223676304,
+          39.772526277123
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_1664",
+        "anchor_building": "1664",
+        "member_count": 9,
+        "total_sqft": 1356799.0,
+        "economic_score": 67.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 100708477.8342
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.902418211523,
+          39.719051746521
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_4051",
+        "anchor_building": "4051",
+        "member_count": 7,
+        "total_sqft": 887407.0,
+        "economic_score": 67.0,
+        "epb_percentage": 12.5,
+        "total_penalty": 7148366.406599999
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.084822170942,
+          39.634085735136
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_5022",
+        "anchor_building": "5022",
+        "member_count": 20,
+        "total_sqft": 949025.0,
+        "economic_score": 66.9047619047619,
+        "epb_percentage": 4.761904761904762,
+        "total_penalty": 2932157.958
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.011499628896,
+          39.728714404501
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_3311",
+        "anchor_building": "3311",
+        "member_count": 6,
+        "total_sqft": 562199.0,
+        "economic_score": 66.71428571428572,
+        "epb_percentage": 14.285714285714285,
+        "total_penalty": 13010219.302499998
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.908442117697,
+          39.782904581997
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_1433",
+        "anchor_building": "1433",
+        "member_count": 11,
+        "total_sqft": 626308.0,
+        "economic_score": 66.33333333333333,
+        "epb_percentage": 8.333333333333332,
+        "total_penalty": 7645040.251499999
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.938868174767,
+          39.77375586041
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_5417",
+        "anchor_building": "5417",
+        "member_count": 6,
+        "total_sqft": 1024185.0,
+        "economic_score": 66.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 12023268.6474
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.868228093194,
+          39.783477149803
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_1294",
+        "anchor_building": "1294",
+        "member_count": 11,
+        "total_sqft": 1720944.0,
+        "economic_score": 66.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 5968174.7814
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.909837620757,
+          39.675156096777
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_4517",
+        "anchor_building": "4517",
+        "member_count": 8,
+        "total_sqft": 809622.0,
+        "economic_score": 65.44444444444444,
+        "epb_percentage": 11.11111111111111,
+        "total_penalty": 6140713.336799999
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.942250440336,
+          39.689811896388
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_3693",
+        "anchor_building": "3693",
+        "member_count": 11,
+        "total_sqft": 948434.0,
+        "economic_score": 65.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 3950626.8549
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.022225163322,
+          39.78433174569879
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_1931",
+        "anchor_building": "1931",
+        "member_count": 4,
+        "total_sqft": 593234.0,
+        "economic_score": 65.0,
+        "epb_percentage": 20.0,
+        "total_penalty": 1102035.465
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.928395154387,
+          39.676186148858
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_4563",
+        "anchor_building": "4563",
+        "member_count": 10,
+        "total_sqft": 722944.0,
+        "economic_score": 65.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 32408274.894
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.99396661529,
+          39.698022515372
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_3546",
+        "anchor_building": "3546",
+        "member_count": 12,
+        "total_sqft": 736717.0,
+        "economic_score": 65.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 4378567.986
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9742068804374,
+          39.71803445
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_3405",
+        "anchor_building": "3405",
+        "member_count": 9,
+        "total_sqft": 1717256.0,
+        "economic_score": 65.0,
+        "epb_percentage": 10.0,
+        "total_penalty": 5294650.925999999
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.929784119562,
+          39.772906647889
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_1409",
+        "anchor_building": "1409",
+        "member_count": 13,
+        "total_sqft": 820285.0,
+        "economic_score": 65.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 41291343.225
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.024539104209,
+          39.685172135795
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_3628",
+        "anchor_building": "3628",
+        "member_count": 5,
+        "total_sqft": 382211.0,
+        "economic_score": 64.33333333333333,
+        "epb_percentage": 33.33333333333333,
+        "total_penalty": 2463801.6204000004
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9986526911896,
+          39.71246545
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_3345",
+        "anchor_building": "3345",
+        "member_count": 9,
+        "total_sqft": 618672.0,
+        "economic_score": 64.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 2484519.7865999998
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.871199394051,
+          39.78916406156
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_1283",
+        "anchor_building": "1283",
+        "member_count": 8,
+        "total_sqft": 1008033.0,
+        "economic_score": 64.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 10693382.25
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.77132776043,
+          39.822680442511
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_1009",
+        "anchor_building": "1009",
+        "member_count": 20,
+        "total_sqft": 1531591.0,
+        "economic_score": 64.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 5130845.5013999995
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.000061516184,
+          39.762959633843
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_5659",
+        "anchor_building": "5659",
+        "member_count": 7,
+        "total_sqft": 1301719.0,
+        "economic_score": 63.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 2766986.548199999
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.00382905,
+          39.78716695
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_1937",
+        "anchor_building": "1937",
+        "member_count": 8,
+        "total_sqft": 767711.0,
+        "economic_score": 63.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 9222867.540000001
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9987023522937,
+          39.77931425
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_1995",
+        "anchor_building": "1995",
+        "member_count": 8,
+        "total_sqft": 627975.0,
+        "economic_score": 63.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 27659772.221999995
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.959166042953,
+          39.669719720106
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_3733",
+        "anchor_building": "3733",
+        "member_count": 10,
+        "total_sqft": 987056.0,
+        "economic_score": 63.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 5166263.582099999
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.032131599743,
+          39.772391244663
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_1979",
+        "anchor_building": "1979",
+        "member_count": 4,
+        "total_sqft": 856819.0,
+        "economic_score": 63.0,
+        "epb_percentage": 20.0,
+        "total_penalty": 2824953.2991
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.971435808098,
+          39.742807610772
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_6317",
+        "anchor_building": "6317",
+        "member_count": 7,
+        "total_sqft": 503844.0,
+        "economic_score": 63.0,
+        "epb_percentage": 12.5,
+        "total_penalty": 3978716.355
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.004071418664,
+          39.719468285199
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_3277",
+        "anchor_building": "3277",
+        "member_count": 9,
+        "total_sqft": 325360.0,
+        "economic_score": 63.0,
+        "epb_percentage": 10.0,
+        "total_penalty": 13242311.531100001
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9423778775463,
+          39.73920955
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_2860",
+        "anchor_building": "2860",
+        "member_count": 6,
+        "total_sqft": 991553.0,
+        "economic_score": 62.714285714285715,
+        "epb_percentage": 14.285714285714285,
+        "total_penalty": 17206537.05
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.936724083934,
+          39.687153324339
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_4448",
+        "anchor_building": "4448",
+        "member_count": 5,
+        "total_sqft": 688718.0,
+        "economic_score": 62.666666666666664,
+        "epb_percentage": 16.666666666666664,
+        "total_penalty": 4512227.759999999
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.000416322146,
+          39.706415608389
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_3565",
+        "anchor_building": "3565",
+        "member_count": 7,
+        "total_sqft": 359677.0,
+        "economic_score": 62.0,
+        "epb_percentage": 12.5,
+        "total_penalty": 4944327.0738
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.872532871027,
+          39.794568712727
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_1272",
+        "anchor_building": "1272",
+        "member_count": 4,
+        "total_sqft": 1702239.0,
+        "economic_score": 62.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 83929148.91000001
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.857834030342,
+          39.659339613123
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_4726",
+        "anchor_building": "4726",
+        "member_count": 3,
+        "total_sqft": 852189.0,
+        "economic_score": 62.0,
+        "epb_percentage": 25.0,
+        "total_penalty": 5863750.033500001
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.935557155374,
+          39.788264180435
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_1321",
+        "anchor_building": "1321",
+        "member_count": 9,
+        "total_sqft": 925988.0,
+        "economic_score": 62.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 77516129.50500001
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.888899207529,
+          39.727482222825
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_3958",
+        "anchor_building": "3958",
+        "member_count": 4,
+        "total_sqft": 365913.0,
+        "economic_score": 62.0,
+        "epb_percentage": 20.0,
+        "total_penalty": 11808558.2706
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.86788133386,
+          39.654946322392
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_4704",
+        "anchor_building": "4704",
+        "member_count": 5,
+        "total_sqft": 428693.0,
+        "economic_score": 61.666666666666664,
+        "epb_percentage": 16.666666666666664,
+        "total_penalty": 1725545.3328000002
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.924959999009,
+          39.782431004468
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_1344",
+        "anchor_building": "1344",
+        "member_count": 10,
+        "total_sqft": 643298.0,
+        "economic_score": 61.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 11600389.89
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.004191866612,
+          39.676493513247
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_3831",
+        "anchor_building": "3831",
+        "member_count": 13,
+        "total_sqft": 861396.0,
+        "economic_score": 61.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 48584251.1532
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.8645601485141,
+          39.77927215
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_1610",
+        "anchor_building": "1610",
+        "member_count": 3,
+        "total_sqft": 343523.0,
+        "economic_score": 61.0,
+        "epb_percentage": 25.0,
+        "total_penalty": 12596632.932
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.021459006249,
+          39.677571216448
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_3855",
+        "anchor_building": "3855",
+        "member_count": 5,
+        "total_sqft": 677550.0,
+        "economic_score": 60.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 1447225.3650000002
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.902597835708,
+          39.629999431609
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_5638",
+        "anchor_building": "5638",
+        "member_count": 4,
+        "total_sqft": 1280331.0,
+        "economic_score": 60.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 6332553.7725
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.8974860883891,
+          39.76609395
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_1763",
+        "anchor_building": "1763",
+        "member_count": 7,
+        "total_sqft": 656299.0,
+        "economic_score": 60.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 1081968.4200000002
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.997230696025,
+          39.717312166336
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_3338",
+        "anchor_building": "3338",
+        "member_count": 6,
+        "total_sqft": 452700.0,
+        "economic_score": 59.714285714285715,
+        "epb_percentage": 14.285714285714285,
+        "total_penalty": 2701110.7350000003
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.802819995583,
+          39.777596993268
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_5676",
+        "anchor_building": "5676",
+        "member_count": 4,
+        "total_sqft": 692959.0,
+        "economic_score": 59.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 10645260.375
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.981450170736,
+          39.790570041999
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_6114",
+        "anchor_building": "6114",
+        "member_count": 3,
+        "total_sqft": 376897.0,
+        "economic_score": 59.0,
+        "epb_percentage": 25.0,
+        "total_penalty": 2870004.0449999995
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.933655752112,
+          39.780451590577
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_1366",
+        "anchor_building": "1366",
+        "member_count": 3,
+        "total_sqft": 1936593.0,
+        "economic_score": 59.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 3982486.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.936768088926,
+          39.74079939059
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_5689",
+        "anchor_building": "5689",
+        "member_count": 3,
+        "total_sqft": 294211.0,
+        "economic_score": 59.0,
+        "epb_percentage": 25.0,
+        "total_penalty": 6255633.375000001
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.848541852482,
+          39.792779385947
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_1166",
+        "anchor_building": "1166",
+        "member_count": 7,
+        "total_sqft": 910217.0,
+        "economic_score": 58.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 2662993.4508000007
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9067096,
+          39.7733952
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_1521",
+        "anchor_building": "1521",
+        "member_count": 5,
+        "total_sqft": 969371.0,
+        "economic_score": 58.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 4213797.429599999
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.947871009329,
+          39.791222992256
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_1844",
+        "anchor_building": "1844",
+        "member_count": 8,
+        "total_sqft": 369051.0,
+        "economic_score": 58.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 39242840.693399996
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9040965848952,
+          39.76496635
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_1795",
+        "anchor_building": "1795",
+        "member_count": 5,
+        "total_sqft": 839243.0,
+        "economic_score": 58.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 9954901.1316
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.99047622317,
+          39.70603372888
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_5590",
+        "anchor_building": "5590",
+        "member_count": 5,
+        "total_sqft": 520668.0,
+        "economic_score": 58.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 1542027.2850000001
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.8454070021518,
+          39.77221345
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_1727",
+        "anchor_building": "1727",
+        "member_count": 8,
+        "total_sqft": 430884.0,
+        "economic_score": 58.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 2007239.2175999999
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.966218073371,
+          39.747877865912
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_6103",
+        "anchor_building": "6103",
+        "member_count": 4,
+        "total_sqft": 1363674.0,
+        "economic_score": 58.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 31072399.04880001
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.044119,
+          39.76854128571429
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_2331",
+        "anchor_building": "2331",
+        "member_count": 6,
+        "total_sqft": 437397.0,
+        "economic_score": 57.714285714285715,
+        "epb_percentage": 14.285714285714285,
+        "total_penalty": 2844581.3549999995
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.929415064365,
+          39.785918043827
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_1329",
+        "anchor_building": "1329",
+        "member_count": 6,
+        "total_sqft": 794434.0,
+        "economic_score": 57.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 23086546.68
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.914354712197,
+          39.705721754444
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_4332",
+        "anchor_building": "4332",
+        "member_count": 4,
+        "total_sqft": 588445.0,
+        "economic_score": 57.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 1246171.5750000002
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0126090576,
+          39.73546426731
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_3175",
+        "anchor_building": "3175",
+        "member_count": 4,
+        "total_sqft": 708364.0,
+        "economic_score": 57.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 6085728.837
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9647659143757,
+          39.78889945
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_1890",
+        "anchor_building": "1890",
+        "member_count": 5,
+        "total_sqft": 515233.0,
+        "economic_score": 56.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 75966701.751
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.001116797794,
+          39.698026873962
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_3586",
+        "anchor_building": "3586",
+        "member_count": 8,
+        "total_sqft": 393695.0,
+        "economic_score": 56.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 4638135.8423999995
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.998389997053,
+          39.693684000379
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_3633",
+        "anchor_building": "3633",
+        "member_count": 6,
+        "total_sqft": 412071.0,
+        "economic_score": 56.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 6506943.72
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.891351417122,
+          39.707238669371
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_4265",
+        "anchor_building": "4265",
+        "member_count": 4,
+        "total_sqft": 1425075.0,
+        "economic_score": 56.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 7185734.180399998
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.993270833508,
+          39.776243609272
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_2029",
+        "anchor_building": "2029",
+        "member_count": 5,
+        "total_sqft": 427521.0,
+        "economic_score": 55.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 2343616.7046000003
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.901641376736,
+          39.680832321607
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_4514",
+        "anchor_building": "4514",
+        "member_count": 5,
+        "total_sqft": 431189.0,
+        "economic_score": 55.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 13040733.449400002
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.920551369395,
+          39.651436274709
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_4791",
+        "anchor_building": "4791",
+        "member_count": 4,
+        "total_sqft": 922302.0,
+        "economic_score": 55.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 1793657.2638
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9598473564245,
+          39.7698012938934
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_2071",
+        "anchor_building": "2071",
+        "member_count": 3,
+        "total_sqft": 565353.0,
+        "economic_score": 54.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 21684395.235
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.911262963391,
+          39.71283799024
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_4010",
+        "anchor_building": "4010",
+        "member_count": 5,
+        "total_sqft": 945702.0,
+        "economic_score": 54.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 6042184.658099999
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.840375463178,
+          39.779626691496
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_1673",
+        "anchor_building": "1673",
+        "member_count": 3,
+        "total_sqft": 833005.0,
+        "economic_score": 54.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 4969058.6538
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.996857617515,
+          39.668178371931
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_6455",
+        "anchor_building": "6455",
+        "member_count": 6,
+        "total_sqft": 345215.0,
+        "economic_score": 54.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 16417879.4934
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.666929144723,
+          39.833307103176
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_5118",
+        "anchor_building": "5118",
+        "member_count": 3,
+        "total_sqft": 587291.0,
+        "economic_score": 54.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 10801522.6176
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9617666507519,
+          39.77767861626489
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_1459",
+        "anchor_building": "1459",
+        "member_count": 3,
+        "total_sqft": 625375.0,
+        "economic_score": 54.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 198707260.9644
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.086155564099,
+          39.615750321939
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_5070",
+        "anchor_building": "5070",
+        "member_count": 3,
+        "total_sqft": 604261.0,
+        "economic_score": 54.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 2613028.785
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.989307953505,
+          39.681537826397
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_6305",
+        "anchor_building": "6305",
+        "member_count": 4,
+        "total_sqft": 666428.0,
+        "economic_score": 53.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 6766386.84
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.854015319075,
+          39.790822463013
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_1235",
+        "anchor_building": "1235",
+        "member_count": 5,
+        "total_sqft": 339976.0,
+        "economic_score": 53.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 2533816.8899999997
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.884037033135,
+          39.650959470147
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_4741",
+        "anchor_building": "4741",
+        "member_count": 5,
+        "total_sqft": 451534.0,
+        "economic_score": 53.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 3582453.3036
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.768498029918,
+          39.814432691696
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_6191",
+        "anchor_building": "6191",
+        "member_count": 3,
+        "total_sqft": 520474.0,
+        "economic_score": 52.0,
+        "epb_percentage": 25.0,
+        "total_penalty": 327592.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.8304660178478,
+          39.7743108
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_1704",
+        "anchor_building": "1704",
+        "member_count": 4,
+        "total_sqft": 286745.0,
+        "economic_score": 52.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 3802343.897699999
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0090870950453,
+          39.76872210000001
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_2257",
+        "anchor_building": "2257",
+        "member_count": 4,
+        "total_sqft": 341538.0,
+        "economic_score": 52.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 8037738.99
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.873787055199,
+          39.77870235675
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_1574",
+        "anchor_building": "1574",
+        "member_count": 3,
+        "total_sqft": 892991.0,
+        "economic_score": 52.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 2069403.0503999991
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.8951266122449,
+          39.74737
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_1839",
+        "anchor_building": "1839",
+        "member_count": 3,
+        "total_sqft": 818494.0,
+        "economic_score": 52.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 2009559.2099999995
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.894571241408,
+          39.772967039502
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_1539",
+        "anchor_building": "1539",
+        "member_count": 5,
+        "total_sqft": 380190.0,
+        "economic_score": 51.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 9156801.78
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.780998297399,
+          39.807677715927
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_6363",
+        "anchor_building": "6363",
+        "member_count": 5,
+        "total_sqft": 640750.0,
+        "economic_score": 51.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 868826.0429999998
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.914603822359,
+          39.665084737197
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_5343",
+        "anchor_building": "5343",
+        "member_count": 3,
+        "total_sqft": 360029.0,
+        "economic_score": 51.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 2198190.9048
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.943622976981,
+          39.769452465591
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_2109",
+        "anchor_building": "2109",
+        "member_count": 3,
+        "total_sqft": 176274.0,
+        "economic_score": 51.0,
+        "epb_percentage": 25.0,
+        "total_penalty": 1026479.9082000001
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.971579976832,
+          39.708199989846
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_3519",
+        "anchor_building": "3519",
+        "member_count": 5,
+        "total_sqft": 886288.0,
+        "economic_score": 51.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 545998.6199999995
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.011312114094,
+          39.72100732885906
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_3316",
+        "anchor_building": "3316",
+        "member_count": 3,
+        "total_sqft": 274910.0,
+        "economic_score": 51.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 2028470.8104000005
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.950359428744,
+          39.776102793299
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_2105",
+        "anchor_building": "2105",
+        "member_count": 4,
+        "total_sqft": 323730.0,
+        "economic_score": 50.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 25454359.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.877635128362,
+          39.722186457501
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_6472",
+        "anchor_building": "6472",
+        "member_count": 3,
+        "total_sqft": 742765.0,
+        "economic_score": 49.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 500842.9499999999
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.944572478973,
+          39.783085421558
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_2082",
+        "anchor_building": "2082",
+        "member_count": 6,
+        "total_sqft": 406542.0,
+        "economic_score": 49.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 917675.7060000002
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.921143047941,
+          39.730147374668
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_3964",
+        "anchor_building": "3964",
+        "member_count": 5,
+        "total_sqft": 488441.0,
+        "economic_score": 48.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 935837.0658000001
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.881513074451,
+          39.778913706438
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_1273",
+        "anchor_building": "1273",
+        "member_count": 5,
+        "total_sqft": 372967.0,
+        "economic_score": 48.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 770134.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.800621757657,
+          39.788901456533
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_1049",
+        "anchor_building": "1049",
+        "member_count": 9,
+        "total_sqft": 372553.0,
+        "economic_score": 48.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 676571.7449999998
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.865310017422,
+          39.793406980947
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_1178",
+        "anchor_building": "1178",
+        "member_count": 4,
+        "total_sqft": 539108.0,
+        "economic_score": 48.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 549617.4299999999
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.011538101831,
+          39.708397467485
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_3568",
+        "anchor_building": "3568",
+        "member_count": 3,
+        "total_sqft": 396165.0,
+        "economic_score": 47.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 1182368.25
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.783286137871,
+          39.7858302853
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_6312",
+        "anchor_building": "6312",
+        "member_count": 3,
+        "total_sqft": 684757.0,
+        "economic_score": 47.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 701256.4199999999
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.777483430122,
+          39.788498915633
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_5742",
+        "anchor_building": "5742",
+        "member_count": 5,
+        "total_sqft": 381618.0,
+        "economic_score": 47.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 2025503.295
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.959228152856,
+          39.720403035041
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_3445",
+        "anchor_building": "3445",
+        "member_count": 4,
+        "total_sqft": 308845.0,
+        "economic_score": 45.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 883821.8556000002
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.959934914932,
+          39.674598029663
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_3790",
+        "anchor_building": "3790",
+        "member_count": 4,
+        "total_sqft": 520277.0,
+        "economic_score": 45.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 429414.9299999997
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.004750939554,
+          39.780694818953
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_1985",
+        "anchor_building": "1985",
+        "member_count": 4,
+        "total_sqft": 238159.0,
+        "economic_score": 44.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 1862146.9677
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.765099587275,
+          39.805827201254
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_6403",
+        "anchor_building": "6403",
+        "member_count": 3,
+        "total_sqft": 696645.0,
+        "economic_score": 44.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 339670.5599999997
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9511157071629,
+          39.72025724351484
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_3437",
+        "anchor_building": "3437",
+        "member_count": 5,
+        "total_sqft": 389385.0,
+        "economic_score": 39.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 358023.92999999993
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.8905699,
+          39.7663156
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_1290",
+        "anchor_building": "1290",
+        "member_count": 3,
+        "total_sqft": 416820.0,
+        "economic_score": 31.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 77058.05999999992
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.992662391156,
+          39.674496776273
+        ]
+      },
+      "properties": {
+        "cluster_id": "cluster_3819",
+        "anchor_building": "3819",
+        "member_count": 3,
+        "total_sqft": 150500.0,
+        "economic_score": 14.0,
+        "epb_percentage": 0.0,
+        "total_penalty": 72846.00000000004
+      }
+    }
+  ]
+}
