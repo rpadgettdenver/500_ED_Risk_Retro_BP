@@ -197,9 +197,9 @@ class IntegratedTESHPAnalyzer:
             compliance_2030 = effective_eui <= self.building_data['final_target']
             
             # Calculate penalties
-            penalty_2025 = max(0, effective_eui - self.building_data['first_interim_target']) * self.building_data['sqft'] * 0.30
-            penalty_2027 = max(0, effective_eui - self.building_data['second_interim_target']) * self.building_data['sqft'] * 0.50
-            penalty_2030 = max(0, effective_eui - self.building_data['final_target']) * self.building_data['sqft'] * 0.70
+            penalty_2025 = max(0, effective_eui - self.building_data['first_interim_target']) * self.building_data['sqft'] * 0.15
+            penalty_2027 = max(0, effective_eui - self.building_data['second_interim_target']) * self.building_data['sqft'] * 0.15
+            penalty_2030 = max(0, effective_eui - self.building_data['final_target']) * self.building_data['sqft'] * 0.15
             
             results.append({
                 'system': config['name'],
@@ -217,7 +217,7 @@ class IntegratedTESHPAnalyzer:
                 'penalty_2025': penalty_2025,
                 'penalty_2027': penalty_2027,
                 'penalty_2030': penalty_2030,
-                'total_penalties_15yr': penalty_2025 * 2 + penalty_2027 * 3 + penalty_2030 * 10,
+                'total_penalties_15yr': penalty_2025 + penalty_2027 + penalty_2030 * 13,  # 2030 penalty continues annually through 2042
             })
         
         return pd.DataFrame(results)

@@ -106,9 +106,29 @@ class ProjectConfig:
         },
         
         'penalties': {
-            '2025_rate': 0.30,  # $/sqft/kBtu over
-            '2027_rate': 0.50,
-            '2030_rate': 0.70,
+            # Corrected rates per April 2025 Technical Guidance
+            'standard_path': {
+                'rate': 0.15,  # $/kBtu for standard path (3 target years)
+                'years': [2025, 2027, 2030],
+                'description': 'Standard compliance path'
+            },
+            'alternate_path': {
+                'rate': 0.23,  # $/kBtu for alternate/opt-in path (2 target years)
+                'years': [2028, 2032], 
+                'description': 'Alternate compliance (opt-in) path'
+            },
+            'extension_path': {
+                'rate': 0.35,  # $/kBtu for timeline extension (1 target year)
+                'years': [2030],  # or [2032] depending on path
+                'description': 'Timeline extension path'
+            },
+            'late_extension_additional': 0.10,  # Additional $/kBtu for late extensions
+            'never_benchmarking': 10.0,  # $/sqft one-time penalty
+            
+            # Legacy fields for backward compatibility (DEPRECATED)
+            '2025_rate': 0.15,  # DEPRECATED - use standard_path['rate']
+            '2027_rate': 0.15,  # DEPRECATED - use standard_path['rate']
+            '2030_rate': 0.15,  # DEPRECATED - use standard_path['rate']
             'penalty_years': 15,  # Analysis period
         }
     }

@@ -80,17 +80,17 @@ class BuildingComplianceAnalyzer:
             '2025': {
                 'target': targets.get('First Interim Target EUI', 0),
                 'year': 2025,
-                'penalty_rate': 0.30  # $0.30 per sqft per kBtu over
+                'penalty_rate': 0.15  # $0.15 per kBtu over target
             },
             '2027': {
                 'target': targets.get('Second Interim Target EUI', 0),
                 'year': 2027,
-                'penalty_rate': 0.50  # $0.50 per sqft per kBtu over
+                'penalty_rate': 0.15  # $0.15 per kBtu over target
             },
             '2030': {
                 'target': targets.get('Adjusted Final Target EUI', targets.get('Original Final Target EUI', 0)),
                 'year': 2030,
-                'penalty_rate': 0.70  # $0.70 per sqft per kBtu over
+                'penalty_rate': 0.15  # $0.15 per kBtu over target
             }
         }
         
@@ -100,12 +100,12 @@ class BuildingComplianceAnalyzer:
             '2028': {
                 'target': self.calculate_opt_in_target(targets, 2028),
                 'year': 2028,
-                'penalty_rate': 0.50  # Same as 2027 rate
+                'penalty_rate': 0.15  # Same as 2027 rate
             },
             '2032': {
                 'target': targets.get('Adjusted Final Target EUI', targets.get('Original Final Target EUI', 0)),
                 'year': 2032,
-                'penalty_rate': 0.70  # Same as 2030 rate
+                'penalty_rate': 0.15  # Same as 2030 rate
             }
         }
         
