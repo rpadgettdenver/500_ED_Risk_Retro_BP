@@ -20,7 +20,9 @@ env/
 
 # Project specific
 data/raw/*.csv
+data/raw/*.xlsx
 data/processed/*.csv
+data/processed/*.xlsx
 outputs/reports/*.pdf
 outputs/exports/*.xlsx
 *.log

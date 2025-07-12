@@ -262,7 +262,10 @@ class ProjectConfig:
             
             for key, value in sorted(items):
                 if isinstance(value, float):
-                    if value < 1 and value > 0:
+                    # Special handling for penalty rates (they're $/sqft/kBtu, not percentages)
+                    if 'penalties' in key and 'rate' in key:
+                        value_str = f"${value:.2f}/sqft/kBtu"
+                    elif value < 1 and value > 0:
                         value_str = f"{value:.1%}"
                     else:
                         value_str = f"{value:,.2f}"

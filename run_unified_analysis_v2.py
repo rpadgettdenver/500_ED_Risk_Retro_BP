@@ -1,5 +1,5 @@
 """
-Run TES+HP analysis with unified configuration
+Run TES+HP analysis with unified configuration and proper ED penalty calculations
 """
 
 import sys
@@ -14,6 +14,7 @@ sys.path.insert(0, src_path)
 from config import get_config, update_config
 from models.tes_hp_cash_flow_bridge import TESHPCashFlowBridge
 from analysis.integrated_tes_hp_analyzer import IntegratedTESHPAnalyzer
+from analysis.building_compliance_analyzer import BuildingComplianceAnalyzer
 from models.bridge_loan_investor_package import BridgeLoanInvestorPackage
 
 def run_unified_analysis():
@@ -41,6 +42,74 @@ def run_unified_analysis():
     print(f"Net project cost: ${incentives['net_project_cost']:,.0f}")
     print(f"Incentive coverage: {incentives['incentive_coverage']:.0%}")
     
+    # 0. Run Energize Denver compliance analysis
+    print("\n0. ENERGIZE DENVER COMPLIANCE ANALYSIS")
+    print("-"*40)
+    try:
+        building_id = config.config['building']['building_id']
+        compliance_analyzer = BuildingComplianceAnalyzer(building_id)
+        penalties = compliance_analyzer.calculate_penalties()
+        
+        if penalties:
+            current_eui = penalties['current_eui']
+            sqft = penalties['sqft']
+            
+            print(f"Current Weather Normalized EUI: {current_eui:.1f} kBtu/ft²")
+            print(f"Building Size: {sqft:,.0f} sq ft")
+            
+            print("\nStandard Compliance Path (2025, 2027, 2030):")
+            total_standard = 0
+            for year, details in penalties['standard_path'].items():
+                annual_penalty = details['penalty']
+                print(f"  {year}: Target {details['target_eui']:.1f} EUI")
+                if annual_penalty > 0:
+                    print(f"         Excess: {details['excess_eui']:.1f} kBtu/ft²")
+                    print(f"         Annual Penalty: ${annual_penalty:,.0f}")
+                    # Calculate years this penalty applies
+                    if year == '2025':
+                        years = 2  # 2025-2026
+                    elif year == '2027':
+                        years = 3  # 2027-2029
+                    else:  # 2030
+                        years = 10  # 2030-2039 for 15-year analysis
+                    total_years_penalty = annual_penalty * years
+                    total_standard += total_years_penalty
+                    print(f"         {years}-Year Total: ${total_years_penalty:,.0f}")
+                else:
+                    print(f"         ✓ Compliant")
+            
+            print(f"\n  15-Year Total Standard Path Penalties: ${total_standard:,.0f}")
+            
+            print("\nOpt-in Alternative Path (2028, 2032):")
+            total_opt_in = 0
+            for year, details in penalties['opt_in_path'].items():
+                annual_penalty = details['penalty']
+                print(f"  {year}: Target {details['target_eui']:.1f} EUI")
+                if annual_penalty > 0:
+                    print(f"         Excess: {details['excess_eui']:.1f} kBtu/ft²")
+                    print(f"         Annual Penalty: ${annual_penalty:,.0f}")
+                    # Calculate years this penalty applies
+                    if year == '2028':
+                        years = 4  # 2028-2031
+                    else:  # 2032
+                        years = 8  # 2032-2039 for 15-year analysis
+                    total_years_penalty = annual_penalty * years
+                    total_opt_in += total_years_penalty
+                    print(f"         {years}-Year Total: ${total_years_penalty:,.0f}")
+                else:
+                    print(f"         ✓ Compliant")
+            
+            print(f"\n  15-Year Total Opt-in Path Penalties: ${total_opt_in:,.0f}")
+            print(f"\n  ✅ Recommended Path: {penalties['recommendation']}")
+            print(f"  💵 Penalty Savings: ${abs(total_standard - total_opt_in):,.0f}")
+        else:
+            print("✗ Could not calculate ED penalties")
+            
+    except Exception as e:
+        print(f"✗ Error in compliance analysis: {e}")
+        import traceback
+        traceback.print_exc()
+    
     # 1. Run integrated analysis
     print("\n1. INTEGRATED ANALYSIS")
     print("-"*40)
@@ -51,9 +120,11 @@ def run_unified_analysis():
         print(f"Building: {summary['building']['name']}")
         print(f"Recommended system: {summary['recommended_solution']['system']}")
         print(f"EUI reduction: {summary['recommended_solution']['eui_reduction']:.0f}%")
+        print(f"New EUI after reduction: {summary['recommended_solution']['new_eui']} kBtu/ft²")
         print(f"Project cost: ${summary['project_economics']['total_cost']:,.0f}")
         print(f"Incentive coverage: {summary['project_economics']['incentive_coverage']:.0%}")
         print(f"Developer ROE: {summary['developer_returns']['return_on_equity']:.0%}")
+        print(f"Penalties avoided (15-yr): ${summary['recommended_solution']['penalties_avoided_15yr']:,.0f}")
         
         # Save report
         report_path = os.path.join(project_root, 'outputs', 'unified_analysis.json')
@@ -260,6 +331,14 @@ if __name__ == "__main__":
     print(f"Depreciation Rate: {config.config['financial']['depreciation_rate']:.0%}")
     print(f"DRCOG Grant per Unit: ${config.config['financial']['drcog_grant_per_unit']:,}")
     print(f"Xcel Rebate per Unit: ${config.config['financial']['xcel_rebate_per_unit']:,}")
+    
+    # Show penalty rates correctly
+    print("\nENERGIZE DENVER PENALTY RATES:")
+    print("-"*40)
+    print(f"2025 Penalty Rate: ${config.config['penalties']['2025_rate']:.2f} per sq ft per kBtu over target")
+    print(f"2027 Penalty Rate: ${config.config['penalties']['2027_rate']:.2f} per sq ft per kBtu over target")
+    print(f"2030 Penalty Rate: ${config.config['penalties']['2030_rate']:.2f} per sq ft per kBtu over target")
+    print(f"Analysis Period: {config.config['penalties']['penalty_years']} years")
     
     # Then show the full table
     config.print_assumptions_table()
