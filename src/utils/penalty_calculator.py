@@ -1,505 +1,418 @@
 """
 Suggested File Name: penalty_calculator.py
 File Location: /Users/robertpadgett/Projects/01_My_Notebooks/500_ED_Risk_Retro_BP/src/utils/
-Use: Unified penalty calculation module ensuring consistency across all scripts
+Use: Single source of truth for all Energize Denver penalty calculations
 
-This module provides:
-1. Correct penalty rates per April 2025 Technical Guidance
-2. NPV calculations with 7% discount rate
-3. 42% maximum reduction cap for all buildings
-4. MAI floor of 52.9 kBtu/sqft
-5. Opt-in decision logic with multiple factors
-6. Technical feasibility scoring
+This module implements the definitive penalty calculation logic as specified in
+the Energize Denver Penalty Calculations - Definitive Source of Truth document.
+All scripts should use this module for penalty calculations to ensure consistency.
 """
 
+import pandas as pd
 import numpy as np
-from typing import Dict, Tuple, Optional
+from typing import Dict, List, Tuple, Optional
+from dataclasses import dataclass
 from datetime import datetime
 
 
-class PenaltyCalculator:
-    """Unified penalty calculator for Energize Denver compliance analysis"""
+@dataclass
+class PenaltyConfig:
+    """Configuration for penalty calculations"""
+    # Penalty rates by compliance path
+    STANDARD_RATE: float = 0.15  # $/kBtu for 3-target path
+    ACO_RATE: float = 0.23       # $/kBtu for 2-target Alternate Compliance Option
+    EXTENSION_RATE: float = 0.35  # $/kBtu for 1-target timeline extension
+    LATE_EXTENSION_ADDON: float = 0.10  # $/kBtu added for late extensions
+    NEVER_BENCHMARKED_RATE: float = 10.00  # $/sqft for never benchmarked
     
-    def __init__(self):
-        # Penalty rates per April 2025 Technical Guidance
-        self.PENALTY_RATE_STANDARD = 0.15  # $/kBtu for standard path
-        self.PENALTY_RATE_OPTIN = 0.23    # $/kBtu for opt-in path
-        self.PENALTY_RATE_EXTENSION = 0.35  # $/kBtu for timeline extension
-        
-        # Financial parameters
-        self.DISCOUNT_RATE = 0.07  # 7% for NPV calculations
-        
-        # Compliance parameters
-        self.MAX_REDUCTION_CAP = 0.42  # 42% maximum reduction from baseline
-        self.MAI_FLOOR = 52.9  # Minimum EUI for MAI buildings
-        
-        # Target years for each path
-        self.STANDARD_PATH_YEARS = [2025, 2027, 2030]
-        self.OPTIN_PATH_YEARS = [2028, 2032]
-        
-        # Retrofit cost estimates ($/sqft)
-        self.RETROFIT_COSTS = {
-            'light': 5.0,      # <15% reduction
-            'moderate': 12.0,  # 15-30% reduction
-            'deep': 25.0       # >30% reduction
-        }
-        
-    def apply_target_adjustments(self, 
-                               target_eui: float, 
-                               baseline_eui: float,
-                               property_type: str,
-                               is_mai: bool = False) -> Tuple[float, str]:
-        """
-        Apply 42% cap and MAI floor to target EUI
+    # Target years by path
+    STANDARD_TARGET_YEARS: List[int] = None  # Set in __post_init__
+    ACO_TARGET_YEARS: List[int] = None       # Set in __post_init__
+    
+    # Caps and floors
+    MAX_REDUCTION_PCT: float = 0.42  # 42% maximum reduction for non-MAI
+    MAI_REDUCTION_PCT: float = 0.30  # 30% reduction for MAI
+    MAI_FLOOR_EUI: float = 52.9      # Minimum EUI for MAI buildings
+    MAI_BASELINE_THRESHOLD: float = 75.5  # Threshold for MAI floor application
+    
+    def __post_init__(self):
+        if self.STANDARD_TARGET_YEARS is None:
+            self.STANDARD_TARGET_YEARS = [2025, 2027, 2030]
+        if self.ACO_TARGET_YEARS is None:
+            self.ACO_TARGET_YEARS = [2028, 2032]
+
+
+class EnergizeDenverPenaltyCalculator:
+    """
+    Unified penalty calculator for Energize Denver compliance.
+    
+    This class provides all penalty calculation functionality following the
+    official technical guidance from April 2025.
+    """
+    
+    def __init__(self, config: Optional[PenaltyConfig] = None, mai_lookup: Optional[Dict] = None):
+        """Initialize calculator with configuration
         
         Args:
-            target_eui: Original calculated target
-            baseline_eui: Building's baseline EUI
-            property_type: Building property type
-            is_mai: Whether building is Manufacturing/Agricultural/Industrial
+            config: Penalty configuration
+            mai_lookup: Dictionary of building_id -> MAI designation info
+        """
+        self.config = config or PenaltyConfig()
+        self.mai_lookup = mai_lookup or {}
+        
+    def is_mai_designated(self, building_id: str, property_type: str = None) -> bool:
+        """
+        Check if a building is MAI designated.
+        
+        MAI designation is not just based on property type - many building types
+        can have MAI designation including Data Centers, Distribution Centers, etc.
+        
+        Args:
+            building_id: Building ID to check
+            property_type: Property type (optional, for fallback logic)
             
         Returns:
-            Tuple of (adjusted_target, adjustment_reason)
+            True if building is MAI designated
         """
-        # Calculate 42% reduction cap
-        cap_target = baseline_eui * (1 - self.MAX_REDUCTION_CAP)
+        # First check the MAI lookup if available
+        if self.mai_lookup and building_id in self.mai_lookup:
+            return self.mai_lookup[building_id]
         
-        # For MAI buildings, also consider the floor
-        if is_mai or property_type in ['Manufacturing/Industrial Plant', 'Data Center', 'Agricultural']:
-            # Target is the HIGHEST (least stringent) of:
-            # 1. Original target
-            # 2. 42% cap
-            # 3. MAI floor
-            adjusted_target = max(target_eui, cap_target, self.MAI_FLOOR)
+        # Fallback to property type check (less accurate)
+        # This should only be used if MAI designation list is not available
+        if property_type:
+            return property_type == 'Manufacturing/Industrial Plant'
             
-            if adjusted_target == self.MAI_FLOOR:
-                reason = f"MAI floor applied ({self.MAI_FLOOR} kBtu/sqft)"
-            elif adjusted_target == cap_target:
-                reason = f"42% cap applied (from {baseline_eui:.1f} to {cap_target:.1f})"
-            else:
-                reason = "No adjustment needed"
-        else:
-            # For non-MAI buildings, apply only the 42% cap
-            adjusted_target = max(target_eui, cap_target)
-            
-            if adjusted_target == cap_target:
-                reason = f"42% cap applied (from {baseline_eui:.1f} to {cap_target:.1f})"
-            else:
-                reason = "No adjustment needed"
-                
-        return adjusted_target, reason
-    
-    def calculate_penalty(self, 
-                         current_eui: float,
-                         target_eui: float,
-                         sqft: float,
-                         penalty_rate: float) -> float:
+        return False
+    def apply_target_caps_and_floors(self, raw_target_eui: float, baseline_eui: float, 
+                                   is_mai: bool = False, mai_adjusted_target: float = None) -> float:
         """
-        Calculate penalty for a single year
+        Apply caps and floors to raw EUI targets.
         
         Args:
-            current_eui: Building's current EUI
-            target_eui: Target EUI for the year
-            sqft: Building square footage
-            penalty_rate: Penalty rate ($/kBtu)
+            raw_target_eui: Original target from calculations
+            baseline_eui: Building's baseline EUI
+            is_mai: Whether building is MAI designated (appears in MAITargetSummary)
+            mai_adjusted_target: Adjusted Final Target from MAITargetSummary
+            
+        Returns:
+            Final target EUI after applying caps/floors
+        """
+        if is_mai:
+            return self._apply_mai_rules(raw_target_eui, baseline_eui, mai_adjusted_target)
+        else:
+            return self._apply_non_mai_cap(raw_target_eui, baseline_eui)
+    
+    def _apply_non_mai_cap(self, raw_target_eui: float, baseline_eui: float) -> float:
+        """Apply 42% maximum reduction cap for non-MAI buildings"""
+        cap_target = baseline_eui * (1 - self.config.MAX_REDUCTION_PCT)
+        return max(raw_target_eui, cap_target)  # Use less stringent (higher) target
+    
+    def _apply_mai_rules(self, raw_target_eui: float, baseline_eui: float, 
+                        mai_adjusted_target: float = None) -> float:
+        """
+        Apply MAI-specific rules: 30% reduction or 52.9 floor.
+        
+        For MAI buildings, use the maximum (most lenient) of:
+        - Adjusted Final Target from MAITargetSummary
+        - 30% reduction from baseline
+        - 52.9 kBtu/sqft floor
+        
+        Args:
+            raw_target_eui: Original calculated target
+            baseline_eui: Building's baseline EUI
+            mai_adjusted_target: Adjusted Final Target from MAITargetSummary
+            
+        Returns:
+            Final MAI target (highest/most lenient value)
+        """
+        # Calculate 30% reduction target
+        reduction_target = baseline_eui * (1 - self.config.MAI_REDUCTION_PCT)
+        
+        # Start with the highest of the calculated values
+        mai_target = max(reduction_target, self.config.MAI_FLOOR_EUI)
+        
+        # If we have an adjusted target from MAI summary, include it
+        if mai_adjusted_target is not None:
+            mai_target = max(mai_target, mai_adjusted_target)
+            
+        # Also consider the raw target (in case it's more lenient)
+        return max(raw_target_eui, mai_target)
+    
+    def calculate_penalty(self, actual_eui: float, target_eui: float, 
+                         sqft: float, penalty_rate: float) -> float:
+        """
+        Calculate penalty for a single assessment.
+        
+        Args:
+            actual_eui: Weather normalized site EUI for the target year
+            target_eui: Final target EUI (after caps/floors applied)
+            sqft: Building gross floor area
+            penalty_rate: Applicable penalty rate ($/kBtu)
             
         Returns:
             Penalty amount in dollars
         """
-        if current_eui <= target_eui:
+        if actual_eui <= target_eui:
             return 0.0
             
-        excess_eui = current_eui - target_eui
-        penalty = excess_eui * sqft * penalty_rate
-        return penalty
+        gap = actual_eui - target_eui
+        return gap * sqft * penalty_rate
     
-    def calculate_npv(self, amount: float, year: int, base_year: int = 2024) -> float:
+    def calculate_never_benchmarked_penalty(self, sqft: float) -> float:
+        """Calculate penalty for buildings that never benchmarked"""
+        return sqft * self.config.NEVER_BENCHMARKED_RATE
+    
+    def get_penalty_rate(self, compliance_path: str, is_late_extension: bool = False) -> float:
         """
-        Calculate Net Present Value of a future payment
+        Get the appropriate penalty rate for a compliance path.
         
         Args:
-            amount: Future payment amount
-            year: Year of payment
-            base_year: Base year for NPV calculation (default 2024)
+            compliance_path: One of 'standard', 'aco', 'extension', 'never_benchmarked'
+            is_late_extension: Whether this is a late timeline extension
             
         Returns:
-            Present value of the payment
+            Penalty rate in $/kBtu (or $/sqft for never benchmarked)
         """
-        years_from_base = year - base_year
-        if years_from_base < 0:
-            return amount  # Past payments are at full value
+        rates = {
+            'standard': self.config.STANDARD_RATE,
+            'aco': self.config.ACO_RATE,
+            'extension': self.config.EXTENSION_RATE,
+            'never_benchmarked': self.config.NEVER_BENCHMARKED_RATE
+        }
+        
+        base_rate = rates.get(compliance_path.lower(), self.config.STANDARD_RATE)
+        
+        # Add late extension penalty if applicable
+        if is_late_extension and compliance_path != 'never_benchmarked':
+            base_rate += self.config.LATE_EXTENSION_ADDON
             
-        npv = amount / ((1 + self.DISCOUNT_RATE) ** years_from_base)
-        return npv
+        return base_rate
     
-    def calculate_path_penalties(self,
-                               current_eui: float,
-                               sqft: float,
-                               targets: Dict[int, float],
-                               path: str = 'standard',
-                               include_ongoing: bool = False,
-                               analysis_years: int = 15) -> Dict:
+    def get_target_years(self, compliance_path: str, 
+                        first_interim_year: Optional[int] = None) -> List[int]:
         """
-        Calculate penalties for a compliance path
+        Get target years for a compliance path.
         
         Args:
-            current_eui: Building's current EUI
-            sqft: Building square footage
-            targets: Dictionary of {year: target_eui}
-            path: 'standard' or 'optin'
-            include_ongoing: Whether to include annual penalties after final target
-            analysis_years: Total years to analyze (if include_ongoing=True)
+            compliance_path: One of 'standard', 'aco', 'extension'
+            first_interim_year: Override for first standard path year
             
         Returns:
-            Dictionary with penalty details
+            List of target years
         """
-        penalty_rate = self.PENALTY_RATE_STANDARD if path == 'standard' else self.PENALTY_RATE_OPTIN
-        target_years = self.STANDARD_PATH_YEARS if path == 'standard' else self.OPTIN_PATH_YEARS
+        if compliance_path.lower() == 'aco':
+            return self.config.ACO_TARGET_YEARS
+        elif compliance_path.lower() == 'standard':
+            if first_interim_year and first_interim_year != 2025:
+                # Adjust standard years based on first interim
+                offset = first_interim_year - 2025
+                return [year + offset for year in self.config.STANDARD_TARGET_YEARS]
+            return self.config.STANDARD_TARGET_YEARS
+        elif compliance_path.lower() == 'extension':
+            # Extension typically to 2030 or 2032
+            return [2030]  # Or 2032 depending on specifics
+        else:
+            return self.config.STANDARD_TARGET_YEARS
+    
+    def calculate_all_penalties(self, building_data: Dict) -> pd.DataFrame:
+        """
+        Calculate all penalties for a building through its compliance timeline.
         
-        penalties = {}
-        total_nominal = 0
-        total_npv = 0
-        
-        # Calculate penalties for target years
-        for year in target_years:
-            if year in targets:
-                penalty = self.calculate_penalty(current_eui, targets[year], sqft, penalty_rate)
-                npv = self.calculate_npv(penalty, year)
+        Args:
+            building_data: Dictionary with building information including:
+                - building_id: Building ID
+                - sqft: Gross floor area
+                - baseline_eui: Baseline EUI
+                - current_eui: Current weather normalized EUI
+                - is_mai: Boolean for MAI designation
+                - compliance_path: 'standard' or 'aco'
+                - first_interim_year: First target year (default 2025)
+                - raw_targets: Dict of year -> raw target EUI
+                - actual_euis: Dict of year -> actual EUI (optional)
                 
-                penalties[year] = {
-                    'target': targets[year],
-                    'excess': max(0, current_eui - targets[year]),
-                    'penalty': penalty,
-                    'npv': npv
-                }
-                
-                total_nominal += penalty
-                total_npv += npv
-        
-        # Add ongoing annual penalties if requested
-        if include_ongoing:
-            final_year = target_years[-1]
-            final_target = targets.get(final_year, 0)
-            end_year = 2024 + analysis_years
-            
-            for year in range(final_year + 1, end_year + 1):
-                penalty = self.calculate_penalty(current_eui, final_target, sqft, penalty_rate)
-                npv = self.calculate_npv(penalty, year)
-                
-                total_nominal += penalty
-                total_npv += npv
-        
-        return {
-            'penalties_by_year': penalties,
-            'total_nominal': total_nominal,
-            'total_npv': total_npv,
-            'penalty_rate': penalty_rate,
-            'path': path
-        }
-    
-    def estimate_retrofit_cost(self, 
-                             current_eui: float,
-                             target_eui: float,
-                             sqft: float) -> Dict:
+        Returns:
+            DataFrame with penalty calculations by year
         """
-        Estimate retrofit cost based on required reduction
+        results = []
+        
+        # Extract building info
+        building_id = building_data['building_id']
+        sqft = building_data['sqft']
+        baseline_eui = building_data['baseline_eui']
+        is_mai = building_data.get('is_mai', False)
+        compliance_path = building_data.get('compliance_path', 'standard')
+        first_interim_year = building_data.get('first_interim_year', 2025)
+        
+        # Get penalty rate and target years
+        penalty_rate = self.get_penalty_rate(compliance_path)
+        target_years = self.get_target_years(compliance_path, first_interim_year)
+        
+        # Calculate penalties for each target year
+        for target_year in target_years:
+            # Get raw target and apply caps/floors
+            raw_target = building_data['raw_targets'].get(target_year, 0)
+            final_target = self.apply_target_caps_and_floors(
+                raw_target, baseline_eui, is_mai
+            )
+            
+            # Get actual EUI (use current if not specified)
+            actual_eui = building_data.get('actual_euis', {}).get(
+                target_year, building_data.get('current_eui', 0)
+            )
+            
+            # Calculate penalty
+            penalty = self.calculate_penalty(
+                actual_eui, final_target, sqft, penalty_rate
+            )
+            
+            results.append({
+                'building_id': building_id,
+                'target_year': target_year,
+                'payment_year': target_year + 1,
+                'actual_eui': actual_eui,
+                'raw_target_eui': raw_target,
+                'final_target_eui': final_target,
+                'gap_eui': max(0, actual_eui - final_target),
+                'penalty_rate': penalty_rate,
+                'penalty_amount': penalty,
+                'compliance_path': compliance_path,
+                'is_mai': is_mai
+            })
+        
+        # Add annual penalties after final target if still non-compliant
+        final_year = target_years[-1]
+        final_result = results[-1]
+        
+        if final_result['penalty_amount'] > 0:
+            # Building is non-compliant at final target
+            for year in range(final_year + 1, final_year + 13):  # 12 years of annual
+                results.append({
+                    'building_id': building_id,
+                    'target_year': year,
+                    'payment_year': year + 1,
+                    'actual_eui': actual_eui,  # Assume no improvement
+                    'raw_target_eui': final_result['raw_target_eui'],
+                    'final_target_eui': final_result['final_target_eui'],
+                    'gap_eui': final_result['gap_eui'],
+                    'penalty_rate': penalty_rate,
+                    'penalty_amount': final_result['penalty_amount'],
+                    'compliance_path': compliance_path,
+                    'is_mai': is_mai
+                })
+        
+        return pd.DataFrame(results)
+    
+    def calculate_npv_penalties(self, penalties_df: pd.DataFrame, 
+                               discount_rate: float = 0.07,
+                               base_year: int = 2024) -> pd.DataFrame:
+        """
+        Calculate Net Present Value of penalties.
         
         Args:
-            current_eui: Current building EUI
-            target_eui: Target EUI
-            sqft: Building square footage
+            penalties_df: DataFrame from calculate_all_penalties
+            discount_rate: Annual discount rate (default 7%)
+            base_year: Year to discount to (default 2024)
             
         Returns:
-            Dictionary with retrofit cost estimates
+            DataFrame with NPV calculations added
         """
-        if current_eui <= target_eui:
-            return {
-                'reduction_needed': 0,
-                'reduction_pct': 0,
-                'retrofit_level': 'none',
-                'cost_per_sqft': 0,
-                'total_cost': 0
-            }
-            
-        reduction_needed = current_eui - target_eui
-        reduction_pct = (reduction_needed / current_eui) * 100
+        df = penalties_df.copy()
         
-        # Determine retrofit level
-        if reduction_pct < 15:
-            level = 'light'
-        elif reduction_pct < 30:
-            level = 'moderate'
-        else:
-            level = 'deep'
-            
-        cost_per_sqft = self.RETROFIT_COSTS[level]
-        total_cost = cost_per_sqft * sqft
+        # Calculate years from base for discounting
+        df['years_from_base'] = df['payment_year'] - base_year
         
-        return {
-            'reduction_needed': reduction_needed,
-            'reduction_pct': reduction_pct,
-            'retrofit_level': level,
-            'cost_per_sqft': cost_per_sqft,
-            'total_cost': total_cost
-        }
+        # Calculate discount factor
+        df['discount_factor'] = 1 / (1 + discount_rate) ** df['years_from_base']
+        
+        # Calculate NPV of each penalty
+        df['penalty_npv'] = df['penalty_amount'] * df['discount_factor']
+        
+        return df
     
-    def calculate_technical_difficulty(self,
-                                     reduction_pct: float,
-                                     building_age: int,
-                                     property_type: str) -> Dict:
+    def compare_compliance_paths(self, building_data: Dict) -> Dict:
         """
-        Calculate technical difficulty score for achieving targets
+        Compare standard vs ACO path for a building.
         
         Args:
-            reduction_pct: Required % reduction
-            building_age: Age of building in years
-            property_type: Building type
+            building_data: Building information dictionary
             
         Returns:
-            Dictionary with difficulty assessment
+            Dictionary with comparison results and recommendation
         """
-        # Base difficulty from reduction percentage
-        if reduction_pct > 50:
-            base_score = 100  # Nearly impossible
-        elif reduction_pct > 40:
-            base_score = 80   # Very difficult
-        elif reduction_pct > 30:
-            base_score = 60   # Difficult
-        elif reduction_pct > 20:
-            base_score = 40   # Moderate
-        else:
-            base_score = 20   # Achievable
-            
-        # Age adjustment
-        age_factor = 1.0
-        if building_age > 50:
-            age_factor = 1.5  # Very old buildings are harder
-        elif building_age > 30:
-            age_factor = 1.2
-            
-        # Property type adjustment
-        type_factor = 1.0
-        difficult_types = ['Hospital', 'Data Center', 'Manufacturing/Industrial Plant']
-        if property_type in difficult_types:
-            type_factor = 1.3
-            
-        final_score = min(100, base_score * age_factor * type_factor)
+        # Calculate penalties for standard path
+        standard_data = building_data.copy()
+        standard_data['compliance_path'] = 'standard'
+        standard_penalties = self.calculate_all_penalties(standard_data)
+        standard_npv = self.calculate_npv_penalties(standard_penalties)
         
-        # Determine feasibility
-        if final_score >= 80:
-            feasibility = 'very_difficult'
-        elif final_score >= 60:
-            feasibility = 'difficult'
-        elif final_score >= 40:
-            feasibility = 'moderate'
-        else:
-            feasibility = 'achievable'
-            
+        # Calculate penalties for ACO path
+        aco_data = building_data.copy()
+        aco_data['compliance_path'] = 'aco'
+        aco_penalties = self.calculate_all_penalties(aco_data)
+        aco_npv = self.calculate_npv_penalties(aco_penalties)
+        
+        # Summarize results
+        standard_total = standard_penalties['penalty_amount'].sum()
+        standard_total_npv = standard_npv['penalty_npv'].sum()
+        aco_total = aco_penalties['penalty_amount'].sum()
+        aco_total_npv = aco_npv['penalty_npv'].sum()
+        
+        # Determine recommendation
+        npv_savings = standard_total_npv - aco_total_npv
+        recommendation = 'aco' if npv_savings > 0 else 'standard'
+        
         return {
-            'score': final_score,
-            'feasibility': feasibility,
-            'base_difficulty': base_score,
-            'age_factor': age_factor,
-            'type_factor': type_factor
-        }
-    
-    def make_optin_recommendation(self,
-                                building_data: Dict,
-                                standard_penalties: Dict,
-                                optin_penalties: Dict,
-                                retrofit_cost: Dict,
-                                technical_difficulty: Dict) -> Dict:
-        """
-        Make opt-in recommendation based on multiple factors
-        
-        Args:
-            building_data: Building information
-            standard_penalties: Standard path penalty analysis
-            optin_penalties: Opt-in path penalty analysis
-            retrofit_cost: Retrofit cost estimates
-            technical_difficulty: Technical difficulty assessment
-            
-        Returns:
-            Dictionary with recommendation and reasoning
-        """
-        # Financial advantage of opt-in (positive = opt-in saves money)
-        npv_advantage = standard_penalties['total_npv'] - optin_penalties['total_npv']
-        
-        # Decision factors
-        factors = {
-            'npv_advantage': npv_advantage,
-            'meets_2025_target': building_data.get('meets_2025_target', False),
-            'meets_all_targets': building_data.get('meets_all_targets', False),
-            'reduction_pct': retrofit_cost['reduction_pct'],
-            'technical_score': technical_difficulty['score'],
-            'cash_constrained': building_data.get('cash_constrained', False),
-            'is_mai': building_data.get('is_mai', False)
-        }
-        
-        # Decision logic
-        should_optin = False
-        confidence = 50  # Default moderate confidence
-        primary_reason = ""
-        secondary_reasons = []
-        
-        # Always opt-in cases
-        if not factors['meets_all_targets'] and factors['reduction_pct'] > 40:
-            should_optin = True
-            confidence = 100
-            primary_reason = "Cannot meet targets - reduction >40% required"
-            
-        elif factors['cash_constrained'] and standard_penalties['penalties_by_year'].get(2025, {}).get('penalty', 0) > 100000:
-            should_optin = True
-            confidence = 90
-            primary_reason = "Cash flow constraints - cannot afford early penalties"
-            
-        elif factors['technical_score'] >= 80:
-            should_optin = True
-            confidence = 95
-            primary_reason = "Technical infeasibility - nearly impossible to retrofit"
-            
-        # Never opt-in cases
-        elif factors['meets_2025_target']:
-            should_optin = False
-            confidence = 100
-            primary_reason = "Already meets 2025 target"
-            
-        elif factors['reduction_pct'] < 10:
-            should_optin = False
-            confidence = 95
-            primary_reason = "Minor reduction needed (<10%)"
-            
-        elif npv_advantage < -100000:
-            should_optin = False
-            confidence = 90
-            primary_reason = f"Opt-in costs ${abs(npv_advantage):,.0f} more (NPV)"
-            
-        # Financial decision for others
-        elif npv_advantage > 50000:
-            should_optin = True
-            confidence = 85
-            primary_reason = f"Opt-in saves ${npv_advantage:,.0f} (NPV)"
-            
-        elif npv_advantage > 0:
-            should_optin = True
-            confidence = 70
-            primary_reason = f"Modest financial advantage ${npv_advantage:,.0f} (NPV)"
-            
-        else:
-            should_optin = False
-            confidence = 60
-            primary_reason = "Default path slightly favorable"
-            
-        # Add secondary reasons
-        if factors['is_mai']:
-            secondary_reasons.append("MAI building considerations apply")
-            
-        if factors['technical_score'] >= 60:
-            secondary_reasons.append("Difficult retrofit required")
-            
-        if abs(npv_advantage) < 50000:
-            secondary_reasons.append("Close financial decision")
-            
-        return {
-            'recommendation': 'opt-in' if should_optin else 'standard',
-            'confidence': confidence,
-            'primary_reason': primary_reason,
-            'secondary_reasons': secondary_reasons,
-            'npv_advantage': npv_advantage,
-            'decision_factors': factors
+            'building_id': building_data['building_id'],
+            'standard_total_nominal': standard_total,
+            'standard_total_npv': standard_total_npv,
+            'aco_total_nominal': aco_total,
+            'aco_total_npv': aco_total_npv,
+            'npv_savings_with_aco': npv_savings,
+            'recommendation': recommendation,
+            'standard_penalties': standard_penalties,
+            'aco_penalties': aco_penalties
         }
 
 
-# Convenience functions for common use cases
-def calculate_building_penalties(building_data: Dict, 
-                               include_ongoing: bool = False) -> Dict:
-    """
-    Calculate complete penalty analysis for a building
-    
-    Args:
-        building_data: Dictionary with building information including:
-            - current_eui
-            - baseline_eui
-            - sqft
-            - property_type
-            - is_mai
-            - targets (dict of year: target_eui)
-            - building_age
-            - cash_constrained (optional)
-        include_ongoing: Whether to include ongoing annual penalties
-        
-    Returns:
-        Complete analysis including penalties, NPV, and recommendations
-    """
-    calc = PenaltyCalculator()
-    
-    # Apply target adjustments
-    adjusted_targets = {}
-    for year, target in building_data['targets'].items():
-        adjusted, reason = calc.apply_target_adjustments(
-            target,
-            building_data['baseline_eui'],
-            building_data['property_type'],
-            building_data.get('is_mai', False)
-        )
-        adjusted_targets[year] = adjusted
-    
-    # Calculate penalties for both paths
-    standard_penalties = calc.calculate_path_penalties(
-        building_data['current_eui'],
-        building_data['sqft'],
-        adjusted_targets,
-        'standard',
-        include_ongoing
-    )
-    
-    optin_penalties = calc.calculate_path_penalties(
-        building_data['current_eui'],
-        building_data['sqft'],
-        adjusted_targets,
-        'optin',
-        include_ongoing
-    )
-    
-    # Estimate retrofit costs
-    final_target = adjusted_targets.get(2030, adjusted_targets.get(2032, 0))
-    retrofit_cost = calc.estimate_retrofit_cost(
-        building_data['current_eui'],
-        final_target,
-        building_data['sqft']
-    )
-    
-    # Calculate technical difficulty
-    technical_difficulty = calc.calculate_technical_difficulty(
-        retrofit_cost['reduction_pct'],
-        building_data.get('building_age', 30),
-        building_data['property_type']
-    )
-    
-    # Check if meets targets
-    building_data['meets_2025_target'] = building_data['current_eui'] <= adjusted_targets.get(2025, float('inf'))
-    building_data['meets_all_targets'] = all(
-        building_data['current_eui'] <= adjusted_targets.get(year, float('inf'))
-        for year in [2025, 2027, 2030]
-    )
-    
-    # Make recommendation
-    recommendation = calc.make_optin_recommendation(
-        building_data,
-        standard_penalties,
-        optin_penalties,
-        retrofit_cost,
-        technical_difficulty
-    )
-    
-    return {
-        'building_id': building_data.get('building_id'),
-        'current_eui': building_data['current_eui'],
-        'adjusted_targets': adjusted_targets,
-        'standard_path': standard_penalties,
-        'optin_path': optin_penalties,
-        'retrofit_analysis': retrofit_cost,
-        'technical_difficulty': technical_difficulty,
-        'recommendation': recommendation,
-        'analysis_date': datetime.now().isoformat()
+# Example usage with MAI designation
+if __name__ == "__main__":
+    # Example MAI lookup from MAIPropertyUseTypes Report.csv
+    mai_buildings = {
+        '1122': True,  # Data Center with MAI
+        '1153': True,  # Distribution Center with MAI
+        '2604': True,  # Data Center with MAI
+        # ... etc
     }
+    
+    # Initialize calculator with MAI lookup
+    calculator = EnergizeDenverPenaltyCalculator(mai_lookup=mai_buildings)
+    
+    # Example building data
+    example_building = {
+        'building_id': '2952',
+        'sqft': 50000,
+        'baseline_eui': 100,
+        'current_eui': 85,
+        'is_mai': False,  # Or check: calculator.is_mai_designated('2952')
+        'compliance_path': 'standard',
+        'first_interim_year': 2025,
+        'raw_targets': {
+            2025: 70,
+            2027: 55,
+            2030: 40  # Will be capped to 58
+        }
+    }
+    
+    # Calculate penalties
+    penalties = calculator.calculate_all_penalties(example_building)
+    print("\nPenalty Schedule:")
+    print(penalties[['target_year', 'payment_year', 'final_target_eui', 
+                    'gap_eui', 'penalty_amount']].head(10))
+    
+    # Compare paths
+    comparison = calculator.compare_compliance_paths(example_building)
+    print(f"\nPath Comparison:")
+    print(f"Standard Path NPV: ${comparison['standard_total_npv']:,.0f}")
+    print(f"ACO Path NPV: ${comparison['aco_total_npv']:,.0f}")
+    print(f"Recommendation: {comparison['recommendation'].upper()}")

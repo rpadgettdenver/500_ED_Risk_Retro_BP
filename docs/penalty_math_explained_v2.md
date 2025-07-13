@@ -64,13 +64,13 @@ Where:
 - **Fine Year**: When penalties are assessed (same as reporting year)
 
 ### Default Path Timeline:
-- **2024**: First interim target year → Report and pay fines in 2025
-- **2026**: Second interim target year → Report and pay fines in 2027
-- **2029**: Final target year → Report and pay fines in 2030
+- **2025**: First interim target year → Report and pay fines in 2026
+- **2027**: Second interim target year → Report and pay fines in 2028
+- **2030**: Final target year → Report and pay fines in 2031
 
 ### Opt-In Path Timeline:
-- **2027**: First target year → Report and pay fines in 2028
-- **2031**: Final target year → Report and pay fines in 2032
+- **2028**: First target year → Report and pay fines in 2029
+- **2032**: Final target year → Report and pay fines in 2033
 
 ### Why This Matters:
 Buildings need a full calendar year of energy data to report, so fines are always assessed the year after the target year.

@@ -1,7 +1,7 @@
 # 🏢 Energize Denver TES+HP Risk & Retrofit Platform
 ## Project Knowledge Base & Source of Truth
 
-**Last Updated:** July 12, 2025, 8:09 AM MDT  
+**Last Updated:** July 13, 2025, 4:00 PM MDT  
 **Project Lead:** Robert Padgett  
 **Project Location:** `/Users/robertpadgett/Projects/01_My_Notebooks/500_ED_Risk_Retro_BP`
 
@@ -67,24 +67,39 @@ Deploy 4-Pipe Water Source Heat Pump (WSHP) systems with Thermal Energy Storage 
 5. **Building Compliance Analyzer** (`src/analysis/building_compliance_analyzer.py`)
    - Standard vs Opt-in path comparison
    - Historical EUI tracking
-   - Penalty calculations (needs correction)
+   - Penalty calculations (✅ FIXED July 13, 2025)
 
 6. **Bridge Loan Package Generator** (`src/models/bridge_loan_investor_package.py`)
    - Professional PDF investor packages
    - Coverage ratio analysis
    - Security documentation
 
+7. **Penalty Calculator Module** (`src/utils/penalty_calculator.py`) - **NEW July 13, 2025**
+   - Single source of truth for all penalty calculations
+   - NPV analysis for opt-in decisions
+   - Correct penalty rates implemented
+
+8. **MAI Data Loader** (`src/utils/mai_data_loader.py`) - **NEW July 13, 2025**
+   - Loads MAI designations and targets
+   - Handles various property types with MAI designation
+   - Integrates with penalty calculator
+
 ### 🚧 In Progress
 
 1. **BigQuery Integration** (`src/gcp/`)
    - Data warehouse for city-wide analysis
-   - Penalty calculations at scale
+   - Penalty calculations at scale (V3 script fixed)
    - Geographic clustering queries
 
 2. **DER Clustering Analysis** (`src/analytics/der_clustering_analysis.py`)
    - Spatial analysis for shared thermal systems
    - EPB overlay for equity prioritization
    - Heat source/sink matching
+
+3. **Unified EUI Target Loader** - **Next Priority**
+   - Single module for all target loading
+   - Priority logic implementation
+   - MAI integration
 
 ---
 
@@ -101,9 +116,15 @@ Deploy 4-Pipe Water Source Heat Pump (WSHP) systems with Thermal Energy Storage 
 │   ├── data_processing/      # Data loaders & mergers
 │   ├── gcp/                  # BigQuery integration
 │   └── utils/                # Helper functions
+│       ├── penalty_calculator.py  # NEW: Penalty calculations
+│       └── mai_data_loader.py     # NEW: MAI data handling
 ├── data/
 │   ├── raw/                  # Original ED datasets
+│   │   ├── MAITargetSummary Report.csv      # MAI targets
+│   │   └── MAIPropertyUseTypes Report.csv   # MAI details
 │   └── processed/            # Cleaned & merged data
+├── docs/
+│   └── penalty_calculation_source_of_truth.md  # NEW: Definitive guide
 ├── outputs/                  # Reports, charts, packages
 ├── references/               # Policy docs, guides
 ├── notebooks/                # Jupyter explorations
@@ -120,27 +141,21 @@ Deploy 4-Pipe Water Source Heat Pump (WSHP) systems with Thermal Energy Storage 
 
 ## ⚖️ Key Policy Rules & Corrections
 
-### 🚨 CRITICAL CORRECTION NEEDED: Penalty Rates
+### ✅ CORRECTED: Penalty Rates (Fixed July 13, 2025)
 
-**Current Code (WRONG):**
-```python
-penalties = {
-    '2025_rate': 0.30,  # WRONG
-    '2027_rate': 0.50,  # WRONG
-    '2030_rate': 0.70,  # WRONG
-}
-```
-
-**Correct Rates per Technical Guidance (Page 70):**
+**Correct Rates per Technical Guidance:**
 ```python
 # Standard Path (3 target years)
 STANDARD_PATH_PENALTY = 0.15  # $/kBtu over target
 
-# Alternate Compliance (2 target years)  
+# Alternate Compliance Option (2 target years)  
 ALTERNATE_PATH_PENALTY = 0.23  # $/kBtu over target
 
 # Timeline Extension (1 target year)
 EXTENSION_PENALTY = 0.35  # $/kBtu over target
+
+# Never Benchmarked
+NEVER_BENCHMARKED = 10.00  # $/sqft
 ```
 
 ### Compliance Paths
@@ -148,25 +163,22 @@ EXTENSION_PENALTY = 0.35  # $/kBtu over target
 1. **Standard Path**
    - Targets: 2025 (First Interim), 2027 (Second Interim), 2030 (Final)
    - Penalty: $0.15/kBtu × Building sqft × kBtu over target
-   - Applied at each interim year and then annually after 2030 if target is not met
+   - Payment years: 2026, 2028, 2031, then annually if non-compliant
 
-2. **Alternate Compliance Option (Opt-in)**
+2. **Alternate Compliance Option (ACO/Opt-in)**
    - Targets: 2028 (Interim), 2032 (Final)
    - Penalty: $0.23/kBtu × Building sqft × kBtu over target
-   - Higher rate but more time to comply
-   - Applied at each interim year and then annually after 2032 if target is not met
+   - Payment years: 2029, 2033, then annually if non-compliant
 
-3. **Electrification Bonus**
-   - Buildings that fully electrify get 10% higher EUI allowance
-   - Applied as: Allowed EUI = Target EUI × 1.1
+3. **MAI Buildings** - **UPDATED July 13, 2025**
+   - Identification: Building ID appears in MAITargetSummary Report.csv
+   - NOT limited to Manufacturing/Industrial property type
+   - Target = MAX(Adjusted Final Target, 30% reduction, 52.9 floor)
 
-### Example: Building 2952 (Timperly Condominium)
-- Current EUI: 65.3 kBtu/ft²
-- Size: 52,826 sq ft
-- 2027 Target: 63.2 kBtu/ft²
-- Excess: 2.1 kBtu/ft²
+### Target Caps and Floors
 
-**Correct Interim Penalty**: 2.1 × 52,826 × $0.15 = **$16,640/year** (not $55,467)
+1. **Non-MAI Buildings**: 42% maximum reduction from baseline
+2. **MAI Buildings**: MAX(CSV Adjusted Target, 30% reduction, 52.9 kBtu/sqft)
 
 ---
 
@@ -174,15 +186,18 @@ EXTENSION_PENALTY = 0.35  # $/kBtu over target
 
 ### Primary Datasets
 1. **Building_EUI_Targets.csv** - Official ED targets by building
-2. **Energize Denver Report Request.xlsx** - Latest compliance data
-3. **geocoded_buildings_final.csv** - Building locations for clustering
-4. **CopyofWeeklyEPBStatsReport.csv** - Equity Priority Building status
+2. **MAITargetSummary Report.csv** - MAI building designations and targets
+3. **MAIPropertyUseTypes Report.csv** - MAI property type details
+4. **Energize Denver Report Request.xlsx** - Latest compliance data
+5. **geocoded_buildings_final.csv** - Building locations for clustering
+6. **CopyofWeeklyEPBStatsReport.csv** - Equity Priority Building status
 
 ### Key Fields
 - **Building ID** - Primary key across all datasets
 - **Weather Normalized Site EUI** - Compliance metric
 - **Master Sq Ft** - For penalty calculations
 - **is_epb** - Equity priority flag
+- **is_mai** - MAI designation (from MAITargetSummary)
 - **latitude/longitude** - For DER clustering
 
 ---
@@ -193,55 +208,51 @@ EXTENSION_PENALTY = 0.35  # $/kBtu over target
 
 #### 1. `src/config/project_config.py`
 **Purpose:** Centralized configuration management  
+**Status:** Needs update with correct penalty rates
 **Key Features:**
 - All assumptions in DEFAULT_CONFIG dictionary
 - Dynamic calculation of derived values
 - Save/load scenarios to JSON
-- Print formatted assumptions table
+
+#### 2. `src/utils/penalty_calculator.py` - **NEW**
+**Purpose:** Single source of truth for penalty calculations
+**Key Features:**
+- Correct penalty rates implemented
+- MAI building support with MAX() logic
+- NPV analysis for opt-in decisions
+- Path comparison functionality
 
 **Usage:**
 ```python
-from src.config import get_config, update_config
-config = get_config()
-update_config({'financial': {'itc_rate': 0.30}})
+from src.utils.penalty_calculator import EnergizeDenverPenaltyCalculator
+calculator = EnergizeDenverPenaltyCalculator()
+penalty = calculator.calculate_penalty(actual_eui, target_eui, sqft, penalty_rate)
 ```
 
-#### 2. `src/models/tes_hp_cash_flow_bridge.py`
+#### 3. `src/utils/mai_data_loader.py` - **NEW**
+**Purpose:** Load and process MAI building data
+**Key Features:**
+- Loads MAI designations from CSV
+- Handles various property types
+- Provides MAI target lookups
+
+#### 4. `src/models/tes_hp_cash_flow_bridge.py`
 **Purpose:** Month-by-month cash flow modeling  
-**Tracks:**
-- Pre-construction expenses
-- Construction draws
-- Incentive receipts
-- Bridge loan balance
-- Operating revenues
+**Status:** Working correctly
 
-**Key Output:** 
-- Peak funding need
-- Developer returns (190%+ ROE)
-- Bridge loan sizing
-
-#### 3. `src/analysis/integrated_tes_hp_analyzer.py`
+#### 5. `src/analysis/integrated_tes_hp_analyzer.py`
 **Purpose:** Complete project analysis  
-**Calculates:**
-- System EUI reductions (70% for 4-pipe WSHP+TES)
-- Total project economics
-- Penalty avoidance
-- Developer returns
-- Exit valuations
+**Status:** Needs penalty rate update
 
-#### 4. `src/analysis/building_compliance_analyzer.py`
+#### 6. `src/analysis/building_compliance_analyzer.py`
 **Purpose:** ED compliance pathways  
-**Status:** ⚠️ NEEDS PENALTY RATE CORRECTION  
-**Features:**
-- Historical EUI trending
-- Standard vs Opt-in comparison
-- Visualization suite
+**Status:** Needs penalty rate update
 
 ---
 
 ## 💰 Financial Model
 
-### Current Assumptions (Building 2952) only
+### Current Assumptions (Building 2952)
 
 **Costs:**
 - Equipment: $1,200,000
@@ -261,126 +272,75 @@ update_config({'financial': {'itc_rate': 0.30}})
 - ROE: 198% (development only)
 - ROE: 274% (with asset sale)
 
-**Service Model:**
-- Monthly Fee: $150/unit
-- Annual NOI: $28,080
-- Asset Value (8% cap): $351,000
-
 ---
 
 ## 🔧 Known Issues & Fixes Needed
 
-### 1. 🚨 **CRITICAL: Penalty Rate Corrections**
-**Files to Update:**
-- `src/config/project_config.py` - Change penalty rates
-- `src/analysis/building_compliance_analyzer.py` - Update calculations
-- `src/analysis/integrated_tes_hp_analyzer.py` - Fix penalty math
+### 1. ✅ **COMPLETED: Penalty Rate Corrections**
+- Created penalty_calculator.py with correct rates
+- Created definitive source of truth document
+- Still need to update individual scripts
 
-**Required Changes:**
-```python
-# In project_config.py
-'penalties': {
-    'standard_rate': 0.15,  # $/kBtu for 3-target path
-    'alternate_rate': 0.23,  # $/kBtu for 2-target path
-    'extension_rate': 0.35,  # $/kBtu for 1-target path
-}
-```
+### 2. **Scripts Needing Updates**
+- `create_opt_in_decision_model.py` - Uses $0.15 for both paths
+- `integrated_tes_hp_analyzer.py` - Uses wrong penalty structure
+- `building_compliance_analyzer.py` - Uses wrong rates
 
-### 2. **Display Formatting**
-- Fix percentage display for penalty rates
-- Show as $/kBtu, not percentages
-
-### 3. **Opt-in Logic Enhancement**
-- Calculate breakeven for opt-in decision
-- Consider time value of delaying penalties
+### 3. **BigQuery Views**
+- Need to update penalty calculations in views
+- Ensure MAI logic is correct
 
 ### 4. **Data Validation**
 - Some buildings missing Weather Normalized EUI
 - EPB status needs verification
-- Geocoding completeness check
+- MAI targets need validation against calculations
 
 ---
 
 ## 🚀 Next Steps & Roadmap
 
-### Immediate Priority (Week 1)
-1. ✅ Fix penalty rate calculations throughout codebase
-2. ✅ Update all documentation with correct rates
-3. ✅ Re-run Building 2952 analysis with correct penalties
-4. ✅ Validate against technical guidance
+### Immediate Priority (This Week)
+1. **Create Unified EUI Target Loader**
+   - Consolidate all target loading logic
+   - Implement priority system
+   - Include MAI designation checks
+
+2. **Update Core Scripts**
+   - Use new penalty_calculator module
+   - Fix penalty rates throughout
+   - Add MAI logic where needed
+
+3. **Validate Calculations**
+   - Test Building 2952 (non-MAI)
+   - Test MAI buildings with various baselines
+   - Compare with technical guidance
 
 ### Short Term (Month 1)
 1. **Complete BigQuery Integration**
-   - Load all ED data to cloud
-   - Create penalty calculation views
+   - Update all views with correct rates
+   - Add MAI designation column
    - Enable city-wide analysis
 
 2. **Enhance DER Clustering**
    - Identify top 10 thermal districts
+   - Prioritize EPB + MAI clusters
    - Match heat sources with sinks
-   - Prioritize EPB clusters
 
 3. **Automate Reporting**
-   - Building scorecards
-   - Portfolio summaries
+   - Building scorecards with correct penalties
+   - MAI building special reports
    - Investment packages
 
 ### Medium Term (Quarter 1)
 1. **Web API Development**
-   - REST endpoints for building lookup
-   - Penalty calculations
-   - Retrofit recommendations
+   - REST endpoints using new modules
+   - MAI building endpoints
+   - Penalty calculation service
 
 2. **Financial Model Refinement**
-   - Dynamic utility rate projections
-   - Carbon credit integration
+   - MAI building special considerations
+   - Updated penalty projections
    - Portfolio optimization
-
-3. **Pilot Project Selection**
-   - Identify first 5-10 buildings
-   - Develop HOA/owner agreements
-   - Secure financing commitments
-
-### Long Term (Year 1)
-1. **Platform Launch**
-   - Public-facing web interface
-   - AI chatbot for building owners
-   - Automated proposal generation
-
-2. **Business Operations**
-   - Project development pipeline
-   - Construction management system
-   - Performance monitoring dashboard
-
-3. **Scale to 100+ Buildings**
-   - Standardized equipment packages
-   - Bulk procurement contracts
-   - O&M optimization
-
----
-
-## 🔌 API & Future Development
-
-### Planned Endpoints
-```
-GET  /api/building/{id}/penalty
-POST /api/building/analyze
-GET  /api/clusters/thermal
-POST /api/proposal/generate
-```
-
-### Integration Points
-- Energize Denver reporting API
-- Xcel Energy rebate portal
-- DRCOG grant applications
-- Tax credit monetization platforms
-
-### Success Metrics
-- Buildings analyzed: 1,700+
-- Penalties avoided: $100M+
-- GHG reduced: 50,000 tons/year
-- EPB buildings served: 200+
-- Developer IRR: 25%+
 
 ---
 
@@ -391,11 +351,17 @@ POST /api/proposal/generate
 **Documentation:** This file serves as source of truth
 
 **Key References:**
-- ED Technical Guidance v3.0 (April 2025) - ed-technical-guidance-buildings-25k-sf-v3-april-2025-clean.pdf
-- ed-technical-guidance-mai-buildings-25k-april-2025-clean.pdf
+- penalty_calculation_source_of_truth.md - Definitive penalty guide (NEW)
+- ED Technical Guidance v3.0 (April 2025)
+- MAI Buildings Technical Guidance (April 2025)
 - Federal ITC Guidelines (IRA 2022)
 - Denver Climate Action Plan
-- CASR Ambient Loop Study (June 2025)
+
+**Recent Updates (July 13, 2025):**
+- Fixed BigQuery export script (V3)
+- Created penalty calculator module
+- Discovered MAI complexity
+- Updated all documentation
 
 ---
 

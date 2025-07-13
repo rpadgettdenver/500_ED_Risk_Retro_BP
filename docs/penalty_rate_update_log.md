@@ -70,14 +70,17 @@ Where:
 - 2026: $0 (no penalty)
 - 2027: $X penalty (target year)
 - 2028-2029: $0 (no penalty)
-- 2030-2042: $X penalty annually (13 years)
+- 2030: $X penalty (Final target year)
+- 2031-2042: $X penalty annually (12 years)
 - Total: 15 years of penalties
+- For the Standard Path, the 2025 target will be shown as 
 
 **Opt-in Path (non-compliant building):**
 - 2025-2027: $0 (no penalty)
 - 2028: $Y penalty (target year)
 - 2029-2031: $0 (no penalty)
-- 2032-2042: $Y penalty annually (11 years)
+- 2032: $Y penalty (target year)
+- 2033-2042: $Y penalty annually (10 years)
 - Total: 12 years of penalties
 
 ### Testing Recommendations
