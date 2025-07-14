@@ -55,6 +55,9 @@ class HVACSystemImpactModeler:
         # Natural gas emissions factor (lbs CO2/therm)
         self.gas_emissions = 11.7
         
+        # Initialize penalty calculator
+        self.penalty_calc = EnergizeDenverPenaltyCalculator()
+        
     def _load_building_data(self) -> Dict:
         """Load current building data"""
         building_row = self.df[self.df['Building ID'] == self.building_id]
@@ -236,7 +239,7 @@ class HVACSystemImpactModeler:
         }
         
         # Add compliance analysis
-        results.update(self._analyze_compliance(results['effective_eui_for_compliance']))
+        results.update(self._analyze_compliance(results['effective_eui_for_compliance'], 'standard'))
         
         return results
     
@@ -257,29 +260,35 @@ class HVACSystemImpactModeler:
         # Add 30% market escalation
         return cost * 1.3
     
-    def _analyze_compliance(self, effective_eui: float) -> Dict:
-        """Analyze compliance with Energize Denver targets"""
+    def _analyze_compliance(self, effective_eui: float, compliance_path: str = 'standard') -> Dict:
+        """Analyze compliance with Energize Denver targets
+        
+        Args:
+            effective_eui: Effective EUI after electrification bonus
+            compliance_path: 'standard' or 'aco' compliance path
+        """
         targets = {
             '2025_target': self.building_data.get('first_interim_target', 65.4),
             '2027_target': self.building_data.get('second_interim_target', 63.2),
             '2030_target': self.building_data.get('final_target', 51.5),
         }
         
+        # ACO path uses different years
+        if compliance_path == 'aco':
+            targets = {
+                '2028_target': self.building_data.get('first_interim_target', 65.4),
+                '2032_target': self.building_data.get('final_target', 51.5),
+            }
+        
         compliance = {}
+        
+        # Get the correct penalty rate for the compliance path
+        penalty_rate = self.penalty_calc.get_penalty_rate(compliance_path)
         
         for year, target in targets.items():
             if target > 0:
                 compliant = effective_eui <= target
                 excess = max(0, effective_eui - target)
-                
-                # TODO: Update to use penalty_calculator module for correct rates
-                # Calculate penalty
-                if '2025' in year:
-                    penalty_rate = 0.15  # Standard path rate
-                elif '2027' in year:
-                    penalty_rate = 0.15  # Standard path rate
-                else:
-                    penalty_rate = 0.15  # Standard path rate
                     
                 annual_penalty = excess * self.building_data['sqft'] * penalty_rate
                 
@@ -287,6 +296,7 @@ class HVACSystemImpactModeler:
                     'target_eui': target,
                     'compliant': compliant,
                     'excess_eui': round(excess, 1),
+                    'penalty_rate': penalty_rate,
                     'annual_penalty': round(annual_penalty, 0),
                 }
         
@@ -358,12 +368,14 @@ class HVACSystemImpactModeler:
                 row['2030_penalty'] * 10   # 2030-2039 (assume 10 years)
             )
             
-            # Opt-in path would delay by 3 years but same targets
+            # Opt-in path would delay by 3 years but has higher rate (0.23 vs 0.15)
+            # Need to recalculate with ACO rate
+            aco_rate_multiplier = 0.23 / 0.15  # ACO rate is 53% higher
             opt_in_penalties = (
                 0 * 3 +  # No penalties 2025-2027
-                row['2025_penalty'] * 2 +  # 2028-2029 at 2025 target
-                row['2027_penalty'] * 3 +  # 2030-2032 at 2027 target
-                row['2030_penalty'] * 7    # 2033-2039 at final target
+                row['2025_penalty'] * aco_rate_multiplier * 2 +  # 2028-2029 at 2025 target with ACO rate
+                row['2027_penalty'] * aco_rate_multiplier * 3 +  # 2030-2032 at 2027 target with ACO rate
+                row['2030_penalty'] * aco_rate_multiplier * 7    # 2033-2039 at final target with ACO rate
             )
             
             df_compare.at[idx, 'total_penalties_standard'] = standard_penalties

@@ -79,9 +79,23 @@ class PortfolioRiskAnalyzer:
             suffixes=('', '_targets')
         )
         
-        # Clean up
-        self.portfolio = self.portfolio[self.portfolio['Weather Normalized Site EUI'] > 0]
-        self.portfolio = self.portfolio[self.portfolio['Master Sq Ft'] >= 25000]
+        # Clean up - convert to numeric first
+        self.portfolio['Weather Normalized Site EUI'] = pd.to_numeric(
+            self.portfolio['Weather Normalized Site EUI'], errors='coerce'
+        )
+        self.portfolio['Master Sq Ft'] = pd.to_numeric(
+            self.portfolio['Master Sq Ft'], errors='coerce'
+        )
+        
+        # Filter out invalid data
+        self.portfolio = self.portfolio[
+            (self.portfolio['Weather Normalized Site EUI'] > 0) & 
+            (self.portfolio['Weather Normalized Site EUI'].notna())
+        ]
+        self.portfolio = self.portfolio[
+            (self.portfolio['Master Sq Ft'] >= 25000) & 
+            (self.portfolio['Master Sq Ft'].notna())
+        ]
         
         print(f"✓ Loaded {len(self.portfolio)} buildings for analysis")
         
