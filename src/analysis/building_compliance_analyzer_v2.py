@@ -4,11 +4,18 @@ File Location: /Users/robertpadgett/Projects/01_My_Notebooks/500_ED_Risk_Retro_B
 Use: Enhanced building compliance analyzer with NPV, caps/floors, and sophisticated opt-in logic
 
 This updated script:
-1. Uses the unified penalty calculator for consistency
+1. Uses the unified penalty calculator and EUI target loader
 2. Implements NPV analysis with 7% discount rate
-3. Applies 42% reduction cap and MAI floor
+3. Applies 42% reduction cap and MAI floor via the modules
 4. Provides sophisticated opt-in recommendations
 5. Includes technical feasibility scoring
+
+CHANGES MADE:
+- Import from correct modules: EnergizeDenverPenaltyCalculator and load_building_targets
+- Remove hardcoded penalty rates
+- Use centralized target loading logic
+- Fixed method calls to match actual penalty calculator API
+- Fixed opt-in path visualization to start from baseline year, not current year
 """
 
 import pandas as pd
@@ -23,12 +30,9 @@ import sys
 # Add parent directory to path for imports
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-# Import the unified penalty calculator
-try:
-    from utils.penalty_calculator import PenaltyCalculator, calculate_building_penalties
-except ImportError:
-    print("Warning: Could not import penalty_calculator. Please ensure it's in src/utils/")
-    # We'll define a minimal version inline if needed
+# Import the correct unified modules
+from utils.penalty_calculator import EnergizeDenverPenaltyCalculator
+from utils.eui_target_loader import load_building_targets
 
 class EnhancedBuildingComplianceAnalyzer:
     def __init__(self, building_id, data_dir='/Users/robertpadgett/Projects/01_My_Notebooks/500_ED_Risk_Retro_BP/data'):
@@ -38,8 +42,8 @@ class EnhancedBuildingComplianceAnalyzer:
         self.processed_dir = os.path.join(data_dir, 'processed')
         self.raw_dir = os.path.join(data_dir, 'raw')
         
-        # Initialize penalty calculator
-        self.calc = PenaltyCalculator()
+        # Initialize penalty calculator with correct class
+        self.calc = EnergizeDenverPenaltyCalculator()
         
         # Load necessary data
         self.load_data()
@@ -59,14 +63,17 @@ class EnhancedBuildingComplianceAnalyzer:
             self.df_all_years = pd.read_csv(os.path.join(self.processed_dir, latest_all_years))
             self.df_all_years['Building ID'] = self.df_all_years['Building ID'].astype(str)
         
-        # Load EUI targets
-        self.df_targets = pd.read_csv(os.path.join(self.raw_dir, 'Building_EUI_Targets.csv'))
-        self.df_targets['Building ID'] = self.df_targets['Building ID'].astype(str)
-        
         # Get building-specific data
         self.building_current = self.df_current[self.df_current['Building ID'] == self.building_id]
         self.building_history = self.df_all_years[self.df_all_years['Building ID'] == self.building_id]
-        self.building_targets = self.df_targets[self.df_targets['Building ID'] == self.building_id]
+        
+        # Load targets using the centralized loader
+        try:
+            self.building_targets_data = load_building_targets(self.building_id)
+            print(f"✓ Loaded targets for Building {self.building_id} using centralized loader")
+        except Exception as e:
+            print(f"⚠️  Error loading targets: {e}")
+            self.building_targets_data = None
         
         if len(self.building_current) == 0:
             raise ValueError(f"Building {self.building_id} not found in current data")
@@ -78,31 +85,29 @@ class EnhancedBuildingComplianceAnalyzer:
     def prepare_building_data(self):
         """Prepare building data for penalty calculations"""
         building = self.building_current.iloc[0]
-        targets_row = self.building_targets.iloc[0] if len(self.building_targets) > 0 else None
         
-        if targets_row is None:
+        if self.building_targets_data is None:
             print("⚠️  No targets found for this building")
             return None
             
-        # Extract key data
+        # Extract key data from current building record
         current_eui = pd.to_numeric(building['Weather Normalized Site EUI'], errors='coerce')
         sqft = pd.to_numeric(building['Master Sq Ft'], errors='coerce')
         property_type = building['Master Property Type']
         year_built = pd.to_numeric(building.get('Year Built', 1990), errors='coerce')
         
-        # Check if MAI building
-        mai_types = ['Manufacturing/Industrial Plant', 'Data Center', 'Agricultural']
-        is_mai = property_type in mai_types
+        # Use data from centralized loader
+        targets_data = self.building_targets_data
         
-        # Extract targets
+        # Extract targets from the centralized loader
         targets = {
-            2025: targets_row.get('First Interim Target EUI', 0),
-            2027: targets_row.get('Second Interim Target EUI', 0),
-            2030: targets_row.get('Adjusted Final Target EUI', targets_row.get('Original Final Target EUI', 0))
+            2025: targets_data['first_interim_target'],
+            2027: targets_data['second_interim_target'],
+            2030: targets_data['final_target_with_logic']  # Uses adjusted target with caps/MAI logic
         }
         
-        # For opt-in path, use the same final target for 2028 and 2032
-        targets[2028] = self.calculate_opt_in_interim_target(targets_row)
+        # For opt-in path, calculate 2028 interim and use same final for 2032
+        targets[2028] = self.calculate_opt_in_interim_target(targets_data)
         targets[2032] = targets[2030]  # Same final target
         
         # Check for cash constraints (simplified logic)
@@ -112,27 +117,30 @@ class EnhancedBuildingComplianceAnalyzer:
             'building_id': self.building_id,
             'building_name': building.get('Building Name', 'Unknown'),
             'current_eui': current_eui,
-            'baseline_eui': targets_row.get('Baseline EUI', current_eui),
+            'baseline_eui': targets_data['baseline_eui'],
             'sqft': sqft,
             'property_type': property_type,
-            'is_mai': is_mai,
+            'is_mai': targets_data['is_mai'],
             'targets': targets,
             'building_age': 2024 - year_built if not pd.isna(year_built) else 30,
-            'cash_constrained': cash_constrained
+            'cash_constrained': cash_constrained,
+            'has_target_adjustment': targets_data.get('has_target_adjustment', False),
+            'has_electrification_credit': targets_data.get('has_electrification_credit', False)
         }
     
-    def calculate_opt_in_interim_target(self, targets_row):
+    def calculate_opt_in_interim_target(self, targets_data):
         """Calculate opt-in path interim target for 2028"""
-        baseline_eui = targets_row.get('Baseline EUI', 0)
-        final_target = targets_row.get('Adjusted Final Target EUI', 
-                                     targets_row.get('Original Final Target EUI', 0))
-        baseline_year = int(targets_row.get('Baseline Year', 2019))
+        baseline_eui = targets_data['baseline_eui']
+        final_target = targets_data['final_target_with_logic']
+        
+        # Assume baseline year is 2019 (could enhance to read from data)
+        baseline_year = 2019
         
         # Linear interpolation from baseline (2019) to final (2032)
         total_years = 2032 - baseline_year  # 13 years
         years_to_2028 = 2028 - baseline_year  # 9 years
         
-        if total_years > 0:
+        if total_years > 0 and baseline_eui > 0:
             progress_ratio = years_to_2028 / total_years
             interim_target = baseline_eui - (baseline_eui - final_target) * progress_ratio
             return interim_target
@@ -140,16 +148,187 @@ class EnhancedBuildingComplianceAnalyzer:
         return final_target
     
     def calculate_enhanced_penalties(self):
-        """Calculate penalties with NPV analysis and sophisticated logic"""
+        """Calculate penalties using centralized calculator with NPV analysis"""
         
         # Prepare building data
         building_data = self.prepare_building_data()
         if building_data is None:
             return None
             
-        # Use the unified calculator
-        analysis = calculate_building_penalties(building_data, include_ongoing=False)
+        # Initialize results structure
+        analysis = {
+            'building_id': self.building_id,
+            'current_eui': building_data['current_eui'],
+            'baseline_eui': building_data['baseline_eui'],
+            'is_mai': building_data['is_mai'],
+            'adjusted_targets': building_data['targets'],
+            'standard_path': {
+                'penalties_by_year': {},
+                'total_nominal': 0,
+                'total_npv': 0
+            },
+            'optin_path': {
+                'penalties_by_year': {},
+                'total_nominal': 0,
+                'total_npv': 0
+            }
+        }
         
+        # Calculate standard path penalties (2025, 2027, 2030)
+        standard_years = [2025, 2027, 2030]
+        for year in standard_years:
+            target = building_data['targets'].get(year, 0)
+            if target > 0 and building_data['current_eui'] > target:
+                exceedance = building_data['current_eui'] - target
+                
+                # Get penalty rate for standard path
+                penalty_rate = self.calc.get_penalty_rate('standard')  # $0.15/kBtu
+                
+                # Calculate penalty using the correct method signature
+                penalty = self.calc.calculate_penalty(
+                    actual_eui=building_data['current_eui'],
+                    target_eui=target,
+                    sqft=building_data['sqft'],
+                    penalty_rate=penalty_rate
+                )
+                
+                # Calculate NPV (7% discount rate)
+                years_from_now = year - 2025
+                npv = penalty / ((1.07) ** years_from_now)
+                
+                analysis['standard_path']['penalties_by_year'][year] = {
+                    'target': target,
+                    'exceedance': exceedance,
+                    'penalty': penalty,
+                    'npv': npv
+                }
+                analysis['standard_path']['total_nominal'] += penalty
+                analysis['standard_path']['total_npv'] += npv
+        
+        # Calculate opt-in path penalties (2028, 2032)
+        optin_years = [2028, 2032]
+        for year in optin_years:
+            target = building_data['targets'].get(year, 0)
+            if target > 0 and building_data['current_eui'] > target:
+                exceedance = building_data['current_eui'] - target
+                
+                # Get penalty rate for ACO (alternate compliance option)
+                penalty_rate = self.calc.get_penalty_rate('aco')  # $0.23/kBtu
+                
+                # Calculate penalty
+                penalty = self.calc.calculate_penalty(
+                    actual_eui=building_data['current_eui'],
+                    target_eui=target,
+                    sqft=building_data['sqft'],
+                    penalty_rate=penalty_rate
+                )
+                
+                # Calculate NPV
+                years_from_now = year - 2025
+                npv = penalty / ((1.07) ** years_from_now)
+                
+                analysis['optin_path']['penalties_by_year'][year] = {
+                    'target': target,
+                    'exceedance': exceedance,
+                    'penalty': penalty,
+                    'npv': npv
+                }
+                analysis['optin_path']['total_nominal'] += penalty
+                analysis['optin_path']['total_npv'] += npv
+        
+        # Add retrofit analysis
+        reduction_needed = max(0, building_data['current_eui'] - building_data['targets'][2030])
+        reduction_pct = reduction_needed / building_data['current_eui'] * 100 if building_data['current_eui'] > 0 else 0
+        
+        # Estimate retrofit costs based on reduction needed
+        if reduction_pct <= 10:
+            cost_per_sqft = 5
+            retrofit_level = "minor"
+        elif reduction_pct <= 25:
+            cost_per_sqft = 15
+            retrofit_level = "moderate"
+        elif reduction_pct <= 40:
+            cost_per_sqft = 30
+            retrofit_level = "major"
+        else:
+            cost_per_sqft = 50
+            retrofit_level = "deep"
+            
+        analysis['retrofit_analysis'] = {
+            'reduction_needed': reduction_needed,
+            'reduction_pct': reduction_pct,
+            'retrofit_level': retrofit_level,
+            'cost_per_sqft': cost_per_sqft,
+            'total_cost': cost_per_sqft * building_data['sqft']
+        }
+        
+        # Technical difficulty assessment
+        building_age = building_data['building_age']
+        difficulty_score = min(100, reduction_pct * 2 + building_age / 2)
+        
+        if difficulty_score < 30:
+            feasibility = "straightforward"
+        elif difficulty_score < 60:
+            feasibility = "moderate_complexity"
+        elif difficulty_score < 80:
+            feasibility = "technically_challenging"
+        else:
+            feasibility = "extremely_difficult"
+            
+        analysis['technical_difficulty'] = {
+            'score': difficulty_score,
+            'feasibility': feasibility,
+            'building_age': building_age
+        }
+        
+        # Generate recommendation
+        npv_advantage = analysis['standard_path']['total_npv'] - analysis['optin_path']['total_npv']
+        
+        # Decision logic
+        if npv_advantage > 50000:
+            recommendation = "opt-in"
+            confidence = min(95, 50 + npv_advantage / 5000)
+            primary_reason = f"Significant NPV advantage of ${npv_advantage:,.0f}"
+        elif building_data['cash_constrained']:
+            recommendation = "opt-in"
+            confidence = 85
+            primary_reason = "Cash flow constraints favor delayed penalties"
+        elif reduction_pct > 35:
+            recommendation = "opt-in"
+            confidence = 80
+            primary_reason = f"High reduction requirement ({reduction_pct:.1f}%) needs more time"
+        elif npv_advantage > 10000:
+            recommendation = "opt-in"
+            confidence = 70
+            primary_reason = f"Moderate NPV advantage of ${npv_advantage:,.0f}"
+        else:
+            recommendation = "standard"
+            confidence = 60
+            primary_reason = "Lower overall costs with standard path"
+            
+        analysis['recommendation'] = {
+            'recommendation': recommendation,
+            'confidence': confidence,
+            'primary_reason': primary_reason,
+            'npv_advantage': npv_advantage,
+            'decision_factors': {
+                'npv_advantage': npv_advantage,
+                'reduction_pct': reduction_pct,
+                'technical_score': difficulty_score,
+                'cash_constrained': building_data['cash_constrained'],
+                'building_age': building_age
+            },
+            'secondary_reasons': []
+        }
+        
+        # Add secondary reasons
+        if building_data['is_mai']:
+            analysis['recommendation']['secondary_reasons'].append("MAI building has more lenient targets")
+        if building_data['has_target_adjustment']:
+            analysis['recommendation']['secondary_reasons'].append("Building has approved target adjustment")
+        if difficulty_score > 70:
+            analysis['recommendation']['secondary_reasons'].append("Technical complexity favors more time")
+            
         return analysis
     
     def create_enhanced_visualizations(self):
@@ -187,7 +366,6 @@ class EnhancedBuildingComplianceAnalyzer:
     
     def plot_historical_energy(self, ax):
         """Plot historical energy use and EUI"""
-        # Same as original implementation
         history = self.building_history.sort_values('Reporting Year')
         
         # Convert to numeric
@@ -238,22 +416,17 @@ class EnhancedBuildingComplianceAnalyzer:
         
         # Plot adjusted targets
         years = [2025, 2027, 2030]
-        original_targets = []
-        adjusted_targets = []
+        adjusted_targets = [analysis['adjusted_targets'].get(year, 0) for year in years]
         
-        for year in years:
-            if year in analysis['adjusted_targets']:
-                adjusted_targets.append(analysis['adjusted_targets'][year])
-                # We'd need to store original targets to show adjustment
-                
         ax.plot(years, adjusted_targets, 'g^-', linewidth=2, markersize=10,
                label='Adjusted Targets')
         
-        # Add 42% cap line
-        baseline_eui = analysis.get('baseline_eui', analysis['current_eui'])
-        cap_eui = baseline_eui * (1 - 0.42)
-        ax.axhline(y=cap_eui, color='orange', linestyle='--', 
-                  label=f'42% Cap ({cap_eui:.1f})')
+        # Add 42% cap line if not MAI
+        if not analysis.get('is_mai', False):
+            baseline_eui = analysis.get('baseline_eui', analysis['current_eui'])
+            cap_eui = baseline_eui * 0.58  # 42% reduction = 58% of baseline
+            ax.axhline(y=cap_eui, color='orange', linestyle='--', 
+                      label=f'42% Cap ({cap_eui:.1f})')
         
         # Add MAI floor if applicable
         if analysis.get('is_mai', False):
@@ -298,6 +471,11 @@ class EnhancedBuildingComplianceAnalyzer:
                transform=ax.transAxes, ha='center', fontsize=12,
                bbox=dict(boxstyle='round', facecolor='yellow', alpha=0.7))
         
+        # Add penalty rates annotation
+        ax.text(0.02, 0.02, 'Standard: $0.15/kBtu\nOpt-in: $0.23/kBtu',
+               transform=ax.transAxes, fontsize=10,
+               bbox=dict(boxstyle='round', facecolor='white', alpha=0.7))
+        
         ax.set_ylabel('Penalty Amount ($)')
         ax.set_title('Nominal vs NPV Penalty Comparison (7% Discount Rate)')
         ax.grid(True, alpha=0.3, axis='y')
@@ -312,20 +490,28 @@ class EnhancedBuildingComplianceAnalyzer:
         # Get targets
         targets = analysis['adjusted_targets']
         current_eui = analysis['current_eui']
+        baseline_eui = analysis.get('baseline_eui', current_eui)
         
-        # Standard path
-        standard_years = [2019, 2025, 2027, 2030]
+        # Get baseline year from targets data (default to 2019)
+        baseline_year = 2019
+        if self.building_targets_data:
+            # Could enhance to read baseline year from data if available
+            baseline_year = 2019
+        
+        # Standard path: baseline → 2025 → 2027 → 2030
+        standard_years = [baseline_year, 2025, 2027, 2030]
         standard_euis = [
-            analysis.get('baseline_eui', current_eui),
+            baseline_eui,
             targets.get(2025, 0),
             targets.get(2027, 0),
             targets.get(2030, 0)
         ]
         
-        # Opt-in path
-        optin_years = [2019, 2028, 2032]
+        # ACO/Opt-in path: baseline → 2028 → 2032
+        # Per source of truth: opt-in path also starts from baseline year/EUI
+        optin_years = [baseline_year, 2028, 2032]
         optin_euis = [
-            analysis.get('baseline_eui', current_eui),
+            baseline_eui,  # Start from baseline, not current
             targets.get(2028, 0),
             targets.get(2032, 0)
         ]
@@ -334,16 +520,38 @@ class EnhancedBuildingComplianceAnalyzer:
         ax.plot(standard_years, standard_euis, 'b-o', linewidth=2, markersize=8,
                label='Standard Path ($0.15/kBtu)')
         ax.plot(optin_years, optin_euis, 'g-s', linewidth=2, markersize=8,
-               label='Opt-in Path ($0.23/kBtu)')
+               label='ACO/Opt-in Path ($0.23/kBtu)')
         
         # Current EUI line
         ax.axhline(y=current_eui, color='red', linestyle='-', alpha=0.7,
                   label=f'Current EUI ({current_eui:.1f})')
         
-        # Shade penalty zones
+        # Baseline EUI line (if different from current)
+        if abs(baseline_eui - current_eui) > 0.1:
+            ax.axhline(y=baseline_eui, color='gray', linestyle=':', alpha=0.5,
+                      label=f'Baseline EUI ({baseline_eui:.1f})')
+        
+        # Shade penalty zones for both paths
+        # Standard path penalty zone
         ax.fill_between(standard_years, current_eui, standard_euis, 
                        where=[eui < current_eui for eui in standard_euis],
-                       alpha=0.2, color='red', label='Penalty Zone')
+                       alpha=0.15, color='blue', label='Standard Penalty Zone')
+        
+        # Opt-in path penalty zone (lighter shade)
+        ax.fill_between(optin_years, current_eui, optin_euis, 
+                       where=[eui < current_eui for eui in optin_euis],
+                       alpha=0.15, color='green')
+        
+        # Add target year annotations
+        for year, eui in zip([2025, 2027, 2030], [targets.get(2025, 0), targets.get(2027, 0), targets.get(2030, 0)]):
+            if eui > 0:
+                ax.annotate(f'{year}', xy=(year, eui), xytext=(year, eui-3),
+                           ha='center', fontsize=8, color='blue')
+        
+        for year, eui in zip([2028, 2032], [targets.get(2028, 0), targets.get(2032, 0)]):
+            if eui > 0:
+                ax.annotate(f'{year}', xy=(year, eui), xytext=(year, eui+3),
+                           ha='center', fontsize=8, color='green')
         
         ax.set_xlabel('Year')
         ax.set_ylabel('Weather Normalized EUI (kBtu/ft²)')
@@ -476,15 +684,14 @@ class EnhancedBuildingComplianceAnalyzer:
         print(f"   Size: {building['Master Sq Ft']:,.0f} sq ft")
         print(f"   Current EUI: {analysis['current_eui']:.1f} kBtu/ft²")
         
-        # Target adjustments
-        print(f"\n🎯 Target Adjustments:")
-        building_data = self.prepare_building_data()
-        for year, original in building_data['targets'].items():
-            adjusted = analysis['adjusted_targets'][year]
-            if adjusted != original:
-                print(f"   {year}: {original:.1f} → {adjusted:.1f} kBtu/ft² (adjusted)")
-            else:
-                print(f"   {year}: {adjusted:.1f} kBtu/ft²")
+        # Target information from centralized loader
+        if self.building_targets_data:
+            print(f"\n🎯 Target Information:")
+            print(f"   Is MAI Building: {self.building_targets_data['is_mai']}")
+            print(f"   Has Target Adjustment: {self.building_targets_data.get('has_target_adjustment', False)}")
+            print(f"   Has Electrification Credit: {self.building_targets_data.get('has_electrification_credit', False)}")
+            print(f"   Baseline EUI: {self.building_targets_data['baseline_eui']:.1f}")
+            print(f"   Final Target (with logic): {self.building_targets_data['final_target_with_logic']:.1f}")
         
         # Penalty analysis with NPV
         print(f"\n💰 Penalty Analysis (with NPV @ 7% discount rate):")

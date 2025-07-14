@@ -210,32 +210,6 @@ class FixedDERClusterAnalyzer(DERClusterAnalyzer):
         
         return clusters_df
 
-
-def organize_outputs(base_output_dir):
-    """Organize output directories"""
-    import os
-    from datetime import datetime
-    
-    timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-    output_dir = os.path.join(base_output_dir, 'der_clustering', timestamp)
-    
-    paths = {
-        'reports': os.path.join(output_dir, 'reports'),
-        'json': os.path.join(output_dir, 'json'),
-        'visualizations': os.path.join(output_dir, 'visualizations')
-    }
-    
-    for path in paths.values():
-        os.makedirs(path, exist_ok=True)
-    
-    return paths
-
-def export_to_excel_friendly_csv(df, filepath):
-    """Export DataFrame to Excel-friendly CSV"""
-    df.to_csv(filepath, index=False, encoding='utf-8-sig')
-    print(f"   Saved: {os.path.basename(filepath)}")
-
-
 def main():
     """Main function to run fixed DER clustering"""
     

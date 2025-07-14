@@ -15,6 +15,8 @@ import numpy as np
 from typing import Dict, Tuple, List
 import os
 from datetime import datetime
+from src.utils.penalty_calculator import EnergizeDenverPenaltyCalculator
+
 
 class HVACSystemImpactModeler:
     """Model EUI impacts of different HVAC system configurations"""
@@ -270,13 +272,14 @@ class HVACSystemImpactModeler:
                 compliant = effective_eui <= target
                 excess = max(0, effective_eui - target)
                 
+                # TODO: Update to use penalty_calculator module for correct rates
                 # Calculate penalty
                 if '2025' in year:
-                    penalty_rate = 0.30
+                    penalty_rate = 0.15  # Standard path rate
                 elif '2027' in year:
-                    penalty_rate = 0.50
+                    penalty_rate = 0.15  # Standard path rate
                 else:
-                    penalty_rate = 0.70
+                    penalty_rate = 0.15  # Standard path rate
                     
                 annual_penalty = excess * self.building_data['sqft'] * penalty_rate
                 
