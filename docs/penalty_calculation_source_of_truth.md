@@ -1,6 +1,6 @@
 # Energize Denver Penalty Calculations - Definitive Source of Truth
-**Version:** 1.0  
-**Date:** July 13, 2025  
+**Version:** 1.2  
+**Date:** January 14, 2025  
 **Purpose:** Single authoritative reference for all penalty calculations
 
 ---
@@ -31,6 +31,14 @@
 - Continue indefinitely at the same rate until compliance achieved
 - Standard Path: Annual penalties start 2031
 - ACO Path: Annual penalties start 2033
+
+### 2.3 Compliance Pathway Visualization
+**IMPORTANT**: Both Standard and ACO paths start from the same baseline year and baseline EUI
+- **Standard Path**: Baseline Year/EUI → 2025 → 2027 → 2030
+- **ACO Path**: Baseline Year/EUI → 2028 → 2032
+- Baseline Year is found in Building_EUI_Targets.csv "Baseline Year" column
+- Penalties are calculated based on current EUI vs target EUI
+- Visualizations should show both paths starting from baseline, not current year
 
 ---
 
@@ -130,21 +138,35 @@ Use columns from Building_EUI_Targets.csv:
 - **2030 Target**: "Adjusted Final Target EUI" or "Original Final Target EUI" (apply caps/floors)
 
 ### 5.2 ACO/Opt-in Path Targets
-- **2028 Target**: Use "First Interim Target EUI" value (apply caps/floors)
-- **2032 Target**: Use "Adjusted Final Target EUI" or "Original Final Target EUI" (apply caps/floors)
+- **2028 Target**: Use "First Interim Target EUI" from Building_EUI_Targets.csv (apply caps/floors)
+- **2032 Target**: Use same as 2030 target from "Adjusted Final Target EUI" or "Original Final Target EUI" (apply caps/floors)
 - **No 2027 target** for opt-in buildings
+
+### 5.3 ACO 2028 Target Selection
+```python
+def get_aco_2028_target(building_row):
+    """Get ACO 2028 target - uses First Interim Target EUI"""
+    # ACO 2028 target uses the same target as Standard Path 2025
+    # This is the First Interim Target EUI from the CSV
+    first_interim_target = building_row['First Interim Target EUI']
+    
+    # Apply caps/floors as appropriate
+    if is_mai_building:
+        return apply_mai_rules(first_interim_target, baseline_eui)
+    else:
+        return apply_non_mai_cap(first_interim_target, baseline_eui)
+```
 
 ---
 
 ## 6. Complete Calculation Process
-
-### 6. Complete Calculation Process
 
 ### Step 1: Load Building Data
 ```python
 # From Building_EUI_Targets.csv
 building_id = row['Building ID']
 baseline_eui = row['Baseline EUI']
+baseline_year = row['Baseline Year']
 sqft = row['Master Sq Ft']
 first_interim_year = row['First Interim Target Year'] or 2025
 
@@ -173,7 +195,11 @@ else:
 ### Step 3: Apply Caps/Floors to Targets
 ```python
 for year in target_years:
-    raw_target = get_raw_target_for_year(year)  # From CSV
+    if path == 'ACO' and year == 2028:
+        # ACO 2028 uses First Interim Target EUI
+        raw_target = row['First Interim Target EUI']
+    else:
+        raw_target = get_raw_target_for_year(year)  # From CSV
     
     if is_mai:
         # For MAI: MAX(adjusted_target, 30% reduction, 52.9)
@@ -233,6 +259,7 @@ if still_non_compliant_after(final_target_year):
 
 When implementing these calculations:
 
+- [ ] Read Baseline Year from CSV for pathway starting points
 - [ ] Read First Interim Target Year from CSV (default to 2025 if missing)
 - [ ] Apply caps/floors to ALL targets before using them
 - [ ] Use weather normalized EUI for actual consumption
@@ -241,6 +268,7 @@ When implementing these calculations:
 - [ ] Handle MAI buildings with special rules
 - [ ] Account for never-benchmarked buildings differently
 - [ ] Store both target year and payment year for each penalty
+- [ ] For ACO path, use First Interim Target EUI for 2028 target
 
 ---
 
@@ -248,6 +276,7 @@ When implementing these calculations:
 
 ### Test Case 1: Standard Path Building
 - Building: 50,000 sqft office
+- Baseline Year: 2019
 - Baseline: 100 kBtu/sqft
 - Current: 85 kBtu/sqft
 - 2030 Raw Target: 40 kBtu/sqft
@@ -256,6 +285,7 @@ When implementing these calculations:
 
 ### Test Case 2: MAI Building
 - Building: 100,000 sqft manufacturing
+- Baseline Year: 2019
 - Baseline: 200 kBtu/sqft
 - Current: 180 kBtu/sqft
 - 2030 Raw Target: 50 kBtu/sqft
@@ -265,8 +295,13 @@ When implementing these calculations:
 
 ### Test Case 3: Opt-in Building
 - Building: 30,000 sqft multifamily
+- Baseline Year: 2019
+- Baseline: 100 kBtu/sqft
 - Current: 70 kBtu/sqft
+- First Interim Target: 75 kBtu/sqft
+- 2028 Target: 75 kBtu/sqft (uses First Interim Target)
 - 2032 Target: 50 kBtu/sqft (after caps)
+- 2028 Penalty: $0 (current < target)
 - 2032 Penalty: (70 - 50) × 30,000 × $0.23 = $138,000
 
 ---
@@ -277,6 +312,8 @@ When implementing these calculations:
 |---------|------|---------|
 | 1.0 | 2025-07-13 | Initial definitive version consolidating all sources |
 | 1.1 | 2025-07-13 | Updated MAI logic: identification via MAITargetSummary, MAX() calculation |
+| 1.2 | 2025-01-14 | Added clarification on pathway visualization, baseline year usage, and ACO 2028 target calculation |
+| 1.3 | 2025-07-14 | CRITICAL CORRECTION: ACO 2028 target uses First Interim Target EUI from CSV, NOT interpolation |
 
 ---
 

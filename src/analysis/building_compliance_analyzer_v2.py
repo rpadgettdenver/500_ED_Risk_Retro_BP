@@ -16,6 +16,7 @@ CHANGES MADE:
 - Use centralized target loading logic
 - Fixed method calls to match actual penalty calculator API
 - Fixed opt-in path visualization to start from baseline year, not current year
+- Now reads baseline year from CSV data for accurate pathway visualization
 """
 
 import pandas as pd
@@ -74,6 +75,15 @@ class EnhancedBuildingComplianceAnalyzer:
         except Exception as e:
             print(f"⚠️  Error loading targets: {e}")
             self.building_targets_data = None
+            
+        # Load target years from the CSV directly to get baseline year
+        try:
+            targets_csv = pd.read_csv(os.path.join(self.raw_dir, 'Building_EUI_Targets.csv'))
+            targets_csv['Building ID'] = targets_csv['Building ID'].astype(str)
+            self.building_target_years = targets_csv[targets_csv['Building ID'] == self.building_id].iloc[0]
+        except Exception as e:
+            print(f"⚠️  Error loading target years: {e}")
+            self.building_target_years = None
         
         if len(self.building_current) == 0:
             raise ValueError(f"Building {self.building_id} not found in current data")
@@ -106,9 +116,14 @@ class EnhancedBuildingComplianceAnalyzer:
             2030: targets_data['final_target_with_logic']  # Uses adjusted target with caps/MAI logic
         }
         
-        # For opt-in path, calculate 2028 interim and use same final for 2032
-        targets[2028] = self.calculate_opt_in_interim_target(targets_data)
+        # For opt-in path, 2028 uses First Interim Target and 2032 uses final
+        targets[2028] = self.get_opt_in_2028_target(targets_data)
         targets[2032] = targets[2030]  # Same final target
+        
+        # Get baseline year from CSV data
+        baseline_year = 2019  # Default
+        if self.building_target_years is not None:
+            baseline_year = int(self.building_target_years.get('Baseline Year', 2019))
         
         # Check for cash constraints (simplified logic)
         cash_constrained = property_type in ['Affordable Housing', 'Senior Care Community']
@@ -118,6 +133,7 @@ class EnhancedBuildingComplianceAnalyzer:
             'building_name': building.get('Building Name', 'Unknown'),
             'current_eui': current_eui,
             'baseline_eui': targets_data['baseline_eui'],
+            'baseline_year': baseline_year,
             'sqft': sqft,
             'property_type': property_type,
             'is_mai': targets_data['is_mai'],
@@ -128,24 +144,15 @@ class EnhancedBuildingComplianceAnalyzer:
             'has_electrification_credit': targets_data.get('has_electrification_credit', False)
         }
     
-    def calculate_opt_in_interim_target(self, targets_data):
-        """Calculate opt-in path interim target for 2028"""
-        baseline_eui = targets_data['baseline_eui']
-        final_target = targets_data['final_target_with_logic']
+    def get_opt_in_2028_target(self, targets_data):
+        """Get opt-in path 2028 target - uses First Interim Target EUI
         
-        # Assume baseline year is 2019 (could enhance to read from data)
-        baseline_year = 2019
-        
-        # Linear interpolation from baseline (2019) to final (2032)
-        total_years = 2032 - baseline_year  # 13 years
-        years_to_2028 = 2028 - baseline_year  # 9 years
-        
-        if total_years > 0 and baseline_eui > 0:
-            progress_ratio = years_to_2028 / total_years
-            interim_target = baseline_eui - (baseline_eui - final_target) * progress_ratio
-            return interim_target
-        
-        return final_target
+        Per source of truth v1.3: ACO 2028 target uses First Interim Target EUI
+        from CSV, NOT interpolation. This is the same target used for
+        Standard Path 2025.
+        """
+        # ACO 2028 uses the First Interim Target (same as Standard 2025)
+        return targets_data['first_interim_target']
     
     def calculate_enhanced_penalties(self):
         """Calculate penalties using centralized calculator with NPV analysis"""
@@ -160,6 +167,7 @@ class EnhancedBuildingComplianceAnalyzer:
             'building_id': self.building_id,
             'current_eui': building_data['current_eui'],
             'baseline_eui': building_data['baseline_eui'],
+            'baseline_year': building_data['baseline_year'],
             'is_mai': building_data['is_mai'],
             'adjusted_targets': building_data['targets'],
             'standard_path': {
@@ -491,15 +499,17 @@ class EnhancedBuildingComplianceAnalyzer:
         targets = analysis['adjusted_targets']
         current_eui = analysis['current_eui']
         baseline_eui = analysis.get('baseline_eui', current_eui)
+        baseline_year = analysis.get('baseline_year', 2019)
         
-        # Get baseline year from targets data (default to 2019)
-        baseline_year = 2019
-        if self.building_targets_data:
-            # Could enhance to read baseline year from data if available
-            baseline_year = 2019
+        # Get target years from CSV if available
+        first_interim_year = 2025
+        second_interim_year = 2027
+        if self.building_target_years is not None:
+            first_interim_year = int(self.building_target_years.get('First Interim Target Year', 2025))
+            second_interim_year = int(self.building_target_years.get('Second Interim Target Year', 2027))
         
-        # Standard path: baseline → 2025 → 2027 → 2030
-        standard_years = [baseline_year, 2025, 2027, 2030]
+        # Standard path: baseline → first_interim → second_interim → 2030
+        standard_years = [baseline_year, first_interim_year, second_interim_year, 2030]
         standard_euis = [
             baseline_eui,
             targets.get(2025, 0),
@@ -532,15 +542,34 @@ class EnhancedBuildingComplianceAnalyzer:
                       label=f'Baseline EUI ({baseline_eui:.1f})')
         
         # Shade penalty zones for both paths
-        # Standard path penalty zone
-        ax.fill_between(standard_years, current_eui, standard_euis, 
-                       where=[eui < current_eui for eui in standard_euis],
-                       alpha=0.15, color='blue', label='Standard Penalty Zone')
+        # Always create the fill_between for legend consistency
         
-        # Opt-in path penalty zone (lighter shade)
-        ax.fill_between(optin_years, current_eui, optin_euis, 
-                       where=[eui < current_eui for eui in optin_euis],
-                       alpha=0.15, color='green')
+        # Standard path penalty zone
+        standard_fill = ax.fill_between(standard_years, current_eui, standard_euis, 
+                                      where=[eui < current_eui for eui in standard_euis],
+                                      alpha=0.15, color='blue', label='Standard Penalty Zone')
+        
+        # ACO/Opt-in path penalty zone  
+        optin_fill = ax.fill_between(optin_years, current_eui, optin_euis, 
+                                   where=[eui < current_eui for eui in optin_euis],
+                                   alpha=0.15, color='green', label='ACO/Opt-in Penalty Zone')
+        
+        # Check if there are actual penalties for annotation
+        has_standard_penalties = any(eui < current_eui for eui in standard_euis[1:])  # Skip baseline
+        has_optin_penalties = any(eui < current_eui for eui in optin_euis[1:])  # Skip baseline
+        
+        # Add annotations if no penalties
+        if not has_standard_penalties:
+            ax.text(0.02, 0.98, 'No Standard Path penalties', 
+                   transform=ax.transAxes, ha='left', va='top',
+                   bbox=dict(boxstyle='round,pad=0.3', facecolor='lightblue', alpha=0.7),
+                   fontsize=9)
+        
+        if not has_optin_penalties:
+            ax.text(0.02, 0.92, 'No ACO penalties until 2032', 
+                   transform=ax.transAxes, ha='left', va='top',
+                   bbox=dict(boxstyle='round,pad=0.3', facecolor='lightgreen', alpha=0.7),
+                   fontsize=9)
         
         # Add target year annotations
         for year, eui in zip([2025, 2027, 2030], [targets.get(2025, 0), targets.get(2027, 0), targets.get(2030, 0)]):
@@ -558,7 +587,7 @@ class EnhancedBuildingComplianceAnalyzer:
         ax.set_title('Compliance Pathways with Adjusted Targets')
         ax.legend()
         ax.grid(True, alpha=0.3)
-        ax.set_xlim(2018, 2033)
+        ax.set_xlim(baseline_year - 1, 2033)
     
     def plot_decision_factors(self, ax):
         """Plot decision factors as a bar chart"""
@@ -690,6 +719,7 @@ class EnhancedBuildingComplianceAnalyzer:
             print(f"   Is MAI Building: {self.building_targets_data['is_mai']}")
             print(f"   Has Target Adjustment: {self.building_targets_data.get('has_target_adjustment', False)}")
             print(f"   Has Electrification Credit: {self.building_targets_data.get('has_electrification_credit', False)}")
+            print(f"   Baseline Year: {analysis['baseline_year']}")
             print(f"   Baseline EUI: {self.building_targets_data['baseline_eui']:.1f}")
             print(f"   Final Target (with logic): {self.building_targets_data['final_target_with_logic']:.1f}")
         

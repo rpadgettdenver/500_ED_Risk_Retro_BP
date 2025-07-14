@@ -23,6 +23,9 @@ import os
 # Add parent directory to path for imports
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
+# Import centralized modules
+from utils.penalty_calculator import EnergizeDenverPenaltyCalculator
+
 # Import unified configuration
 try:
     from config import get_config
@@ -55,6 +58,8 @@ class IntegratedTESHPAnalyzer:
         Args:
             building_data: Dict with building information
         """
+        # Initialize penalty calculator
+        self.penalty_calc = EnergizeDenverPenaltyCalculator()
         # Use unified config if available
         if USE_UNIFIED_CONFIG and building_data is None:
             config = get_config()
@@ -196,10 +201,29 @@ class IntegratedTESHPAnalyzer:
             compliance_2027 = effective_eui <= self.building_data['second_interim_target']
             compliance_2030 = effective_eui <= self.building_data['final_target']
             
-            # Calculate penalties
-            penalty_2025 = max(0, effective_eui - self.building_data['first_interim_target']) * self.building_data['sqft'] * 0.15
-            penalty_2027 = max(0, effective_eui - self.building_data['second_interim_target']) * self.building_data['sqft'] * 0.15
-            penalty_2030 = max(0, effective_eui - self.building_data['final_target']) * self.building_data['sqft'] * 0.15
+            # Calculate penalties using centralized calculator
+            penalty_rate_standard = self.penalty_calc.get_penalty_rate('standard')
+            
+            penalty_2025 = self.penalty_calc.calculate_penalty(
+                actual_eui=effective_eui,
+                target_eui=self.building_data['first_interim_target'],
+                sqft=self.building_data['sqft'],
+                penalty_rate=penalty_rate_standard
+            )
+            
+            penalty_2027 = self.penalty_calc.calculate_penalty(
+                actual_eui=effective_eui,
+                target_eui=self.building_data['second_interim_target'],
+                sqft=self.building_data['sqft'],
+                penalty_rate=penalty_rate_standard
+            )
+            
+            penalty_2030 = self.penalty_calc.calculate_penalty(
+                actual_eui=effective_eui,
+                target_eui=self.building_data['final_target'],
+                sqft=self.building_data['sqft'],
+                penalty_rate=penalty_rate_standard
+            )
             
             results.append({
                 'system': config['name'],

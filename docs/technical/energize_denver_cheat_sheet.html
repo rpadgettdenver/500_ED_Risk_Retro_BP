@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energize Denver Quick Reference Guide</title>
+    <style>
+        @page {
+            size: letter;
+            margin: 0.5in;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-size: 11pt;
+            line-height: 1.4;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        h1 {
+            color: #1a5490;
+            font-size: 24pt;
+            margin: 0 0 10px 0;
+            border-bottom: 3px solid #1a5490;
+            padding-bottom: 10px;
+        }
+        
+        h2 {
+            color: #2c5aa0;
+            font-size: 16pt;
+            margin: 20px 0 10px 0;
+            background: #e8f0f7;
+            padding: 5px 10px;
+            border-left: 4px solid #2c5aa0;
+        }
+        
+        h3 {
+            color: #444;
+            font-size: 12pt;
+            margin: 15px 0 8px 0;
+        }
+        
+        .header-info {
+            text-align: right;
+            font-size: 10pt;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 10px 0;
+            font-size: 10pt;
+        }
+        
+        th {
+            background: #2c5aa0;
+            color: white;
+            padding: 8px;
+            text-align: left;
+            font-weight: bold;
+        }
+        
+        td {
+            border: 1px solid #ddd;
+            padding: 6px 8px;
+        }
+        
+        tr:nth-child(even) {
+            background: #f5f8fb;
+        }
+        
+        .code-box {
+            background: #f4f4f4;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 10px;
+            margin: 10px 0;
+            font-family: 'Courier New', monospace;
+            font-size: 10pt;
+            overflow-x: auto;
+        }
+        
+        .correct {
+            color: #0d7b0d;
+            font-weight: bold;
+        }
+        
+        .wrong {
+            color: #d73502;
+            font-weight: bold;
+            text-decoration: line-through;
+        }
+        
+        .decision-tree {
+            background: #fff;
+            border: 2px solid #2c5aa0;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 15px 0;
+        }
+        
+        .decision-node {
+            background: #e8f0f7;
+            border: 1px solid #2c5aa0;
+            border-radius: 4px;
+            padding: 8px;
+            margin: 5px 0;
+            font-weight: bold;
+        }
+        
+        .quick-calc {
+            background: #fff9e6;
+            border: 2px solid #f0ad4e;
+            border-radius: 4px;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        
+        .checklist {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .checklist li:before {
+            content: "☐ ";
+            font-size: 14pt;
+            margin-right: 5px;
+        }
+        
+        .warning-box {
+            background: #fee;
+            border: 2px solid #d9534f;
+            border-radius: 4px;
+            padding: 10px;
+            margin: 15px 0;
+        }
+        
+        .success-box {
+            background: #efe;
+            border: 2px solid #5cb85c;
+            border-radius: 4px;
+            padding: 10px;
+            margin: 15px 0;
+        }
+        
+        .two-column {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        
+        .page-break {
+            page-break-after: always;
+        }
+        
+        @media print {
+            body {
+                padding: 0;
+            }
+            .page-break {
+                page-break-after: always;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Energize Denver Quick Reference Guide</h1>
+    <div class="header-info">Version 1.0 | July 14, 2025</div>
+    
+    <h2>🎯 ACO Target Logic - At a Glance</h2>
+    <table>
+        <tr>
+            <th>Path</th>
+            <th>2025/2028</th>
+            <th>2027</th>
+            <th>2030/2032</th>
+            <th>Penalty Rate</th>
+        </tr>
+        <tr>
+            <td><strong>Standard</strong></td>
+            <td>First Interim Target</td>
+            <td>Second Interim Target</td>
+            <td>Final Target</td>
+            <td style="background: #d4edda;">$0.15/kBtu</td>
+        </tr>
+        <tr>
+            <td><strong>ACO</strong></td>
+            <td>First Interim Target</td>
+            <td style="background: #f8d7da;"><em>(skip)</em></td>
+            <td>Final Target</td>
+            <td style="background: #fff3cd;">$0.23/kBtu</td>
+        </tr>
+    </table>
+    
+    <div class="warning-box">
+        <strong>⚠️ Key Point:</strong> ACO 2028 = Standard 2025 target (NOT interpolated!)
+    </div>
+    
+    <div class="code-box">
+<span class="correct">✓ CORRECT:</span>
+aco_2028_target = building_data['first_interim_target']
+
+<span class="wrong">✗ WRONG - DO NOT USE:</span>
+aco_2028_target = interpolate(baseline, final)
+    </div>
+    
+    <h2>💡 Opt-In Decision Logic</h2>
+    <div class="decision-tree">
+        <div class="decision-node">NPV Advantage > $50,000? → YES → OPT-IN (95% confidence)</div>
+        <div class="decision-node">Cash Constrained? → YES → OPT-IN (85% confidence)</div>
+        <div class="decision-node">Reduction > 35%? → YES → OPT-IN (80% confidence)</div>
+        <div class="decision-node">NPV Advantage > $10,000? → YES → OPT-IN (70% confidence)</div>
+        <div class="decision-node" style="background: #fee;">Otherwise → STANDARD PATH (60% confidence)</div>
+    </div>
+    
+    <h3>Cash Constrained Criteria:</h3>
+    <ul>
+        <li>Affordable Housing</li>
+        <li>Senior Care Community</li>
+        <li>First year penalty > $500,000</li>
+    </ul>
+    
+    <h2>💰 Retrofit Cost Quick Lookup</h2>
+    <table>
+        <tr>
+            <th>Reduction Needed</th>
+            <th>Cost/sqft</th>
+            <th>Retrofit Level</th>
+            <th>Typical Measures</th>
+        </tr>
+        <tr>
+            <td>≤10%</td>
+            <td style="background: #d4edda; font-weight: bold;">$5</td>
+            <td>Minor</td>
+            <td>LEDs, controls, weatherization</td>
+        </tr>
+        <tr>
+            <td>10-25%</td>
+            <td style="background: #fff3cd; font-weight: bold;">$15</td>
+            <td>Moderate</td>
+            <td>+ HVAC controls, BAS, envelope</td>
+        </tr>
+        <tr>
+            <td>25-40%</td>
+            <td style="background: #ffeaa7; font-weight: bold;">$30</td>
+            <td>Major</td>
+            <td>+ Equipment replacement</td>
+        </tr>
+        <tr>
+            <td>>40%</td>
+            <td style="background: #f8d7da; font-weight: bold;">$50</td>
+            <td>Deep</td>
+            <td>Full system redesign</td>
+        </tr>
+    </table>
+    
+    <div class="quick-calc">
+        <h3>Quick Calculation:</h3>
+        <code>Retrofit Cost = Square Feet × Cost/sqft × Adjustments</code>
+        <br><br>
+        <strong>Building Type Adjustments:</strong>
+        <ul style="margin: 5px 0;">
+            <li>Multifamily: 0.9x | Office: 1.0x | Healthcare: 1.5x</li>
+            <li>Age >50 years: 1.4x | Historic: 1.4x</li>
+        </ul>
+    </div>
+    
+    <div class="page-break"></div>
+    
+    <h2>📊 NPV Calculation Reference</h2>
+    <div class="success-box">
+        <strong>Discount Rate: 7%</strong>
+    </div>
+    
+    <div class="two-column">
+        <div>
+            <h3>Standard Path NPV:</h3>
+            <div class="code-box">
+Year 0 (2025): Penalty₂₀₂₅
+Year 2 (2027): Penalty₂₀₂₇ ÷ 1.07²
+Year 5 (2030): Penalty₂₀₃₀ ÷ 1.07⁵
++ Annual penalties 2031-2042
+            </div>
+        </div>
+        <div>
+            <h3>ACO Path NPV:</h3>
+            <div class="code-box">
+Year 3 (2028): Penalty₂₀₂₈ ÷ 1.07³
+Year 7 (2032): Penalty₂₀₃₂ ÷ 1.07⁷
++ Annual penalties 2033-2042
+            </div>
+        </div>
+    </div>
+    
+    <h2>🚨 Common Mistakes to Avoid</h2>
+    <table>
+        <tr>
+            <th style="background: #d9534f;">Wrong ✗</th>
+            <th style="background: #5cb85c;">Correct ✓</th>
+        </tr>
+        <tr>
+            <td>Interpolating 2028 target</td>
+            <td>Use First Interim Target directly</td>
+        </tr>
+        <tr>
+            <td>Using $0.30 or $0.70 penalty rates</td>
+            <td>Standard: $0.15, ACO: $0.23</td>
+        </tr>
+        <tr>
+            <td>Assuming ACO is always better</td>
+            <td>Check NPV - higher rate often costs more</td>
+        </tr>
+        <tr>
+            <td>Forgetting annual penalties after final year</td>
+            <td>Penalties continue through 2042</td>
+        </tr>
+    </table>
+    
+    <h2>📋 Building Analysis Checklist</h2>
+    <ul class="checklist">
+        <li>Load First Interim Target for 2028 (no interpolation)</li>
+        <li>Apply MAI floor (52.9) if applicable</li>
+        <li>Apply 42% cap for non-MAI buildings</li>
+        <li>Calculate penalties at correct rates ($0.15 or $0.23)</li>
+        <li>Include annual penalties through 2042</li>
+        <li>Discount to NPV using 7% rate</li>
+        <li>Check all 5 decision criteria for opt-in</li>
+        <li>Estimate retrofit costs using tier system</li>
+    </ul>
+    
+    <h2>🔧 Code Snippets</h2>
+    <h3>Calculate Penalty:</h3>
+    <div class="code-box">
+def calculate_penalty(eui_actual, eui_target, sqft, path='standard'):
+    rate = 0.15 if path == 'standard' else 0.23
+    gap = max(0, eui_actual - eui_target)
+    return gap * sqft * rate
+    </div>
+    
+    <h3>Estimate Retrofit:</h3>
+    <div class="code-box">
+def estimate_retrofit_cost(sqft, reduction_pct):
+    if reduction_pct <= 10: return sqft * 5
+    elif reduction_pct <= 25: return sqft * 15
+    elif reduction_pct <= 40: return sqft * 30
+    else: return sqft * 50
+    </div>
+    
+    <h2>📁 Key Files Reference</h2>
+    <table>
+        <tr>
+            <th>Purpose</th>
+            <th>File Path</th>
+        </tr>
+        <tr>
+            <td>Source of Truth</td>
+            <td><code>/docs/penalty_calculation_source_of_truth.md</code></td>
+        </tr>
+        <tr>
+            <td>Penalty Calculator</td>
+            <td><code>/src/utils/penalty_calculator.py</code></td>
+        </tr>
+        <tr>
+            <td>Target Loader</td>
+            <td><code>/src/utils/eui_target_loader.py</code></td>
+        </tr>
+        <tr>
+            <td>Opt-In Logic</td>
+            <td><code>/src/utils/opt_in_predictor.py</code></td>
+        </tr>
+        <tr>
+            <td>Building Analyzer</td>
+            <td><code>/src/analysis/building_compliance_analyzer_v2.py</code></td>
+        </tr>
+    </table>
+    
+    <div style="text-align: center; margin-top: 30px; color: #666; font-size: 10pt;">
+        <em>Remember: When in doubt, check the source of truth documentation!</em>
+    </div>
+</body>
+</html>
