@@ -1,11 +1,42 @@
-google-cloud-storage
-google-cloud-bigquery
-pandas
-numpy
-pyarrow
-db-dtypes
-openpyxl
-pandas-gbq
-seaborn
-matplotlib
-pathlib
+# Core dependencies
+pandas>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.6.0
+seaborn>=0.12.0
+
+# Google Cloud Platform
+google-cloud-bigquery>=3.11.0
+google-cloud-storage>=2.10.0
+pandas-gbq>=0.19.0
+pyarrow>=12.0.0
+db-dtypes>=1.1.0
+
+# Excel/Data handling
+openpyxl>=3.1.0
+
+# Spatial analysis
+folium>=0.14.0
+geopy>=2.3.0
+haversine>=2.8.0
+
+# Machine Learning (optional - for future features)
+scikit-learn>=1.3.0
+scipy>=1.10.0
+
+# Reporting
+reportlab>=4.0.0
+fpdf2>=2.7.0
+markdown>=3.4.0
+
+# Visualization
+plotly>=5.14.0
+
+# Development tools
+pytest>=7.4.0
+black>=23.0.0
+flake8>=6.0.0
+ipykernel>=6.25.0  # For Jupyter notebook support
+
+# Additional utilities
+python-dateutil>=2.8.2
+pytz>=2023.3
