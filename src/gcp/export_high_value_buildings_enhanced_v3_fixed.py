@@ -24,7 +24,7 @@ import os
 # Configuration
 PROJECT_ID = "energize-denver-eaas"
 DATASET_ID = "energize_denver"
-OUTPUT_DIR = "/Users/robertpadgett/Projects/01_My_Notebooks/500_ED_Risk_Retro_BP/outputs/building_priority_analysis"
+OUTPUT_DIR = "/Users/robertpadgett/Projects/01_My_Notebooks/500_ED_Risk_Retro_BP/outputs/data/building_priority_analysis"
 
 
 class BusinessDevelopmentExporter:

@@ -37,6 +37,8 @@ class HVACSystemImpactModeler:
         
         # Load building data
         self.df = pd.read_csv(data_path)
+        # Ensure Building ID is treated as string for consistent matching
+        self.df['Building ID'] = self.df['Building ID'].astype(str)
         self.building_data = self._load_building_data()
         
         # System efficiency factors
@@ -72,19 +74,19 @@ class HVACSystemImpactModeler:
         return {
             'building_name': data.get('Building Name', 'Unknown'),
             'property_type': data.get('Master Property Type', 'Unknown'),
-            'sqft': data.get('Master Sq Ft', 0),
-            'current_site_eui': data.get('Site EUI', 0),
-            'current_weather_norm_eui': data.get('Weather Normalized Site EUI', 0),
-            'electricity_kwh': data.get('Electricity Use Grid Purchase (kWh)', 0),
-            'gas_kbtu': data.get('Natural Gas Use (kBtu)', 0),
-            'total_ghg': data.get('Total GHG Emissions (mtCO2e)', 0),
+            'sqft': pd.to_numeric(data.get('Master Sq Ft', 0), errors='coerce'),
+            'current_site_eui': pd.to_numeric(data.get('Site EUI', 0), errors='coerce'),
+            'current_weather_norm_eui': pd.to_numeric(data.get('Weather Normalized Site EUI', 0), errors='coerce'),
+            'electricity_kwh': pd.to_numeric(data.get('Electricity Use Grid Purchase (kWh)', 0), errors='coerce'),
+            'gas_kbtu': pd.to_numeric(data.get('Natural Gas Use (kBtu)', 0), errors='coerce'),
+            'total_ghg': pd.to_numeric(data.get('Total GHG Emissions (mtCO2e)', 0), errors='coerce'),
             'is_epb': data.get('is_epb', False),
-            'baseline_year': data.get('Baseline Year', 2019),
-            'baseline_eui': data.get('Baseline EUI', 0),
+            'baseline_year': pd.to_numeric(data.get('Baseline Year', 2019), errors='coerce'),
+            'baseline_eui': pd.to_numeric(data.get('Baseline EUI', 0), errors='coerce'),
             # Energize Denver targets
-            'first_interim_target': data.get('First Interim Target EUI', 0),
-            'second_interim_target': data.get('Second Interim Target EUI', 0),
-            'final_target': data.get('Adjusted Final Target EUI', 0),
+            'first_interim_target': pd.to_numeric(data.get('First Interim Target EUI', 0), errors='coerce'),
+            'second_interim_target': pd.to_numeric(data.get('Second Interim Target EUI', 0), errors='coerce'),
+            'final_target': pd.to_numeric(data.get('Adjusted Final Target EUI', 0), errors='coerce'),
         }
     
     def calculate_heating_cooling_split(self) -> Tuple[float, float]:

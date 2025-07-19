@@ -4,6 +4,7 @@ Run TES+HP analysis with unified configuration and proper ED penalty calculation
 
 import sys
 import os
+from datetime import datetime
 
 # Add the src directory to Python path
 project_root = os.path.dirname(os.path.abspath(__file__))
@@ -14,7 +15,7 @@ sys.path.insert(0, src_path)
 from config import get_config, update_config
 from models.tes_hp_cash_flow_bridge import TESHPCashFlowBridge
 from analysis.integrated_tes_hp_analyzer import IntegratedTESHPAnalyzer
-from src.analysis.building_compliance_analyzer_v2 import BuildingComplianceAnalyzer
+from src.analysis.building_compliance_analyzer_v2 import EnhancedBuildingComplianceAnalyzer
 from models.bridge_loan_investor_package import BridgeLoanInvestorPackage
 
 def run_unified_analysis():
@@ -47,8 +48,8 @@ def run_unified_analysis():
     print("-"*40)
     try:
         building_id = config.config['building']['building_id']
-        compliance_analyzer = BuildingComplianceAnalyzer(building_id)
-        penalties = compliance_analyzer.calculate_penalties()
+        compliance_analyzer = EnhancedBuildingComplianceAnalyzer(building_id)
+        penalties = compliance_analyzer.calculate_enhanced_penalties()
         
         if penalties:
             current_eui = penalties['current_eui']
@@ -127,13 +128,13 @@ def run_unified_analysis():
         print(f"Penalties avoided (15-yr): ${summary['recommended_solution']['penalties_avoided_15yr']:,.0f}")
         
         # Save report
-        report_path = os.path.join(project_root, 'outputs', 'unified_analysis.json')
+        report_path = os.path.join(project_root, 'outputs', 'data', f'integrated_analysis_{datetime.now().strftime("%Y%m%d_%H%M%S")}.json')
         analyzer.generate_full_report(report_path)
         print(f"✓ Report saved to: {report_path}")
         
         # Generate charts
         fig = analyzer.create_presentation_charts()
-        chart_path = os.path.join(project_root, 'outputs', 'unified_charts.png')
+        chart_path = os.path.join(project_root, 'outputs', 'reports')
         fig.savefig(chart_path, dpi=300, bbox_inches='tight')
         print(f"✓ Charts saved to: {chart_path}")
         

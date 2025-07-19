@@ -776,11 +776,11 @@ if __name__ == "__main__":
         print(f"{i}. {step}")
     
     # Generate full report
-    report_path = '/Users/robertpadgett/Projects/01_My_Notebooks/500_ED_Risk_Retro_BP/outputs/building_2952_tes_hp_analysis.json'
+    report_path = '/Users/robertpadgett/Projects/01_My_Notebooks/500_ED_Risk_Retro_BP/outputs/data/building_2952_tes_hp_analysis.json'
     analyzer.generate_full_report(report_path)
     
     # Create presentation charts
     fig = analyzer.create_presentation_charts()
-    chart_path = '/Users/robertpadgett/Projects/01_My_Notebooks/500_ED_Risk_Retro_BP/outputs/building_2952_charts.png'
+    chart_path = '/Users/robertpadgett/Projects/01_My_Notebooks/500_ED_Risk_Retro_BP/outputs/reports/building_2952_charts.png'
     fig.savefig(chart_path, dpi=300, bbox_inches='tight')
     print(f"\nCharts saved to: {chart_path}")

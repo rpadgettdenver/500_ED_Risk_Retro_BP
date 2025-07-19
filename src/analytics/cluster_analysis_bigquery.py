@@ -293,7 +293,7 @@ class DERClusterAnalysis:
             geojson['features'].append(feature)
         
         # Save to file
-        output_path = "outputs/cluster_opportunities.geojson"
+        output_path = "outputs/data/cluster_opportunities.geojson"
         with open(output_path, 'w') as f:
             json.dump(geojson, f, indent=2)
         

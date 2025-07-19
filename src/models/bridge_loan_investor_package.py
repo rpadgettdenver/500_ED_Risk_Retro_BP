@@ -708,7 +708,7 @@ class BridgeLoanInvestorPackage:
         """Generate complete bridge loan package as PDF"""
         
         if output_path is None:
-            output_path = f"/Users/robertpadgett/Projects/01_My_Notebooks/500_ED_Risk_Retro_BP/outputs/bridge_loan_package_{datetime.now().strftime('%Y%m%d')}.pdf"
+            output_path = f"/Users/robertpadgett/Projects/01_My_Notebooks/500_ED_Risk_Retro_BP/outputs/data/bridge_loan_package_{datetime.now().strftime('%Y%m%d')}.pdf"
         
         with PdfPages(output_path) as pdf:
             # Generate all pages

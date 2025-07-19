@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Energize Denver - Active Code Architecture</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.6.1/mermaid.min.js"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        h1 {
+            border-bottom: 3px solid #2563eb;
+            padding-bottom: 10px;
+        }
+        .diagram-container {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            overflow-x: auto;
+        }
+        .mermaid {
+            text-align: center;
+        }
+        .module-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .module-card {
+            background: #f8f9fa;
+            border: 2px solid #e5e7eb;
+            border-radius: 8px;
+            padding: 20px;
+        }
+        .module-card h3 {
+            margin-top: 0;
+            color: #2563eb;
+        }
+        .module-card ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        .status-active {
+            color: #10b981;
+            font-weight: bold;
+        }
+        .status-needs-update {
+            color: #f59e0b;
+            font-weight: bold;
+        }
+        .status-new {
+            color: #3b82f6;
+            font-weight: bold;
+        }
+        .legend {
+            display: flex;
+            gap: 20px;
+            padding: 15px;
+            background: #f3f4f6;
+            border-radius: 6px;
+            margin: 20px 0;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .legend-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🏗️ Energize Denver - Active Code Architecture</h1>
+        
+        <div class="legend">
+            <div class="legend-item">
+                <div class="legend-dot" style="background: #10b981;"></div>
+                <span class="status-active">Active & Working</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-dot" style="background: #f59e0b;"></div>
+                <span class="status-needs-update">Needs Penalty Rate Update</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-dot" style="background: #3b82f6;"></div>
+                <span class="status-new">New (July 13, 2025)</span>
+            </div>
+        </div>
+
+        <h2>📊 Module Dependency Architecture</h2>
+        <div class="diagram-container">
+            <div class="mermaid">
+graph TB
+    %% Configuration Layer
+    subgraph "Configuration Layer"
+        CONFIG[project_config.py<br/>Central Configuration]
+    end
+
+    %% Data Layer
+    subgraph "Data Layer"
+        subgraph "Raw Data"
+            CSV1[Building_EUI_Targets.csv]
+            CSV2[MAITargetSummary.csv]
+            CSV3[EPB Report.csv]
+            CSV4[Geocoded Buildings.csv]
+            EXCEL[ED Report Request.xlsx]
+        end
+        
+        subgraph "Data Processing"
+            LOADER[enhanced_comprehensive_loader.py]
+            MERGER[comprehensive_data_merger.py]
+            MAI[mai_data_loader.py]
+        end
+    end
+
+    %% Utility Layer
+    subgraph "Utility Layer"
+        PENALTY[penalty_calculator.py<br/>Penalty Calculations]
+        BRIDGE[local_gcp_bridge.py<br/>GCP Connection]
+    end
+
+    %% Analysis Layer
+    subgraph "Analysis Layer"
+        COMPLIANCE[building_compliance_analyzer_v2.py<br/>ED Compliance Analysis]
+        INTEGRATED[integrated_tes_hp_analyzer.py<br/>System & Financial Analysis]
+        HVAC[hvac_system_impact_modeler.py<br/>EUI Impact Modeling]
+    end
+
+    %% Financial Modeling Layer
+    subgraph "Financial Models"
+        CASHFLOW[tes_hp_cash_flow_bridge.py<br/>Monthly Cash Flows]
+        FINANCIAL[financial_model_bigquery.py<br/>Portfolio Analysis]
+        PACKAGE[bridge_loan_investor_package.py<br/>Investment Docs]
+    end
+
+    %% Analytics Layer
+    subgraph "Analytics & Clustering"
+        DER[der_clustering_analysis.py<br/>Thermal Districts]
+        CLUSTER[cluster_analysis_bigquery.py<br/>BigQuery Clustering]
+        EPB_INT[integrate_epb_data.py<br/>Equity Overlay]
+        VIZ[visualize_epb_clusters.py<br/>Mapping]
+    end
+
+    %% BigQuery Layer
+    subgraph "BigQuery Integration"
+        GCP_SETUP[gcp_migration_setup.py]
+        LOAD_BQ[load_data_and_calculate.py]
+        OPT_IN[create_opt_in_decision_model.py]
+        EXPORT[export_high_value_buildings_v3_fixed.py]
+        PENALTY_BQ[create_penalty_analysis_corrected.py]
+    end
+
+    %% Execution Layer
+    subgraph "Execution Scripts"
+        RUN[run_unified_analysis_v2.py<br/>Main Analysis Runner]
+        REPORT[generate_developer_returns_report.py<br/>Report Generator]
+    end
+
+    %% Dependencies
+    CONFIG --> LOADER
+    CONFIG --> PENALTY
+    CONFIG --> COMPLIANCE
+    CONFIG --> INTEGRATED
+    CONFIG --> CASHFLOW
+
+    CSV1 --> LOADER
+    CSV2 --> MAI
+    CSV3 --> LOADER
+    CSV4 --> LOADER
+    EXCEL --> LOADER
+
+    LOADER --> MERGER
+    MAI --> PENALTY
+    MAI --> COMPLIANCE
+
+    MERGER --> COMPLIANCE
+    MERGER --> INTEGRATED
+    PENALTY --> COMPLIANCE
+    PENALTY --> INTEGRATED
+
+    COMPLIANCE --> RUN
+    INTEGRATED --> RUN
+    HVAC --> INTEGRATED
+
+    CASHFLOW --> FINANCIAL
+    CASHFLOW --> PACKAGE
+    FINANCIAL --> REPORT
+    
+    MERGER --> DER
+    EPB_INT --> DER
+    DER --> CLUSTER
+    CLUSTER --> VIZ
+
+    BRIDGE --> GCP_SETUP
+    GCP_SETUP --> LOAD_BQ
+    LOAD_BQ --> OPT_IN
+    OPT_IN --> EXPORT
+    PENALTY_BQ --> EXPORT
+
+    RUN --> REPORT
+
+    %% Styling
+    classDef active fill:#10b981,stroke:#047857,color:#fff
+    classDef needsUpdate fill:#f59e0b,stroke:#d97706,color:#fff
+    classDef new fill:#3b82f6,stroke:#1d4ed8,color:#fff
+    classDef data fill:#e5e7eb,stroke:#9ca3af,color:#000
+    classDef exec fill:#7c3aed,stroke:#5b21b6,color:#fff
+
+    class CONFIG,LOADER,MERGER,CASHFLOW,PACKAGE,DER,VIZ,REPORT,RUN active
+    class COMPLIANCE,INTEGRATED,OPT_IN,EXPORT needsUpdate
+    class PENALTY,MAI new
+    class CSV1,CSV2,CSV3,CSV4,EXCEL data
+    class RUN,REPORT exec
+            </div>
+        </div>
+
+        <h2>🔄 Process Flow - How It All Works</h2>
+        <div class="diagram-container">
+            <div class="mermaid">
+graph LR
+    %% Input Stage
+    subgraph "1. Data Input"
+        INPUT[User Selects Building]
+        DATA[Load CSV/Excel Data]
+    end
+
+    %% Processing Stage
+    subgraph "2. Data Processing"
+        LOAD[Load & Merge Data]
+        TARGET[Calculate EUI Targets]
+        MAI_CHECK[Check MAI Status]
+    end
+
+    %% Analysis Stage
+    subgraph "3. Analysis"
+        PENALTY_CALC[Calculate Penalties]
+        RETROFIT[Model Retrofit Impact]
+        FINANCIAL[Financial Analysis]
+    end
+
+    %% Decision Stage
+    subgraph "4. Decision Support"
+        PATH[Compare Compliance Paths]
+        NPV[NPV Analysis]
+        CLUSTER[Identify DER Opportunities]
+    end
+
+    %% Output Stage
+    subgraph "5. Output"
+        REPORT_GEN[Generate Reports]
+        PACKAGE_GEN[Investment Package]
+        EXPORT_BQ[Export to BigQuery]
+    end
+
+    %% Flow
+    INPUT --> DATA
+    DATA --> LOAD
+    LOAD --> TARGET
+    TARGET --> MAI_CHECK
+    MAI_CHECK --> PENALTY_CALC
+    PENALTY_CALC --> RETROFIT
+    RETROFIT --> FINANCIAL
+    FINANCIAL --> PATH
+    PATH --> NPV
+    NPV --> CLUSTER
+    CLUSTER --> REPORT_GEN
+    REPORT_GEN --> PACKAGE_GEN
+    PACKAGE_GEN --> EXPORT_BQ
+
+    %% Styling
+    classDef process fill:#3b82f6,stroke:#1d4ed8,color:#fff
+    classDef decision fill:#10b981,stroke:#047857,color:#fff
+    classDef output fill:#7c3aed,stroke:#5b21b6,color:#fff
+
+    class LOAD,TARGET,MAI_CHECK,PENALTY_CALC,RETROFIT,FINANCIAL process
+    class PATH,NPV,CLUSTER decision
+    class REPORT_GEN,PACKAGE_GEN,EXPORT_BQ output
+            </div>
+        </div>
+
+        <h2>📁 Active Module Status</h2>
+        <div class="module-grid">
+            <div class="module-card">
+                <h3>🎯 Core Configuration</h3>
+                <ul>
+                    <li><span class="status-active">✓</span> <code>project_config.py</code> - Central config</li>
+                </ul>
+                <p><strong>Purpose:</strong> Single source of truth for all parameters</p>
+                <p><strong>Status:</strong> Working correctly</p>
+            </div>
+
+            <div class="module-card">
+                <h3>🧮 Penalty Calculations</h3>
+                <ul>
+                    <li><span class="status-new">★</span> <code>penalty_calculator.py</code> - Correct rates</li>
+                    <li><span class="status-new">★</span> <code>mai_data_loader.py</code> - MAI handling</li>
+                </ul>
+                <p><strong>Purpose:</strong> Calculate ED penalties with correct rates</p>
+                <p><strong>Status:</strong> NEW - Ready to integrate</p>
+            </div>
+
+            <div class="module-card">
+                <h3>📊 Building Analysis</h3>
+                <ul>
+                    <li><span class="status-needs-update">⚠</span> <code>building_compliance_analyzer_v2.py</code></li>
+                    <li><span class="status-needs-update">⚠</span> <code>integrated_tes_hp_analyzer.py</code></li>
+                </ul>
+                <p><strong>Purpose:</strong> Analyze compliance paths & retrofits</p>
+                <p><strong>Status:</strong> Need penalty rate updates</p>
+            </div>
+
+            <div class="module-card">
+                <h3>💰 Financial Models</h3>
+                <ul>
+                    <li><span class="status-active">✓</span> <code>tes_hp_cash_flow_bridge.py</code></li>
+                    <li><span class="status-active">✓</span> <code>bridge_loan_investor_package.py</code></li>
+                </ul>
+                <p><strong>Purpose:</strong> Model project economics</p>
+                <p><strong>Status:</strong> Working correctly</p>
+            </div>
+
+            <div class="module-card">
+                <h3>🌐 BigQuery Integration</h3>
+                <ul>
+                    <li><span class="status-active">✓</span> <code>export_high_value_buildings_v3_fixed.py</code></li>
+                    <li><span class="status-needs-update">⚠</span> <code>create_opt_in_decision_model.py</code></li>
+                </ul>
+                <p><strong>Purpose:</strong> City-wide analysis at scale</p>
+                <p><strong>Status:</strong> Export fixed, views need updates</p>
+            </div>
+
+            <div class="module-card">
+                <h3>🗺️ DER Clustering</h3>
+                <ul>
+                    <li><span class="status-active">✓</span> <code>der_clustering_analysis.py</code></li>
+                    <li><span class="status-active">✓</span> <code>visualize_epb_clusters.py</code></li>
+                </ul>
+                <p><strong>Purpose:</strong> Identify thermal district opportunities</p>
+                <p><strong>Status:</strong> Working correctly</p>
+            </div>
+        </div>
+
+        <h2>🚀 Execution Flow</h2>
+        <div class="diagram-container">
+            <div class="mermaid">
+sequenceDiagram
+    participant User
+    participant Config as project_config.py
+    participant Runner as run_unified_analysis_v2.py
+    participant Loader as enhanced_comprehensive_loader.py
+    participant MAI as mai_data_loader.py
+    participant Penalty as penalty_calculator.py
+    participant Compliance as building_compliance_analyzer_v2.py
+    participant TES as integrated_tes_hp_analyzer.py
+    participant Report as generate_developer_returns_report.py
+
+    User->>Runner: Execute Analysis
+    Runner->>Config: Load Configuration
+    Config-->>Runner: Return Config
+    
+    Runner->>Loader: Load Building Data
+    Loader-->>Runner: Merged DataFrame
+    
+    Runner->>MAI: Check MAI Status
+    MAI-->>Runner: MAI Designation
+    
+    Runner->>Penalty: Calculate Penalties
+    Penalty-->>Runner: Penalty Projections
+    
+    Runner->>Compliance: Analyze Paths
+    Compliance-->>Runner: Path Comparison
+    
+    Runner->>TES: Model Retrofit
+    TES-->>Runner: System Analysis
+    
+    Runner->>Report: Generate Report
+    Report-->>User: HTML/PDF Report
+            </div>
+        </div>
+
+        <h2>📋 What You've Accomplished</h2>
+        <ul>
+            <li>✅ <strong>Unified Configuration System</strong> - All parameters in one place</li>
+            <li>✅ <strong>Correct Penalty Calculations</strong> - Fixed rates, MAI logic implemented</li>
+            <li>✅ <strong>Cash Flow Modeling</strong> - Month-by-month project economics</li>
+            <li>✅ <strong>BigQuery Integration</strong> - City-wide analysis capability</li>
+            <li>✅ <strong>DER Clustering</strong> - Identify thermal district opportunities</li>
+            <li>✅ <strong>Professional Reports</strong> - HTML/PDF output for investors</li>
+            <li>✅ <strong>EPB Integration</strong> - Equity prioritization built in</li>
+        </ul>
+
+        <h2>🎯 Next Priority Actions</h2>
+        <ol>
+            <li><strong>Create Unified EUI Target Loader</strong>
+                <ul>
+                    <li>Consolidate target loading logic</li>
+                    <li>Implement priority: CSV → MAI adjustment → Caps/floors</li>
+                </ul>
+            </li>
+            <li><strong>Update Core Scripts with New Penalty Calculator</strong>
+                <ul>
+                    <li>Replace hardcoded rates in analyzer scripts</li>
+                    <li>Use penalty_calculator.py module</li>
+                </ul>
+            </li>
+            <li><strong>Fix BigQuery Views</strong>
+                <ul>
+                    <li>Update penalty rates in views</li>
+                    <li>Add MAI logic to queries</li>
+                </ul>
+            </li>
+            <li><strong>Create Test Suite</strong>
+                <ul>
+                    <li>Validate Building 2952 calculations</li>
+                    <li>Test MAI buildings</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+
+    <script>
+        mermaid.initialize({ 
+            startOnLoad: true,
+            theme: 'default',
+            themeVariables: {
+                primaryColor: '#3b82f6',
+                primaryTextColor: '#fff',
+                primaryBorderColor: '#1d4ed8',
+                lineColor: '#6b7280',
+                secondaryColor: '#10b981',
+                tertiaryColor: '#f59e0b'
+            }
+        });
+    </script>
+</body>
+</html>

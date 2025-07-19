@@ -1,0 +1,117 @@
+================================================================================
+CURRENT HARDCODED CONFIGURATION DEFAULTS
+================================================================================
+Exported at: 2025-07-18 14:29:07
+Source: project_config.py DEFAULT_CONFIG
+================================================================================
+
+
+================================================================================
+PROJECT ASSUMPTIONS REFERENCE TABLE
+================================================================================
+
+BUILDING ASSUMPTIONS:
+--------------------------------------------------------------------------------
+Variable Path                                                Value         Type
+--------------------------------------------------------------------------------
+building.address                              1255 N Ogden St, Den          str
+building.baseline_eui                                        70.50        float
+building.baseline_year                                       2,019          int
+building.building_id                                          2952          str
+building.building_name                        Timperly Condominium          str
+building.current_energy_cost_annual                         42,000          int
+building.electricity_kwh                                   210,165          int
+building.equipment_replacement_cost                        270,000          int
+building.final_target                                        51.50        float
+building.first_interim_target                                65.40        float
+building.gas_kbtu                                        2,584,000          int
+building.is_epb                                                  1         bool
+building.property_type                         Multifamily Housing          str
+building.second_interim_target                               63.20        float
+building.sqft                                               52,826          int
+building.total_ghg                                          126.67        float
+building.units                                                  52          int
+building.weather_norm_eui                                    65.30        float
+
+SYSTEMS ASSUMPTIONS:
+--------------------------------------------------------------------------------
+Variable Path                                                Value         Type
+--------------------------------------------------------------------------------
+systems.4pipe_wshp_tes.cop_cooling                            5.00        float
+systems.4pipe_wshp_tes.cop_heating                            4.50        float
+systems.4pipe_wshp_tes.cost_per_sqft                         26.50        float
+systems.4pipe_wshp_tes.electric_heating                          1         bool
+systems.4pipe_wshp_tes.equipment_cost_base               1,200,000          int
+systems.4pipe_wshp_tes.eui_reduction_pct                     70.0%        float
+systems.4pipe_wshp_tes.name                      4-Pipe WSHP + TES          str
+systems.4pipe_wshp_tes.tes_cost                            200,000          int
+
+FINANCIAL ASSUMPTIONS:
+--------------------------------------------------------------------------------
+Variable Path                                                Value         Type
+--------------------------------------------------------------------------------
+financial.annual_escalation                                   2.5%        float
+financial.annual_noi                                     28,080.00        float
+financial.annual_service_revenue                            93,600          int
+financial.asset_mgmt_fee_pct                                  2.0%        float
+financial.bridge_loan_fee                                     2.0%        float
+financial.bridge_loan_rate                                   12.0%        float
+financial.bridge_loan_term_months                               12          int
+financial.contingency_pct                                    10.0%        float
+financial.depreciation_rate                                  80.0%        float
+financial.depreciation_sale_discount                         85.0%        float
+financial.depreciation_tax_rate                              35.0%        float
+financial.developer_equity                                 200,000          int
+financial.developer_fee_pct                                  15.0%        float
+financial.drcog_grant_per_unit                               5,000          int
+financial.itc_rate                                           40.0%        float
+financial.market_escalation                                   1.30        float
+financial.monthly_service_fee_per_unit                         150          int
+financial.operating_margin                                   30.0%        float
+financial.rebate_origination_fee                              2.5%        float
+financial.soft_cost_pct                                      25.0%        float
+financial.tax_credit_sale_rate                               95.0%        float
+financial.xcel_rebate_per_unit                               3,500          int
+
+TIMELINE ASSUMPTIONS:
+--------------------------------------------------------------------------------
+Variable Path                                                Value         Type
+--------------------------------------------------------------------------------
+timeline.construction_months                                     9          int
+timeline.pre_construction_months                                 6          int
+timeline.stabilization_months                                    3          int
+
+VALUATION ASSUMPTIONS:
+--------------------------------------------------------------------------------
+Variable Path                                                Value         Type
+--------------------------------------------------------------------------------
+valuation.cap_rates.aggressive                                6.0%        float
+valuation.cap_rates.conservative                             10.0%        float
+valuation.cap_rates.market                                    8.0%        float
+valuation.discount_rate                                       8.0%        float
+valuation.growth_rate                                         2.5%        float
+valuation.terminal_year                                         10          int
+
+PENALTIES ASSUMPTIONS:
+--------------------------------------------------------------------------------
+Variable Path                                                Value         Type
+--------------------------------------------------------------------------------
+penalties.2025_rate                                $0.15/sqft/kBtu        float
+penalties.2027_rate                                $0.15/sqft/kBtu        float
+penalties.2030_rate                                $0.15/sqft/kBtu        float
+penalties.alternate_path.description          Alternate compliance          str
+penalties.alternate_path.rate                      $0.23/sqft/kBtu        float
+penalties.alternate_path.years                        [2028, 2032]         list
+penalties.extension_path.description          Timeline extension p          str
+penalties.extension_path.rate                      $0.35/sqft/kBtu        float
+penalties.extension_path.years                              [2030]         list
+penalties.late_extension_additional                          10.0%        float
+penalties.never_benchmarking                                 10.00        float
+penalties.penalty_years                                         15          int
+penalties.standard_path.description           Standard compliance           str
+penalties.standard_path.rate                       $0.15/sqft/kBtu        float
+penalties.standard_path.years                   [2025, 2027, 2030]         list
+
+================================================================================
+END OF CONFIGURATION EXPORT
+================================================================================

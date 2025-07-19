@@ -601,5 +601,5 @@ if __name__ == "__main__":
     
     # Create visualization
     fig = cf_model.plot_cash_flow_bridge()
-    plt.savefig('/Users/robertpadgett/Projects/01_My_Notebooks/500_ED_Risk_Retro_BP/outputs/cash_flow_bridge.png', 
+    plt.savefig('/Users/robertpadgett/Projects/01_My_Notebooks/500_ED_Risk_Retro_BP/outputs/reports/cash_flow_bridge.png', 
                 dpi=300, bbox_inches='tight')

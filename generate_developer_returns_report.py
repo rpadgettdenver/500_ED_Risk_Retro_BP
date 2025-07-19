@@ -497,7 +497,7 @@ The 4-Pipe WSHP + TES retrofit project for {building['building_name']} presents 
         """Save reports in all formats"""
         
         if output_dir is None:
-            output_dir = os.path.join(project_root, 'outputs', 'developer_reports')
+            output_dir = os.path.join(project_root, 'outputs', 'data')
         
         os.makedirs(output_dir, exist_ok=True)
         

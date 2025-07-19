@@ -181,7 +181,7 @@ if __name__ == "__main__":
     report_df = create_mai_verification_report(analysis_df)
     
     # Save results
-    output_file = "/Users/robertpadgett/Projects/01_My_Notebooks/500_ED_Risk_Retro_BP/outputs/mai_target_verification.csv"
+    output_file = "/Users/robertpadgett/Projects/01_My_Notebooks/500_ED_Risk_Retro_BP/outputs/data/mai_target_verification.csv"
     report_df.to_csv(output_file, index=False)
     print(f"\n✅ Verification report saved to: {output_file}")
     

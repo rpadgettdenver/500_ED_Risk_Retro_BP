@@ -1,0 +1,25 @@
+# Development Configuration
+project_id: energize-denver-eaas
+dataset_id: energize_denver
+bucket_name: energize-denver-eaas-data
+
+# BigQuery settings
+bq:
+  location: us-central1
+  default_table_expiration: null
+
+# Penalty calculation parameters
+penalties:
+  rate_per_kbtu: 0.15
+  opt_in_rate: 0.23
+  
+# Risk thresholds
+risk_thresholds:
+  high: 100000
+  medium: 50000
+  low: 0
+
+# Clustering parameters
+clustering:
+  max_distance_meters: 500
+  min_cluster_size: 3

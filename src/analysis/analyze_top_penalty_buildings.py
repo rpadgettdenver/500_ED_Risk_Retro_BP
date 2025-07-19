@@ -116,7 +116,7 @@ def analyze_top_penalty_buildings():
     print(f"\nAverage Building Age: {avg_age:.0f} years")
     
     # Save detailed results
-    output_path = '/Users/robertpadgett/Projects/01_My_Notebooks/500_ED_Risk_Retro_BP/outputs/top_10_penalty_buildings.csv'
+    output_path = '/Users/robertpadgett/Projects/01_My_Notebooks/500_ED_Risk_Retro_BP/outputs/data/top_10_penalty_buildings.csv'
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     top_10_detailed.to_csv(output_path, index=False)
     print(f"\nDetailed results saved to: {output_path}")

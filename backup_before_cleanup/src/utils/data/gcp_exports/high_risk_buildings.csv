@@ -1,0 +1,1715 @@
+building_id,property_type,current_eui,baseline_eui,pct_reduction_requested,total_penalties_default,total_penalties_optin,should_opt_in,primary_rationale
+2047,Manufacturing/Industrial Plant,998.5,0.0,0.0,196711513.2,201082880.16,True,Near maximum reduction cap
+1663,Manufacturing/Industrial Plant,910.8,0.0,0.0,94127930.1,96219661.88000001,True,Near maximum reduction cap
+3919,Manufacturing/Industrial Plant,1943.4,0.0,0.0,91878300.0,93920040.0,True,Near maximum reduction cap
+1272,Manufacturing/Industrial Plant,946.9,0.0,0.0,83888802.9,85752998.52000001,True,Near maximum reduction cap
+5598,Data Center,984.9,0.0,0.0,83443091.75999999,85297382.688,True,Near maximum reduction cap
+2042,Data Center,739.6,0.0,0.0,59804758.62,61133753.256000005,True,Near maximum reduction cap
+1762,ADULT EDUCATION,430.2,286.6,87.02023726448012,59666379.9912,61534043.049839996,True,Hit 42% reduction cap
+1883,Manufacturing/Industrial Plant,713.3,0.0,0.0,55083798.900000006,56307883.32,True,Near maximum reduction cap
+5692,Other - Utility,276.1,0.0,0.0,54665687.835,55880480.89800001,True,Near maximum reduction cap
+1325,Manufacturing/Industrial Plant,662.5,0.0,0.0,47474916.480000004,48529914.624000005,True,Near maximum reduction cap
+1494,Manufacturing/Industrial Plant,2082.4,0.0,0.0,42010650.0,42944220.0,True,Near maximum reduction cap
+5686,Other - Utility,181.8,0.0,0.0,34031160.18,34787408.18400001,True,Near maximum reduction cap
+5097,Transportation Terminal/Station,128.0,116.9,25.1497005988024,32975835.75,42006141.54,True,Cannot meet any targets
+3837,Manufacturing/Industrial Plant,1223.5,0.0,0.0,31079430.0,31770084.0,True,Near maximum reduction cap
+3780,Hospital (General Medical & Surgical),296.3,297.3,44.43323242515978,30657884.715900004,41895675.302760005,True,Hit 42% reduction cap
+3322,Manufacturing/Industrial Plant,496.2,0.0,0.0,30249905.4,30922125.52,True,Near maximum reduction cap
+1649,Manufacturing/Industrial Plant,552.4,0.0,0.0,29745150.075000003,30406153.41,True,Near maximum reduction cap
+5100,Transportation Terminal/Station,121.1,124.4,29.983922829582,27698610.224999994,40392192.440000005,True,Cannot meet any targets
+2499,Convention Center,74.3,58.1,25.12908777969019,26531999.999999996,31169600.0,True,Near maximum reduction cap
+3295,Other - Utility,481.5,0.0,0.0,26248226.174999997,26831520.09,True,Near maximum reduction cap
+5241,Hospital (General Medical & Surgical),255.3,263.6,37.32928679817907,25384165.170000006,36953709.50600001,True,Cannot meet any targets
+1262,Manufacturing/Industrial Plant,670.8,0.0,0.0,24999368.939999998,25554910.472,True,Near maximum reduction cap
+1996,Non-Refrigerated Warehouse,365.9,0.0,0.0,24927614.414999995,25481561.402,True,Near maximum reduction cap
+2090,Manufacturing/Industrial Plant,754.5,0.0,0.0,24660889.2,25208908.96,True,Near maximum reduction cap
+2604,Data Center,415.1,0.0,0.0,24096555.0,24632034.0,True,Near maximum reduction cap
+5584,Manufacturing/Industrial Plant,188.8,0.0,0.0,24093296.505000003,24628703.094000004,True,Near maximum reduction cap
+1603,Distribution Center,147.2,0.0,0.0,22286977.919999994,22782244.095999997,True,Near maximum reduction cap
+2657,Hotel,121.2,142.3,57.06254392129305,21568498.9542,27658821.40888,True,Hit 42% reduction cap
+1316,Manufacturing/Industrial Plant,404.2,0.0,0.0,20538245.115000002,20994650.562000003,True,Near maximum reduction cap
+2071,Manufacturing/Industrial Plant,180.8,0.0,0.0,19458827.505,19891245.894,True,Near maximum reduction cap
+1329,Manufacturing/Industrial Plant,358.8,0.0,0.0,19132255.485,19557416.718000002,True,Near maximum reduction cap
+1847,Manufacturing/Industrial Plant,765.0,0.0,0.0,19088588.205,19512779.054,True,Near maximum reduction cap
+1353,Manufacturing/Industrial Plant,223.6,0.0,0.0,17158627.439999998,17539930.272,True,Near maximum reduction cap
+5089,Transportation Terminal/Station,193.1,139.9,30.021443888491778,16496304.0,19172137.599999998,True,Near maximum reduction cap
+5675,Manufacturing/Industrial Plant,100.1,0.0,0.0,16248600.0,16609680.0,True,Near maximum reduction cap
+1212,Manufacturing/Industrial Plant,296.4,0.0,0.0,16182693.449999996,16542308.859999998,True,Near maximum reduction cap
+2860,Other - Specialty Hospital,252.5,283.2,38.91242937853107,15997892.16,26299973.76,True,Cannot meet any targets
+3317,Manufacturing/Industrial Plant,527.4,0.0,0.0,15437857.5,15780921.0,True,Near maximum reduction cap
+1408,Manufacturing/Industrial Plant,467.4,0.0,0.0,14947553.924999999,15279721.790000001,True,Near maximum reduction cap
+3241,Manufacturing/Industrial Plant,1040.6,0.0,0.0,14686012.53,15012368.364,True,Near maximum reduction cap
+4556,Manufacturing/Industrial Plant,341.3,0.0,0.0,14551712.28,14875083.664,True,Near maximum reduction cap
+3983,Hospital (General Medical & Surgical),226.4,226.8,27.160493827160504,14022963.000000002,19758481.200000007,True,Cannot meet any targets
+2618,Hotel,104.7,103.8,41.13680154142582,13992922.44,19509353.664,True,Near maximum reduction cap
+1862,Manufacturing/Industrial Plant,559.6,0.0,0.0,13912107.21,14221265.148000002,True,Near maximum reduction cap
+1369,Manufacturing/Industrial Plant,210.9,0.0,0.0,13888176.299999999,14196802.440000001,True,Near maximum reduction cap
+4570,Multifamily Housing,843.0,0.0,0.0,13192275.600000001,13485437.280000001,True,Near maximum reduction cap
+1400,Manufacturing/Industrial Plant,485.8,0.0,0.0,13022909.055000002,13312307.034000002,True,Near maximum reduction cap
+1881,Manufacturing/Industrial Plant,650.9,0.0,0.0,12318052.5,12591787.0,True,Near maximum reduction cap
+3823,Manufacturing/Industrial Plant,482.2,0.0,0.0,12170655.0,12441114.0,True,Near maximum reduction cap
+1486,Manufacturing/Industrial Plant,468.0,0.0,0.0,12103195.23,12372155.124000002,True,Near maximum reduction cap
+1162,Manufacturing/Industrial Plant,578.8,0.0,0.0,11720338.875,11980790.85,True,Near maximum reduction cap
+1610,Manufacturing/Industrial Plant,506.1,0.0,0.0,11095559.64,11342127.632000001,True,Near maximum reduction cap
+5054,Drinking Water Treatment & Distribution,37.0,0.0,0.0,11058963.3,11304718.040000001,True,Near maximum reduction cap
+2093,Manufacturing/Industrial Plant,714.2,0.0,0.0,11010645.000000002,11255326.000000002,True,Near maximum reduction cap
+3296,Manufacturing/Industrial Plant,674.7,0.0,0.0,10761212.790000001,11000350.852000002,True,Near maximum reduction cap
+1732,Manufacturing/Industrial Plant,203.0,0.0,0.0,10459410.794999998,10691842.146,True,Near maximum reduction cap
+1232,Manufacturing/Industrial Plant,434.0,0.0,0.0,10279410.3,10507841.64,True,Near maximum reduction cap
+1650,Manufacturing/Industrial Plant,318.3,0.0,0.0,10275279.48,10503619.024000002,True,Near maximum reduction cap
+3542,Manufacturing/Industrial Plant,292.5,0.0,0.0,9915989.76,10136345.088000001,True,Near maximum reduction cap
+1122,Data Center,539.7,0.0,0.0,9475135.11,9685693.668000001,True,Near maximum reduction cap
+2104,Office,80.8,0.0,0.0,9388842.84,9597483.792,True,Near maximum reduction cap
+1619,Manufacturing/Industrial Plant,590.1,0.0,0.0,9272179.440000001,9478227.872000001,True,Near maximum reduction cap
+3188,Manufacturing/Industrial Plant,277.2,0.0,0.0,9213548.669999998,9418294.195999999,True,Near maximum reduction cap
+1559,Lifestyle Center,91.6,92.8,28.23275862068966,9044999.999999996,12937500.0,True,Cannot meet any targets
+3958,Laboratory,203.5,54.5,-26.605504587155966,8831505.375,9027761.05,True,Near maximum reduction cap
+3254,Non-Refrigerated Warehouse,59.6,0.0,0.0,8739511.56,8933722.928000001,True,Near maximum reduction cap
+5464,Manufacturing/Industrial Plant,304.1,0.0,0.0,8636256.0,8828172.8,True,Near maximum reduction cap
+4514,Manufacturing/Industrial Plant,508.6,0.0,0.0,8612730.000000002,8804124.000000002,True,Near maximum reduction cap
+5630,Hotel,192.0,170.4,60.91549295774649,8597560.1712,9628016.52384,True,Hit 42% reduction cap
+5680,Indoor Arena,97.5,90.5,29.94475138121547,8470575.0,11058630.0,True,Cannot meet any targets
+5807,Performing Arts,195.8,149.2,59.584450402144775,8289631.5252,9091339.528640002,True,Hit 42% reduction cap
+1748,Prison/Incarceration,150.5,148.9,41.974479516454,8135576.879999999,11326044.376,True,Near maximum reduction cap
+1890,Manufacturing/Industrial Plant,378.4,0.0,0.0,8096552.1,8276475.48,True,Near maximum reduction cap
+5314,Vehicle Dealership,690.6,1.0,-4180.0,8090860.050000002,8270656.940000002,True,Near maximum reduction cap
+5447,Manufacturing/Industrial Plant,132.9,0.0,0.0,8046072.0,8224873.600000001,True,Near maximum reduction cap
+5101,Office,333.7,323.9,85.08799012040753,7970745.9804,8352880.200280001,True,Hit 42% reduction cap
+1943,College/University,100.1,105.8,34.78260869565217,7927242.3599999985,11962777.341999998,True,Cannot meet any targets
+5679,Multifamily Housing,95.2,87.1,37.88748564867967,7919774.595000001,10365611.526,True,Near maximum reduction cap
+1322,Manufacturing/Industrial Plant,341.6,0.0,0.0,7805163.285000002,7978611.358000003,True,Near maximum reduction cap
+1415,Manufacturing/Industrial Plant,168.3,0.0,0.0,7789551.93,7962653.084000002,True,Near maximum reduction cap
+1346,Manufacturing/Industrial Plant,494.1,0.0,0.0,7707124.26,7878393.688000001,True,Near maximum reduction cap
+6420,Manufacturing/Industrial Plant,376.7,0.0,0.0,7646423.67,7816344.196000001,True,Near maximum reduction cap
+2983,Other - Entertainment/Public Assembly,128.7,81.2,30.04926108374385,7576965.824999998,8536895.509999998,True,Near maximum reduction cap
+1252,Manufacturing/Industrial Plant,489.8,0.0,0.0,7509131.37,7676000.956000001,True,Near maximum reduction cap
+2257,Manufacturing/Industrial Plant,155.0,0.0,0.0,7356989.07,7520477.716,True,Near maximum reduction cap
+4350,Multifamily Housing,116.0,34.0,-30.00000000000001,7272496.35,7434107.38,True,Near maximum reduction cap
+3836,Manufacturing/Industrial Plant,370.8,0.0,0.0,7084655.82,7242092.616000001,True,Near maximum reduction cap
+3038,Library,97.2,99.3,42.59818731117825,6921921.433500001,9843869.309400002,True,Hit 42% reduction cap
+2151,Manufacturing/Industrial Plant,249.1,0.0,0.0,6445170.0,6588396.0,True,Near maximum reduction cap
+1795,Hotel,152.8,71.5,14.545454545454545,6381324.2700000005,6731108.286000002,True,Near maximum reduction cap
+3835,Manufacturing/Industrial Plant,378.9,0.0,0.0,6311180.699999999,6451429.16,True,Near maximum reduction cap
+1914,Manufacturing/Industrial Plant,73.0,0.0,0.0,6277193.82,6416687.016000001,True,Cannot meet any targets
+1629,Manufacturing/Industrial Plant,140.2,0.0,0.0,6089174.999999998,6224489.999999999,True,Near maximum reduction cap
+5806,Performing Arts,128.0,115.5,48.22510822510823,5692442.341499999,7015616.772600001,True,Hit 42% reduction cap
+1520,Distribution Center,51.2,0.0,0.0,5652633.6,5778247.680000001,True,Near maximum reduction cap
+1184,Mixed Use Property,206.1,0.0,0.0,5590668.6,5714905.680000001,True,Near maximum reduction cap
+2687,Hotel,141.0,116.0,47.32758620689655,5561979.404999999,6666433.252,True,Hit 42% reduction cap
+5689,Other - Utility,97.9,0.0,0.0,5460749.415000001,5582099.402000001,True,Near maximum reduction cap
+1538,Manufacturing/Industrial Plant,240.2,0.0,0.0,5450205.239999999,5571320.912,True,Near maximum reduction cap
+5705,Multifamily Housing,73.1,75.0,41.06666666666666,5428847.924999998,7823425.941999998,True,Cannot meet any targets
+2877,Retail Store,447.8,111.7,43.957027752909575,5307359.0664,5599909.80896,True,Hit 42% reduction cap
+3636,Manufacturing/Industrial Plant,175.9,0.0,0.0,5261737.05,5378664.54,True,Near maximum reduction cap
+4895,Hotel,93.8,98.2,37.78004073319756,5228183.43,7732776.317999999,True,Cannot meet any targets
+1937,Distribution Center,64.5,0.0,0.0,5131620.0,5245656.0,True,Near maximum reduction cap
+1488,Manufacturing/Industrial Plant,261.1,0.0,0.0,5078934.9,5191800.12,True,Near maximum reduction cap
+1409,Manufacturing/Industrial Plant,288.7,0.0,0.0,5031948.42,5143769.496,True,Near maximum reduction cap
+1730,Manufacturing/Industrial Plant,108.6,0.0,0.0,5013000.0,5124400.0,True,Near maximum reduction cap
+3039,Museum,192.6,146.5,5.7337883959044404,4932900.0,5264700.0,True,Cannot meet any targets
+1324,Distribution Center,42.4,36.6,30.60109289617487,4809090.0,5997940.0,True,Near maximum reduction cap
+2616,Mixed Use Property,90.6,117.8,49.57555178268252,4790939.999999999,8709915.999999998,True,Hit 42% reduction cap
+2537,Other - Utility,277.1,0.0,0.0,4750131.33,4855689.8040000005,True,Near maximum reduction cap
+3840,Manufacturing/Industrial Plant,422.6,0.0,0.0,4658220.000000001,4761736.000000001,True,Near maximum reduction cap
+5618,Hotel,133.6,128.5,42.023346303501945,4647443.136,6326557.670399999,True,Hit 42% reduction cap
+2383,Office,685.0,733.3,93.95881630983227,4638121.803000001,4741191.176400001,True,Hit 42% reduction cap
+1285,Manufacturing/Industrial Plant,352.9,0.0,0.0,4605120.0,4707456.0,True,Near maximum reduction cap
+5821,Hospital (General Medical & Surgical),188.8,197.9,13.340070742799396,4591309.0050000055,8039084.0620000055,True,Cannot meet any targets
+3022,College/University,97.8,0.0,0.0,4487039.55,4586751.54,True,Near maximum reduction cap
+1209,Manufacturing/Industrial Plant,182.2,0.0,0.0,4454876.34,4553873.592,True,Near maximum reduction cap
+4010,Multifamily Housing,66.6,56.0,12.67857142857143,4450877.969999999,5107688.291999999,True,Cannot meet any targets
+5678,Multifamily Housing,71.3,66.5,22.706766917293237,4303476.809999999,5540650.733999999,True,Cannot meet any targets
+5333,Food Service,94.9,88.6,39.50338600451467,4281366.795,5689919.998000001,True,Near maximum reduction cap
+1825,K-12 School,118.5,145.7,67.05559368565545,4274946.810000001,5231438.642000003,True,Hit 42% reduction cap
+5644,Multifamily Housing,72.5,48.1,2.7027027027027115,4230232.2,4386825.006000001,True,Cannot meet any targets
+5690,Other - Utility,152.7,0.0,0.0,4199998.229999999,4293331.523999999,True,Near maximum reduction cap
+1608,Manufacturing/Industrial Plant,275.2,0.0,0.0,4178461.9499999997,4271316.66,True,Near maximum reduction cap
+1887,Refrigerated Warehouse,165.8,175.5,100.0,4150094.751000001,4242319.078800001,True,Hit 42% reduction cap
+1221,Manufacturing/Industrial Plant,194.2,0.0,0.0,4120307.999999999,4211870.399999999,True,Near maximum reduction cap
+4477,Multifamily Housing,75.6,73.0,34.52054794520548,4021934.939999999,5459926.116,True,Cannot meet any targets
+4084,Multifamily Housing,65.3,70.1,36.947218259629096,4006551.749999999,6157971.699999998,True,Cannot meet any targets
+1585,Distribution Center,58.7,29.7,14.478114478114481,3909579.1200000006,4141558.296000001,True,Near maximum reduction cap
+1437,Hotel,82.1,0.0,0.0,3906416.5199999996,3993225.776,True,Near maximum reduction cap
+6326,College/University,174.1,174.1,65.19241815048822,3879443.8584000003,4397048.15088,True,Hit 42% reduction cap
+5239,Office,73.7,75.1,35.685752330226364,3866887.620000001,5547049.104000001,True,Cannot meet any targets
+1238,Manufacturing/Industrial Plant,381.0,0.0,0.0,3861212.0400000005,3947016.752000001,True,Near maximum reduction cap
+6099,Other - Utility,177.3,0.0,0.0,3852737.865,3938354.2620000006,True,Near maximum reduction cap
+3656,Manufacturing/Industrial,192.8,0.0,0.0,3838175.6400000006,3923468.4320000005,True,Near maximum reduction cap
+6305,Multifamily Housing,29.4,0.0,0.0,3837387.9599999995,3922663.2479999997,True,Near maximum reduction cap
+1712,Manufacturing/Industrial Plant,271.3,0.0,0.0,3832920.0,3918096.0,True,Near maximum reduction cap
+4507,Mixed Use Property,189.0,164.7,42.01578627808136,3818977.0164,4889909.100960001,True,Hit 42% reduction cap
+3175,Manufacturing/Industrial Plant,262.8,0.0,0.0,3813431.715,3898174.6420000005,True,Near maximum reduction cap
+6272,Office,36.4,0.0,0.0,3771429.4799999995,3855239.0239999997,True,Near maximum reduction cap
+3134,Office,93.4,119.5,59.581589958159,3744639.216000001,5077807.759200001,True,Hit 42% reduction cap
+1540,Manufacturing/Industrial Plant,237.6,0.0,0.0,3706596.54,3788965.352,True,Near maximum reduction cap
+4539,Multifamily Housing,86.5,87.9,41.97952218430034,3699813.705,5278982.7700000005,True,Near maximum reduction cap
+1233,Manufacturing/Industrial Plant,169.8,0.0,0.0,3682350.0,3764180.0,True,Near maximum reduction cap
+1377,Manufacturing/Industrial Plant,335.9,0.0,0.0,3641955.3,3722887.64,True,Near maximum reduction cap
+1826,K-12 School,97.2,52.3,8.22179732313575,3638669.1000000006,3809870.880000001,True,Near maximum reduction cap
+6324,College/University,139.5,139.5,56.55913978494625,3621984.1290000007,4284571.8636,True,Hit 42% reduction cap
+4620,Multifamily Housing,58.6,54.6,19.047619047619044,3595067.475,4575163.68,True,Cannot meet any targets
+1658,Distribution Center,47.5,43.0,40.93023255813954,3544121.25,4628071.5,True,Near maximum reduction cap
+1922,Mixed Use Property,101.0,0.0,0.0,3541645.8,3620349.04,True,Near maximum reduction cap
+1691,Multifamily Housing,134.3,139.9,68.4060042887777,3509575.678800001,3967129.445160001,True,Hit 42% reduction cap
+4392,Multifamily Housing,102.2,85.1,48.061104582843704,3475278.0405000006,4161048.5742000006,True,Hit 42% reduction cap
+4726,Multifamily Housing,79.7,79.5,42.0125786163522,3471972.5835000006,4866588.395400001,True,Hit 42% reduction cap
+2639,Multifamily Housing,87.2,87.1,29.391504018369684,3468183.3450000007,4872354.546000001,True,Cannot meet any targets
+2659,Office,70.7,71.5,23.35664335664336,3456943.200000001,4957663.2480000025,True,Cannot meet any targets
+5872,Hotel,136.7,115.5,47.099567099567096,3451770.3674999997,4182927.6369999996,True,Hit 42% reduction cap
+1153,Distribution Center,44.3,0.0,0.0,3436793.999999999,3513167.1999999997,True,Near maximum reduction cap
+2454,Office,73.2,49.9,-5.21042084168337,3375485.865,3450496.6620000005,True,Cannot meet any targets
+4684,Multifamily Housing,92.0,78.1,43.14980793854033,3357786.9879,4207279.501560001,True,Hit 42% reduction cap
+1280,Non-Refrigerated Warehouse,22.8,0.0,0.0,3322803.5999999996,3396643.68,True,Near maximum reduction cap
+5602,Multifamily Housing,108.6,94.6,53.276955602536994,3298392.0827999995,3845575.59792,True,Hit 42% reduction cap
+4051,Senior Living Community,113.6,70.3,9.95732574679943,3295314.0,3500779.4000000004,True,Near maximum reduction cap
+4533,Multifamily Housing,150.2,146.7,69.87048398091342,3245904.0,3594292.8000000007,True,Hit 42% reduction cap
+3695,College/University,82.4,18.9,-220.63492063492066,3242420.8200000003,3314474.616000001,True,Cannot meet any targets
+5168,manufacturing/industrial plant,47.8,0.0,0.0,3183480.0,3254224.0,True,Near maximum reduction cap
+1884,Manufacturing/Industrial Plant,117.8,0.0,0.0,3177854.46,3248473.4480000003,True,Near maximum reduction cap
+2467,Aquarium,351.0,368.1,29.991850040749803,3128400.0,4720980.000000001,True,Cannot meet any targets
+6212,Hotel,146.5,124.5,36.626506024096386,3113278.425,3899718.2639999995,True,Near maximum reduction cap
+3586,Manufacturing/Industrial Plant,314.9,0.0,0.0,3112795.8,3181969.04,True,Near maximum reduction cap
+4867,Office,100.2,98.1,50.764525993883794,3074732.199,3840965.3436000007,True,Hit 42% reduction cap
+6063,Manufacturing/Industrial Plant,239.7,0.0,0.0,3062810.16,3130872.608,True,Near maximum reduction cap
+1614,Manufacturing/Industrial Plant,240.3,0.0,0.0,3032506.8,3099895.8400000003,True,Near maximum reduction cap
+6021,Manufacturing/Industrial Plant,235.5,0.0,0.0,2996329.05,3062914.14,True,Near maximum reduction cap
+1298,Adult Education,69.4,71.3,47.826086956521735,2995618.587600001,3991670.508640002,True,Hit 42% reduction cap
+4563,Multifamily Housing,74.6,39.0,-13.333333333333341,2965481.999999999,3031381.599999999,True,Near maximum reduction cap
+5688,Other - Utility,74.4,0.0,0.0,2959431.12,3025196.2560000005,True,Near maximum reduction cap
+1482,Non-Refrigerated Warehouse,175.9,105.4,59.772296015180274,2957724.0,3167596.8000000003,True,Hit 42% reduction cap
+2631,Office,91.8,91.8,42.047930283224396,2924134.8696,4108382.3894400005,True,Hit 42% reduction cap
+4642,Multifamily Housing,65.0,64.6,31.57894736842104,2921114.295,4077202.272,True,Cannot meet any targets
+5108,Food Service,53.9,0.0,0.0,2910236.175,2974908.0900000003,True,Near maximum reduction cap
+1449,Manufacturing/Industrial Plant,164.1,0.0,0.0,2892311.999999999,2956585.5999999996,True,Near maximum reduction cap
+6220,Other - Specialty Hospital,278.9,286.5,35.6369982547993,2889509.999999999,4186899.9899999993,True,Cannot meet any targets
+2770,Medical Office,191.4,187.6,26.86567164179105,2870223.780000001,3929731.9760000017,True,Cannot meet any targets
+6007,Multifamily Housing,71.3,41.7,-5.995203836930455,2858654.339999999,2922179.991999999,True,Cannot meet any targets
+3363,Multifamily Housing,87.5,90.2,46.11973392461197,2850615.4932000004,3894137.676480001,True,Hit 42% reduction cap
+6424,Distribution Center,64.7,0.0,0.0,2850591.42,2913937.896,True,Near maximum reduction cap
+5601,Hotel,99.6,94.5,35.34391534391534,2845825.919999999,3809491.8399999994,True,Cannot meet any targets
+2022,Residence Hall/Dormitory,73.7,68.7,32.60553129548763,2827095.7500000005,3717549.800000001,True,Cannot meet any targets
+5998,Hospital (General Medical & Surgical),175.5,218.3,24.324324324324333,2806373.535000003,8606212.17400001,False,Already meets 2025 target
+3045,Prison/Incarceration,115.3,129.0,29.68992248062015,2794870.125,4961058.875999999,True,Cannot meet any targets
+2619,Mixed Use Property,94.8,116.8,48.544520547945204,2783138.6279999996,4613269.8592,True,Hit 42% reduction cap
+5342,Manufacturing/Industrial Plant,134.4,0.0,0.0,2753302.275,2814486.77,True,Near maximum reduction cap
+2344,Multifamily Housing,81.2,88.3,49.94337485843714,2733151.4574000007,3702274.265360002,True,Hit 42% reduction cap
+1274,Mixed Use Property,61.4,58.8,21.258503401360546,2708473.9499999997,3573230.7800000007,True,Cannot meet any targets
+5109,Vehicle Dealership,457.3,487.2,91.2151067323481,2696507.4696000004,2770297.9427200006,True,Hit 42% reduction cap
+5048,Wholesale Club/Supercenter,118.6,120.9,64.01985111662532,2688019.1999999993,3077383.4399999995,True,Hit 42% reduction cap
+5118,Distribution Center,153.5,176.9,84.00226116449971,2688017.0832,2875781.790240001,True,Hit 42% reduction cap
+1429,Distribution Center,85.2,44.2,42.533936651583716,2651650.3116,2957659.9502400006,True,Hit 42% reduction cap
+4519,Multifamily Housing,94.1,104.2,57.58157389635316,2650176.9503999986,3243022.7865599995,True,Hit 42% reduction cap
+1870,Manufacturing/Industrial Plant,139.6,0.0,0.0,2648572.2899999996,2707429.4519999996,True,Near maximum reduction cap
+6107,Office,108.5,57.0,15.263157894736848,2631283.65,2799827.3520000004,True,Near maximum reduction cap
+2785,Museum,89.9,104.6,30.019120458891006,2624199.600000001,5419113.260000001,False,Already meets 2025 target
+6015,Multifamily Housing,62.7,62.2,28.938906752411576,2602762.5600000005,3619200.8800000004,True,Cannot meet any targets
+6103,Medical Office,150.8,170.7,42.00351493848857,2583441.2838000017,4243704.098320003,True,Hit 42% reduction cap
+1496,Manufacturing/Industrial Plant,187.1,0.0,0.0,2579075.7299999995,2636388.5239999997,True,Near maximum reduction cap
+3527,Office,105.6,0.0,0.0,2566080.0,2623104.0,True,Near maximum reduction cap
+5568,Office,169.4,154.4,68.71761658031087,2561877.4656,2814405.64992,True,Hit 42% reduction cap
+6337,Multifamily Housing,73.0,69.4,36.31123919308357,2553872.3699999996,3427933.2479999997,True,Cannot meet any targets
+6160,Museum,104.2,42.4,22.877358490566028,2537957.04,2693559.44,True,Near maximum reduction cap
+5240,Convention Center,90.7,0.0,0.0,2513183.625,2569032.15,True,Near maximum reduction cap
+4833,Multifamily Housing,67.8,62.8,29.617834394904452,2499297.84,3253282.6559999995,True,Cannot meet any targets
+1361,Manufacturing/Industrial Plant,193.0,0.0,0.0,2496582.0,2552061.6,True,Near maximum reduction cap
+1417,Manufacturing/Industrial Plant,242.2,0.0,0.0,2491150.1399999997,2546509.0319999997,True,Near maximum reduction cap
+3886,Multifamily Housing,74.2,82.0,46.09756097560975,2466060.2280000006,3614410.7712000012,True,Hit 42% reduction cap
+3886,Multifamily Housing,74.2,82.0,46.09756097560975,2466060.2280000006,3614410.7712000012,True,Hit 42% reduction cap
+1169,Manufacturing/Industrial Plant,107.7,0.0,0.0,2466000.0,2520800.0,True,Near maximum reduction cap
+2584,Hotel,89.2,97.2,31.172839506172835,2457861.1499999994,3992516.1799999992,True,Cannot meet any targets
+4586,Other - Utility,135.5,0.0,0.0,2456987.625,2511587.35,True,Near maximum reduction cap
+3765,College/University,111.0,126.1,29.976209357652657,2455200.0,4594480.000000001,True,Cannot meet any targets
+1503,Manufacturing/Industrial Plant,225.3,0.0,0.0,2440589.22,2494824.5360000003,True,Near maximum reduction cap
+2649,Hotel,106.5,109.3,35.22415370539799,2405939.76,3484157.2080000006,True,Cannot meet any targets
+6178,Hotel,241.1,218.9,41.98264047510279,2401055.385,3145433.494,True,Near maximum reduction cap
+5575,Multifamily Housing,90.8,84.3,47.56820877817319,2390031.8495999994,3002239.7094400004,True,Hit 42% reduction cap
+2439,Senior Living Community,68.6,33.2,-69.57831325301203,2381998.3199999994,2434931.6159999995,True,Cannot meet any targets
+3684,Residence Hall/Dormitory,96.5,101.5,54.38423645320197,2372484.159,2949278.3436000003,True,Hit 42% reduction cap
+4376,mixed use property,138.2,135.5,38.8929889298893,2349708.1799999997,3242889.9679999994,True,Near maximum reduction cap
+1587,Other - Utility,204.0,0.0,0.0,2310055.2,2361389.7600000002,True,Near maximum reduction cap
+2579,Hotel,117.7,107.5,34.04651162790697,2306526.4799999995,2998484.4239999996,True,Cannot meet any targets
+5818,Hotel,109.9,124.9,42.03362690152122,2303009.733600001,3803293.5350400014,True,Hit 42% reduction cap
+3578,Mixed Use Property,62.1,0.0,0.0,2302500.33,2353667.004,True,Near maximum reduction cap
+2716,Office,121.3,131.7,52.088078967350036,2290393.0446,2998367.015440001,True,Hit 42% reduction cap
+1600,Distribution Center,75.1,47.4,46.41350210970464,2283441.5999999996,2584162.24,True,Hit 42% reduction cap
+3448,Supermarket/Grocery Store,329.4,362.9,54.698263984568754,2283233.2901999997,2906113.3272800003,True,Hit 42% reduction cap
+2939,K-12 School,96.2,82.5,41.81818181818181,2281480.74,2897193.0680000004,True,Near maximum reduction cap
+2632,Hotel,75.2,68.0,10.14705882352941,2273409.0,2685852.6000000006,True,Cannot meet any targets
+5631,Multifamily Housing,72.8,67.0,25.67164179104478,2269920.1049999995,2916302.94,True,Cannot meet any targets
+3169,Manufacturing/Industrial,144.4,0.0,0.0,2242849.68,2292690.7840000005,True,Near maximum reduction cap
+2132,MIXED USE PROPERTY,127.2,61.6,37.33766233766234,2236078.65,2459746.8680000002,True,Near maximum reduction cap
+1689,Manufacturing/Industrial Plant,90.0,0.0,0.0,2217262.95,2266535.46,True,Near maximum reduction cap
+3207,Multifamily Housing,66.1,71.9,38.525730180806676,2209982.8499999996,3451684.841999999,True,Cannot meet any targets
+5626,Hotel,86.0,77.6,13.402061855670095,2198609.9999999995,2646287.9999999995,True,Cannot meet any targets
+5438,Office,161.5,155.5,65.85209003215434,2195100.0,2460195.0,True,Hit 42% reduction cap
+6011,Multifamily Housing,58.0,39.3,-12.977099236641227,2180433.6,2228887.6800000006,True,Cannot meet any targets
+1554,Retail Store,77.1,68.9,36.865021770682155,2166995.9999999995,2791090.8479999998,True,Near maximum reduction cap
+2097,Manufacturing/Industrial Plant,90.7,0.0,0.0,2166580.71,2214726.9480000003,True,Near maximum reduction cap
+2468,Aquarium,244.3,176.7,29.994340690435763,2149200.0,2496420.0,True,Near maximum reduction cap
+1215,Distribution Center,66.5,0.0,0.0,2142630.0,2190244.0,True,Near maximum reduction cap
+3013,Office,117.9,135.1,41.96891191709844,2136914.22,3590173.96,True,Cannot meet any targets
+4772,Strip Mall,106.7,19.9,-268.3417085427136,2131524.5400000005,2178891.752000001,True,Cannot meet any targets
+6237,Multifamily Housing,69.0,44.4,0.4504504504504409,2127866.79,2181015.664,True,Cannot meet any targets
+6114,Manufacturing/Industrial Plant,209.2,0.0,0.0,2113074.405,2160031.614,True,Near maximum reduction cap
+1204,Manufacturing/Industrial Plant,173.0,0.0,0.0,2093703.2999999998,2140230.04,True,Near maximum reduction cap
+6003,"Repair Services (Vehicle, Shoe, Locksmith, etc.)",142.6,133.1,75.73253193087905,2093670.0,2256369.0,True,Hit 42% reduction cap
+3743,Fitness Center/Health Club/Gym,201.1,190.1,73.43503419253025,2075090.4,2256515.2800000003,True,Hit 42% reduction cap
+3757,Data Center,166.3,0.0,0.0,2063799.6300000004,2109661.844,True,Near maximum reduction cap
+3717,Multifamily Housing,70.8,70.0,33.57142857142857,2039316.5699999998,2829978.9719999996,True,Cannot meet any targets
+2574,Office,63.3,67.5,28.592592592592585,2034141.524999999,3193027.577999999,True,Cannot meet any targets
+1525,Hotel,73.8,64.6,5.417956656346739,2028174.7199999993,2244052.4079999994,True,Cannot meet any targets
+3174,Wholesale Club/Supercenter,157.1,152.3,71.43795141168746,2021544.7991999995,2222299.8194399998,True,Hit 42% reduction cap
+3456,Mixed Use Property,103.4,106.0,57.07547169811321,2019855.9570000004,2399389.2928000004,True,Hit 42% reduction cap
+5288,Multifamily Housing,122.0,18.0,-145.00000000000003,2016083.1600000001,2060885.0080000004,True,Near maximum reduction cap
+2645,Lifestyle Center,167.6,261.9,72.20313096601755,2012119.4064000007,3085249.7564800014,True,Hit 42% reduction cap
+1371,Manufacturing/Industrial Plant,103.4,0.0,0.0,1994300.5500000003,2038618.3400000005,True,Near maximum reduction cap
+3923,Manufacturing/Industrial Plant,162.9,0.0,0.0,1983465.0,2027542.0,True,Near maximum reduction cap
+1846,Manufacturing/Industrial Plant,162.6,0.0,0.0,1975982.2199999997,2019892.936,True,Near maximum reduction cap
+4375,Multifamily Housing,82.0,66.8,33.83233532934131,1964430.0,2399544.0,True,Near maximum reduction cap
+5398,Senior Living Community,146.4,77.3,18.111254851228978,1962675.0,2102430.0000000005,True,Near maximum reduction cap
+1796,Hotel,87.1,108.1,43.47826086956521,1960886.0990999988,3861338.80524,True,Hit 42% reduction cap
+6174,Multifamily Housing,60.2,55.4,13.357400722021659,1959324.1200000003,2395583.216000001,True,Cannot meet any targets
+5581,Multifamily Housing,81.4,81.0,45.432098765432094,1950256.5120000006,2615074.644800001,True,Hit 42% reduction cap
+4857,Multifamily Housing,60.6,63.3,30.173775671405995,1948458.96,2916502.856,True,Cannot meet any targets
+1845,Mixed Use Property,104.5,0.0,0.0,1910249.5499999998,1952699.54,True,Near maximum reduction cap
+3481,Multifamily Housing,78.5,80.0,27.0,1883037.15,2724657.5100000002,True,Cannot meet any targets
+2331,Multifamily Housing,75.5,60.1,25.79034941763727,1872240.0,2217668.2800000003,True,Near maximum reduction cap
+3281,Manufacturing/Industrial Plant,108.0,0.0,0.0,1866418.83,1907894.804,True,Near maximum reduction cap
+1704,Manufacturing/Industrial Plant,148.2,0.0,0.0,1865068.6499999994,1906514.6199999996,True,Near maximum reduction cap
+3510,Medical Office,249.9,253.9,72.82394643560457,1864763.6292000003,2057469.0314400003,True,Hit 42% reduction cap
+1459,Manufacturing/Industrial Plant,109.4,0.0,0.0,1850863.725,1891994.0300000003,True,Near maximum reduction cap
+5876,Multifamily Housing,58.2,51.4,14.007782101167306,1849184.5949999997,2199214.92,True,Cannot meet any targets
+6232,Multifamily Housing,61.2,61.2,25.653594771241835,1840084.8300000005,2590466.4020000007,True,Cannot meet any targets
+2610,Mixed Use Property,117.0,119.4,29.39698492462312,1836396.8699999996,2653514.0940000005,True,Cannot meet any targets
+2318,Hotel,132.5,115.2,46.96180555555556,1827244.7820000001,2241775.2148,True,Hit 42% reduction cap
+5339,Multifamily Housing,82.9,85.3,48.18288393903868,1826051.2443000004,2423820.206520001,True,Hit 42% reduction cap
+3009,Office,73.3,91.7,41.54852780806979,1824333.4499999995,3800484.9939999995,False,Already meets 2025 target
+2623,Hotel,93.3,128.4,41.978193146417446,1823984.9999999993,4592087.999999999,False,Already meets 2025 target
+2134,K-12 School,81.1,79.9,39.92490613266584,1817387.6399999992,2520177.0679999995,True,Near maximum reduction cap
+1292,Distribution Center,59.9,37.1,16.711590296495967,1816767.225,1972785.9000000001,True,Near maximum reduction cap
+2643,Office,75.7,90.2,46.45232815964524,1812222.6930000002,2961356.775200001,True,Hit 42% reduction cap
+3841,Non-Refrigerated Warehouse,108.8,0.0,0.0,1811520.0,1851776.0,True,Near maximum reduction cap
+3691,Office,102.4,114.8,57.92682926829268,1810998.0000000007,2224173.600000001,True,Hit 42% reduction cap
+4886,Hotel,83.6,110.4,44.65579710144928,1810384.1999999993,3789538.88,True,Hit 42% reduction cap
+2801,Multifamily Housing,63.5,61.9,28.594507269789975,1793889.0899999999,2446412.8019999997,True,Cannot meet any targets
+3501,Hotel,183.5,226.6,73.03618711385703,1790164.4136,2098197.4995200005,True,Hit 42% reduction cap
+2652,Hotel,83.8,85.8,28.787878787878785,1789065.0,2600057.9999999995,True,Cannot meet any targets
+1848,Manufacturing/Industrial Plant,100.8,0.0,0.0,1789065.0,1828822.0,True,Near maximum reduction cap
+5637,Multifamily Housing,66.6,64.4,31.366459627329196,1786414.499999999,2420409.599999999,True,Cannot meet any targets
+2348,Senior Living Community,125.3,137.7,54.03050108932461,1784933.8839000002,2291415.6299600005,True,Hit 42% reduction cap
+2587,Hotel,108.9,128.4,52.41433021806854,1782874.2960000006,2512204.274400001,True,Hit 42% reduction cap
+4141,Multifamily Housing,65.2,62.7,29.665071770334926,1773172.8299999998,2385365.972,True,Cannot meet any targets
+5605,Hotel,94.2,105.9,45.89235127478754,1761907.4799000006,2652153.858360001,True,Hit 42% reduction cap
+6459,Manufacturing/Industrial Plant,117.1,0.0,0.0,1748365.0199999996,1787217.5759999997,True,Near maximum reduction cap
+4254,Multifamily Housing,71.5,77.1,42.671854734111534,1748218.4159999997,2635434.5024,True,Hit 42% reduction cap
+4741,Office,100.2,113.6,57.482394366197184,1746130.3356000003,2168923.9678400005,True,Hit 42% reduction cap
+1222,Manufacturing/Industrial Plant,125.4,0.0,0.0,1743480.0,1782224.0,True,Near maximum reduction cap
+5820,Office,150.8,168.1,48.24509220701963,1742150.9535000008,2484869.9474000013,True,Hit 42% reduction cap
+6415,Multifamily Housing,77.2,78.0,43.33333333333333,1742148.7800000003,2426793.1120000007,True,Hit 42% reduction cap
+2428,Office,119.0,112.2,32.35294117647059,1734907.5,2302294.2499999995,True,Cannot meet any targets
+5646,Multifamily Housing,62.8,56.6,15.901060070671377,1733943.8399999994,2115835.1359999995,True,Cannot meet any targets
+1202,Manufacturing/Industrial Plant,99.0,0.0,0.0,1723328.6400000001,1761624.8320000002,True,Near maximum reduction cap
+1979,K-12 School,87.3,91.7,47.655398037077425,1719195.0740999999,2335364.61324,True,Hit 42% reduction cap
+4641,Hotel,102.3,113.1,45.97701149425287,1711529.5196999996,2518070.63508,True,Hit 42% reduction cap
+1160,Mixed Use Property,68.6,0.0,0.0,1689762.0599999996,1727312.328,True,Near maximum reduction cap
+1314,Manufacturing/Industrial Plant,136.6,0.0,0.0,1686638.6999999997,1724119.5599999998,True,Near maximum reduction cap
+1362,Manufacturing/Industrial Plant,76.3,0.0,0.0,1684800.0,1722240.0,True,Cannot meet any targets
+3868,Other - Mall,79.6,91.8,34.31372549019608,1674382.544999999,3087262.354,True,Cannot meet any targets
+1257,Manufacturing/Industrial Plant,95.4,0.0,0.0,1671984.0,1709139.2000000002,True,Near maximum reduction cap
+3995,K-12 School,77.8,70.5,31.914893617021278,1670963.6999999997,2150757.784,True,Cannot meet any targets
+3062,K-12 School,65.9,67.3,28.677563150074292,1665801.645000001,2412701.978000001,True,Cannot meet any targets
+5025,Wholesale Club/Supercenter,83.4,78.6,44.65648854961832,1665592.9416000005,2172224.532240001,True,Hit 42% reduction cap
+3454,Office,90.8,76.6,22.193211488250643,1658780.1599999997,1991368.704,True,Cannot meet any targets
+2278,Multifamily Housing,84.7,77.6,43.1701030927835,1636689.6504000002,2130892.0105600003,True,Hit 42% reduction cap
+6153,Mixed Use Property,99.3,101.7,10.717797443461166,1629284.1899999995,2558434.21,True,Cannot meet any targets
+4451,Office,96.9,97.8,50.61349693251533,1624421.6118000005,2065931.0755200007,True,Hit 42% reduction cap
+5829,Multifamily Housing,79.5,66.2,33.23262839879154,1624128.2999999998,2000196.84,True,Near maximum reduction cap
+4517,Multifamily Housing,83.1,75.6,41.534391534391524,1619122.0499999996,2122532.5979999998,True,Near maximum reduction cap
+5154,Multifamily Housing,58.6,38.5,29.87012987012987,1617903.0,1835896.8,True,Near maximum reduction cap
+2730,Office,86.2,77.6,37.75773195876289,1603230.5250000004,2077348.2700000005,True,Near maximum reduction cap
+2995,Office,77.3,57.8,16.435986159169552,1602612.0,1799566.0,True,Cannot meet any targets
+3405,Multifamily Housing,83.6,79.6,44.47236180904522,1595887.6319999998,2100081.1848,True,Hit 42% reduction cap
+4633,Multifamily Housing,71.9,72.3,38.86583679114799,1590967.2000000004,2248708.1600000006,True,Cannot meet any targets
+1393,Manufacturing/Industrial Plant,156.6,0.0,0.0,1587636.6299999994,1622917.444,True,Near maximum reduction cap
+3683,Residence Hall/Dormitory,89.1,102.8,48.540856031128406,1585655.1119999997,2346784.7968,True,Hit 42% reduction cap
+2148,K-12 School,67.2,70.9,32.299012693935126,1581209.1450000003,2393357.1840000004,True,Cannot meet any targets
+3172,Manufacturing/Industrial Plant,179.0,0.0,0.0,1571723.0099999998,1606650.188,True,Near maximum reduction cap
+3989,Multifamily Housing,66.4,75.7,35.006605019815055,1562587.4550000005,2756564.5360000003,True,Cannot meet any targets
+5606,Multifamily Housing,66.1,48.2,8.29875518672199,1562520.9599999995,1681713.2639999995,True,Cannot meet any targets
+5623,Multifamily Housing,65.6,70.7,37.482319660537485,1557578.249999999,2405145.143999999,True,Cannot meet any targets
+4604,Multifamily Housing,79.7,66.7,33.733133433283356,1557348.105,1924441.51,True,Near maximum reduction cap
+3828,Distribution Center,39.6,0.0,0.0,1557218.52,1591823.3760000002,True,Near maximum reduction cap
+4000,Worship Facility,91.6,75.8,44.45910290237467,1553419.7999999998,1906392.72,True,Hit 42% reduction cap
+4009,Senior Living Community,140.0,120.7,42.004971002485505,1549074.8630999997,1973401.03684,True,Hit 42% reduction cap
+6146,Multifamily Housing,66.0,63.1,29.952456418383516,1547972.8499999999,2073890.6799999997,True,Cannot meet any targets
+3690,Office,83.1,89.3,45.912653975363945,1533314.8124999995,2187115.4250000003,True,Hit 42% reduction cap
+1653,Manufacturing/Industrial Plant,121.6,0.0,0.0,1533074.8499999996,1567143.18,True,Near maximum reduction cap
+2547,Other/Specialty Hospital,165.7,149.6,65.70855614973262,1522295.0351999998,1685160.3126400001,True,Hit 42% reduction cap
+1727,Distribution Center,79.1,86.6,70.66974595842956,1512914.1575999998,1716398.8243200001,True,Hit 42% reduction cap
+2690,Multifamily Housing,137.7,132.2,66.56580937972768,1507931.9999999998,1684262.4000000001,True,Hit 42% reduction cap
+5115,Vehicle Dealership,219.0,193.7,75.68404749612803,1505011.1688,1612826.0541600003,True,Hit 42% reduction cap
+5862,Multifamily Housing,60.5,55.9,12.164579606440066,1504297.08,1838819.0879999998,True,Cannot meet any targets
+5604,Multifamily Housing,65.9,49.5,10.7070707070707,1497431.04,1638964.5440000002,True,Cannot meet any targets
+5070,Multifamily Housing,57.1,58.3,24.185248713550592,1493598.2400000002,2172306.852,True,Cannot meet any targets
+4445,Multifamily Housing,77.8,67.0,20.59701492537313,1492696.8749999995,1801744.8359999997,True,Cannot meet any targets
+5420,Multifamily Housing,85.9,85.9,48.544819557625146,1490482.1661,1931478.3020400004,True,Hit 42% reduction cap
+3811,Distribution Center,63.3,0.0,0.0,1486689.1199999996,1519726.656,True,Near maximum reduction cap
+2169,Office,153.3,166.6,71.00840336134453,1477848.5406000004,1669492.5139200008,True,Hit 42% reduction cap
+5098,Hotel,67.2,66.3,7.843137254901955,1476919.3050000006,1959449.4420000005,True,Cannot meet any targets
+4460,Office,97.9,106.0,41.9811320754717,1476100.0800000005,2263353.4560000002,True,Cannot meet any targets
+1919,Non-Refrigerated Warehouse,66.9,56.6,51.9434628975265,1475885.3760000002,1723573.0064000005,True,Hit 42% reduction cap
+3751,College/University,95.6,116.0,55.51724137931034,1475300.084999999,2013939.9839999995,True,Hit 42% reduction cap
+5933,Mixed Use Property,92.9,103.3,42.0135527589545,1469069.2143000006,2340779.580520001,True,Hit 42% reduction cap
+2493,Office,131.7,79.0,33.92405063291139,1462049.9999999995,1645649.9999999998,True,Near maximum reduction cap
+1485,Manufacturing/Industrial Plant,133.1,0.0,0.0,1457602.9199999997,1489994.096,True,Near maximum reduction cap
+4953,Other - Recreation,94.5,61.8,1.4563106796116483,1456680.225,1499463.84,True,Cannot meet any targets
+6255,Other - Mall,109.3,73.5,17.959183673469393,1456454.7,1606876.6,True,Near maximum reduction cap
+1191,Manufacturing/Industrial Plant,117.2,0.0,0.0,1451640.0150000001,1483898.6820000003,True,Near maximum reduction cap
+2362,Office,66.6,63.0,22.22222222222222,1428299.9999999993,1862079.9999999995,True,Cannot meet any targets
+3412,Multifamily Housing,104.4,99.5,55.577889447236174,1425564.1290000002,1675967.4316000005,True,Hit 42% reduction cap
+1344,Distribution Center,44.5,36.4,29.120879120879117,1423727.73,1722490.2859999998,True,Near maximum reduction cap
+1313,Manufacturing/Industrial Plant,96.8,0.0,0.0,1422360.0,1453968.0,True,Near maximum reduction cap
+4017,Vocational School,100.2,93.1,60.04296455424274,1407530.6856000002,1596646.8679200006,True,Hit 42% reduction cap
+2521,K-12 School,114.7,84.6,43.26241134751773,1400852.7000000002,1668037.2800000003,True,Hit 42% reduction cap
+4835,Multifamily Housing,51.5,52.2,14.942528735632191,1399702.275,2045381.4900000005,True,Cannot meet any targets
+6373,Multifamily Housing,59.7,57.6,23.263888888888886,1398824.2500000002,1872979.7000000002,True,Cannot meet any targets
+2692,Multifamily Housing,101.2,132.3,66.59108087679516,1392617.6928000008,1806729.9369600008,True,Hit 42% reduction cap
+3151,Multifamily Housing,82.6,90.9,51.375137513751376,1389206.3381999994,1858804.7944799997,True,Hit 42% reduction cap
+3054,Office,87.5,80.0,22.750000000000004,1376230.98,1743815.9320000003,True,Cannot meet any targets
+3541,Mixed Use Property,118.9,0.0,0.0,1369460.475,1399892.9300000002,True,Near maximum reduction cap
+5279,K-12 School,81.8,69.4,30.83573487031701,1359205.1699999997,1679215.096,True,Near maximum reduction cap
+5593,Multifamily Housing,64.9,45.0,1.7777777777777715,1358030.7000000002,1401752.6640000003,True,Cannot meet any targets
+3500,Office,68.8,89.0,40.337078651685395,1356361.1999999997,3023345.8599999994,False,Already meets 2025 target
+2930,Multifamily Housing,94.2,102.3,56.79374389051808,1355531.5413000002,1658959.8433200005,True,Hit 42% reduction cap
+1297,Non-Refrigerated Warehouse,55.8,46.3,23.974082073434115,1355217.3899999997,1624546.4879999997,True,Cannot meet any targets
+6372,Multifamily Housing,52.9,45.8,3.493449781659377,1351595.0399999996,1454054.6639999994,True,Cannot meet any targets
+1630,Distribution Center,80.3,78.2,41.94373401534527,1350902.85,1856002.9400000002,True,Near maximum reduction cap
+3545,Manufacturing/Industrial,77.7,0.0,0.0,1347061.59,1376996.2920000001,True,Near maximum reduction cap
+6310,Other - Education,195.0,145.2,74.3801652892562,1345965.6,1426897.9200000002,True,Hit 42% reduction cap
+3503,Multifamily Housing,61.8,63.2,30.063291139240505,1342196.4599999995,1947387.5519999992,True,Cannot meet any targets
+3097,Multifamily Housing,69.6,68.3,35.28550512445094,1337354.9999999995,1843735.1999999995,True,Cannot meet any targets
+2465,Office,62.2,61.2,21.078431372549026,1334721.960000001,1823549.618000001,True,Cannot meet any targets
+4500,Office,61.1,45.8,-5.458515283842795,1325128.3200000003,1354575.6160000006,True,Cannot meet any targets
+1683,Distribution Center,50.4,59.2,57.0945945945946,1323142.3679999998,1694620.2752,True,Hit 42% reduction cap
+6034,Fitness Center/Health Club/Gym,178.1,195.4,42.01637666325487,1317524.064,2057821.8496,True,Hit 42% reduction cap
+3642,K-12 School,123.1,116.1,58.656330749354005,1316469.1056,1505582.92192,True,Hit 42% reduction cap
+3479,Multifamily Housing,98.0,109.0,59.449541284403665,1312842.51,1590120.732,True,Hit 42% reduction cap
+3949,Other - Recreation,226.5,215.1,41.98047419804742,1312707.3599999999,1770792.264,True,Near maximum reduction cap
+5417,Multifamily Housing,64.7,53.1,16.7608286252354,1311060.06,1520700.6600000001,True,Cannot meet any targets
+4348,Office,81.4,85.2,43.30985915492958,1310095.8696000003,1890147.5734400006,True,Hit 42% reduction cap
+4265,Multifamily Housing,77.1,96.1,54.00624349635795,1309096.8143999996,1920180.6201600004,True,Hit 42% reduction cap
+4595,Senior Living Community,78.4,78.7,19.56797966963152,1308423.4650000008,1852866.3380000012,True,Cannot meet any targets
+1163,Distribution Center,59.1,51.2,50.390625,1305996.2004000002,1555593.3325600002,True,Hit 42% reduction cap
+3467,Multifamily Housing,61.3,66.9,33.931240657698055,1305661.9499999995,2093850.5399999993,True,Cannot meet any targets
+6513,manufacturing/industrial plant,92.3,0.0,0.0,1304655.885,1333648.238,True,Near maximum reduction cap
+5248,Multifamily Housing,73.0,77.8,43.18766066838046,1299016.0536000002,1915416.8270400004,True,Hit 42% reduction cap
+3316,Office,80.4,89.6,48.99553571428571,1296159.3450000004,1824808.4080000008,True,Hit 42% reduction cap
+2654,Office,75.9,71.3,27.068723702664794,1290853.9800000004,1692504.3120000004,True,Cannot meet any targets
+1574,Distribution Center,43.3,46.2,35.71428571428572,1289834.9099999992,1970502.3679999996,True,Cannot meet any targets
+2658,Office,71.1,95.8,49.58246346555324,1287495.7116,2421104.4502400006,True,Hit 42% reduction cap
+1461,Manufacturing/Industrial Plant,69.9,0.0,0.0,1284465.6000000006,1313009.2800000007,True,Cannot meet any targets
+3872,Strip Mall,195.3,199.9,66.68334167083542,1280244.1500000004,1451061.0300000005,True,Hit 42% reduction cap
+3361,Multifamily Housing,72.3,80.0,44.74999999999999,1279079.9999999998,1924111.0,True,Hit 42% reduction cap
+1286,Distribution Center,51.3,38.3,33.68146214099216,1276037.2799999998,1508205.174,True,Near maximum reduction cap
+5497,College/University,94.1,95.2,29.936974789915965,1274917.0049999994,1818795.0119999994,True,Cannot meet any targets
+2432,Multifamily Housing,72.2,52.9,-10.207939508506614,1273330.3500000003,1301626.5800000005,True,Cannot meet any targets
+2799,Residential Care Facility,129.4,137.3,53.896576839038616,1269263.8329,1596078.2315600002,True,Hit 42% reduction cap
+1419,Manufacturing/Industrial Plant,93.5,0.0,0.0,1267536.06,1295703.5280000002,True,Near maximum reduction cap
+3109,Multifamily Housing,131.1,129.8,65.94761171032357,1267463.1695999997,1428885.1347199997,True,Hit 42% reduction cap
+4447,Multifamily Housing,78.4,78.4,36.60714285714286,1264063.02,1777226.8360000004,True,Cannot meet any targets
+4630,Multifamily Housing,80.0,73.1,39.534883720930225,1263924.4049999998,1657850.028,True,Near maximum reduction cap
+2842,Multifamily Housing,87.7,82.3,42.04131227217496,1263670.8096000003,1689596.2214400005,True,Hit 42% reduction cap
+5980,Multifamily Housing,64.3,73.0,39.45205479452054,1260501.8699999996,2117093.6039999994,True,Cannot meet any targets
+5727,K-12 School,136.8,57.1,15.936952714535904,1258487.0100000002,1323720.2880000002,True,Near maximum reduction cap
+1631,Hotel,77.9,45.1,-35.47671840354767,1256381.2800000003,1284300.8640000005,True,Cannot meet any targets
+6457,Distribution Center,70.9,0.0,0.0,1255078.8900000001,1282969.5320000001,True,Near maximum reduction cap
+1700,Non-Refrigerated Warehouse,56.7,56.3,41.03019538188276,1240195.6800000002,1732107.9200000002,True,Near maximum reduction cap
+2922,Multifamily Housing,96.2,95.1,53.52260778128285,1240104.0,1510345.6000000003,True,Hit 42% reduction cap
+6259,Hotel,71.5,59.7,-2.345058626465659,1239699.2399999998,1267248.112,True,Cannot meet any targets
+3628,Multifamily Housing,76.9,79.8,44.61152882205513,1238153.4396000004,1737238.789440001,True,Hit 42% reduction cap
+4125,Multifamily Housing,110.0,112.2,60.60606060606061,1237641.12,1438286.7840000002,True,Hit 42% reduction cap
+4719,Multifamily Housing,65.2,63.7,28.100470957613823,1231645.9500000002,1684476.3920000007,True,Cannot meet any targets
+3265,Non-Refrigerated Warehouse,41.3,44.2,38.46153846153847,1230624.5399999996,1873669.194,True,Cannot meet any targets
+2011,Office,79.4,60.7,20.42833607907744,1227229.1100000003,1408482.9240000003,True,Cannot meet any targets
+3733,Multifamily Housing,81.1,78.7,43.837357052096564,1221889.0499999998,1639038.42,True,Hit 42% reduction cap
+1548,Retail Store,120.9,116.4,10.223367697594506,1220905.5000000005,1554516.6400000006,True,Cannot meet any targets
+2291,Multifamily Housing,57.1,54.9,11.657559198542803,1218841.23,1560432.3320000004,True,Cannot meet any targets
+1623,Manufacturing/Industrial Plant,98.6,0.0,0.0,1218414.555,1245490.4340000001,True,Near maximum reduction cap
+1752,Other - Recreation,162.6,169.4,41.97166469893743,1217634.1199999996,1782488.592,True,Cannot meet any targets
+2617,Hotel,87.8,101.6,27.657480314960626,1212922.0949999995,2545008.4659999995,False,Already meets 2025 target
+2226,Office,106.9,106.8,54.77528089887641,1204178.2608000003,1453001.2971200002,True,Hit 42% reduction cap
+2814,"Personal Services (Health/Beauty, Dry Cleaning, etc.)",102.3,93.2,62.8755364806867,1202778.612,1346181.2784000002,True,Hit 42% reduction cap
+2005,K-12 School,73.0,71.2,32.58426966292135,1200973.2,1644189.5,True,Cannot meet any targets
+1999,Manufacturing/Industrial Plant,111.3,0.0,0.0,1200260.16,1226932.608,True,Near maximum reduction cap
+2835,Multifamily Housing,58.8,58.8,21.258503401360546,1198422.2249999996,1682766.25,True,Cannot meet any targets
+3885,Senior Living Community,142.7,134.5,42.00743494423792,1197908.9999999998,1606899.6,True,Hit 42% reduction cap
+5828,Hotel,215.9,216.6,71.79132040627886,1195658.6040000003,1321121.6928000003,True,Hit 42% reduction cap
+1328,Non-Refrigerated Warehouse,56.7,35.1,17.094017094017094,1194989.895,1298381.8320000002,True,Near maximum reduction cap
+1852,"Repair Services (Vehicle, Shoe, Locksmith, etc.)",104.3,59.2,45.43918918918919,1191779.6993999998,1332040.3981599999,True,Hit 42% reduction cap
+5272,Manufacturing/Industrial Plant,127.0,0.0,0.0,1187682.21,1214075.148,True,Near maximum reduction cap
+1913,Manufacturing/Industrial Plant,85.7,0.0,0.0,1184918.04,1211249.5520000001,True,Cannot meet any targets
+5490,Office,56.3,64.2,24.766355140186924,1183291.1999999995,2481203.2,False,Already meets 2025 target
+3568,K-12 School,65.5,45.7,-5.032822757111591,1182368.25,1208643.1,True,Cannot meet any targets
+4032,Multifamily Housing,66.1,73.2,32.923497267759565,1173787.5599999991,1955062.5599999991,True,Cannot meet any targets
+3584,Non-Refrigerated Warehouse,80.7,71.7,62.064156206415625,1166087.9688000001,1302004.9281600001,True,Hit 42% reduction cap
+3473,Office,71.9,65.5,26.25954198473283,1161893.5650000004,1483070.7280000006,True,Cannot meet any targets
+3533,Supermarket/Grocery Store,189.4,118.9,-16.652649285113526,1155465.6750000005,1181142.6900000004,True,Cannot meet any targets
+1581,Office,69.9,77.3,50.970245795601556,1152773.3355000005,1558270.5022000007,True,Hit 42% reduction cap
+2095,Manufacturing/Industrial Plant,107.2,0.0,0.0,1147882.9949999999,1173391.506,True,Near maximum reduction cap
+3574,Strip Mall,109.1,16.3,-308.5889570552147,1145874.375,1171338.25,True,Cannot meet any targets
+3537,Retail Store,129.6,120.5,15.020746887966801,1142871.1799999997,1427106.2079999996,True,Cannot meet any targets
+2233,Multifamily Housing,78.3,77.5,42.967741935483865,1140045.6375,1570320.101,True,Hit 42% reduction cap
+3866,K-12 School,98.5,97.6,50.81967213114754,1138663.3980000003,1430050.4472000005,True,Hit 42% reduction cap
+2168,Multifamily Housing,99.8,62.1,28.824476650563604,1138057.8299999998,1275782.032,True,Near maximum reduction cap
+3969,Multifamily Housing,82.5,82.0,46.09756097560975,1137870.7200000002,1511930.6680000003,True,Hit 42% reduction cap
+4709,Multifamily Housing,56.1,56.6,21.90812720848056,1137096.0,1627310.72,True,Cannot meet any targets
+5720,Multifamily Housing,62.7,57.7,22.530329289428074,1128430.38,1435238.6400000001,True,Cannot meet any targets
+5640,Multifamily Housing,60.9,62.5,22.879999999999995,1127415.9599999995,1663223.2419999996,True,Cannot meet any targets
+5803,Veterinary Office,190.4,198.1,69.35890964159515,1126036.0056000003,1266845.0379200005,True,Hit 42% reduction cap
+1478,Office,54.3,0.0,0.0,1119123.0,1143992.4000000001,True,Near maximum reduction cap
+3272,K-12 School,89.5,77.4,37.98449612403101,1114585.2,1411438.24,True,Near maximum reduction cap
+4133,Multifamily Housing,107.6,118.5,62.700421940928265,1109556.0,1314194.7000000002,True,Hit 42% reduction cap
+3475,Office,75.4,74.3,34.99327052489906,1109520.0000000005,1536808.4800000004,True,Cannot meet any targets
+3203,other - recreation,172.5,161.9,42.00123533045089,1108785.3236999998,1483117.53668,True,Hit 42% reduction cap
+3884,K-12 School,93.1,87.6,45.20547945205479,1107177.6672,1434639.3740800002,True,Hit 42% reduction cap
+3590,Manufacturing/Industrial Plant,132.1,0.0,0.0,1106265.5999999996,1130849.2799999998,True,Near maximum reduction cap
+3123,Multifamily Housing,59.7,53.6,17.53731343283582,1105800.0000000002,1354700.0,True,Cannot meet any targets
+2007,Distribution Center,49.5,49.9,49.09819639278557,1102103.7000000002,1427958.6800000002,True,Hit 42% reduction cap
+1640,Non-Refrigerated Warehouse,77.5,78.7,65.43837357052095,1100481.48,1251352.536,True,Hit 42% reduction cap
+5734,K-12 School,85.8,78.7,39.008894536213475,1100447.5799999998,1444664.592,True,Near maximum reduction cap
+1639,Non-Refrigerated Warehouse,44.1,29.7,2.0202020202020132,1097503.5,1134498.0,True,Cannot meet any targets
+5744,Hotel,110.9,130.3,53.10821181887951,1092647.7000000002,1511246.2800000005,True,Hit 42% reduction cap
+6451,Distribution Center,85.5,0.0,0.0,1092497.625,1116775.35,True,Near maximum reduction cap
+4902,Office,61.0,51.4,6.031128404669263,1088970.18,1191341.5340000002,True,Cannot meet any targets
+2320,K-12 School,74.2,79.6,39.69849246231155,1087827.8399999999,1655366.3040000002,True,Cannot meet any targets
+2451,Multifamily Housing,54.4,48.1,8.108108108108105,1086868.95,1240775.9399999997,True,Cannot meet any targets
+6012,Multifamily Housing,56.6,54.8,12.043795620437947,1086292.35,1413277.3199999998,True,Cannot meet any targets
+3747,Residence Hall/Dormitory,85.0,91.6,49.454148471615724,1083348.6318,1467152.9395200002,True,Hit 42% reduction cap
+6369,Multifamily Housing,58.3,59.3,25.463743676222588,1082771.9999999998,1560635.3759999995,True,Cannot meet any targets
+2673,Multifamily Housing,61.2,72.4,38.950276243093924,1074728.9250000003,2008215.1,True,Cannot meet any targets
+3245,"Repair Services (Vehicle, Shoe, Locksmith, etc.)",139.4,106.2,69.58568738229755,1071995.4396000002,1150034.92872,True,Hit 42% reduction cap
+5856,Multifamily Housing,55.0,39.1,-13.043478260869568,1068801.4799999997,1092552.6239999998,True,Cannot meet any targets
+5478,Multifamily Housing,67.0,69.6,36.49425287356321,1067579.9399999997,1568176.2479999997,True,Cannot meet any targets
+2385,Multifamily Housing,63.5,69.1,36.034732272069455,1064407.5,1679966.184,True,Cannot meet any targets
+2405,Office,99.8,86.3,38.47045191193511,1063941.3749999998,1349606.65,True,Near maximum reduction cap
+2900,Multifamily Housing,83.1,87.8,50.45558086560364,1061600.9165999996,1395271.69824,True,Hit 42% reduction cap
+1904,Distribution Center,72.4,76.9,65.6697009102731,1058791.0872000004,1218135.6020400005,True,Hit 42% reduction cap
+5915,Mixed Use Property,111.9,72.3,24.757952973720606,1056983.85,1181124.7500000002,True,Near maximum reduction cap
+1544,Hotel,91.1,114.6,46.68411867364747,1054537.4399999997,1950866.7160000002,True,Hit 42% reduction cap
+4016,Ice/Curling Rink,82.2,75.2,30.0531914893617,1054500.0,1361600.0,True,Cannot meet any targets
+1698,K-12 School,74.3,67.1,28.464977645305506,1048722.7499999998,1336224.0999999999,True,Cannot meet any targets
+6322,Vehicle Dealership,90.3,85.6,50.0,1048542.21,1298709.444,True,Hit 42% reduction cap
+3882,Multifamily Housing,87.1,70.0,36.857142857142854,1047905.6399999997,1281249.684,True,Near maximum reduction cap
+1500,Refrigerated Warehouse,115.3,100.4,29.98007968127491,1043942.3999999999,1304928.0,True,Cannot meet any targets
+2173,Multifamily Housing,58.0,61.5,28.130081300813004,1042177.4999999999,1615565.9999999995,True,Cannot meet any targets
+5611,Office,92.6,132.5,60.075471698113205,1041838.875,1597486.2750000001,True,Hit 42% reduction cap
+3006,Multifamily Housing,60.0,61.9,28.594507269789975,1041097.47,1533271.8159999999,True,Cannot meet any targets
+4448,Multifamily Housing,64.1,70.3,29.445234708392597,1039466.8199999991,1737655.0599999991,True,Cannot meet any targets
+2783,Multifamily Housing,91.9,73.1,39.534883720930225,1038654.6300000001,1272482.4060000002,True,Near maximum reduction cap
+5492,Office,58.5,52.4,7.824427480916034,1036035.0000000001,1187076.0000000005,True,Cannot meet any targets
+5541,Multifamily Housing,81.4,83.8,47.255369928400945,1033329.1788000003,1389465.5083200007,True,Hit 42% reduction cap
+5619,Multifamily Housing,59.9,57.4,22.996515679442503,1032791.2649999998,1369847.2939999995,True,Cannot meet any targets
+3608,Strip Mall,96.8,83.9,20.61978545887963,1032750.0,1250280.0000000002,True,Cannot meet any targets
+4446,Multifamily Housing,67.5,59.5,25.71428571428571,1031202.48,1283673.4239999999,True,Cannot meet any targets
+2593,Office,80.8,86.7,27.912341407151096,1028917.8899999998,1645096.0679999997,True,Cannot meet any targets
+5562,Distribution Center,67.6,66.2,41.9939577039275,1028375.9999999998,1421105.5999999999,True,Near maximum reduction cap
+2153,Non-Refrigerated Warehouse,68.2,62.7,41.9457735247209,1025362.5,1353090.0000000002,True,Near maximum reduction cap
+3483,Office,87.3,105.3,54.131054131054135,1019375.1269999999,1422702.8028000004,True,Hit 42% reduction cap
+4553,Multifamily Housing,67.9,24.5,-80.40816326530613,1016737.1100000001,1039331.2680000002,True,Cannot meet any targets
+6260,Movie Theater,93.1,96.7,38.88314374353671,1013724.2399999998,1484517.5199999998,True,Cannot meet any targets
+1508,Manufacturing/Industrial,53.3,0.0,0.0,1010488.0499999999,1032943.3400000001,True,Near maximum reduction cap
+5529,Office,82.4,87.6,41.32420091324201,1010256.8100000005,1514854.0600000005,True,Cannot meet any targets
+2721,Office,57.2,54.1,10.720887245841043,1009588.9050000005,1258221.3020000008,True,Cannot meet any targets
+1935,Distribution Center,55.2,52.6,51.711026615969594,1005890.4000000001,1226698.5600000003,True,Hit 42% reduction cap
+2894,Multifamily Housing,53.6,41.8,-5.741626794258387,1001883.9599999998,1024148.048,True,Cannot meet any targets
+4673,Multifamily Housing,56.7,49.6,10.887096774193546,1000824.8400000001,1159062.0,True,Cannot meet any targets
+4779,K-12 School,116.2,105.7,54.58845789971618,1000581.5312999999,1168955.6533200003,True,Hit 42% reduction cap
+3416,Multifamily Housing,65.1,71.8,38.4401114206128,994676.4899999994,1589828.7239999995,True,Cannot meet any targets
+1664,Manufacturing/Industrial Plant,131.2,0.0,0.0,992922.2999999998,1014987.2399999999,True,Near maximum reduction cap
+2470,Retail Store,76.8,78.2,44.373401534526856,981980.3999999998,1359638.5599999998,True,Hit 42% reduction cap
+3555,Food Service,196.0,192.5,60.051948051948045,980815.5,1129109.1000000003,True,Hit 42% reduction cap
+3014,LABORATORY,230.9,288.4,41.29680998613037,974743.8299999998,2030161.0559999999,False,Already meets 2025 target
+3842,Manufacturing/Industrial Plant,97.2,0.0,0.0,974582.2800000003,996239.6640000002,True,Near maximum reduction cap
+1198,Distribution Center,35.7,35.7,28.851540616246506,973316.2500000005,1366391.8200000008,True,Cannot meet any targets
+3294,"Repair Services (Vehicle, Shoe, Locksmith, etc.)",141.3,146.0,77.87671232876713,970669.8240000003,1051809.3568000002,True,Hit 42% reduction cap
+3883,Multifamily Housing,66.1,30.4,-59.86842105263159,969286.4999999995,990826.1999999996,True,Cannot meet any targets
+2034,Non-Refrigerated Warehouse,60.6,51.4,47.081712062256805,968787.3096000002,1175882.38944,True,Hit 42% reduction cap
+5143,Non-Refrigerated Warehouse,42.3,34.3,20.69970845481049,967576.1999999997,1134309.5839999998,True,Cannot meet any targets
+1819,K-12 School,63.1,58.7,18.2282793867121,966300.3900000001,1222572.4060000002,True,Cannot meet any targets
+1513,Other - Lodging/Residential,90.6,96.5,41.968911917098445,966274.5749999998,1450186.3399999999,True,Cannot meet any targets
+1502,Non-Refrigerated Warehouse,51.0,45.6,37.06140350877193,966170.4300000002,1244315.9160000002,True,Near maximum reduction cap
+2931,Multifamily Housing,84.2,88.1,41.9977298524404,963357.3,1417205.6280000003,True,Cannot meet any targets
+5653,Office,66.7,87.1,39.03559127439724,962730.9150000003,2243145.1040000003,False,Already meets 2025 target
+5189,Residential Care Facility,139.4,123.2,48.62012987012987,962685.0000000001,1172034.0,True,Hit 42% reduction cap
+6183,Multifamily Housing,55.7,55.7,20.646319569120287,961291.0950000003,1350658.6700000002,True,Cannot meet any targets
+3612,Multifamily Housing,71.3,75.9,41.76548089591568,959780.0699999998,1439785.6019999997,True,Cannot meet any targets
+2210,Manufacturing/Industrial Plant,106.0,0.0,0.0,952813.125,973986.75,True,Near maximum reduction cap
+1405,Manufacturing/Industrial Plant,93.0,0.0,0.0,952776.0,973948.8,True,Near maximum reduction cap
+2909,Multifamily Housing,107.2,102.9,57.04567541302236,950704.7115,1103733.8486000001,True,Hit 42% reduction cap
+1464,Mixed Use Property,39.0,0.0,0.0,945822.1499999999,966840.42,True,Near maximum reduction cap
+3371,Multifamily Housing,82.5,83.3,46.93877551020408,944841.1050000001,1257258.5220000003,True,Hit 42% reduction cap
+4739,Office,129.2,117.7,58.96346644010195,943828.0829999999,1069751.2105999999,True,Hit 42% reduction cap
+3972,Multifamily Housing,61.7,51.5,24.077669902912618,941077.4400000002,1132342.716,True,Cannot meet any targets
+5257,K-12 School,65.7,67.3,28.677563150074292,939635.4900000002,1367383.7640000002,True,Cannot meet any targets
+3856,K-12 School,56.0,52.6,8.745247148288977,938584.9200000002,1139931.52,True,Cannot meet any targets
+4022,Medical Office,168.8,136.4,49.41348973607038,935837.0064000001,1099567.7049600002,True,Hit 42% reduction cap
+5530,Multifamily Housing,74.9,83.2,46.875,934688.1192000003,1360283.3088800004,True,Hit 42% reduction cap
+1932,Non-Refrigerated Warehouse,71.7,67.5,41.925925925925924,928020.96,1243182.2,True,Near maximum reduction cap
+1636,Distribution Center,31.2,22.7,-11.894273127753301,926837.1000000001,947433.4800000001,True,Cannot meet any targets
+3025,Multifamily Housing,75.2,73.8,40.108401084010836,926312.8800000001,1279963.34,True,Near maximum reduction cap
+4128,Multifamily Housing,107.3,121.9,63.74077112387203,922345.1027999998,1102478.88396,True,Hit 42% reduction cap
+5116,"Repair Services (Vehicle, Shoe, Locksmith, etc.)",105.7,97.2,66.76954732510289,921902.5644000001,1020484.9520800002,True,Hit 42% reduction cap
+3618,Multifamily Housing,132.3,157.6,71.95431472081218,920088.4704000005,1068501.4172800006,True,Hit 42% reduction cap
+6219,Multifamily Housing,126.5,128.9,65.70985259891388,919610.4335999999,1045368.35952,True,Hit 42% reduction cap
+1009,Hotel,91.0,99.9,38.83883883883884,917743.95,1453385.1800000002,True,Cannot meet any targets
+5733,K-12 School,98.5,83.7,42.65232974910395,916204.9376999999,1152779.46628,True,Hit 42% reduction cap
+3708,Office,67.3,74.0,34.72972972972973,912902.3999999999,1477549.4400000002,True,Cannot meet any targets
+1438,Non-Refrigerated Warehouse,64.0,61.5,55.77235772357723,912572.0235,1073859.4154,True,Hit 42% reduction cap
+3046,Courthouse,69.6,84.6,33.56973995271867,911069.9999999993,1960151.9999999988,False,Already meets 2025 target
+6246,Office,77.8,69.0,30.000000000000004,910569.4199999999,1150505.31,True,Cannot meet any targets
+4387,Multifamily Housing,82.3,86.0,48.604651162790695,908154.702,1213248.4728,True,Hit 42% reduction cap
+1372,Other - Lodging/Residential,107.0,91.6,43.995633187772924,905811.8832,1131357.25248,True,Hit 42% reduction cap
+5343,Multifamily Housing,70.7,76.3,32.50327653997378,898769.6100000002,1418754.8160000003,True,Cannot meet any targets
+1294,Manufacturing/Industrial Plant,80.0,0.0,0.0,896893.47,916824.4360000001,True,Cannot meet any targets
+5864,Multifamily Housing,56.3,54.8,10.401459854014591,896467.2599999991,1171242.4319999993,True,Cannot meet any targets
+4526,Distribution Center,64.9,63.7,60.12558869701727,894096.0000000002,1028707.2000000003,True,Hit 42% reduction cap
+1728,Distribution Center,52.8,35.2,27.8409090909091,890399.9999999999,1008320.0,True,Near maximum reduction cap
+6465,Multifamily Housing,64.4,72.6,39.11845730027547,888483.7500000002,1471620.5000000002,True,Cannot meet any targets
+2386,Office,82.9,93.9,41.95953141640043,886838.4000000001,1457315.3280000004,True,Cannot meet any targets
+3620,K-12 School,76.2,62.2,22.829581993569136,885548.4000000001,1049071.5840000003,True,Cannot meet any targets
+2323,K-12 School,84.2,60.5,20.66115702479339,882057.6000000001,995123.52,True,Near maximum reduction cap
+4435,Multifamily Housing,58.1,62.5,26.08,878522.3999999999,1431259.41,True,Cannot meet any targets
+3625,K-12 School,103.5,103.8,53.75722543352601,875252.8008,1069139.3011200002,True,Hit 42% reduction cap
+3676,K-12 School,57.1,59.4,19.19191919191919,872486.0999999999,1352676.5980000002,True,Cannot meet any targets
+3713,Multifamily Housing,80.3,92.1,52.0086862106406,871480.7106000001,1199746.8858400004,True,Hit 42% reduction cap
+1797,Multifamily Housing,83.3,78.5,43.69426751592356,869978.9025,1146784.071,True,Hit 42% reduction cap
+3164,Other - Entertainment/Public Assembly,169.3,149.4,29.986613119143247,869211.0000000002,1095003.5040000004,True,Cannot meet any targets
+3970,Multifamily Housing,99.7,109.8,59.74499089253187,866537.1648,1043346.0633600003,True,Hit 42% reduction cap
+4832,Multifamily Housing,58.6,53.2,7.894736842105268,866230.1700000002,1004008.5120000001,True,Cannot meet any targets
+3689,Office,69.7,74.7,35.341365461847396,862854.4800000001,1329255.0080000004,True,Cannot meet any targets
+3769,College/University,78.5,88.8,31.306306306306304,861463.3500000001,1556628.5,True,Cannot meet any targets
+3698,Hotel,96.8,115.8,47.236614853195164,861349.2719999999,1389566.8408000006,True,Hit 42% reduction cap
+3496,Multifamily Housing,54.3,16.8,-163.0952380952381,860454.8549999995,879576.0739999996,True,Cannot meet any targets
+1626,Manufacturing/Industrial Plant,90.1,0.0,0.0,858092.3999999998,877161.1199999999,True,Near maximum reduction cap
+2053,Indoor Arena,80.1,114.3,53.455818022747145,856866.5630999994,1511220.4988399998,True,Hit 42% reduction cap
+1991,MIXED USE PROPERTY,82.5,76.7,55.019556714471975,856367.727,1003197.0628000001,True,Hit 42% reduction cap
+2916,Multifamily Housing,167.2,215.6,42.02226345083488,854845.9686,1852454.7870400003,True,Hit 42% reduction cap
+3992,Worship Facility,76.0,72.2,41.689750692520775,851727.5549999999,1148451.318,True,Near maximum reduction cap
+3774,K-12 School,105.3,92.1,47.88273615635179,850116.7164,1037395.1169600001,True,Hit 42% reduction cap
+4788,MOVIE THEATER,123.8,124.6,57.30337078651685,849918.564,999865.0896000002,True,Hit 42% reduction cap
+4781,K-12 School,59.6,64.4,25.46583850931678,849747.9900000002,1412540.5840000003,True,Cannot meet any targets
+4993,Vehicle Dealership,110.8,80.9,28.800988875154516,847278.2249999999,983847.8159999999,True,Near maximum reduction cap
+5455,Office,86.4,84.4,42.77251184834124,842064.8286000001,1149203.4750400004,True,Hit 42% reduction cap
+2107,Wholesale Club/Supercenter,71.7,70.6,38.385269121813025,839854.0800000001,1163951.6160000002,True,Cannot meet any targets
+4380,Office,99.3,115.0,58.00000000000001,837157.8600000001,1048790.2480000004,True,Hit 42% reduction cap
+6163,Office,85.9,59.9,11.35225375626043,835770.7200000002,905898.6080000001,True,Cannot meet any targets
+3740,Multifamily Housing,67.6,72.7,35.075653370013754,831145.1849999994,1290234.3119999995,True,Cannot meet any targets
+3729,Worship Facility,91.6,66.1,36.308623298033275,830844.2849999998,978449.6699999998,True,Near maximum reduction cap
+1360,Fitness Center/Health Club/Gym,63.1,0.0,0.0,829247.58,847675.3040000001,True,Near maximum reduction cap
+4524,Multifamily Housing,70.4,59.6,10.906040268456376,828468.7800000003,943198.0760000004,True,Cannot meet any targets
+3158,Laboratory,125.2,127.5,41.96078431372549,827848.0800000001,1183817.7280000001,True,Near maximum reduction cap
+3804,Manufacturing/Industrial Plant,87.4,0.0,0.0,826240.5000000002,844601.4000000003,True,Cannot meet any targets
+5139,Multifamily Housing,70.8,57.1,12.084063047285461,824299.7399999998,928231.0559999997,True,Cannot meet any targets
+1545,Office,199.6,215.1,77.54532775453278,818937.6,895110.3200000002,True,Hit 42% reduction cap
+3360,Multifamily Housing,90.1,87.4,49.4279176201373,818712.8927999998,1032715.8019199998,True,Hit 42% reduction cap
+2756,Office,105.1,72.0,32.91666666666667,815513.2499999999,940738.64,True,Near maximum reduction cap
+3726,Multifamily Housing,68.9,77.8,43.18766066838046,814871.2590000004,1300787.3376000007,True,Hit 42% reduction cap
+1259,Non-Refrigerated Warehouse,60.4,44.6,39.01345291479821,814318.8899999999,970825.7680000002,True,Near maximum reduction cap
+4662,Multifamily Housing,49.8,44.2,0.0,809721.3599999992,827715.1679999992,True,Cannot meet any targets
+1936,Distribution Center,37.0,30.8,17.53246753246754,806208.0,943404.8000000002,True,Cannot meet any targets
+4693,Vehicle Dealership,132.7,146.0,70.68493150684931,805647.7799999999,915155.556,True,Hit 42% reduction cap
+4399,Multifamily Housing,78.6,70.8,37.57062146892655,802196.9999999998,1039636.7999999998,True,Near maximum reduction cap
+1216,Mixed Use Property,62.7,0.0,0.0,801164.9249999999,818968.5900000001,True,Near maximum reduction cap
+5088,Transportation Terminal/Station,241.7,305.2,30.01310615989515,799498.4399999997,2208187.3579999995,False,Already meets 2025 target
+2713,Social/Meeting Hall,49.7,0.0,0.0,799190.9099999999,816950.7080000001,True,Near maximum reduction cap
+2797,K-12 School,59.7,72.3,33.60995850622406,798973.5600000002,1706379.2460000005,False,Already meets 2025 target
+5373,Multifamily Housing,74.5,68.8,35.755813953488364,796500.0,1045350.0,True,Near maximum reduction cap
+2096,K-12 School,80.6,69.2,30.63583815028902,796008.2399999998,989795.9839999998,True,Near maximum reduction cap
+2807,Multifamily Housing,69.8,66.9,33.931240657698055,794883.9599999997,1072228.3519999997,True,Cannot meet any targets
+4598,Retail Store,153.7,141.2,32.08215297450424,794799.3749999998,1033608.4999999999,True,Cannot meet any targets
+3553,K-12 School,79.6,51.1,6.066536203522507,794176.8899999999,833814.0319999999,True,Cannot meet any targets
+6317,Multifamily Housing,58.8,60.0,26.333333333333332,788645.2499999998,1142727.3999999997,True,Cannot meet any targets
+1152,Non-Refrigerated Warehouse,46.3,40.9,33.496332518337404,788628.0899999997,1002008.1559999998,True,Near maximum reduction cap
+1938,Distribution Center,52.7,43.4,41.474654377880185,786240.0,979524.0000000002,True,Near maximum reduction cap
+4938,Fitness Center/Health Club/Gym,122.3,126.8,60.17350157728707,785428.8,919538.16,True,Hit 42% reduction cap
+4038,Non-Refrigerated Warehouse,58.6,56.1,32.263814616755795,785405.25,1055673.78,True,Cannot meet any targets
+1468,Manufacturing/Industrial Plant,83.3,0.0,0.0,785067.8399999999,802513.792,True,Cannot meet any targets
+3641,Multifamily Housing,77.5,72.0,38.61111111111111,784951.2449999999,1039678.6140000001,True,Near maximum reduction cap
+3986,Strip Mall,180.1,185.1,64.0194489465154,780432.3216,895625.6911200001,True,Hit 42% reduction cap
+1620,Non-Refrigerated Warehouse,69.2,60.0,54.666666666666664,780377.04,898739.9040000002,True,Hit 42% reduction cap
+3734,Multifamily Housing,79.0,88.1,49.82973893303064,780223.2111000002,1083742.1400400002,True,Hit 42% reduction cap
+2183,Other - Public Services,97.0,71.6,31.28491620111731,779479.335,913359.532,True,Near maximum reduction cap
+1350,Non-Refrigerated Warehouse,65.0,61.9,56.05815831987076,778239.6,910185.4400000003,True,Hit 42% reduction cap
+5197,Multifamily Housing,141.7,130.8,66.20795107033639,774436.4375999998,859233.5363199998,True,Hit 42% reduction cap
+3079,Office,92.5,92.5,47.78378378378378,773424.225,1012034.7300000001,True,Hit 42% reduction cap
+5069,Strip Mall,238.8,227.8,27.436347673397716,770736.12,1025524.92,True,Cannot meet any targets
+3153,Multifamily Housing,68.4,64.8,31.790123456790116,766892.8800000004,1019958.3680000001,True,Cannot meet any targets
+1985,Manufacturing/Industrial Plant,92.0,0.0,0.0,765276.9299999999,782283.0840000001,True,Near maximum reduction cap
+2594,Office,62.8,65.5,26.25954198473283,762929.9999999998,1153910.0,True,Cannot meet any targets
+1609,Distribution Center,57.4,66.4,42.018072289156635,762408.8351999997,1303150.3612799998,True,Hit 42% reduction cap
+3971,Multifamily Housing,72.9,73.9,40.189445196211096,760140.0000000002,1082564.0000000002,True,Cannot meet any targets
+2988,Multifamily Housing,72.6,62.5,29.279999999999994,758159.9999999997,940607.9999999998,True,Cannot meet any targets
+2575,Office,52.4,55.1,12.341197822141568,755466.5399999996,1417721.2880000006,True,Cannot meet any targets
+3310,Distribution Center,35.3,35.3,28.045325779036823,754498.7999999996,1060489.9799999997,True,Cannot meet any targets
+3688,Multifamily Housing,62.7,63.4,26.65615141955836,752108.04,1073699.0640000002,True,Cannot meet any targets
+5112,Distribution Center,95.6,96.2,73.59667359667361,751521.4223999998,824894.9116799999,True,Hit 42% reduction cap
+5142,Multifamily Housing,75.6,79.4,44.33249370277078,749736.1265999998,1069057.8682399997,True,Hit 42% reduction cap
+4557,Vehicle Dealership,200.7,233.4,81.66238217652099,748393.0355999998,812395.4899200001,True,Hit 42% reduction cap
+4552,Fitness Center/Health Club/Gym,97.5,128.2,60.60842433697348,748351.2948,1043746.7233600002,True,Hit 42% reduction cap
+1717,Manufacturing/Industrial Plant,66.1,0.0,0.0,748137.0599999997,764762.3279999997,True,Cannot meet any targets
+2741,Supermarket/Grocery Store,210.8,216.8,24.169741697416974,747875.4300000002,1105064.256,True,Cannot meet any targets
+1670,K-12 School,78.9,68.6,30.029154518950428,747755.415,933561.3060000002,True,Cannot meet any targets
+4947,K-12 School,78.4,73.3,34.515688949522506,744987.6000000001,985144.8320000002,True,Cannot meet any targets
+1625,K-12 School,69.0,69.0,27.97101449275362,744039.615,1046014.838,True,Cannot meet any targets
+3665,Non-Refrigerated Warehouse,54.5,58.3,28.1303602058319,743825.4600000002,1177926.8760000002,True,Cannot meet any targets
+5340,Retail Store,60.7,64.0,32.03125,742858.2000000001,1125956.7200000002,True,Cannot meet any targets
+5742,K-12 School,62.8,62.8,23.56687898089172,741003.9899999998,1041229.1359999998,True,Cannot meet any targets
+2544,Multifamily Housing,64.1,61.0,27.540983606557372,740426.6699999997,984439.4679999995,True,Cannot meet any targets
+2602,Multifamily Housing,55.0,50.3,12.127236580516888,739643.8199999998,894051.2159999998,True,Cannot meet any targets
+3681,Multifamily Housing,71.5,55.4,20.21660649819494,739359.0,851432.3999999999,True,Cannot meet any targets
+2237,Multifamily Housing,71.5,73.2,39.61748633879781,738531.8099999998,1062369.126,True,Cannot meet any targets
+3799,Multifamily Housing,85.6,83.5,47.06586826347305,736684.5059999998,955652.5944,True,Hit 42% reduction cap
+1005,Office,136.6,152.3,68.28627708470125,735676.2845999997,849839.7337199998,True,Hit 42% reduction cap
+6473,Non-Refrigerated Warehouse,107.7,88.4,69.23076923076923,735397.71,795578.3720000001,True,Hit 42% reduction cap
+1512,Distribution Center,100.9,100.6,42.04771371769384,730777.4400000002,1023716.0160000003,True,Hit 42% reduction cap
+1219,Distribution Center,77.7,72.8,65.10989010989012,730140.0,815948.0000000001,True,Hit 42% reduction cap
+5879,Multifamily Housing,59.3,59.2,25.337837837837835,730001.2499999998,1024361.3499999996,True,Cannot meet any targets
+3141,Office,134.5,152.3,65.13460275771504,729474.0647999999,863279.27036,True,Hit 42% reduction cap
+2563,Multifamily Housing,80.5,100.8,56.15079365079365,727780.6512000002,1017487.6196800005,True,Hit 42% reduction cap
+2924,Multifamily Housing,64.9,74.9,40.987983978638184,727050.0000000002,1247382.0000000002,True,Cannot meet any targets
+2966,Multifamily Housing,67.8,62.2,28.938906752411576,726660.4949999999,937448.1679999998,True,Cannot meet any targets
+1240,Distribution Center,51.1,28.9,12.110726643598618,725486.79,770593.4260000001,True,Near maximum reduction cap
+6275,Multifamily Housing,52.9,52.9,16.446124763705097,724432.9499999997,1017256.3739999996,True,Cannot meet any targets
+4791,Multifamily Housing,74.8,90.7,51.267916207276734,722063.3598000001,1085017.6087200004,True,Hit 42% reduction cap
+5522,Multifamily Housing,57.5,57.7,23.39688041594454,721660.3199999998,1022018.0179999997,True,Cannot meet any targets
+3963,Supermarket/Grocery Store,201.9,200.3,17.923115327009487,719429.9400000002,995601.0,True,Cannot meet any targets
+2578,Multifamily Housing,102.4,102.4,41.99218750000001,718554.9000000001,1010164.6000000002,True,Near maximum reduction cap
+2417,Multifamily Housing,54.2,52.7,7.020872865275147,717084.9000000005,907548.7200000006,True,Cannot meet any targets
+1729,Non-Refrigerated Warehouse,38.7,31.6,13.924050632911397,711936.0000000002,812544.0000000002,True,Cannot meet any targets
+1281,Distribution Center,45.9,48.5,47.628865979381445,711679.5,972729.8,True,Hit 42% reduction cap
+3673,K-12 School,71.6,65.2,26.38036809815951,710907.4349999998,907420.4719999998,True,Cannot meet any targets
+1266,Distribution Center,42.0,46.5,45.37634408602151,709472.3400000001,1057258.296,True,Hit 42% reduction cap
+2181,Multifamily Housing,54.6,59.5,25.71428571428571,709182.54,1209529.152,True,Cannot meet any targets
+5024,Supermarket/Grocery Store,180.4,179.2,8.258928571428562,708800.6250000001,968760.0,True,Cannot meet any targets
+2549,Multifamily Housing,66.5,38.9,-13.624678663239088,706925.6099999999,722635.068,True,Cannot meet any targets
+6339,Vehicle Dealership,87.2,80.9,47.095179233621764,706894.4916000001,892080.3662400002,True,Hit 42% reduction cap
+5475,K-12 School,90.6,88.9,46.00674915635546,704435.3891999999,929407.33488,True,Hit 42% reduction cap
+2254,Multifamily Housing,73.9,70.4,37.21590909090909,704411.7300000002,947678.2920000001,True,Near maximum reduction cap
+1017,Hotel,75.5,35.8,-70.67039106145253,703391.04,719021.952,True,Cannot meet any targets
+6276,Multifamily Housing,69.3,69.3,36.21933621933621,701256.4199999999,985000.8059999999,True,Cannot meet any targets
+2815,Strip Mall,127.9,94.3,29.37433722163309,701220.0,817742.0000000001,True,Near maximum reduction cap
+1333,Distribution Center,48.9,46.9,40.93816631130064,700501.575,950771.24,True,Near maximum reduction cap
+4601,K-12 School,78.3,81.1,40.8138101109741,699758.3999999999,1019146.56,True,Cannot meet any targets
+2105,Manufacturing/Industrial Plant,99.9,0.0,0.0,697950.0000000001,713460.0000000001,True,Near maximum reduction cap
+2881,Multifamily Housing,109.2,103.4,57.25338491295938,696973.0872,804255.5580800001,True,Hit 42% reduction cap
+3929,K-12 School,78.4,93.2,48.49785407725322,695786.7168000003,1078928.0275200005,True,Hit 42% reduction cap
+5539,Strip Mall,98.8,122.1,45.45454545454546,695441.6585999997,1270207.07304,True,Hit 42% reduction cap
+3482,Multifamily Housing,71.1,76.2,41.99475065616798,695013.9749999997,1052000.3579999998,True,Cannot meet any targets
+5817,Medical Office,113.1,91.7,-3.7077426390403394,693214.2,708618.9600000001,True,Cannot meet any targets
+2919,Multifamily Housing,98.9,107.2,58.76865671641791,691550.8716000002,830765.9211200002,True,Hit 42% reduction cap
+4690,Vehicle Dealership,107.4,107.4,41.99255121042832,688967.2800000001,968381.7880000002,True,Near maximum reduction cap
+5243,MIXED USE PROPERTY,99.9,75.3,41.699867197875164,688077.42,830399.3600000001,True,Near maximum reduction cap
+4039,Museum,60.1,65.2,30.061349693251532,687979.8750000001,1112442.61,True,Cannot meet any targets
+2958,Multifamily Housing,72.8,78.6,38.80407124681933,687506.0399999998,1058461.1959999998,True,Cannot meet any targets
+1406,Police Station,113.4,120.6,62.18905472636816,686716.0968000002,804074.0457600002,True,Hit 42% reduction cap
+4681,K-12 School,58.9,57.8,16.95501730103806,686277.1499999999,928743.22,True,Cannot meet any targets
+1799,K-12 School,74.0,64.6,25.696594427244573,685328.7,848502.2000000001,True,Cannot meet any targets
+3192,Multifamily Housing,57.7,46.3,4.535637149028066,684717.1800000002,730600.29,True,Cannot meet any targets
+4031,Medical Office,124.3,99.2,23.48790322580645,681620.94,802305.5039999998,True,Cannot meet any targets
+6400,Strip Mall,137.7,124.2,29.227053140096615,680332.9049999998,868007.0279999997,True,Cannot meet any targets
+3702,K-12 School,90.1,85.3,43.72801875732708,680095.1762999999,898274.17332,True,Hit 42% reduction cap
+1470,Distribution Center,79.2,71.7,41.98047419804742,677376.0,885555.2000000001,True,Near maximum reduction cap
+4021,Fitness Center/Health Club/Gym,127.9,137.5,63.272727272727266,677220.7500000001,792380.4750000001,True,Hit 42% reduction cap
+6014,Multifamily Housing,49.1,49.6,10.887096774193546,673142.5949999997,982047.5139999997,True,Cannot meet any targets
+3348,Other - Technology/Science,188.6,210.0,23.000000000000007,671086.1999999998,1343692.6600000004,True,Cannot meet any targets
+3126,Office,84.4,93.0,48.064516129032256,668589.9570000002,945404.6868000003,True,Hit 42% reduction cap
+3236,K-12 School,73.9,75.2,36.17021276595745,668256.0750000002,956348.6940000003,True,Cannot meet any targets
+3593,K-12 School,76.6,72.8,34.06593406593406,668109.8249999998,894621.1559999998,True,Cannot meet any targets
+1515,Distribution Center,35.4,24.5,-3.6734693877550963,666900.0,681720.0,True,Cannot meet any targets
+2943,Multifamily Housing,70.0,78.9,33.96704689480355,666893.7,1151195.54,True,Cannot meet any targets
+3318,Other - Education,72.9,74.8,50.267379679144376,666771.6078000001,860763.8919200004,True,Hit 42% reduction cap
+2372,Other - Specialty Hospital,205.9,218.1,24.254928931682716,666045.1800000002,1054965.9780000004,True,Cannot meet any targets
+2393,Multifamily Housing,78.5,34.9,-95.41547277936965,665122.4999999998,679902.9999999998,True,Cannot meet any targets
+1448,Non-Refrigerated Warehouse,87.4,46.3,41.252699784017274,664042.5,742976.36,True,Near maximum reduction cap
+4618,Senior Living Community,125.0,144.5,56.19377162629758,662782.5,852633.0000000002,True,Hit 42% reduction cap
+6134,Multifamily Housing,57.8,56.1,17.64705882352941,662747.3999999997,883001.2799999996,True,Cannot meet any targets
+1679,Hotel,84.4,49.6,-23.18548387096774,660942.9450000001,675630.5660000002,True,Cannot meet any targets
+5244,Multifamily Housing,95.2,95.2,42.016806722689076,658819.6320000001,925517.6448000001,True,Hit 42% reduction cap
+1397,Manufacturing/Industrial Plant,101.3,0.0,0.0,658278.7199999999,672907.1359999999,True,Near maximum reduction cap
+2539,Library,102.9,96.4,45.12448132780084,657851.9586000001,851026.9210400002,True,Hit 42% reduction cap
+5901,Refrigerated Warehouse,96.5,87.7,27.13797035347777,657720.0,839776.0,True,Cannot meet any targets
+3918,Distribution Center,83.2,56.6,55.12367491166078,656861.1192000001,722336.4948800001,True,Hit 42% reduction cap
+2710,Office,57.6,72.7,33.562585969738656,655318.1250000002,1570560.7500000007,False,Already meets 2025 target
+6356,Medical Office,137.1,106.2,12.994350282485872,655236.2399999998,731431.4639999999,True,Cannot meet any targets
+5327,Food Service,127.8,114.5,32.83842794759825,653414.4749999999,836699.2899999999,True,Cannot meet any targets
+2588,Office,60.1,81.4,35.626535626535635,652244.6700000003,2000216.9880000008,False,Already meets 2025 target
+1589,Office,81.4,86.5,44.161849710982665,651872.0865000002,942640.6986000004,True,Hit 42% reduction cap
+1840,K-12 School,96.8,110.0,56.36363636363636,650354.0399999999,823727.52,True,Hit 42% reduction cap
+3573,K-12 School,76.9,71.0,32.3943661971831,650332.6200000001,848848.4880000001,True,Cannot meet any targets
+1801,Other - Recreation,184.0,214.8,41.99255121042832,649921.3200000001,1134000.6480000003,True,Cannot meet any targets
+4635,Multifamily Housing,59.6,56.7,22.045855379188712,649350.0,851850.9999999999,True,Cannot meet any targets
+6315,Office,104.0,102.0,28.13725490196079,647981.8800000001,889290.5840000001,True,Cannot meet any targets
+3232,K-12 School,78.1,67.5,28.888888888888886,644992.1999999998,800229.57,True,Cannot meet any targets
+2021,College/University,107.4,74.5,18.657718120805367,643968.0,716451.8400000001,True,Near maximum reduction cap
+2736,Residential Care Facility,148.0,146.1,56.67351129363449,642961.8,756613.5200000003,True,Hit 42% reduction cap
+3844,Distribution Center,66.3,57.3,52.5305410122164,642221.0597999999,751422.20472,True,Hit 42% reduction cap
+4572,Senior Living Community,128.9,155.0,59.16129032258065,641248.9200000003,819373.6200000003,True,Hit 42% reduction cap
+2904,Multifamily Housing,108.4,108.9,59.41230486685032,638040.8448000001,741483.3913600001,True,Hit 42% reduction cap
+4381,Office,128.8,152.5,68.32786885245902,636688.6200000003,754634.5770000004,True,Hit 42% reduction cap
+1872,Manufacturing/Industrial Plant,78.6,0.0,0.0,636074.9999999999,650209.9999999999,True,Cannot meet any targets
+3592,Mixed Use Property,192.8,215.7,42.00278164116829,630471.0744000003,1014640.9961600006,True,Hit 42% reduction cap
+3122,Multifamily Housing,77.5,93.2,52.57510729613733,629519.1479999999,906199.6872000002,True,Hit 42% reduction cap
+2523,Multifamily Housing,57.7,64.5,24.341085271317834,628754.2200000004,1243536.1240000008,True,Cannot meet any targets
+3736,Office,126.9,127.9,62.23612197028929,628115.535,722052.0870000002,True,Hit 42% reduction cap
+2974,Supermarket/Grocery Store,217.1,235.4,30.161427357689043,626054.9999999998,1011788.3539999998,True,Cannot meet any targets
+3748,College/University,81.8,91.7,33.69683751363141,625081.0799999998,1067777.76,True,Cannot meet any targets
+1312,Self-Storage Facility,46.5,48.6,84.15637860082305,624921.5178,660597.7089600001,True,Hit 42% reduction cap
+2599,Office,121.3,140.7,42.00426439232409,624912.7967999999,1074519.7555200001,True,Hit 42% reduction cap
+1517,Distribution Center,55.5,55.8,53.40501792114695,623548.8,766264.3200000002,True,Hit 42% reduction cap
+3470,Office,80.7,82.6,41.52542372881356,621900.0,894240.0000000001,True,Near maximum reduction cap
+2413,Office,81.4,71.6,8.240223463687139,619062.6150000002,704628.8740000002,True,Cannot meet any targets
+5381,Multifamily Housing,74.0,69.7,36.728837876614065,618300.0,825240.0,True,Near maximum reduction cap
+4573,Multifamily Housing,71.5,58.8,24.829931972789108,617461.6499999999,739540.6199999999,True,Cannot meet any targets
+3749,College/University,66.7,84.7,45.33648170011807,617048.1819000002,1210415.2251600004,True,Hit 42% reduction cap
+2356,Multifamily Housing,59.6,70.7,37.482319660537485,614812.7999999999,1185124.864,True,Cannot meet any targets
+5726,K-12 School,64.2,54.0,11.11111111111111,612971.1600000001,696851.4240000002,True,Cannot meet any targets
+4588,Senior Living Community,152.5,150.4,42.02127659574468,610565.8968,847677.28752,True,Hit 42% reduction cap
+3373,K-12 School,77.3,81.8,41.320293398533,610239.0149999999,909320.226,True,Cannot meet any targets
+4605,Supermarket/Grocery Store,225.2,208.0,20.96153846153846,607293.9899999998,771860.8639999998,True,Cannot meet any targets
+4704,Office,63.7,75.7,36.19550858652577,607128.4800000002,1204733.3760000006,True,Cannot meet any targets
+4737,Strip Mall,97.3,87.2,23.623853211009184,606428.55,758210.1800000002,True,Cannot meet any targets
+4329,K-12 School,85.9,89.6,46.42857142857142,606272.5260000001,833037.3864000003,True,Hit 42% reduction cap
+4774,K-12 School,78.0,82.6,41.88861985472155,604573.6199999999,901471.2000000001,True,Cannot meet any targets
+5537,Distribution Center,82.1,93.0,42.043010752688176,604340.1359999998,992945.2543999999,True,Hit 42% reduction cap
+4854,Office,83.2,94.0,39.8936170212766,603974.28,1001081.256,True,Cannot meet any targets
+1763,Retail Store,120.7,136.0,26.029411764705884,603176.0400000002,1187852.1120000007,True,Cannot meet any targets
+1598,Mixed Use Property,186.8,224.1,41.990182954038374,601939.6500000001,1122589.5200000003,True,Cannot meet any targets
+5060,K-12 School,61.6,47.3,-1.4799154334038116,600457.68,613801.1840000001,True,Cannot meet any targets
+4054,Supermarket/Grocery Store,215.1,253.0,35.0197628458498,599985.0,1171930.4999999998,True,Cannot meet any targets
+1590,Office,84.0,78.9,38.7832699619772,598681.4099999999,798339.108,True,Near maximum reduction cap
+2600,Multifamily Housing,61.7,62.7,10.845295055821378,596490.0000000005,899116.0000000007,True,Cannot meet any targets
+1510,Other,44.7,0.0,0.0,595404.0,608635.2000000001,True,Near maximum reduction cap
+4890,Office,60.1,63.8,16.771159874608145,594206.2350000002,1037042.8600000001,True,Cannot meet any targets
+3687,POLICE STATION,115.7,121.1,42.031379025598675,593660.2395000001,873411.3978000004,True,Hit 42% reduction cap
+4702,Self-Storage Facility,41.8,43.9,82.46013667425967,593157.5999999999,631300.3200000001,True,Hit 42% reduction cap
+4898,Office,62.4,75.7,36.19550858652577,592635.8250000001,1237950.3900000004,False,Already meets 2025 target
+2567,Office,128.1,113.0,29.646017699115045,591265.9199999999,744275.9519999999,True,Cannot meet any targets
+1673,Non-Refrigerated Warehouse,31.5,34.7,21.613832853025944,591164.46,1146395.3940000003,True,Cannot meet any targets
+3494,Office,127.3,130.0,62.846153846153854,590100.18,679597.2840000001,True,Hit 42% reduction cap
+5415,Retail Store,78.2,66.3,34.38914027149321,588821.4,732847.344,True,Near maximum reduction cap
+3383,Manufacturing/Industrial Plant,69.9,0.0,0.0,587466.4500000002,600521.2600000002,True,Cannot meet any targets
+3476,Multifamily Housing,67.9,81.4,36.24078624078625,587401.2000000003,1200909.1200000006,False,Already meets 2025 target
+2552,Fitness Center/Health Club/Gym,154.6,164.7,42.01578627808136,586385.1344999999,880303.0258000003,True,Hit 42% reduction cap
+2976,Multifamily Housing,63.0,71.7,38.35425383542538,586351.3499999999,997200.8799999998,True,Cannot meet any targets
+6122,Multifamily Housing,52.6,50.8,12.99212598425196,582892.2000000001,758348.6399999999,True,Cannot meet any targets
+1465,Non-Refrigerated Warehouse,91.9,73.0,42.05479452054795,581603.895,714818.7480000001,True,Hit 42% reduction cap
+6295,Multifamily Housing,28.6,0.0,0.0,581312.16,594230.2080000001,True,Near maximum reduction cap
+1814,K-12 School,73.5,81.1,40.8138101109741,578772.87,916195.11,True,Cannot meet any targets
+1151,K-12 School,73.5,74.9,35.91455273698265,578299.5,829780.2000000001,True,Cannot meet any targets
+1805,Multifamily Housing,66.7,63.9,30.829420970266035,578250.0,776250.0,True,Cannot meet any targets
+2377,Multifamily Housing,105.0,80.6,45.16129032258064,578157.8586,688306.7970400002,True,Hit 42% reduction cap
+6123,Multifamily Housing,52.4,60.8,27.302631578947363,577288.6349999995,1219906.2919999994,False,Already meets 2025 target
+3368,Office,95.2,95.2,49.26470588235294,576539.0496,741149.82144,True,Hit 42% reduction cap
+1211,Distribution Center,39.1,41.3,38.49878934624697,576160.9950000001,861439.2860000002,True,Cannot meet any targets
+5533,Medical Office,93.7,103.0,33.00970873786408,574018.1400000001,939092.0240000001,True,Cannot meet any targets
+3658,Distribution Center,98.9,100.8,73.01587301587301,573607.2000000002,632419.0400000003,True,Hit 42% reduction cap
+3276,Non-Refrigerated Warehouse,48.7,30.9,2.265372168284787,572571.3150000001,591691.7900000002,True,Cannot meet any targets
+4345,Multifamily Housing,70.5,74.7,40.82998661311914,572443.2,854989.856,True,Cannot meet any targets
+3413,Multifamily Housing,99.9,94.4,53.17796610169492,571467.6000000001,685346.64,True,Hit 42% reduction cap
+2266,Multifamily Housing,55.4,52.6,2.0912547528517136,570330.7199999999,631588.4639999998,True,Cannot meet any targets
+3442,Office,110.6,110.3,56.21033544877607,568364.4581999999,674280.96648,True,Hit 42% reduction cap
+3646,Office,123.3,133.4,63.793103448275865,566137.1771999999,661968.53104,True,Hit 42% reduction cap
+6418,Multifamily Housing,81.6,89.1,50.39281705948372,565875.0179999999,763358.0952000002,True,Hit 42% reduction cap
+1278,Non-Refrigerated Warehouse,56.5,37.6,27.65957446808511,565725.0,640205.0,True,Near maximum reduction cap
+5617,Multifamily Housing,52.3,52.4,15.648854961832054,565469.5199999996,798083.1179999996,True,Cannot meet any targets
+3327,Distribution Center,56.9,56.4,54.96453900709219,563293.3914000001,676234.0749600001,True,Hit 42% reduction cap
+3217,Outpatient Rehabilitation/Physical Therapy,96.7,81.8,23.59413202933985,560966.7000000001,677813.2200000001,True,Cannot meet any targets
+3484,Multifamily Housing,59.7,68.6,35.56851311953352,560769.1500000001,1005857.62,True,Cannot meet any targets
+3477,Office,66.7,35.9,-50.41782729805014,558755.55,571172.3400000001,True,Cannot meet any targets
+2116,K-12 School,93.3,110.6,56.6003616636528,557008.9932,726401.95648,True,Hit 42% reduction cap
+3290,Manufacturing/Industrial Plant,78.1,0.0,0.0,553346.6399999999,565643.2319999998,True,Cannot meet any targets
+4616,Office,84.9,67.4,28.338278931750754,551070.0,656604.0000000001,True,Near maximum reduction cap
+3742,Fitness Center/Health Club/Gym,111.0,122.3,58.70809484873263,547732.7999999999,663492.9600000001,True,Hit 42% reduction cap
+5395,Multifamily Housing,63.4,68.3,35.28550512445094,547300.635,850265.4719999998,True,Cannot meet any targets
+1340,Non-Refrigerated Warehouse,48.5,39.2,24.234693877551027,544198.5,645573.2000000001,True,Cannot meet any targets
+3143,Multifamily Housing,79.4,80.8,41.95544554455445,540513.75,771793.7500000002,True,Near maximum reduction cap
+2607,Office,70.7,93.6,48.3974358974359,540401.4054000003,1029777.1765600009,True,Hit 42% reduction cap
+2214,Multifamily Housing,49.4,45.3,2.4282560706401646,540180.8999999999,585992.1599999996,True,Cannot meet any targets
+5499,Hotel,83.5,77.4,21.059431524547808,539924.385,688111.424,True,Cannot meet any targets
+2999,Worship Facility,75.9,90.5,53.48066298342541,539805.0000000002,753802.0000000003,True,Hit 42% reduction cap
+1310,Non-Refrigerated Warehouse,44.2,40.2,32.33830845771145,539188.5000000001,695784.5000000001,True,Cannot meet any targets
+6033,Multifamily Housing,58.3,57.1,18.563922942206656,538888.7699999999,730359.1119999998,True,Cannot meet any targets
+4136,Multifamily Housing,100.5,107.9,59.036144578313255,538299.7973999999,642416.61468,True,Hit 42% reduction cap
+5875,Multifamily Housing,56.3,56.2,14.234875444839856,536015.2949999996,752238.4139999994,True,Cannot meet any targets
+3140,Multifamily Housing,82.5,85.3,36.5767878077374,535114.98,780652.384,True,Cannot meet any targets
+1460,Distribution Center,81.0,92.2,72.45119305856834,534585.6,607729.92,True,Hit 42% reduction cap
+6267,Multifamily Housing,60.4,60.9,27.422003284072243,533477.9099999999,759403.5119999998,True,Cannot meet any targets
+6035,Multifamily Housing,64.9,67.0,34.02985074626865,533209.9500000002,778118.7960000002,True,Cannot meet any targets
+4273,Multifamily Housing,56.9,59.6,12.080536912751683,532679.8200000001,967234.41,True,Cannot meet any targets
+1522,Other - Recreation,174.6,185.0,40.37837837837838,532208.4,796239.76,True,Cannot meet any targets
+3113,Multifamily Housing,78.1,86.5,41.96531791907514,531554.3999999998,842218.4159999997,True,Cannot meet any targets
+1606,Vocational School,52.7,70.7,47.38330975954738,529249.5000000002,1048951.8000000003,True,Hit 42% reduction cap
+1490,Non-Refrigerated Warehouse,50.1,36.4,25.274725274725274,528033.6000000001,605915.6800000002,True,Near maximum reduction cap
+3463,Multifamily Housing,87.7,116.4,42.01030927835052,527915.3232000002,1206555.2004800003,True,Hit 42% reduction cap
+4127,Multifamily Housing,113.0,124.5,64.49799196787149,525172.9500000001,616377.6900000002,True,Hit 42% reduction cap
+1049,K-12 School,61.9,69.3,30.735930735930733,524752.4249999999,920512.21,True,Cannot meet any targets
+1447,Non-Refrigerated Warehouse,58.3,44.8,39.285714285714285,524574.5399999999,634099.144,True,Near maximum reduction cap
+2177,Self-Storage Facility,29.1,20.8,41.82692307692308,524422.815,622776.98,True,Near maximum reduction cap
+3414,Multifamily Housing,99.1,99.5,55.577889447236174,524155.49999999994,628300.2000000001,True,Hit 42% reduction cap
+2193,Fitness Center/Health Club/Gym,95.1,87.0,25.287356321839084,523824.34499999986,668775.6459999998,True,Cannot meet any targets
+3401,Mixed Use Property,122.9,121.4,25.86490939044481,522939.1500000002,722754.4380000002,True,Cannot meet any targets
+3502,Office,73.8,79.2,39.01515151515152,522631.6799999998,798238.23,True,Cannot meet any targets
+1012,Hotel,80.1,91.2,33.00438596491228,521963.99999999977,938675.9999999998,True,Cannot meet any targets
+1808,Worship Facility,72.4,82.7,49.09310761789601,520931.70000000007,753055.8800000001,True,Hit 42% reduction cap
+2740,Multifamily Housing,71.2,79.0,44.0506329113924,520807.68000000005,796688.3520000001,True,Hit 42% reduction cap
+2975,Multifamily Housing,70.3,74.9,39.519359145527375,519295.37999999995,783713.5,True,Cannot meet any targets
+1456,Non-Refrigerated Warehouse,64.1,74.3,58.68102288021534,519056.72279999993,647849.40696,True,Hit 42% reduction cap
+1929,Office,77.5,57.8,11.072664359861589,518337.48,567547.632,True,Cannot meet any targets
+2742,Hotel,76.5,33.2,-84.03614457831324,518232.32999999996,529748.6039999999,True,Cannot meet any targets
+2209,Multifamily Housing,86.9,91.2,51.53508771929825,516400.5000000001,664778.2000000002,True,Hit 42% reduction cap
+1576,Distribution Center,47.6,50.3,49.50298210735586,516341.39040000003,687705.4905600002,True,Hit 42% reduction cap
+5452,Multifamily Housing,55.5,44.4,0.4504504504504409,514801.20000000007,529364.32,True,Cannot meet any targets
+3933,Multifamily Housing,83.5,89.0,50.33707865168539,514614.83400000003,680989.3176000001,True,Hit 42% reduction cap
+2913,Multifamily Housing,78.7,96.1,54.00624349635795,513111.3687000002,730493.3206800004,True,Hit 42% reduction cap
+4330,Worship Facility,73.9,78.5,46.36942675159236,512902.5000000001,717761.0000000003,True,Hit 42% reduction cap
+5824,Retail Store,103.9,107.2,55.31716417910448,512698.6788000001,623447.5183200001,True,Hit 42% reduction cap
+3660,Vehicle Dealership,87.0,93.2,54.077253218884124,510918.0,644055.2000000001,True,Hit 42% reduction cap
+6382,Multifamily Housing,48.6,46.6,5.150214592274675,510407.52000000014,614919.5359999998,True,Cannot meet any targets
+3953,K-12 School,127.7,149.9,67.97865243495664,508984.6272000001,602357.5910400001,True,Hit 42% reduction cap
+2977,K-12 School,64.6,61.4,21.824104234527685,506462.21999999974,664492.3559999998,True,Cannot meet any targets
+4332,K-12 School,54.1,58.5,17.94871794871795,505561.57500000007,974986.7900000003,True,Cannot meet any targets
+1356,Manufacturing/Industrial Plant,92.1,0.0,0.0,505315.43999999994,516544.672,True,Near maximum reduction cap
+2315,Multifamily Housing,70.5,67.3,34.32392273402674,505062.0,678915.564,True,Cannot meet any targets
+2718,Office,55.2,76.1,36.53088042049934,502808.1750000004,1541945.0700000015,False,Already meets 2025 target
+2221,Multifamily Housing,52.1,69.8,36.67621776504297,502048.7999999998,1382155.5599999998,False,Already meets 2025 target
+3128,K-12 School,93.0,105.7,54.58845789971618,501426.5634,654228.81576,True,Hit 42% reduction cap
+4116,Multifamily Housing,53.5,54.2,18.45018450184502,500842.9499999999,725078.2199999999,True,Cannot meet any targets
+4489,Multifamily Housing,54.9,67.2,29.315476190476193,500530.2599999999,1208372.3439999998,False,Already meets 2025 target
+3108,Multifamily Housing,79.8,80.4,42.039800995024876,499483.1087999999,705939.0883200001,True,Hit 42% reduction cap
+5394,Multifamily Housing,87.0,92.7,41.96332254584682,498523.2299999999,748618.1680000001,True,Cannot meet any targets
+2354,K-12 School,86.5,70.0,31.428571428571427,497250.0,602140.0,True,Near maximum reduction cap
+6095,Multifamily Housing,51.8,50.7,12.031558185404341,495310.7999999998,658823.0399999996,True,Cannot meet any targets
+4458,Hotel,90.7,99.0,38.28282828282828,495109.02,777555.2960000001,True,Cannot meet any targets
+2905,Multifamily Housing,73.1,83.3,46.93877551020408,494852.48639999994,743564.13696,True,Hit 42% reduction cap
+5486,Office,85.1,71.5,31.328671328671327,493811.9549999999,607768.5599999999,True,Near maximum reduction cap
+1472,Distribution Center,59.1,44.0,41.36363636363637,493425.0,592806.6,True,Near maximum reduction cap
+1841,Adult Education,116.3,115.2,40.53819444444445,492872.52,686773.192,True,Near maximum reduction cap
+5801,Office,147.5,197.9,75.59373420919657,492561.24840000004,595178.3728800002,True,Hit 42% reduction cap
+4462,Office,90.8,124.2,61.111111111111114,492506.99999999977,733672.3999999998,True,Hit 42% reduction cap
+4597,Office,80.7,80.5,40.0,491907.78,690338.3760000002,True,Near maximum reduction cap
+6455,Manufacturing/Industrial Plant,85.8,0.0,0.0,489941.865,500829.462,True,Cannot meet any targets
+2259,K-12 School,68.8,62.7,23.444976076555026,489887.9999999999,620006.3999999999,True,Cannot meet any targets
+3619,Senior Living Community,130.2,140.0,42.0,489554.99999999977,743819.9999999998,True,Cannot meet any targets
+2727,Multifamily Housing,84.5,103.4,41.972920696324955,488718.0,966289.8,True,Cannot meet any targets
+3162,K-12 School,71.7,78.5,38.853503184713375,488613.5100000002,768667.3140000001,True,Cannot meet any targets
+3388,Multifamily Housing,80.5,76.2,41.99475065616798,487764.6,656565.36,True,Near maximum reduction cap
+3931,Multifamily Housing,64.8,66.2,33.23262839879154,487474.28999999975,703090.7719999998,True,Cannot meet any targets
+4550,Senior Living Community,170.2,206.2,41.998060135790496,487057.0499999998,933065.0119999999,True,Cannot meet any targets
+4391,Multifamily Housing,59.9,69.3,36.21933621933621,487003.4399999998,881488.4319999998,True,Cannot meet any targets
+2003,K-12 School,78.3,94.7,49.31362196409715,481251.8150999999,753621.2356400001,True,Hit 42% reduction cap
+3507,Multifamily Housing,67.6,73.2,25.40983606557377,480779.0399999995,805338.5599999996,True,Cannot meet any targets
+5123,Multifamily Housing,107.2,101.0,56.23762376237623,480450.0,559130.0,True,Hit 42% reduction cap
+1451,Manufacturing/Industrial Plant,94.6,0.0,0.0,480384.0,491059.2,True,Near maximum reduction cap
+2032,Distribution Center,63.4,57.3,42.059336823734725,479982.5046,626573.1594400002,True,Hit 42% reduction cap
+4639,Office,63.7,53.0,-0.18867924528302155,479671.20000000007,490330.5600000001,True,Cannot meet any targets
+5483,Office,87.4,48.8,1.0245901639344264,479389.365,491719.2540000001,True,Near maximum reduction cap
+6471,Multifamily Housing,51.4,51.8,14.671814671814662,479073.20999999996,686878.9919999996,True,Cannot meet any targets
+6096,Worship Facility,83.4,89.0,42.02247191011236,476842.3410000002,717388.3724000002,True,Hit 42% reduction cap
+1860,Refrigerated Warehouse,107.6,111.5,53.72197309417041,476684.9999999999,592433.9999999999,True,Hit 42% reduction cap
+3634,Manufacturing/Industrial Plant,90.3,0.0,0.0,476356.31999999995,486942.01599999995,True,Near maximum reduction cap
+3397,Multifamily Housing,85.0,95.5,53.717277486910994,475182.018,623442.1032000002,True,Hit 42% reduction cap
+1462,Distribution Center,32.2,15.1,-68.21192052980132,474921.1800000003,485474.9840000003,True,Cannot meet any targets
+3135,Other - Technology/Science,160.5,190.2,30.02103049421661,474063.2400000002,1016172.2920000004,False,Already meets 2025 target
+6256,Retail Store,96.9,95.2,54.306722689075634,473925.73800000007,570541.4132000001,True,Hit 42% reduction cap
+5664,Multifamily Housing,51.9,50.2,3.1872509960159388,473293.25999999966,556945.0919999996,True,Cannot meet any targets
+2112,Distribution Center,50.2,37.6,32.446808510638306,472393.32,557874.0160000001,True,Near maximum reduction cap
+5851,Multifamily Housing,72.3,69.6,36.49425287356321,470458.7999999998,638440.9919999999,True,Cannot meet any targets
+1988,POLICE STATION,128.5,147.5,41.96610169491526,469532.69999999995,791945.1540000001,True,Cannot meet any targets
+4018,Multifamily Housing,52.8,53.5,11.962616822429904,469412.1599999996,689523.0719999995,True,Cannot meet any targets
+1433,Manufacturing/Industrial Plant,89.7,0.0,0.0,469310.4,479739.5200000001,True,Near maximum reduction cap
+4636,Strip Mall,147.9,187.1,64.40406199893106,468687.11520000023,599847.7206400003,True,Hit 42% reduction cap
+5383,Office,94.8,116.5,32.78969957081545,466816.5599999998,1045173.3600000001,False,Already meets 2025 target
+3112,Multifamily Housing,58.8,60.2,26.578073089700993,466744.37999999983,680706.8959999997,True,Cannot meet any targets
+6137,Hotel,82.6,85.9,28.870779976717113,466612.7699999998,696048.3099999998,True,Cannot meet any targets
+1374,Distribution Center,59.7,62.3,59.22953451043339,465749.0748000002,548804.0653600002,True,Hit 42% reduction cap
+2156,Other - Restaurant/Bar,258.9,291.3,33.3676622039135,465344.99999999977,804815.9999999998,True,Cannot meet any targets
+2570,Office,57.0,63.0,15.714285714285712,465103.9350000001,1090714.3259999997,False,Already meets 2025 target
+1959,Hotel,109.9,108.1,23.21924144310823,464972.7600000001,637162.0080000001,True,Cannot meet any targets
+1654,Manufacturing/Industrial Plant,90.4,0.0,0.0,463961.2500000001,474271.5000000001,True,Near maximum reduction cap
+1251,Non-Refrigerated Warehouse,47.4,30.0,-1.3333333333333286,463834.80000000005,474142.24000000005,True,Cannot meet any targets
+1489,Manufacturing/Industrial Plant,77.4,0.0,0.0,463149.2250000001,473441.43000000017,True,Cannot meet any targets
+2355,K-12 School,74.1,55.2,13.04347826086957,463146.41999999987,512019.88199999987,True,Cannot meet any targets
+3152,Multifamily Housing,64.3,68.7,35.66229985443959,463103.9999999998,710092.7999999998,True,Cannot meet any targets
+3445,Office,61.2,68.9,29.898403483309156,462633.1200000002,835697.0880000003,True,Cannot meet any targets
+5285,Multifamily Housing,73.3,81.3,45.63345633456334,462141.9413999999,685620.28296,True,Hit 42% reduction cap
+6454,Distribution Center,92.3,100.4,71.61354581673307,461769.63839999994,520223.81088,True,Hit 42% reduction cap
+5301,Multifamily Housing,78.9,54.6,19.047619047619044,460615.14000000013,512715.4020000001,True,Near maximum reduction cap
+3560,Distribution Center,49.5,55.5,54.234234234234236,460237.5,597195.0000000001,True,Hit 42% reduction cap
+2893,Multifamily Housing,71.2,71.1,37.834036568213776,458961.00000000006,644101.2000000001,True,Cannot meet any targets
+1239,Distribution Center,55.9,43.3,41.339491916859124,458864.6399999999,558842.9600000001,True,Near maximum reduction cap
+3873,Multifamily Housing,75.4,69.2,36.1271676300578,458305.20000000007,599052.4800000001,True,Near maximum reduction cap
+2749,Medical Office,121.3,134.5,42.00743494423792,458102.322,726679.7928,True,Hit 42% reduction cap
+4367,Multifamily Housing,69.4,74.4,40.59139784946237,458100.0000000001,695520.0000000001,True,Cannot meet any targets
+3003,Multifamily Housing,72.6,83.5,42.035928143712574,457752.7409999998,773404.2283999998,True,Hit 42% reduction cap
+3511,Pre-school/Daycare,81.5,102.9,62.19630709426628,456356.5055999999,594790.09792,True,Hit 42% reduction cap
+5099,Transportation Terminal/Station,131.0,168.0,23.452380952380956,455529.24000000104,1396956.3360000034,False,Already meets 2025 target
+3377,Manufacturing/Industrial Plant,87.3,0.0,0.0,454725.0,464830.0,True,Cannot meet any targets
+1469,Distribution Center,67.5,92.7,72.59978425026969,454367.23199999996,582233.7024000001,True,Hit 42% reduction cap
+5218,Office,91.0,70.6,18.41359773371104,452833.92,517659.252,True,Cannot meet any targets
+3107,Multifamily Housing,66.9,65.2,30.214723926380373,451514.7000000002,616037.5200000003,True,Cannot meet any targets
+3370,Multifamily Housing,56.7,51.9,3.2755298651252325,451344.31500000006,497060.59,True,Cannot meet any targets
+3770,College/University,99.4,58.6,-43.1740614334471,451080.225,461104.23000000004,True,Cannot meet any targets
+1817,K-12 School,100.3,119.1,59.697732997481104,449888.4588000001,567203.2051600001,True,Hit 42% reduction cap
+1939,Senior Living Community,88.1,88.0,28.06818181818182,449101.19999999984,630177.9199999999,True,Cannot meet any targets
+1119,Office,69.8,68.1,29.074889867841406,448885.7099999999,612764.62,True,Cannot meet any targets
+1338,Distribution Center,38.4,39.3,30.279898218829516,447908.7149999999,648474.42,True,Cannot meet any targets
+1975,Supermarket/Grocery Store,199.8,220.7,25.509741730856362,447297.2550000001,807963.2280000001,True,Cannot meet any targets
+2945,Multifamily Housing,86.7,87.1,42.02066590126291,446880.11760000006,630996.7126400002,True,Hit 42% reduction cap
+2367,Multifamily Housing,51.8,48.1,-0.20790020790021085,446368.3199999993,456287.61599999934,True,Cannot meet any targets
+1214,Distribution Center,63.3,70.9,64.17489421720734,444347.46719999984,525988.5290399999,True,Hit 42% reduction cap
+5289,Multifamily Housing,75.0,75.0,23.46666666666667,443784.95999999996,623764.4160000001,True,Cannot meet any targets
+4571,Vehicle Dealership,90.1,96.8,55.78512396694215,443615.55059999996,547613.16584,True,Hit 42% reduction cap
+1759,Multifamily Housing,55.6,53.4,17.228464419475646,440017.33499999996,576142.548,True,Cannot meet any targets
+3514,Multifamily Housing,68.7,73.8,40.108401084010836,439248.2100000001,669415.4600000001,True,Cannot meet any targets
+1665,Hotel,140.4,181.4,66.3175303197354,439229.83920000016,563742.7254400003,True,Hit 42% reduction cap
+6111,Multifamily Housing,62.6,56.9,22.31985940246045,439004.16000000003,552936.192,True,Cannot meet any targets
+3453,Office,102.1,129.8,64.40677966101696,438886.78679999977,564540.0857599997,True,Hit 42% reduction cap
+3247,Distribution Center,36.2,27.2,6.6176470588235325,438512.7150000002,470017.5120000002,True,Cannot meet any targets
+1256,Distribution Center,78.5,61.7,41.977309562398716,437899.81499999994,536403.378,True,Near maximum reduction cap
+3242,Non-Refrigerated Warehouse,108.8,124.5,78.15261044176707,437305.344,482589.9008,True,Hit 42% reduction cap
+1230,Distribution Center,67.8,74.2,65.76819407008087,437259.9023999999,508308.83567999996,True,Hit 42% reduction cap
+1897,Non-Refrigerated Warehouse,42.8,27.7,1.8050541516245486,436030.07999999984,449562.04799999995,True,Cannot meet any targets
+3338,Manufacturing/Industrial Plant,80.9,0.0,0.0,435871.8000000001,445557.84000000014,True,Cannot meet any targets
+5612,Office,58.5,68.3,29.282576866764277,435572.4450000002,914409.8040000004,False,Already meets 2025 target
+1228,Manufacturing/Industrial Plant,72.9,0.0,0.0,434817.0000000002,444479.60000000015,True,Cannot meet any targets
+1195,Non-Refrigerated Warehouse,31.9,25.6,-6.249999999999992,433830.9149999999,443471.60199999996,True,Cannot meet any targets
+3027,Multifamily Housing,78.4,74.6,40.750670241286855,432691.87500000006,584050.5,True,Near maximum reduction cap
+1236,Distribution Center,47.0,44.6,43.0493273542601,432085.5936,575777.6870400001,True,Hit 42% reduction cap
+6187,Multifamily Housing,61.7,51.4,14.007782101167306,431947.05000000005,497449.75,True,Cannot meet any targets
+1983,Multifamily Housing,62.3,63.3,30.173775671405995,431665.60499999986,619129.6859999999,True,Cannot meet any targets
+1961,K-12 School,73.0,72.0,33.33333333333333,430840.26,596229.0,True,Cannot meet any targets
+6179,Multifamily Housing,47.5,42.6,-3.7558685446009425,428526.4499999996,438049.25999999966,True,Cannot meet any targets
+4126,Multifamily Housing,83.6,86.5,48.90173410404624,427935.37499999994,565134.15,True,Hit 42% reduction cap
+2707,Office,71.9,69.5,23.884892086330936,427635.39000000013,574121.8600000002,True,Cannot meet any targets
+2411,Office,78.6,76.6,22.193211488250643,427465.7999999997,577888.7999999998,True,Cannot meet any targets
+3056,Multifamily Housing,51.2,49.8,11.244979919678704,427277.40000000014,559281.8,True,Cannot meet any targets
+1783,Multifamily Housing,60.7,61.3,27.89559543230016,426000.0000000001,607200.0,True,Cannot meet any targets
+6176,Multifamily Housing,70.1,71.8,32.31197771587743,425559.22499999986,616671.1699999998,True,Cannot meet any targets
+3439,Office,110.4,134.8,64.16913946587538,425465.44920000015,529851.3974400002,True,Hit 42% reduction cap
+3737,Multifamily Housing,55.7,55.8,20.788530465949812,425310.0000000001,599970.64,True,Cannot meet any targets
+2934,Multifamily Housing,85.9,67.7,34.71196454948301,424701.3600000001,512849.9520000001,True,Near maximum reduction cap
+2823,K-12 School,58.9,62.1,22.705314009661837,424380.53999999986,669133.342,True,Cannot meet any targets
+1351,Distribution Center,32.3,30.0,15.333333333333337,423801.2999999999,530629.32,True,Cannot meet any targets
+1861,Non-Refrigerated Warehouse,72.6,52.6,48.28897338403042,423791.8289999999,488027.27559999994,True,Hit 42% reduction cap
+3759,College/University,121.9,126.2,26.624405705229798,423056.70000000007,629355.2100000002,True,Cannot meet any targets
+6159,Hotel,69.1,69.1,11.577424023154839,421034.75999999954,593642.8799999995,True,Cannot meet any targets
+1364,Other - Lodging/Residential,66.3,64.6,20.588235294117645,420054.0299999999,566641.8,True,Cannot meet any targets
+1906,Non-Refrigerated Warehouse,63.3,63.8,57.366771159874595,419308.53839999996,493656.38576,True,Hit 42% reduction cap
+3519,Multifamily Housing,57.0,57.9,6.563039723661481,417738.71999999956,663408.8719999997,True,Cannot meet any targets
+3603,K-12 School,64.0,68.1,29.662261380323052,416149.11000000004,646121.658,True,Cannot meet any targets
+2984,Worship Facility,92.7,85.3,50.64478311840562,415029.2742,504615.13688000006,True,Hit 42% reduction cap
+4560,Non-Refrigerated Warehouse,54.8,41.8,11.244019138755972,414778.1399999999,457604.8259999999,True,Cannot meet any targets
+5854,MOVIE THEATER,137.3,178.0,70.11235955056179,412558.1280000002,512267.84960000025,True,Hit 42% reduction cap
+2734,K-12 School,72.1,71.2,32.58426966292135,412094.27999999985,571416.7839999999,True,Cannot meet any targets
+2041,Office,65.7,56.2,14.05693950177937,411300.00000000006,480240.0000000002,True,Cannot meet any targets
+6421,Manufacturing/Industrial Plant,77.3,0.0,0.0,407907.0,416971.60000000003,True,Cannot meet any targets
+1851,"Repair Services (Vehicle, Shoe, Locksmith, etc.)",103.8,121.0,73.30578512396696,407153.34599999996,464667.3992000001,True,Hit 42% reduction cap
+5992,Distribution Center,67.7,66.1,54.16036308623298,405254.2077,487436.8002800002,True,Hit 42% reduction cap
+5087,Supermarket/Grocery Store,223.1,250.8,34.44976076555024,404735.9999999999,691251.2,True,Cannot meet any targets
+3249,Non-Refrigerated Warehouse,62.9,60.6,55.11551155115513,404393.8338,478990.0843200001,True,Hit 42% reduction cap
+5379,Multifamily Housing,52.9,53.6,17.53731343283582,404295.83999999997,586228.9679999998,True,Cannot meet any targets
+4130,Multifamily Housing,92.9,108.8,59.375,402919.65000000014,503701.38000000024,True,Hit 42% reduction cap
+1180,Non-Refrigerated Warehouse,44.4,40.6,22.413793103448278,402737.3999999999,510650.36999999994,True,Cannot meet any targets
+2447,Multifamily Housing,59.9,58.4,24.31506849315068,402090.7499999999,545333.22,True,Cannot meet any targets
+4151,Self-Storage Facility,29.2,23.8,67.64705882352942,400783.12919999997,435085.41744,True,Hit 42% reduction cap
+1558,Movie Theater,70.4,64.3,9.020217729393464,399898.53000000014,472285.7720000003,True,Cannot meet any targets
+2957,Multifamily Housing,77.5,82.8,42.028985507246375,399323.20680000004,601841.5575200001,True,Hit 42% reduction cap
+2940,Multifamily Housing,78.8,81.1,45.49938347718865,399097.68,549355.552,True,Hit 42% reduction cap
+5938,MIXED USE PROPERTY,55.3,71.8,32.729805013927574,399003.4199999997,1127009.6600000001,False,Already meets 2025 target
+2299,Multifamily Housing,79.6,99.3,41.993957703927485,398887.07999999984,825508.6399999998,False,Already meets 2025 target
+2162,Multifamily Housing,86.7,87.7,49.60091220068415,398460.4266,513729.1242400001,True,Hit 42% reduction cap
+4338,Residential Care Facility,146.4,175.1,41.97601370645346,398255.43000000017,736406.2720000002,True,Cannot meet any targets
+1343,Distribution Center,43.2,52.0,40.192307692307686,397440.00000000023,768108.0000000001,True,Cannot meet any targets
+5891,Multifamily Housing,52.5,53.1,7.909604519774016,396415.4099999999,591408.9360000003,True,Cannot meet any targets
+6468,Distribution Center,65.4,61.4,51.465798045602604,395718.2034000001,480778.9157600002,True,Hit 42% reduction cap
+4549,Multifamily Housing,103.4,142.7,41.97617379117028,393429.9600000003,998163.9360000006,False,Already meets 2025 target
+1705,Distribution Center,53.6,64.2,60.436137071651096,393354.87360000005,496871.25952000014,True,Hit 42% reduction cap
+4453,K-12 School,64.7,66.1,27.382753403933428,393021.3750000001,570196.4500000002,True,Cannot meet any targets
+5802,Non-Refrigerated Warehouse,93.4,101.6,63.681102362204726,392883.60960000014,460744.47872000025,True,Hit 42% reduction cap
+6268,Multifamily Housing,59.9,61.2,27.77777777777778,392498.69999999995,569201.9299999999,True,Cannot meet any targets
+2941,Multifamily Housing,85.6,77.5,42.967741935483865,392421.8025,508781.09099999996,True,Hit 42% reduction cap
+2466,Multifamily Housing,59.4,56.5,1.946902654867259,392189.08499999973,433410.16000000003,True,Cannot meet any targets
+5427,Office,71.8,95.3,49.317943336831064,391654.17779999995,729043.1679200002,True,Hit 42% reduction cap
+1038,K-12 School,67.9,80.6,40.44665012406947,390946.0500000003,722973.7660000003,True,Cannot meet any targets
+1484,Non-Refrigerated Warehouse,56.0,52.1,47.792706333973136,389606.652,489094.8528,True,Hit 42% reduction cap
+3632,Multifamily Housing,99.7,104.0,57.49999999999999,389561.424,463593.9616000001,True,Hit 42% reduction cap
+3699,K-12 School,77.0,79.8,41.228070175438596,388882.92000000004,566190.632,True,Cannot meet any targets
+6148,Hotel,72.3,73.2,16.530054644808743,388675.25999999966,563278.4639999998,True,Cannot meet any targets
+3420,CONVENTION CENTER,85.7,90.7,22.932745314222707,387600.0000000001,617779.9999999999,True,Cannot meet any targets
+5206,Stadium (Closed),83.2,92.4,18.506493506493516,385547.4000000003,841489.0400000007,False,Already meets 2025 target
+6016,Multifamily Housing,51.3,45.0,-8.000000000000004,385173.22499999934,393732.62999999936,True,Cannot meet any targets
+3585,Non-Refrigerated Warehouse,60.6,41.1,33.819951338199516,384455.16000000003,443451.1320000001,True,Near maximum reduction cap
+2761,Multifamily Housing,66.4,66.9,33.931240657698055,384343.20000000007,545126.7720000001,True,Cannot meet any targets
+1580,Non-Refrigerated Warehouse,35.8,37.7,27.851458885941653,384167.1599999998,589056.3119999999,True,Cannot meet any targets
+1621,Distribution Center,57.8,54.5,34.311926605504595,383596.19999999995,510452.80000000005,True,Cannot meet any targets
+5200,Hotel,83.3,80.7,31.846344485749693,383399.99999999994,520720.0,True,Cannot meet any targets
+3283,Manufacturing/Industrial Plant,72.9,0.0,0.0,382500.0000000001,391000.0000000002,True,Cannot meet any targets
+5430,Multifamily Housing,59.4,56.1,21.21212121212121,382114.2149999999,496145.3279999999,True,Cannot meet any targets
+2962,Multifamily Housing,95.4,109.6,59.67153284671532,380462.1840000001,469152.74880000023,True,Hit 42% reduction cap
+2885,Multifamily Housing,93.2,91.5,51.693989071038246,380319.75,470724.90000000014,True,Hit 42% reduction cap
+4373,Bowling Alley,73.1,64.6,21.8266253869969,380024.9999999999,467819.99999999994,True,Cannot meet any targets
+1307,K-12 School,57.1,56.5,15.04424778761062,379899.0000000001,519691.90000000014,True,Cannot meet any targets
+1166,Distribution Center,39.5,61.0,58.360655737704924,379543.4640000004,581966.6448000006,True,Hit 42% reduction cap
+1596,Manufacturing/Industrial Plant,74.4,0.0,0.0,379105.20000000007,387529.7600000001,True,Cannot meet any targets
+1293,Distribution Center,87.5,95.3,32.73871983210913,377960.8500000001,606766.6800000002,True,Cannot meet any targets
+5442,Medical Office,111.2,126.1,22.60111022997621,377392.08000000013,811328.1280000006,False,Already meets 2025 target
+1491,Non-Refrigerated Warehouse,61.3,61.3,55.62805872756933,377254.752,450987.53280000004,True,Hit 42% reduction cap
+1972,Senior Living Community,78.0,80.2,21.07231920199502,376544.16,560218.1760000002,True,Cannot meet any targets
+5571,Multifamily Housing,52.1,51.3,4.093567251461978,375789.75000000035,477431.9299999998,True,Cannot meet any targets
+2872,Multifamily Housing,79.9,80.0,42.00000000000001,375530.25000000006,528485.9500000002,True,Near maximum reduction cap
+1793,K-12 School,60.7,57.1,15.936952714535904,375131.5200000001,477454.97600000014,True,Cannot meet any targets
+2776,Multifamily Housing,69.7,65.8,32.826747720364736,374664.78,498278.67000000004,True,Cannot meet any targets
+4129,Multifamily Housing,103.7,125.8,64.86486486486486,374372.49960000004,461440.1827200001,True,Hit 42% reduction cap
+3535,"Repair Services (Vehicle, Shoe, Locksmith, Etc.)",81.7,87.0,60.229885057471265,374188.3350000001,442680.17200000014,True,Hit 42% reduction cap
+2006,K-12 School,64.7,67.0,28.35820895522388,373857.525,554970.726,True,Cannot meet any targets
+3607,K-12 School,68.2,80.5,40.37267080745342,372631.5000000001,678919.9800000001,True,Cannot meet any targets
+2745,Multifamily Housing,60.3,58.4,24.31506849315068,372231.58499999985,500771.5019999999,True,Cannot meet any targets
+5722,Multifamily Housing,59.4,61.0,8.36065573770492,372214.7099999998,634143.5800000001,True,Cannot meet any targets
+1925,Residential Care Facility,76.6,80.3,19.551681195516814,369725.89499999967,589000.56,True,Cannot meet any targets
+4606,Strip Mall,158.3,222.0,70.0,368861.19000000024,506439.66800000035,True,Hit 42% reduction cap
+5319,Medical Office,89.1,117.1,41.076003415883854,368691.43499999994,838602.9539999998,False,Already meets 2025 target
+1588,Office,70.1,65.2,13.95705521472393,368625.59999999974,458734.0799999998,True,Cannot meet any targets
+2092,Non-Refrigerated Warehouse,57.2,17.4,-56.32183908045978,368550.00000000006,376740.00000000006,True,Near maximum reduction cap
+2366,Museum,100.4,104.3,30.00958772770853,367948.1100000001,546244.7560000002,True,Cannot meet any targets
+2874,Multifamily Housing,67.2,59.7,25.963149078726964,366850.80000000005,459595.2,True,Cannot meet any targets
+2524,Multifamily Housing,57.6,59.3,18.718381112984815,366720.0,553471.9999999999,True,Cannot meet any targets
+2912,Multifamily Housing,90.6,87.4,49.4279176201373,365693.19479999994,459933.31471999997,True,Hit 42% reduction cap
+3758,Residence Hall/Dormitory,78.1,77.8,40.48843187660668,365671.4399999999,512360.3279999999,True,Near maximum reduction cap
+1355,Distribution Center,71.0,72.8,65.10989010989012,364181.37840000005,416011.1788800001,True,Hit 42% reduction cap
+2989,Multifamily Housing,70.4,77.1,42.671854734111534,363904.02000000014,559970.3280000002,True,Hit 42% reduction cap
+3148,Multifamily Housing,67.5,74.8,40.9090909090909,363690.0,578771.9999999999,True,Cannot meet any targets
+1123,Hotel,74.2,69.3,11.832611832611827,363307.4400000002,447707.69600000005,True,Cannot meet any targets
+3086,Office,86.0,85.8,43.70629370629371,362997.96,498389.9440000001,True,Hit 42% reduction cap
+1339,Non-Refrigerated Warehouse,66.2,51.0,46.666666666666664,362977.92000000004,428541.8880000001,True,Hit 42% reduction cap
+3354,Office,171.9,191.6,21.242171189979118,362762.91000000003,756049.56,False,Already meets 2025 target
+2364,Worship Facility,51.0,55.2,23.731884057971016,362759.9999999998,618808.1,True,Cannot meet any targets
+3028,Office,57.3,73.7,34.464043419267306,361716.25499999983,899402.5800000001,False,Already meets 2025 target
+3155,Multifamily Housing,61.2,57.3,22.862129144851647,361491.0000000001,467636.0,True,Cannot meet any targets
+2489,Multifamily Housing,63.6,74.9,40.72096128170895,361385.685,650715.2640000001,True,Cannot meet any targets
+3165,Self-Storage Facility,36.1,26.9,71.37546468401487,359807.44320000004,384027.57024000015,True,Hit 42% reduction cap
+6461,Mixed Use Property,95.5,93.7,21.878335112059766,359758.07999999996,491070.97599999997,True,Cannot meet any targets
+6037,Self-Storage Facility,18.4,5.9,-30.508474576271183,358818.615,366792.362,True,Near maximum reduction cap
+1850,Vehicle Dealership,79.0,82.9,37.27382388419783,358596.6,533066.4,True,Cannot meet any targets
+2203,Office,75.2,83.6,42.22488038277512,358429.85640000016,568887.6009600002,True,Hit 42% reduction cap
+5510,Senior Living Community,107.1,123.9,48.91041162227604,358133.81999999995,528429.0480000001,True,Hit 42% reduction cap
+6399,Office,67.1,61.3,13.376835236541593,357984.3599999998,435395.5199999998,True,Cannot meet any targets
+4407,Strip Mall,93.9,107.0,37.757009345794394,357522.57000000024,612102.0360000003,True,Cannot meet any targets
+2965,Multifamily Housing,65.0,72.0,38.61111111111111,356400.0,574079.9999999999,True,Cannot meet any targets
+1661,Distribution Center,34.4,39.3,28.244274809160302,355680.0,711859.2,True,Cannot meet any targets
+3993,Worship Facility,78.7,69.1,39.073806078147605,355185.0,454572.0,True,Near maximum reduction cap
+6449,K-12 School,76.4,62.4,23.076923076923077,353795.3400000001,419798.5760000001,True,Cannot meet any targets
+1263,non-refrigerated warehouse,58.7,62.4,41.98717948717948,353577.78,529216.2000000001,True,Cannot meet any targets
+3638,Manufacturing/Industrial Plant,84.3,0.0,0.0,353250.0,361100.0,True,Cannot meet any targets
+1167,Distribution Center,39.8,38.8,22.422680412371125,353099.9999999999,477433.9999999998,True,Cannot meet any targets
+6060,Multifamily Housing,53.1,51.3,13.840155945419093,352627.93499999994,460497.2139999999,True,Cannot meet any targets
+2906,Multifamily Housing,65.2,83.6,47.1291866028708,352490.3928000002,668783.4899200004,True,Hit 42% reduction cap
+3996,K-12 School,69.5,60.5,20.66115702479339,351505.62,426812.84,True,Cannot meet any targets
+1702,Distribution Center,48.0,62.0,41.935483870967744,349829.99999999994,761760.0,False,Already meets 2025 target
+5937,Multifamily Housing,91.8,96.5,54.19689119170984,349721.6625,435531.565,True,Hit 42% reduction cap
+1373,Non-Refrigerated Warehouse,45.7,30.1,9.634551495016618,349504.2,373418.80000000005,True,Near maximum reduction cap
+5657,Multifamily Housing,46.8,45.9,3.7037037037036944,349439.9999999991,435343.99999999907,True,Cannot meet any targets
+5084,Retail Store,53.3,57.8,24.74048442906574,348694.42499999993,592058.1799999998,True,Cannot meet any targets
+6289,Residential Care Facility,71.3,65.8,3.7993920972644375,347957.0549999998,389796.64,True,Cannot meet any targets
+1158,Non-Refrigerated Warehouse,31.8,23.4,-16.239316239316242,347749.6500000001,355477.4200000001,True,Cannot meet any targets
+1330,Non-Refrigerated Warehouse,47.2,37.1,-0.26954177897574505,346860.0,354568.0,True,Cannot meet any targets
+5860,Multifamily Housing,58.8,55.9,5.187835420393558,346763.2499999998,411184.1559999998,True,Cannot meet any targets
+2361,Office,60.2,58.3,15.265866209262436,346380.00000000023,457056.0000000002,True,Cannot meet any targets
+1516,Non-Refrigerated Warehouse,57.7,54.6,52.74725274725275,345731.04000000004,416720.25600000005,True,Hit 42% reduction cap
+3411,Multifamily Housing,66.8,71.4,38.0952380952381,345317.3999999999,524842.0599999999,True,Cannot meet any targets
+1434,Non-Refrigerated Warehouse,90.9,107.8,42.02226345083488,345209.7180000001,624845.1952000003,True,Hit 42% reduction cap
+2970,Multifamily Housing,101.9,143.0,69.0909090909091,344190.00000000023,479688.00000000023,True,Hit 42% reduction cap
+1969,Residential Care Facility,87.2,102.1,35.06366307541626,342443.5200000002,657136.1280000001,True,Cannot meet any targets
+2705,Office,76.6,86.8,44.354838709677416,341707.41719999997,535745.2780800001,True,Hit 42% reduction cap
+3147,Multifamily Housing,55.1,57.9,23.6614853195164,340976.025,530125.206,True,Cannot meet any targets
+1363,Refrigerated Warehouse,88.5,90.1,21.97558268590455,340531.20000000007,494952.64000000013,True,Cannot meet any targets
+3304,Non-Refrigerated Warehouse,55.7,70.5,61.41843971631206,340329.22800000006,447764.9476000001,True,Hit 42% reduction cap
+3428,Office,101.4,111.2,52.248201438848916,340240.4244,447720.8041600001,True,Hit 42% reduction cap
+2871,Multifamily Housing,103.9,102.4,23.144531250000004,339889.1700000001,467377.8480000001,True,Cannot meet any targets
+3732,Multifamily Housing,65.9,70.7,24.045261669024047,338763.45000000024,558337.8800000001,True,Cannot meet any targets
+3010,Office,86.6,101.6,47.83464566929133,338139.3264,521041.0689600001,True,Hit 42% reduction cap
+3266,Non-Refrigerated Warehouse,59.6,73.6,63.043478260869556,337623.0000000001,427873.60000000015,True,Hit 42% reduction cap
+3776,Supermarket/Grocery Store,187.0,197.5,16.759493670886073,337392.8249999999,574534.94,True,Cannot meet any targets
+2171,Non-Refrigerated Warehouse,55.4,63.6,57.232704402515736,337392.6479999999,424583.82720000006,True,Hit 42% reduction cap
+2406,Office,89.0,96.0,49.6875,336889.63800000004,454620.07920000015,True,Hit 42% reduction cap
+1041,Supermarket/Grocery Store,184.1,190.1,13.519200420831137,336407.75999999966,533425.5679999997,True,Cannot meet any targets
+2531,Multifamily Housing,57.9,56.5,14.15929203539823,335965.31999999995,448368.53199999995,True,Cannot meet any targets
+2963,Multifamily Housing,81.8,89.4,41.94630872483222,335760.1499999999,521813.00599999994,True,Cannot meet any targets
+4131,Multifamily Housing,94.6,114.8,61.49825783972125,334734.93,423349.7760000001,True,Hit 42% reduction cap
+4037,Medical Office,104.3,98.1,22.629969418960236,334102.19999999995,434299.6159999999,True,Cannot meet any targets
+4679,K-12 School,77.9,99.9,51.951951951951955,332784.7302000001,546672.7712800002,True,Hit 42% reduction cap
+3985,Multifamily Housing,78.1,76.5,34.37908496732025,332455.8899999999,457313.9219999999,True,Cannot meet any targets
+3387,Manufacturing/Industrial Plant,67.4,0.0,0.0,332370.4500000002,339756.4600000002,True,Cannot meet any targets
+3353,Multifamily Housing,77.5,78.9,43.97972116603295,331852.31309999997,461825.35084,True,Hit 42% reduction cap
+3339,Non-Refrigerated Warehouse,62.8,65.0,58.153846153846146,330867.18000000005,390612.7260000001,True,Hit 42% reduction cap
+3809,"Repair Services (Vehicle, Shoe, Locksmith, etc.)",43.8,36.8,3.26086956521738,330696.1799999999,352368.9239999998,True,Cannot meet any targets
+2926,Multifamily Housing,68.6,75.3,41.30146082337317,330618.2399999998,518638.5919999999,True,Cannot meet any targets
+3240,Distribution Center,52.9,35.8,16.4804469273743,330328.25999999995,362915.16000000003,True,Near maximum reduction cap
+2927,Multifamily Housing,84.8,112.0,60.535714285714285,329378.112,463037.0304000001,True,Hit 42% reduction cap
+1249,Non-Refrigerated Warehouse,49.0,52.1,50.28790786948177,329375.3232,435303.65248000005,True,Hit 42% reduction cap
+1243,Non-Refrigerated Warehouse,57.6,60.8,55.263157894736835,328658.54280000005,404632.7219200001,True,Hit 42% reduction cap
+3851,Manufacturing/Industrial Plant,75.7,0.0,0.0,328320.00000000006,335616.00000000006,True,Cannot meet any targets
+4461,Office,70.4,72.1,12.20527045769764,327871.5300000005,506301.85200000065,True,Cannot meet any targets
+5462,Office,92.0,94.2,14.331210191082802,327328.19999999995,497500.5799999999,True,Cannot meet any targets
+3505,Financial Office,68.8,70.0,31.000000000000007,326739.2399999999,468972.76,True,Cannot meet any targets
+2060,Museum,45.1,43.4,29.95391705069125,326625.0000000001,439530.0000000001,True,Cannot meet any targets
+2711,Office,79.3,73.5,25.034013605442173,325641.6,419565.07999999996,True,Cannot meet any targets
+2879,Vehicle Repair Services,79.6,83.8,61.45584725536993,324747.702,380193.83640000003,True,Hit 42% reduction cap
+4935,K-12 School,93.6,113.7,57.78364116094987,324511.2935999999,422688.07151999994,True,Hit 42% reduction cap
+1446,Mixed Use Property,56.9,60.8,40.62499999999999,324159.29999999993,489977.2799999999,True,Cannot meet any targets
+3871,Multifamily Housing,121.0,135.3,41.98078344419808,323190.0,520030.0,True,Cannot meet any targets
+1518,Distribution Center,45.4,59.0,53.898305084745765,322890.75,512994.30000000005,True,Hit 42% reduction cap
+2768,Senior Living Community,87.9,95.2,33.50840336134454,321975.0000000001,509220.00000000023,True,Cannot meet any targets
+5281,Multifamily Housing,65.4,47.1,-3.1847133757961785,321867.0000000001,329019.6000000001,True,Cannot meet any targets
+1002,Hotel,71.9,72.0,15.138888888888888,321317.8500000003,452853.0720000002,True,Cannot meet any targets
+1037,Library,91.4,92.6,42.872570194384444,320548.8000000001,450796.3200000002,True,Hit 42% reduction cap
+3352,Office,67.8,54.6,11.538461538461545,320399.99999999994,358800.0,True,Cannot meet any targets
+3984,Multifamily Housing,62.6,66.8,33.83233532934131,319669.845,491496.01599999995,True,Cannot meet any targets
+2767,Multifamily Housing,58.9,51.7,14.506769825918761,319199.99999999994,378671.9999999999,True,Cannot meet any targets
+3639,K-12 School,58.4,54.8,12.408759124087588,318662.3999999999,397000.24,True,Cannot meet any targets
+2035,Office,85.1,79.4,39.16876574307306,318374.99999999994,423199.99999999994,True,Near maximum reduction cap
+1161,Mixed Use Property,47.6,41.4,7.971014492753617,317266.47000000003,358256.97000000003,True,Cannot meet any targets
+2101,Office,70.6,68.7,22.561863173216885,317046.7499999998,428294.0399999998,True,Cannot meet any targets
+3142,Multifamily Housing,64.1,64.8,31.790123456790116,316260.94499999983,449891.6379999998,True,Cannot meet any targets
+2956,Multifamily Housing,67.7,66.3,33.33333333333333,315736.2,434237.7,True,Cannot meet any targets
+4512,Non-Refrigerated Warehouse,58.8,63.0,51.746031746031754,314961.10799999995,410628.43919999996,True,Hit 42% reduction cap
+2810,Multifamily Housing,58.5,62.1,28.824476650563604,314919.2699999999,489725.5219999999,True,Cannot meet any targets
+3864,K-12 School,53.1,50.7,5.3254437869822535,314718.33,375740.0520000001,True,Cannot meet any targets
+3865,K-12 School,59.9,51.4,8.171206225680926,314293.51499999996,352757.4859999999,True,Cannot meet any targets
+4585,Multifamily Housing,46.2,41.8,-5.741626794258387,313667.1,320637.48000000004,True,Cannot meet any targets
+3243,Distribution Center,35.3,33.4,23.952095808383234,313274.1149999999,411731.69399999996,True,Cannot meet any targets
+2880,Multifamily Housing,58.5,44.5,0.6741573033707802,312969.42,322177.284,True,Cannot meet any targets
+2585,Office,74.8,77.4,37.59689922480621,312869.68499999994,456478.93,True,Cannot meet any targets
+6470,Multifamily Housing,49.6,49.6,10.887096774193546,312865.19999999995,439071.8399999999,True,Cannot meet any targets
+4525,Office,70.0,65.9,26.707132018209418,312694.78500000003,410429.8940000001,True,Cannot meet any targets
+1719,"Repair Services (Vehicle, Shoe, Locksmith, etc.)",72.3,69.4,53.45821325648416,312686.1,375923.04,True,Hit 42% reduction cap
+5849,Multifamily Housing,52.9,41.2,-14.320388349514559,310963.22999999986,317873.52399999986,True,Cannot meet any targets
+1707,Distribution Center,46.5,37.7,27.851458885941653,310715.71499999997,373026.926,True,Near maximum reduction cap
+1599,Distribution Center,54.0,46.9,39.01918976545842,309503.69999999995,393926.06,True,Near maximum reduction cap
+1206,Non-Refrigerated Warehouse,47.0,59.2,54.05405405405405,308616.0048,459848.5827200001,True,Hit 42% reduction cap
+6185,Multifamily Housing,60.9,28.9,-52.94117647058826,308182.6349999999,315031.1379999999,True,Cannot meet any targets
+4343,Office,74.6,91.9,42.00217627856367,306039.6989999998,618881.5435999999,True,Hit 42% reduction cap
+6262,Multifamily Housing,53.6,54.3,18.60036832412522,305389.38,442379.79199999996,True,Cannot meet any targets
+1260,Non-Refrigerated Warehouse,50.7,59.0,53.898305084745765,304487.5200000001,410576.1280000001,True,Hit 42% reduction cap
+3099,Other - Technology/Science,170.5,186.9,23.006955591225253,304468.5899999999,556872.5959999999,True,Cannot meet any targets
+3988,K-12 School,69.7,83.8,42.720763723150355,303734.44080000016,558299.7331200003,True,Hit 42% reduction cap
+4660,Retail Store,48.5,38.6,-12.69430051813471,303599.25,310345.9,True,Cannot meet any targets
+4385,Worship Facility,74.7,93.4,54.925053533190585,303520.4208000001,436959.8291200001,True,Hit 42% reduction cap
+5567,Performing Arts,108.7,135.6,56.858407079646014,303084.00000000006,414717.60000000015,True,Hit 42% reduction cap
+6210,Hotel,79.2,74.4,17.876344086021508,301979.37,386218.16200000007,True,Cannot meet any targets
+6151,Multifamily Housing,46.3,42.3,-4.491725768321526,301729.0499999991,308434.13999999914,True,Cannot meet any targets
+4708,Strip Mall,99.6,107.7,38.1615598885794,301716.3599999999,466876.08,True,Cannot meet any targets
+5194,Office,62.6,67.2,28.125000000000007,301258.8900000001,482160.82200000016,True,Cannot meet any targets
+2744,Multifamily Housing,57.5,66.7,33.733133433283356,300592.57499999995,570240.4259999999,True,Cannot meet any targets
+3277,Manufacturing/Industrial Plant,75.2,0.0,0.0,299976.25500000006,306642.3940000001,True,Cannot meet any targets
+2158,Social/Meeting Hall,60.8,61.1,45.99018003273322,298866.56249999994,401036.62500000006,True,Hit 42% reduction cap
+2751,Multifamily Housing,75.7,72.7,19.39477303988996,298500.00000000006,393300.00000000006,True,Cannot meet any targets
+6319,Office,71.8,71.0,31.971830985915496,297916.3799999999,413677.08,True,Cannot meet any targets
+2812,Worship Facility,61.7,60.6,30.528052805280524,297597.0,409326.4000000001,True,Cannot meet any targets
+2720,Food Service,134.3,178.9,57.01509223029625,297302.40000000014,449519.36000000016,True,Hit 42% reduction cap
+1458,Distribution Center,82.8,97.5,73.94871794871794,296520.0,338100.0,True,Hit 42% reduction cap
+6304,Senior Living Community,76.3,76.3,17.03800786369594,295090.1999999999,414234.60000000003,True,Cannot meet any targets
+1493,Manufacturing/Industrial Plant,74.7,0.0,0.0,294888.60000000003,301441.68000000005,True,Cannot meet any targets
+6342,Hotel,72.4,57.9,-5.526770293609677,294416.4150000001,300959.00200000015,True,Cannot meet any targets
+1004,Office,75.7,84.9,43.10954063604241,294200.41680000006,465698.89952000015,True,Hit 42% reduction cap
+5661,Multifamily Housing,73.7,83.1,16.84717208182912,294080.22000000026,768239.1920000014,False,Already meets 2025 target
+6121,Non-Refrigerated Warehouse,40.0,33.2,18.072289156626514,293193.675,343547.13600000006,True,Cannot meet any targets
+3438,Office,105.8,73.2,-14.344262295081966,292880.24999999994,299388.69999999995,True,Cannot meet any targets
+4443,Office,62.7,63.9,24.413145539906107,292615.20000000007,425062.0800000002,True,Cannot meet any targets
+3016,Office,67.0,78.2,34.14322250639387,292277.52000000014,564753.04,True,Cannot meet any targets
+1754,Multifamily Housing,51.0,46.4,4.7413793103448185,291945.60000000003,327313.91999999987,True,Cannot meet any targets
+2545,Multifamily Housing,87.5,103.6,41.98841698841698,291853.47,526254.812,True,Cannot meet any targets
+4252,Multifamily Housing,80.1,115.2,61.63194444444444,291716.6399999998,447298.8479999997,True,Hit 42% reduction cap
+1208,Non-Refrigerated Warehouse,37.8,36.7,25.885558583106278,290879.9999999999,393980.8,True,Cannot meet any targets
+4551,Senior Living Community,195.9,285.6,77.83613445378151,290806.2000000001,375729.84000000014,True,Hit 42% reduction cap
+6127,Multifamily Housing,46.8,46.7,5.353319057815845,290629.88999999943,406541.92799999914,True,Cannot meet any targets
+4897,Office,51.0,34.3,-40.816326530612244,289563.66000000027,295998.4080000003,True,Cannot meet any targets
+1942,Strip Mall,80.8,79.3,16.015132408575035,289022.37,390868.3480000001,True,Cannot meet any targets
+2668,Multifamily Housing,65.0,71.7,38.35425383542538,288836.1,461751.68,True,Cannot meet any targets
+3415,Multifamily Housing,94.6,120.4,63.2890365448505,288763.19999999995,375978.24,True,Hit 42% reduction cap
+5009,Multifamily Housing,60.8,62.5,27.520000000000007,288591.6599999999,423386.53,True,Cannot meet any targets
+1117,Hotel,80.1,102.9,40.62196307094266,288089.96999999986,631054.2199999999,False,Already meets 2025 target
+2760,Multifamily Housing,57.0,68.5,35.47445255474452,287850.0,594687.9999999999,False,Already meets 2025 target
+2359,Office,65.7,65.3,26.033690658499236,287583.2100000001,400664.23200000013,True,Cannot meet any targets
+2917,Multifamily Housing,57.3,65.4,32.415902140672785,285794.9999999999,524261.9999999998,True,Cannot meet any targets
+5554,Office,85.5,96.5,49.94818652849741,284703.1335,399540.3094,True,Hit 42% reduction cap
+3654,Non-Refrigerated Warehouse,67.7,69.4,60.80691642651297,284516.28,330803.29600000003,True,Hit 42% reduction cap
+3874,Multifamily Housing,71.1,71.3,38.008415147265076,284169.5999999999,400719.6159999999,True,Cannot meet any targets
+4001,K-12 School,69.2,92.8,48.275862068965516,283169.89800000004,547765.3872000001,True,Hit 42% reduction cap
+5735,K-12 School,64.8,85.7,43.990665110851815,282261.6522,605047.82008,True,Hit 42% reduction cap
+1753,Multifamily Housing,55.6,56.0,21.071428571428566,281701.98,400337.448,True,Cannot meet any targets
+5838,Multifamily Housing,62.8,62.9,29.729729729729726,281594.4749999999,396596.26799999987,True,Cannot meet any targets
+3610,K-12 School,65.3,82.1,41.5347137637028,281406.83999999997,590101.6159999999,False,Already meets 2025 target
+5120,vehicle repair services,70.1,103.0,68.64077669902913,280997.388,430862.6616,True,Hit 42% reduction cap
+2779,Multifamily Housing,56.3,61.5,28.130081300813004,280805.57999999984,469358.51599999977,True,Cannot meet any targets
+2813,Retail Store,68.0,57.5,24.347826086956523,279450.0,338100.0,True,Cannot meet any targets
+1843,Distribution Center,45.5,8.2,-209.7560975609756,279128.69999999995,285331.56,True,Near maximum reduction cap
+5545,Distribution Center,48.6,50.1,49.30139720558883,279035.3484,365577.66576000006,True,Hit 42% reduction cap
+3159,Office,90.8,95.4,42.03354297693921,278641.84319999994,411406.10047999996,True,Hit 42% reduction cap
+2665,Multifamily Housing,52.6,59.0,25.084745762711858,277065.0,544823.9999999999,True,Cannot meet any targets
+3934,Multifamily Housing,61.3,69.4,36.31123919308357,276088.1699999999,471598.1639999999,True,Cannot meet any targets
+6347,Self-Storage Facility,16.8,12.6,38.888888888888886,275895.30000000005,330442.8400000001,True,Near maximum reduction cap
+4607,Strip Mall,81.5,83.6,20.334928229665074,275398.19999999995,408566.9400000002,True,Cannot meet any targets
+1289,Distribution Center,34.9,35.6,19.10112359550562,275293.4549999999,405497.8659999999,True,Cannot meet any targets
+3274,Manufacturing/Industrial Plant,64.6,0.0,0.0,273701.0249999999,279783.2699999999,True,Cannot meet any targets
+2143,Office,81.9,98.0,50.71428571428571,273319.56000000006,407385.3840000002,True,Hit 42% reduction cap
+2360,Medical Office,71.2,75.8,20.316622691292874,273240.00000000023,457056.0000000002,True,Cannot meet any targets
+5715,MIXED USE PROPERTY,62.7,67.5,13.777777777777775,273015.6,579633.12,False,Already meets 2025 target
+4909,Multifamily Housing,73.1,69.3,36.21933621933621,272836.67999999993,365265.9439999999,True,Cannot meet any targets
+5654,Office,55.2,57.0,8.421052631578943,271443.42000000045,489662.64,True,Cannot meet any targets
+2018,Mixed Use Property,62.7,57.0,28.07017543859649,271260.60000000003,347144.0140000001,True,Cannot meet any targets
+1047,Other - Recreation,141.3,189.9,42.022116903633496,270079.77780000016,636284.9959200004,True,Hit 42% reduction cap
+2352,Multifamily Housing,53.2,49.7,11.066398390342052,270000.0,331200.0,True,Cannot meet any targets
+3564,Distribution Center,47.6,52.5,51.61904761904762,269803.275,360606.19000000006,True,Hit 42% reduction cap
+5278,Multifamily Housing,84.1,106.5,58.49765258215962,269231.9999999999,364648.89999999997,True,Hit 42% reduction cap
+6109,Office,60.3,68.0,28.97058823529412,268029.1199999999,495651.84,True,Cannot meet any targets
+1265,Wholesale Club/Supercenter,54.8,54.8,20.620437956204377,267986.2499999998,377504.7499999999,True,Cannot meet any targets
+1291,Non-Refrigerated Warehouse,42.9,46.5,41.505376344086024,267300.43499999994,411170.126,True,Cannot meet any targets
+2380,Multifamily Housing,54.3,51.2,8.59375000000001,266489.9999999999,324300.0,True,Cannot meet any targets
+1311,Other - Services,10.8,0.0,0.0,266357.16000000003,272276.20800000004,True,Near maximum reduction cap
+1234,Distribution Center,39.4,45.3,43.92935982339956,265514.07,430506.54800000007,True,Hit 42% reduction cap
+3925,K-12 School,62.9,72.5,33.793103448275865,265156.0199999999,492514.732,True,Cannot meet any targets
+5349,Supermarket/Grocery Store,173.6,161.5,-1.7956656346749262,263995.37999999966,269861.9439999997,True,Cannot meet any targets
+5053,Office,58.5,62.6,22.843450479233233,263924.32499999995,436801.7400000001,True,Cannot meet any targets
+1573,Non-Refrigerated Warehouse,34.6,42.4,28.066037735849054,263226.75,661927.5340000003,False,Already meets 2025 target
+2997,Multifamily Housing,75.0,79.5,44.40251572327043,263047.8105,378389.0862,True,Hit 42% reduction cap
+5865,Office,74.9,81.0,40.370370370370374,262845.0000000001,403788.0000000001,True,Cannot meet any targets
+1258,Non-Refrigerated Warehouse,45.4,61.2,41.993464052287585,262193.2799999999,621889.686,False,Already meets 2025 target
+4414,Office,72.1,64.8,25.462962962962965,261904.85999999996,330147.888,True,Cannot meet any targets
+1420,Distribution Center,76.9,79.7,42.03262233375157,261512.55270000006,380364.3482800001,True,Hit 42% reduction cap
+6189,Self-Storage Facility,21.2,20.0,57.49999999999999,260601.59999999998,299691.84,True,Hit 42% reduction cap
+1229,Non-Refrigerated Warehouse,46.8,47.0,37.87234042553192,260428.4999999999,367963.19999999995,True,Cannot meet any targets
+5815,Self-Storage Facility,26.4,28.7,73.17073170731707,260403.0,291644.6000000001,True,Hit 42% reduction cap
+3539,Retail Store,53.1,65.4,33.48623853211009,258589.98000000004,576734.0160000001,False,Already meets 2025 target
+2349,Multifamily Housing,61.5,67.1,29.657228017883746,258551.99999999994,426254.3999999999,True,Cannot meet any targets
+3308,Distribution Center,35.8,47.4,46.41350210970464,258537.90599999996,518334.45840000006,True,Hit 42% reduction cap
+3637,Office,76.6,76.2,36.614173228346466,257932.34999999992,360468.42,True,Cannot meet any targets
+4590,K-12 School,56.6,62.2,22.829581993569136,257095.26000000004,477497.1120000001,True,Cannot meet any targets
+5446,Multifamily Housing,53.8,58.5,24.44444444444444,256887.31499999983,442266.81599999976,True,Cannot meet any targets
+1430,Distribution Center,40.2,27.1,6.273062730627317,256671.30000000005,270917.5520000001,True,Cannot meet any targets
+1662,Hotel,65.3,60.3,-1.3266998341625278,256370.9399999997,262068.07199999972,True,Cannot meet any targets
+2147,Worship Facility,64.6,56.2,25.088967971530252,253973.99999999988,312932.2499999999,True,Cannot meet any targets
+1442,Non-Refrigerated Warehouse,39.5,40.7,33.169533169533175,253872.0,371164.8,True,Cannot meet any targets
+4561,"Repair Services (Vehicle, Shoe, Locksmith, etc.)",91.9,122.4,73.61111111111111,253282.6824,310420.23968,True,Hit 42% reduction cap
+1326,Manufacturing/Industrial Plant,66.9,0.0,0.0,253260.0000000001,258888.00000000012,True,Cannot meet any targets
+4124,Multifamily Housing,81.9,101.6,56.496062992125985,253135.53000000014,347129.8920000003,True,Hit 42% reduction cap
+3674,Worship Facility,68.5,58.8,28.40136054421768,252895.49999999997,312586.56,True,Cannot meet any targets
+1816,Multifamily Housing,73.0,68.7,35.66229985443959,252712.395,336644.92799999996,True,Cannot meet any targets
+6190,Hotel,70.5,70.5,13.33333333333333,252549.74999999988,355130.11999999994,True,Cannot meet any targets
+1634,Distribution Center,36.9,26.6,4.511278195488732,251250.0,264500.0,True,Cannot meet any targets
+3617,Multifamily Housing,67.1,71.8,35.515320334261844,251228.54999999993,386145.344,True,Cannot meet any targets
+6093,Refrigerated Warehouse,81.2,76.3,7.863695937090433,250846.3500000001,301617.17000000016,True,Cannot meet any targets
+5814,Multifamily Housing,71.5,71.3,38.008415147265076,250740.0,351623.99999999994,True,Cannot meet any targets
+6250,Multifamily Housing,51.7,49.2,10.16260162601626,250552.80000000008,313191.0,True,Cannot meet any targets
+6131,Hotel,78.7,79.7,23.337515683814306,250117.08000000002,359033.31200000003,True,Cannot meet any targets
+5546,Self-Storage Facility,18.7,18.0,57.22222222222223,249941.77499999997,289624.51,True,Hit 42% reduction cap
+1008,Hotel,79.1,84.3,27.52075919335705,249642.74999999983,393722.27999999985,True,Cannot meet any targets
+2220,Multifamily Housing,68.6,66.0,33.030303030303024,249299.99999999988,336719.9999999999,True,Cannot meet any targets
+2694,Multifamily Housing,71.4,72.4,38.950276243093924,248929.20000000007,354940.4160000001,True,Cannot meet any targets
+2703,Multifamily Housing,80.0,88.8,50.22522522522522,248749.39440000005,341808.38016000006,True,Hit 42% reduction cap
+5599,Office,61.2,68.9,20.029027576197393,248441.76000000018,553275.8560000001,False,Already meets 2025 target
+5830,Office,53.1,55.0,12.181818181818187,246975.00000000015,408480.0000000004,True,Cannot meet any targets
+2898,Multifamily Housing,55.2,63.9,30.829420970266035,245895.00000000006,490820.0,True,Cannot meet any targets
+3396,Multifamily Housing,93.7,116.9,62.18990590248076,245703.36420000007,316804.53644000017,True,Hit 42% reduction cap
+3095,Multifamily Housing,56.3,59.0,25.084745762711858,245663.8799999999,376684.61599999986,True,Cannot meet any targets
+1586,Office,61.8,65.3,26.186830015313927,245316.47999999992,381766.14399999985,True,Cannot meet any targets
+2817,Multifamily Housing,78.9,93.2,52.57510729613733,245142.37440000003,344949.9961600001,True,Hit 42% reduction cap
+3932,Multifamily Housing,66.5,76.5,39.34640522875817,245119.77000000002,423226.40400000004,True,Cannot meet any targets
+1713,Distribution Center,34.1,34.1,25.513196480938422,245100.00000000003,344172.0000000001,True,Cannot meet any targets
+3606,Worship Facility,73.2,81.6,48.40686274509803,244189.33620000002,347381.7916800001,True,Hit 42% reduction cap
+1903,Non-Refrigerated Warehouse,47.3,54.1,49.72273567467653,243984.24269999994,349133.47627999994,True,Hit 42% reduction cap
+3118,Multifamily Housing,53.8,67.0,34.02985074626865,243749.99999999985,551999.9999999997,False,Already meets 2025 target
+2115,Worship Facility,57.7,56.1,24.9554367201426,243575.01000000004,329170.29600000003,True,Cannot meet any targets
+1321,Manufacturing/Industrial Plant,60.4,0.0,0.0,243310.5,248717.40000000002,True,Cannot meet any targets
+3323,Distribution Center,57.5,64.7,60.741885625966,243110.40000000002,294017.2800000001,True,Hit 42% reduction cap
+1595,Office,81.3,119.8,59.68280467445744,242311.89360000004,371544.9035200001,True,Hit 42% reduction cap
+2500,Fire Station,73.8,81.9,40.65934065934066,242287.28999999995,387659.664,True,Cannot meet any targets
+2522,Multifamily Housing,86.0,130.9,42.016806722689076,241542.44940000007,740730.1781600002,True,Hit 42% reduction cap
+4134,Multifamily Housing,95.9,128.2,65.52262090483619,241388.37000000014,325551.3840000002,True,Hit 42% reduction cap
+5886,Self-Storage Facility,43.0,51.4,85.01945525291829,240982.2624,257315.81568000006,True,Hit 42% reduction cap
+2937,Multifamily Housing,64.6,63.6,30.50314465408805,240808.0049999999,332559.5759999999,True,Cannot meet any targets
+3997,K-12 School,56.3,72.3,33.60995850622406,240718.49999999983,612708.8219999998,False,Already meets 2025 target
+2253,Financial Office,60.5,58.0,16.724137931034488,240395.505,313379.6920000001,True,Cannot meet any targets
+2017,Mixed Use Property,60.3,50.3,27.435387673956257,239483.47499999998,290833.61999999994,True,Cannot meet any targets
+2985,Retail Store,61.3,64.1,32.13728549141965,238814.99999999988,356177.99999999994,True,Cannot meet any targets
+1227,Non-Refrigerated Warehouse,39.7,24.2,-12.396694214876034,238516.87500000006,243817.25000000006,True,Cannot meet any targets
+4390,Multifamily Housing,58.9,64.1,28.70514820592823,238492.07999999984,392445.50399999984,True,Cannot meet any targets
+1968,K-12 School,60.9,66.4,27.710843373493983,237993.02999999994,397257.56399999995,True,Cannot meet any targets
+1250,Manufacturing/Industrial Plant,72.3,0.0,0.0,237787.73999999996,243071.91199999998,True,Cannot meet any targets
+5506,Multifamily Housing,85.7,106.5,41.971830985915496,237053.28000000006,488045.64800000016,False,Already meets 2025 target
+2882,Multifamily Housing,86.7,98.6,34.3813387423935,236854.86,417227.36000000004,True,Cannot meet any targets
+3326,Pre-school/Daycare,79.3,86.3,41.94669756662804,234682.49999999994,362328.19999999995,True,Cannot meet any targets
+3224,Non-Refrigerated Warehouse,49.3,58.1,53.184165232358005,234461.79119999992,325143.1836799999,True,Hit 42% reduction cap
+2944,Multifamily Housing,66.3,84.0,35.23809523809524,233144.99999999994,541925.9999999999,False,Already meets 2025 target
+6211,Hotel,69.3,73.9,17.32070365358593,233056.08000000002,415644.2239999998,True,Cannot meet any targets
+3085,Multifamily Housing,52.3,51.9,14.836223506743732,231330.59999999992,319236.22799999977,True,Cannot meet any targets
+5294,Multifamily Housing,52.5,52.4,15.648854961832054,231285.59999999995,323460.9599999999,True,Cannot meet any targets
+4442,Multifamily Housing,56.0,49.8,11.244979919678704,230685.83999999997,271030.89599999995,True,Cannot meet any targets
+3234,Multifamily Housing,55.3,50.6,12.648221343873514,230484.6299999999,279206.2919999999,True,Cannot meet any targets
+6184,Multifamily Housing,45.7,21.8,-102.75229357798166,229911.75,235020.90000000002,True,Cannot meet any targets
+3601,Multifamily Housing,69.4,71.1,35.86497890295358,229825.50000000006,332162.32000000007,True,Cannot meet any targets
+5836,Mixed Use Property,45.1,53.9,32.467532467532465,228742.92,484354.05600000016,False,Already meets 2025 target
+5144,Multifamily Housing,50.5,32.5,-38.153846153846146,228589.2,233668.96000000005,True,Cannot meet any targets
+1964,Other - Recreation,157.9,203.2,41.978346456692904,227942.50500000006,493138.4,False,Already meets 2025 target
+6171,Multifamily Housing,53.0,54.7,19.19561243144424,227905.86,345529.1839999999,True,Cannot meet any targets
+3509,Worship Facility,57.3,62.5,32.63999999999999,227873.60999999987,367541.4719999999,True,Cannot meet any targets
+4337,Residential Care Facility,91.8,117.7,40.866610025488534,227707.5,495282.0000000001,False,Already meets 2025 target
+5966,Multifamily Housing,50.1,51.0,13.333333333333327,227087.35500000004,339567.53799999994,True,Cannot meet any targets
+2928,Multifamily Housing,86.0,105.8,58.22306238185255,226054.6176,297162.38832,True,Hit 42% reduction cap
+2255,Multifamily Housing,55.8,56.1,21.21212121212121,225835.99499999988,320069.2879999999,True,Cannot meet any targets
+3566,Non-Refrigerated Warehouse,49.8,44.6,39.01345291479821,225119.99999999994,291087.99999999994,True,Near maximum reduction cap
+3427,Multifamily Housing,54.7,53.9,17.996289424860844,224432.46000000008,306217.17000000004,True,Cannot meet any targets
+4885,Retail Store,92.3,98.2,17.61710794297352,224294.8949999999,390116.8919999997,True,Cannot meet any targets
+6119,Office,56.2,60.0,19.500000000000004,224190.00000000012,385204.0000000003,True,Cannot meet any targets
+3084,Office,86.6,116.6,58.57632933104632,224188.9248000001,334929.41136000014,True,Hit 42% reduction cap
+1701,Non-Refrigerated Warehouse,48.0,45.3,20.971302428256074,223482.24,290319.98400000005,True,Cannot meet any targets
+6456,Mixed Use Property,16.0,0.0,0.0,223048.8,228005.44,True,Near maximum reduction cap
+2699,Multifamily Housing,55.4,48.2,-1.2448132780082868,222610.41000000003,227557.30800000005,True,Cannot meet any targets
+1157,Distribution Center,32.1,36.0,26.111111111111107,222499.2000000001,426456.80000000005,True,Cannot meet any targets
+2258,K-12 School,61.1,68.8,30.23255813953488,222121.38000000006,400150.5040000001,True,Cannot meet any targets
+4782,Worship Facility,61.7,69.1,39.073806078147605,221675.34000000003,363056.28800000006,True,Cannot meet any targets
+5192,Multifamily Housing,65.6,73.6,39.94565217391304,221300.99999999985,361274.7999999999,True,Cannot meet any targets
+6416,Multifamily Housing,54.8,50.2,11.95219123505976,220742.74499999994,266751.3319999999,True,Cannot meet any targets
+5509,Multifamily Housing,50.7,46.7,5.353319057815845,220451.04000000007,252547.36000000002,True,Cannot meet any targets
+5140,Multifamily Housing,49.9,46.4,4.7413793103448185,220319.99999999994,251711.9999999998,True,Cannot meet any targets
+3627,Multifamily Housing,64.0,58.5,24.44444444444444,220166.50499999995,280262.268,True,Cannot meet any targets
+3843,Distribution Center,50.0,55.1,37.38656987295826,220085.90999999997,352236.26,True,Cannot meet any targets
+2293,Social/Meeting Hall,50.4,42.2,21.800947867298586,219756.37499999997,262331.10000000003,True,Cannot meet any targets
+5762,Multifamily Housing,57.2,62.5,29.279999999999994,219708.0,364959.4,True,Cannot meet any targets
+2899,Multifamily Housing,68.1,73.0,38.49315068493151,219101.5499999999,334513.83999999997,True,Cannot meet any targets
+5222,Mixed Use Property,64.8,67.3,7.429420505200595,218399.21999999965,465109.45,False,Already meets 2025 target
+4930,Multifamily Housing,54.6,59.7,11.725293132328307,217536.79499999984,667112.8379999995,False,Already meets 2025 target
+4159,MIXED USE PROPERTY,97.5,87.7,14.595210946408205,217427.7149999999,262987.61199999996,True,Cannot meet any targets
+1905,Non-Refrigerated Warehouse,66.4,79.1,65.61314791403287,216886.9776000001,262775.18032000016,True,Hit 42% reduction cap
+1768,Library,77.5,81.1,34.77188655980271,216666.45,322392.84,True,Cannot meet any targets
+4132,Multifamily Housing,81.9,106.5,58.49765258215962,216612.90000000014,304184.43000000017,True,Hit 42% reduction cap
+4389,Multifamily Housing,63.8,82.6,42.00968523002421,216116.4816,472480.6022400001,True,Hit 42% reduction cap
+3063,K-12 School,60.2,68.1,29.51541850220264,216006.6600000001,402066.1280000001,True,Cannot meet any targets
+3968,Office,66.2,78.8,32.61421319796954,216000.0,451950.00000000006,False,Already meets 2025 target
+5841,Multifamily Housing,56.8,44.9,1.5590200445434204,215148.05999999994,223476.37199999992,True,Cannot meet any targets
+1453,Distribution Center,62.7,73.6,65.48913043478261,214300.80000000008,257754.5600000001,True,Hit 42% reduction cap
+1476,Manufacturing/Industrial Plant,56.9,0.0,0.0,214189.19999999998,218948.96000000002,True,Cannot meet any targets
+1014,Hotel,71.8,83.0,26.385542168674696,214037.66999999995,456057.75399999984,False,Already meets 2025 target
+2376,K-12 School,59.9,70.3,31.721194879089616,213990.3449999999,441198.926,False,Already meets 2025 target
+3268,Non-Refrigerated Warehouse,43.7,44.3,38.60045146726862,213287.55000000005,304009.86000000004,True,Cannot meet any targets
+2139,Multifamily Housing,58.3,53.0,16.603773584905653,213206.17499999993,262650.5699999999,True,Cannot meet any targets
+2058,Non-Refrigerated Warehouse,94.7,111.6,42.02508960573476,213113.55420000007,379821.36888000014,True,Hit 42% reduction cap
+1335,Manufacturing/Industrial Plant,67.5,0.0,0.0,212848.29000000004,217578.25200000004,True,Cannot meet any targets
+2375,Multifamily Housing,59.7,59.6,25.838926174496642,212481.81,297934.18,True,Cannot meet any targets
+4795,Multifamily Housing,51.9,74.3,39.03095558546433,212137.20000000004,650554.0800000002,False,Already meets 2025 target
+6152,Multifamily Housing,47.5,35.7,-23.809523809523807,211495.1849999998,216195.0779999998,True,Cannot meet any targets
+2424,Multifamily Housing,53.6,53.0,13.962264150943394,211177.8,287827.52,True,Cannot meet any targets
+2911,Multifamily Housing,82.9,118.7,62.763268744734624,210776.2704,323190.28128000005,True,Hit 42% reduction cap
+6248,Residence Hall/Dormitory,51.8,54.1,14.41774491682071,210768.3149999999,351976.13,True,Cannot meet any targets
+4408,Vehicle Dealership,69.0,72.6,32.369146005509634,210662.775,317433.258,True,Cannot meet any targets
+3927,Worship Facility,60.5,65.2,32.66871165644172,210438.0,330638.80000000005,True,Cannot meet any targets
+3752,College/University,76.3,86.7,30.103806228373703,210094.5599999999,392067.93599999987,True,Cannot meet any targets
+2289,Office,93.9,106.7,28.58481724461106,208966.23000000013,402222.9420000001,True,Cannot meet any targets
+1205,Non-Refrigerated Warehouse,59.7,73.5,62.99319727891156,208880.6850000001,264501.35700000013,True,Hit 42% reduction cap
+3440,Office,82.1,94.6,36.1522198731501,208776.53999999992,374484.71199999994,True,Cannot meet any targets
+4515,Distribution Center,39.0,42.7,40.515222482435604,208260.0,325312.00000000006,True,Cannot meet any targets
+6142,Multifamily Housing,56.1,56.2,17.437722419928832,207940.5,293153.40000000014,True,Cannot meet any targets
+3238,Multifamily Housing,58.7,67.4,34.42136498516321,207288.37500000006,376221.35000000003,True,Cannot meet any targets
+3964,Multifamily Housing,46.7,43.4,-1.8433179723502402,206897.625,211495.35,True,Cannot meet any targets
+1978,Multifamily Housing,59.6,70.1,34.95007132667617,206222.445,404283.88,True,Cannot meet any targets
+3595,Library,75.4,67.2,19.04761904761905,206010.0000000001,252705.60000000012,True,Cannot meet any targets
+5531,Office,52.1,63.7,38.775510204081634,205846.875,424079.75000000006,False,Already meets 2025 target
+1427,Manufacturing/Industrial Plant,69.0,0.0,0.0,205729.02,210300.776,True,Cannot meet any targets
+3589,Distribution Center,37.0,29.8,14.765100671140946,205653.24,234479.84800000003,True,Cannot meet any targets
+3600,Multifamily Housing,58.6,61.7,26.256077795786066,205482.69000000006,316280.63600000006,True,Cannot meet any targets
+2961,Multifamily Housing,68.3,75.8,41.688654353562,205413.75,326482.69999999995,True,Cannot meet any targets
+2445,Museum,118.1,128.6,30.015552099533434,205221.70499999996,335571.88599999994,True,Cannot meet any targets
+2824,K-12 School,57.0,56.4,14.893617021276592,204426.045,280704.42,True,Cannot meet any targets
+2719,Multifamily Housing,50.7,57.7,19.584055459272104,204152.85000000024,489471.9240000005,False,Already meets 2025 target
+1804,Other - Recreation,67.9,52.5,3.8095238095238098,203548.62000000005,214651.27200000006,True,Cannot meet any targets
+5249,Multifamily Housing,57.1,67.4,34.42136498516321,203026.23000000004,407701.404,True,Cannot meet any targets
+4364,Mixed Use Property,115.5,131.6,20.516717325227965,202986.0000000001,471190.6500000003,False,Already meets 2025 target
+3409,Multifamily Housing,83.5,93.7,31.483457844183565,202658.03999999998,354871.41599999997,True,Cannot meet any targets
+3771,K-12 School,73.4,85.0,43.529411764705884,202205.25000000006,335074.3500000001,True,Hit 42% reduction cap
+6224,Multifamily Housing,53.3,53.3,17.073170731707307,202046.1299999998,284769.3939999998,True,Cannot meet any targets
+1706,Multifamily Housing,61.7,75.8,41.688654353562,201703.81500000006,405422.15,True,Cannot meet any targets
+1231,Non-Refrigerated Warehouse,36.2,33.3,18.318318318318312,201666.3000000001,252999.54000000012,True,Cannot meet any targets
+1020,Hotel,67.4,58.4,-4.623287671232882,201285.00000000012,205758.00000000015,True,Cannot meet any targets
+3407,Multifamily Housing,58.1,67.0,33.13432835820896,200534.0400000001,376917.7440000001,True,Cannot meet any targets
+2953,Multifamily Housing,64.1,77.4,42.89405684754522,200390.3999999999,371098.5599999999,True,Hit 42% reduction cap
+6038,Self-Storage Facility,14.6,16.7,53.89221556886228,200225.55510000006,266688.9716400001,True,Hit 42% reduction cap
+5183,Office,67.4,77.4,37.59689922480621,200015.1000000001,349717.9440000002,True,Cannot meet any targets
+1627,Manufacturing/Industrial Plant,65.5,0.0,0.0,200009.25,204453.90000000002,True,Cannot meet any targets
+5210,Multifamily Housing,65.0,60.4,27.1523178807947,199317.6,258791.40000000002,True,Cannot meet any targets
+2280,Multifamily Housing,65.5,68.2,35.19061583577712,199077.555,293538.282,True,Cannot meet any targets
+2782,Other - Lodging/Residential,78.5,92.3,44.42036836403034,198793.77419999999,332564.0968800001,True,Hit 42% reduction cap
+4424,Multifamily Housing,53.6,56.3,17.58436944937833,198616.0500000001,324847.58400000015,True,Cannot meet any targets
+3435,Strip Mall,87.3,81.3,18.081180811808125,198411.03000000003,251399.844,True,Cannot meet any targets
+3792,Laboratory,168.2,167.0,7.844311377245505,198029.99999999977,269697.9999999997,True,Cannot meet any targets
+2702,Multifamily Housing,54.4,75.9,41.76548089591568,197958.56999999995,524757.9719999998,False,Already meets 2025 target
+3657,Non-Refrigerated Warehouse,50.8,48.7,44.14784394250514,196657.08779999998,260802.72791999998,True,Hit 42% reduction cap
+4830,Hotel,71.5,71.5,14.545454545454545,196155.24000000005,275596.67199999996,True,Cannot meet any targets
+6104,Medical Office,82.9,76.1,0.26281208935609546,195973.4400000001,202254.64,True,Cannot meet any targets
+3137,Multifamily Housing,57.8,62.2,28.938906752411576,195749.99999999988,312799.9999999999,True,Cannot meet any targets
+2301,Multifamily Housing,65.3,67.1,34.12816691505215,195742.70999999993,283987.85399999993,True,Cannot meet any targets
+3979,Multifamily Housing,45.4,42.6,-3.7558685446009425,195712.19999999928,200061.3599999993,True,Cannot meet any targets
+3763,Multifamily Housing,64.2,55.4,20.21660649819494,195689.22000000003,236265.2,True,Cannot meet any targets
+4452,Multifamily Housing,55.8,57.1,22.591943957968475,195652.66499999986,286420.4719999999,True,Cannot meet any targets
+5629,Non-Refrigerated Warehouse,28.9,16.7,-62.87425149700599,195595.19999999992,199941.75999999992,True,Cannot meet any targets
+4536,Office,58.6,80.6,40.074441687344915,195377.91000000003,522994.6540000002,False,Already meets 2025 target
+1203,Non-Refrigerated Warehouse,32.9,37.7,27.851458885941653,195281.54999999993,401590.76399999997,False,Already meets 2025 target
+5607,MIXED USE PROPERTY,61.1,77.6,28.865979381443292,194927.44499999992,597777.4979999998,False,Already meets 2025 target
+3270,Non-Refrigerated Warehouse,42.5,27.2,-21.691176470588243,194575.76999999996,198899.67599999998,True,Cannot meet any targets
+6271,Multifamily Housing,52.0,71.0,37.74647887323943,194389.31999999995,560215.9679999999,False,Already meets 2025 target
+3127,Office,71.1,91.7,47.328244274809165,194011.4942999999,368619.6025199999,True,Hit 42% reduction cap
+4423,Multifamily Housing,46.7,66.8,33.83233532934131,193809.375,594348.75,False,Already meets 2025 target
+3053,Multifamily Housing,50.3,36.2,-22.099447513812155,193805.2349999998,198112.0179999998,True,Cannot meet any targets
+3395,Worship Facility,54.2,33.8,-24.556213017751492,193390.06500000003,197687.62200000003,True,Cannot meet any targets
+4943,Senior Living Community,86.3,89.6,29.35267857142857,193037.625,286643.94,True,Cannot meet any targets
+6349,Multifamily Housing,51.2,51.2,13.671875,192814.42500000005,270528.3,True,Cannot meet any targets
+2218,Multifamily Housing,54.0,59.4,25.589225589225585,192338.84999999998,340024.9159999999,True,Cannot meet any targets
+2374,K-12 School,54.6,52.4,8.396946564885493,191554.47000000003,239324.84400000007,True,Cannot meet any targets
+2487,Performing Arts,120.3,199.1,68.7594173782019,191243.4132000001,293239.90024000016,True,Hit 42% reduction cap
+5277,Office,63.5,65.7,19.178082191780824,191071.97999999998,291575.232,True,Cannot meet any targets
+5480,Distribution Center,43.0,52.1,51.24760076775432,191025.87209999998,287089.08844,True,Hit 42% reduction cap
+3441,Retail Store,65.2,74.3,41.453566621803496,190921.50000000006,318425.80000000005,True,Cannot meet any targets
+2004,Office,57.9,40.9,-18.09290953545232,190861.91999999998,195103.29600000003,True,Cannot meet any targets
+4589,Multifamily Housing,53.1,50.1,10.578842315369268,190387.26,235242.25200000012,True,Cannot meet any targets
+1497,Distribution Center,61.1,74.4,41.935483870967744,190349.99999999994,370529.99999999994,True,Cannot meet any targets
+3693,Office,58.0,85.9,43.77182770663563,189639.23309999992,581560.3148399998,True,Hit 42% reduction cap
+3798,Multifamily Housing,64.1,64.1,12.324492979719176,189586.13999999978,267037.2219999997,True,Cannot meet any targets
+1394,Self-Storage Facility,13.2,8.1,4.938271604938265,189306.71999999997,197097.12,True,Near maximum reduction cap
+5308,K-12 School,68.5,85.9,44.121071012805594,189083.0367,375044.15388,True,Hit 42% reduction cap
+4698,Office,70.2,83.2,41.947115384615394,187951.14000000007,339322.5420000001,True,Cannot meet any targets
+3077,Worship Facility,56.8,69.4,39.3371757925072,187677.59999999995,384568.4639999999,False,Already meets 2025 target
+5795,Multifamily Housing,54.7,57.6,23.263888888888886,187667.25000000006,294774.9,True,Cannot meet any targets
+2339,Supermarket/Grocery Store,194.5,224.7,26.83578104138851,186982.19999999992,394057.16,False,Already meets 2025 target
+2780,K-12 School,66.1,81.1,40.8138101109741,186782.3999999999,381164.2799999999,False,Already meets 2025 target
+1288,Distribution Center,33.1,43.7,41.87643020594967,186775.6800000001,424076.5760000002,False,Already meets 2025 target
+4611,Worship Facility,63.9,74.9,43.7917222963952,186215.48399999997,313563.8576,True,Hit 42% reduction cap
+3602,Multifamily Housing,54.5,53.5,15.51401869158878,186101.99999999994,251546.39999999997,True,Cannot meet any targets
+6422,Non-Refrigerated Warehouse,38.9,30.1,-0.6644518272425225,185431.04999999993,189551.73999999996,True,Cannot meet any targets
+3250,Manufacturing/Industrial Plant,60.7,0.0,0.0,184355.73000000007,188452.5240000001,True,Cannot meet any targets
+2955,Multifamily Housing,58.0,62.7,29.505582137161085,183982.96499999997,296051.676,True,Cannot meet any targets
+2263,Multifamily Housing,59.8,62.7,29.505582137161085,183747.4649999999,277302.16799999995,True,Cannot meet any targets
+5874,Hotel,85.1,125.2,51.19808306709265,183234.51719999994,369521.65607999987,True,Hit 42% reduction cap
+2131,K-12 School,64.5,84.8,41.98113207547169,182516.565,409745.3219999999,False,Already meets 2025 target
+5476,Self-Storage Facility,17.3,20.5,62.4390243902439,182456.30700000006,225564.21540000007,True,Hit 42% reduction cap
+3543,Retail Store,64.5,74.8,41.84491978609625,182325.0,313950.0,True,Cannot meet any targets
+5638,Multifamily Housing,56.6,92.5,52.21621621621622,182316.63750000016,559104.3550000006,True,Hit 42% reduction cap
+5356,Retail Store,57.5,69.3,30.88023088023088,181762.28999999998,399334.4640000001,False,Already meets 2025 target
+1332,Non-Refrigerated Warehouse,60.3,71.0,41.97183098591549,181553.71499999997,323228.1539999999,True,Cannot meet any targets
+5543,Retail Store,60.8,64.4,32.45341614906833,181483.73999999993,276675.78599999996,True,Cannot meet any targets
+4344,Retail Store,74.8,97.5,55.38461538461539,181417.49999999994,277035.0,True,Hit 42% reduction cap
+2908,Multifamily Housing,73.1,110.3,59.927470534904806,181401.15239999993,278148.4336799999,True,Hit 42% reduction cap
+5429,Multifamily Housing,63.3,49.0,-3.8775510204081605,181171.43999999997,185197.47199999998,True,Cannot meet any targets
+1986,Distribution Center,35.9,24.6,-3.2520325203251916,180665.09999999998,184679.88,True,Cannot meet any targets
+3854,Self-Storage Facility,12.8,4.9,-57.14285714285714,180320.445,184327.56600000002,True,Cannot meet any targets
+4441,Office,58.7,60.9,20.689655172413797,180149.64,274907.7760000002,True,Cannot meet any targets
+1480,Non-Refrigerated Warehouse,38.3,22.4,-21.428571428571434,179680.13999999996,183673.03199999995,True,Cannot meet any targets
+2951,Multifamily Housing,58.8,76.0,41.84210526315789,178349.99999999994,389527.9999999999,False,Already meets 2025 target
+3330,Non-Refrigerated Warehouse,61.3,65.9,42.03338391502277,178132.90319999997,270662.47647999995,True,Hit 42% reduction cap
+5047,Retail Store,49.5,49.5,12.121212121212121,177632.07,249498.48,True,Cannot meet any targets
+5266,Multifamily Housing,54.4,54.2,18.45018450184502,177596.15999999992,248000.35199999987,True,Cannot meet any targets
+2875,K-12 School,58.1,63.2,24.05063291139241,177191.20500000005,306603.47800000006,True,Cannot meet any targets
+3117,Multifamily Housing,58.1,59.2,25.337837837837835,177149.7,256846.98,True,Cannot meet any targets
+5542,Strip Mall,123.5,174.4,61.811926605504595,176996.15999999997,271394.11199999996,True,Hit 42% reduction cap
+3329,Distribution Center,56.0,70.7,42.00848656294201,176776.53479999996,371264.63472000003,True,Hit 42% reduction cap
+2125,Pre-school/Daycare,60.4,62.3,37.56019261637239,176670.0,257140.0,True,Cannot meet any targets
+3200,Vocational School,56.1,53.4,30.337078651685385,176507.775,235181.394,True,Cannot meet any targets
+2811,Office,71.5,90.7,46.74751929437707,176345.3457,333978.27948000014,True,Hit 42% reduction cap
+5316,Multifamily Housing,66.2,73.3,32.19645293315143,176325.72,295433.16000000003,True,Cannot meet any targets
+4384,K-12 School,64.7,67.8,29.203539823008846,172890.00000000006,261188.00000000006,True,Cannot meet any targets
+2265,Multifamily Housing,59.2,52.2,15.32567049808429,172800.00000000003,207000.0,True,Cannot meet any targets
+2771,Medical Office,91.1,112.6,38.72113676731794,172787.2349999999,362550.0579999999,False,Already meets 2025 target
+3531,Strip Mall,76.8,84.7,21.36953955135774,172566.80999999997,341638.59600000014,True,Cannot meet any targets
+5519,Retail Store,63.0,69.5,26.33093525179856,172124.99999999994,305324.99999999994,True,Cannot meet any targets
+2798,Senior Living Community,74.1,82.5,22.545454545454547,172106.5499999998,349577.45999999985,True,Cannot meet any targets
+2869,Multifamily Housing,59.6,73.5,39.86394557823129,172084.13999999998,356445.62799999997,False,Already meets 2025 target
+3546,Manufacturing/Industrial Plant,65.5,0.0,0.0,171256.68000000002,175062.38400000002,True,Cannot meet any targets
+5835,Hotel,71.9,84.2,27.43467933491687,170612.59500000003,369326.08800000016,False,Already meets 2025 target
+1541,Hotel,71.0,82.4,25.8495145631068,169602.2999999999,367794.70199999993,False,Already meets 2025 target
+2392,Office,55.2,48.3,3.31262939958591,169339.5,182401.5,True,Cannot meet any targets
+4826,Office,89.9,143.1,66.24737945492663,168314.93280000036,258082.89696000057,True,Hit 42% reduction cap
+2305,K-12 School,54.6,54.9,12.568306010928959,166590.09000000008,239133.57600000006,True,Cannot meet any targets
+3508,Medical Office,77.7,72.2,4.4321329639889235,165918.22499999998,188370.13800000006,True,Cannot meet any targets
+1855,Other - Entertainment/Public Assembly,38.0,34.0,30.0,165442.5,210657.0,True,Cannot meet any targets
+2818,Office,65.1,68.4,29.38596491228071,165160.79999999993,251005.43999999994,True,Cannot meet any targets
+5555,Non-Refrigerated Warehouse,53.9,78.1,65.17285531370037,165158.40000000005,253242.88000000012,True,Hit 42% reduction cap
+1521,Vehicle Dealership,64.9,76.4,23.6910994764398,164534.2200000002,401225.61600000056,False,Already meets 2025 target
+3275,Non-Refrigerated Warehouse,53.1,63.9,57.433489827856036,164169.6225,213393.60900000005,True,Hit 42% reduction cap
+5136,Office,71.3,83.5,42.1556886227545,163407.46349999995,286012.6774,True,Hit 42% reduction cap
+1519,Non-Refrigerated Warehouse,41.8,54.1,35.674676524953796,162154.0799999999,400104.32,False,Already meets 2025 target
+3213,Multifamily Housing,50.2,62.7,29.505582137161085,162015.0,425868.0,False,Already meets 2025 target
+5731,K-12 School,63.2,53.6,10.447761194029853,161917.2,184085.37600000005,True,Cannot meet any targets
+3403,Multifamily Housing,62.7,71.8,23.95543175487465,161451.3750000001,348734.9700000001,False,Already meets 2025 target
+3429,K-12 School,66.2,83.6,42.58373205741626,161172.34560000006,333983.13984000025,True,Hit 42% reduction cap
+5985,Multifamily Housing,58.3,63.5,30.393700787401574,160927.8749999999,262585.7099999999,True,Cannot meet any targets
+2964,Multifamily Housing,64.1,70.7,36.4922206506365,160631.02499999997,259122.04799999998,True,Cannot meet any targets
+3032,Multifamily Housing,60.3,57.6,23.263888888888886,160016.99999999994,211811.59999999992,True,Cannot meet any targets
+2781,Multifamily Housing,61.1,62.5,29.279999999999994,159043.49999999997,230887.8,True,Cannot meet any targets
+1154,Distribution Center,36.1,34.8,10.057471264367807,158772.45000000004,203228.73600000006,True,Cannot meet any targets
+3614,K-12 School,63.8,95.2,49.57983193277311,157860.78659999993,361857.3182399999,True,Hit 42% reduction cap
+2876,Multifamily Housing,72.8,98.3,55.03560528992879,157199.29379999998,257218.97832000002,True,Hit 42% reduction cap
+3324,Retail Store,53.7,52.6,17.300380228136884,157182.79500000004,212843.19600000008,True,Cannot meet any targets
+1276,Transportation Terminal/Station,127.3,156.7,29.993618379068277,156922.07999999993,378107.4879999999,False,Already meets 2025 target
+4527,Fitness Center/Health Club/Gym,111.7,172.0,41.97674418604651,156467.74500000008,479834.41800000024,False,Already meets 2025 target
+1672,Hotel,70.4,68.8,11.191860465116275,155520.00000000012,205344.00000000012,True,Cannot meet any targets
+3609,Supermarket/Grocery Store,175.3,180.7,9.020475926950738,155376.54000000004,267717.5160000002,True,Cannot meet any targets
+3093,Multifamily Housing,62.3,75.3,29.216467463479418,154351.8,355009.14,False,Already meets 2025 target
+1613,Distribution Center,44.5,57.2,41.95804195804196,153680.93999999994,330779.92799999996,False,Already meets 2025 target
+1725,Distribution Center,35.5,39.6,35.85858585858586,153326.90999999997,253959.65200000003,True,Cannot meet any targets
+1477,MIXED USE PROPERTY,20.0,19.7,29.9492385786802,153180.0,211047.99999999997,True,Cannot meet any targets
+3644,K-12 School,61.7,74.7,35.7429718875502,152456.49000000005,318666.9320000001,False,Already meets 2025 target
+1511,Non-Refrigerated Warehouse,41.3,40.0,32.0,152334.71999999994,207136.89599999998,True,Cannot meet any targets
+5847,Self-Storage Facility,10.2,9.3,8.602150537634417,152053.19999999995,176156.44799999992,True,Cannot meet any targets
+2080,Non-Refrigerated Warehouse,36.2,36.3,11.019283746556475,151925.76000000024,216313.3440000003,True,Cannot meet any targets
+3432,Multifamily Housing,55.9,58.2,24.054982817869412,151435.88999999996,229262.43599999993,True,Cannot meet any targets
+3105,Multifamily Housing,56.7,58.3,24.185248713550592,150988.50000000006,222611.25,True,Cannot meet any targets
+1992,Non-Refrigerated Warehouse,45.4,45.4,40.08810572687225,150875.87999999995,212112.992,True,Near maximum reduction cap
+2790,Zoo,292.4,387.3,30.00258197779499,150749.68499999968,462299.033999999,False,Already meets 2025 target
+5833,Multifamily Housing,50.0,47.2,2.11864406779661,149733.47999999992,164612.6559999999,True,Cannot meet any targets
+6453,Multifamily Housing,47.9,47.9,7.724425887265126,149718.37499999977,209728.94999999978,True,Cannot meet any targets
+3653,Manufacturing/Industrial Plant,62.5,0.0,0.0,149355.36000000002,152674.36800000002,True,Cannot meet any targets
+3150,Multifamily Housing,50.8,59.5,25.71428571428571,149138.54999999987,335396.0279999997,False,Already meets 2025 target
+6026,Self-Storage Facility,21.0,22.1,65.15837104072398,148131.22499999998,170778.795,True,Hit 42% reduction cap
+2722,Worship Facility,55.6,72.7,42.0907840440165,145577.19330000004,321854.1901200001,True,Hit 42% reduction cap
+1963,K-12 School,53.9,55.5,13.513513513513514,145015.07999999993,226190.18799999994,True,Cannot meet any targets
+5658,Multifamily Housing,51.0,48.6,-3.0864197530864197,145014.70499999975,148237.25399999978,True,Cannot meet any targets
+2103,Distribution Center,46.5,65.9,61.45675265553871,144884.03939999998,222155.52708,True,Hit 42% reduction cap
+1592,Distribution Center,58.2,70.6,42.06798866855524,144648.00000000006,277757.2000000002,True,Hit 42% reduction cap
+3136,Multifamily Housing,56.6,58.6,24.57337883959044,144330.41999999998,216078.92799999999,True,Cannot meet any targets
+1618,Distribution Center,39.6,47.3,46.30021141649049,143853.16890000005,236787.5879600001,True,Hit 42% reduction cap
+2245,Multifamily Housing,73.0,73.4,14.30517711171663,143688.72000000003,205093.02400000003,True,Cannot meet any targets
+3579,Non-Refrigerated Warehouse,40.7,44.5,38.87640449438202,143003.52000000005,224255.52000000008,True,Cannot meet any targets
+1069,Multifamily Housing,54.9,52.6,8.555133079847907,142942.81499999997,178493.06399999993,True,Cannot meet any targets
+3526,K-12 School,58.5,73.9,35.04736129905278,142224.10499999998,329468.79000000004,False,Already meets 2025 target
+6065,Museum,69.7,78.0,30.0,141354.99000000002,250792.27600000004,True,Cannot meet any targets
+3471,Office,65.2,83.0,41.807228915662655,141119.82000000007,300978.1840000001,False,Already meets 2025 target
+2990,Multifamily Housing,58.6,69.5,36.402877697841724,140467.5,275690.87999999995,True,Cannot meet any targets
+1973,Senior Living Community,56.9,63.5,30.393700787401574,140299.33499999993,245031.00599999994,True,Cannot meet any targets
+2300,Worship Facility,53.3,42.1,0.0,140021.27999999997,143132.86399999997,True,Cannot meet any targets
+1940,Senior Living Community,79.7,83.5,24.19161676646707,140018.13000000006,215351.02400000006,True,Cannot meet any targets
+2564,Worship Facility,53.9,50.3,16.302186878727625,139783.34999999998,176247.15999999995,True,Cannot meet any targets
+3723,K-12 School,62.4,77.2,37.82383419689119,139616.87999999998,296417.376,False,Already meets 2025 target
+2211,Social/Meeting Hall,49.5,48.5,31.958762886597935,139418.63999999998,191700.63,True,Cannot meet any targets
+4499,Office,63.9,75.2,31.382978723404253,138956.99999999997,287992.19999999995,False,Already meets 2025 target
+1225,Manufacturing/Industrial Plant,58.7,0.0,0.0,138330.00000000012,141404.00000000012,True,Cannot meet any targets
+3616,Multifamily Housing,58.0,66.3,33.33333333333333,138237.735,251082.44399999996,True,Cannot meet any targets
+4562,Distribution Center,53.5,62.6,45.52715654952076,138140.046,222777.37440000003,True,Hit 42% reduction cap
+2971,Multifamily Housing,56.9,58.6,24.57337883959044,137960.59499999994,204300.58199999994,True,Cannot meet any targets
+5022,Vehicle Dealership,68.8,107.0,41.96261682242991,137356.3649999999,421226.18599999975,False,Already meets 2025 target
+6188,Hotel,66.6,67.7,9.748892171344167,137320.87499999977,208661.74999999974,True,Cannot meet any targets
+2136,Multifamily Housing,62.2,83.3,46.93877551020408,137164.5198000001,275699.86472000025,True,Hit 42% reduction cap
+5616,Office,52.2,62.4,22.59615384615385,136578.60000000024,408370.0140000006,False,Already meets 2025 target
+4783,Hotel,66.0,58.3,-4.802744425385942,135541.34999999995,138553.37999999995,True,Cannot meet any targets
+1121,K-12 School,62.4,80.8,40.59405940594059,135384.675,300431.51999999996,False,Already meets 2025 target
+3044,Multifamily Housing,50.6,52.9,16.446124763705097,135244.725,219372.15999999995,True,Cannot meet any targets
+3952,Medical Office,78.3,47.9,-44.05010438413362,134309.20499999996,137293.85399999996,True,Cannot meet any targets
+1439,Hotel,65.3,54.4,-12.31617647058824,133874.36999999985,136849.35599999985,True,Cannot meet any targets
+4878,Multifamily Housing,57.5,63.3,30.173775671405995,133844.39999999997,224652.95999999996,True,Cannot meet any targets
+5410,Self-Storage Facility,10.1,7.4,-4.054054054054052,133469.63999999996,136435.63199999998,True,Cannot meet any targets
+4892,Hotel,69.5,98.7,38.095238095238095,133262.63999999998,408672.09599999996,False,Already meets 2025 target
+6344,Office,57.9,50.5,3.7623762376237595,132972.83999999994,143650.96199999997,True,Cannot meet any targets
+2094,Office,62.1,67.6,28.55029585798816,132898.56000000006,219697.93200000006,True,Cannot meet any targets
+3557,Other,57.5,57.9,15.025906735751288,132698.99999999997,189754.59999999995,True,Cannot meet any targets
+3008,Multifamily Housing,57.8,59.2,25.337837837837835,132093.22499999998,193304.14399999994,True,Cannot meet any targets
+5976,Multifamily Housing,68.1,101.0,56.23762376237623,131929.72799999992,214935.51519999994,True,Hit 42% reduction cap
+3231,Multifamily Housing,51.8,50.3,12.127236580516888,131740.4699999999,172496.13599999988,True,Cannot meet any targets
+5978,Multifamily Housing,54.3,59.0,25.084745762711858,131039.99999999991,223007.99999999988,True,Cannot meet any targets
+3211,K-12 School,72.6,107.7,55.43175487465181,130288.74689999997,219651.81516,True,Hit 42% reduction cap
+5724,K-12 School,60.3,50.9,5.697445972495085,130228.87499999997,142383.56999999998,True,Cannot meet any targets
+5303,Multifamily Housing,54.2,84.1,47.443519619500584,130190.62410000026,399251.24724000087,True,Hit 42% reduction cap
+1524,Urgent Care/Clinic/Other Outpatient,77.9,111.4,45.511669658886895,130048.74960000013,317561.6734400003,True,Hit 42% reduction cap
+2342,Worship Facility,64.5,82.0,48.65853658536585,129952.54800000002,232470.66920000006,True,Hit 42% reduction cap
+2569,Multifamily Housing,49.4,55.7,20.646319569120287,129941.45999999993,283853.8559999998,False,Already meets 2025 target
+3766,College/University,72.1,80.0,24.25,129612.23999999982,245752.23999999985,True,Cannot meet any targets
+3670,Self-Storage Facility,10.5,8.3,7.228915662650608,129313.125,140553.0,True,Cannot meet any targets
+1441,Non-Refrigerated Warehouse,50.1,63.1,56.89381933438986,129176.64000000004,178874.49600000004,True,Hit 42% reduction cap
+4879,Multifamily Housing,59.6,59.6,25.838926174496642,129124.79999999999,181492.08,True,Cannot meet any targets
+3960,K-12 School,55.0,55.1,12.885662431941928,129068.52000000002,182280.98,True,Cannot meet any targets
+2866,Multifamily Housing,55.3,61.9,26.97899838449111,129004.40999999995,240704.61399999988,True,Cannot meet any targets
+3678,Worship Facility,49.7,46.8,10.042735042735035,128246.89500000003,158148.55200000003,True,Cannot meet any targets
+6024,Office,64.4,64.1,13.26053042121684,128220.30000000008,177448.12800000008,True,Cannot meet any targets
+5774,Multifamily Housing,53.6,61.9,28.594507269789975,128162.99999999997,263893.72,False,Already meets 2025 target
+3493,Mixed Use Property,74.9,79.5,18.867924528301888,128124.99000000014,216208.09600000014,True,Cannot meet any targets
+5461,Self-Storage Facility,10.5,7.0,-10.000000000000002,127260.0,130088.0,True,Cannot meet any targets
+3711,Self-Storage Facility,12.0,11.7,34.18803418803418,127199.51999999999,174722.674,True,Cannot meet any targets
+5518,Hotel,69.9,85.3,28.370457209847594,126495.60000000006,310335.87200000015,False,Already meets 2025 target
+3611,K-12 School,55.0,55.2,13.04347826086957,126445.89000000001,179759.72,True,Cannot meet any targets
+1021,Hotel,70.8,70.1,12.838801711840219,126307.01999999993,173143.44799999992,True,Cannot meet any targets
+3621,Worship Facility,54.6,55.9,24.686940966010727,125917.20000000001,184230.0,True,Cannot meet any targets
+5732,K-12 School,58.4,78.4,38.775510204081634,125272.5,319628.608,False,Already meets 2025 target
+5465,Multifamily Housing,49.9,31.9,-41.69278996865206,125241.83999999987,128024.99199999988,True,Cannot meet any targets
+2739,Multifamily Housing,51.8,46.0,3.4782608695652204,125224.44,135969.37599999996,True,Cannot meet any targets
+1911,Hotel,66.1,91.3,33.077765607886086,124218.74999999983,380937.4999999995,False,Already meets 2025 target
+6006,Multifamily Housing,47.1,38.3,-20.365535248041787,123735.59999999999,126485.28,True,Cannot meet any targets
+5221,Office,58.7,65.3,28.79019908116386,123473.04000000004,217902.73600000006,True,Cannot meet any targets
+2825,Office,57.1,73.8,34.552845528455286,123166.1700000001,313570.22400000016,False,Already meets 2025 target
+3357,Multifamily Housing,55.0,61.1,27.6595744680851,122919.03,218875.17599999995,True,Cannot meet any targets
+3957,K-12 School,51.9,53.2,12.781954887218053,122505.64499999997,189565.31,True,Cannot meet any targets
+3186,Multifamily Housing,64.2,81.3,45.63345633456334,121964.33250000005,236607.0030000001,True,Hit 42% reduction cap
+3700,Worship Facility,58.0,74.7,43.64123159303882,121886.9901,253065.74964000002,True,Hit 42% reduction cap
+4268,Multifamily Housing,48.5,53.9,17.996289424860844,121867.19999999998,267837.0239999998,False,Already meets 2025 target
+1165,Distribution Center,29.6,42.0,39.523809523809526,121819.95000000008,373581.1800000003,False,Already meets 2025 target
+6102,K-12 School,60.5,55.4,13.357400722021659,120563.09999999999,146717.0,True,Cannot meet any targets
+2910,Multifamily Housing,65.3,87.2,49.31192660550459,120173.70599999996,224932.65839999996,True,Hit 42% reduction cap
+1425,Non-Refrigerated Warehouse,38.2,39.2,25.00000000000001,119949.60000000003,175926.08000000007,True,Cannot meet any targets
+3790,Performing Arts,57.6,70.9,24.964739069111427,119656.67999999995,366947.1519999999,False,Already meets 2025 target
+3830,Distribution Center,30.1,32.6,22.085889570552155,119623.6500000001,210265.31000000014,True,Cannot meet any targets
+5834,Multifamily Housing,51.1,50.5,10.69306930693069,119556.24000000002,161752.56,True,Cannot meet any targets
+4454,Strip Mall,93.3,111.1,26.012601260126004,118768.64999999997,282719.21999999986,False,Already meets 2025 target
+2895,K-12 School,53.8,57.1,15.936952714535904,118727.2349999999,213309.2679999999,True,Cannot meet any targets
+2056,Non-Refrigerated Warehouse,36.8,37.7,27.851458885941653,117767.00999999995,171636.67199999996,True,Cannot meet any targets
+2027,Residence Hall/Dormitory,52.1,55.4,12.815884476534297,117562.50000000006,240350.0000000003,False,Already meets 2025 target
+2205,Retail Store,50.0,47.6,8.613445378151264,117548.81999999998,144638.26,True,Cannot meet any targets
+3506,Office,66.8,89.5,46.03351955307263,117163.19999999998,241098.88,True,Hit 42% reduction cap
+2805,Office,59.6,62.6,22.843450479233233,116550.00000000001,181930.0000000001,True,Cannot meet any targets
+4612,Worship Facility,60.9,72.9,42.249657064471876,116317.49999999997,214106.99999999994,True,Hit 42% reduction cap
+1601,Non-Refrigerated Warehouse,45.2,60.1,54.74209650582363,116293.29510000005,189707.6496400001,True,Hit 42% reduction cap
+4020,Medical Office,90.6,142.1,51.442646023926805,116071.50149999988,294718.09460000007,True,Hit 42% reduction cap
+2758,Multifamily Housing,47.5,43.1,-2.55220417633411,115466.17499999989,118032.0899999999,True,Cannot meet any targets
+5639,Office,64.9,72.6,13.911845730027542,114794.64000000028,352036.8960000009,False,Already meets 2025 target
+2528,Multifamily Housing,48.6,59.6,25.838926174496642,114644.19000000003,336289.6239999999,False,Already meets 2025 target
+5517,Retail Store,53.7,51.8,16.02316602316602,114597.00000000004,150613.20000000007,True,Cannot meet any targets
+2213,Office,61.6,70.3,31.29445234708393,114505.24500000007,213255.12600000008,True,Cannot meet any targets
+4599,Office,53.9,67.5,28.44444444444445,113862.59999999999,325900.0640000001,False,Already meets 2025 target
+3264,Non-Refrigerated Warehouse,34.0,46.7,41.7558886509636,113598.78,285411.232,False,Already meets 2025 target
+2982,Multifamily Housing,57.9,60.5,26.942148760330575,113240.51999999996,171137.11199999996,True,Cannot meet any targets
+2127,K-12 School,59.0,60.8,21.052631578947363,112120.875,168098.26,True,Cannot meet any targets
+2410,Hotel,66.4,98.3,37.843336724313325,112066.38000000009,343670.2320000003,False,Already meets 2025 target
+3791,Laboratory,165.4,207.2,25.72393822393822,111728.25,342633.3,False,Already meets 2025 target
+3943,Multifamily Housing,55.5,59.1,25.211505922165816,111392.61000000002,177885.95599999998,True,Cannot meet any targets
+2409,Senior Living Community,77.6,87.4,27.57437070938216,111359.99999999988,210495.99999999994,True,Cannot meet any targets
+1454,Distribution Center,37.9,41.0,38.04878048780488,111150.0,172500.0,True,Cannot meet any targets
+5132,Self-Storage Facility,12.9,17.4,55.74712643678161,110635.51200000002,176165.7768000001,True,Hit 42% reduction cap
+2806,Hotel,74.0,75.0,18.53333333333333,110581.37999999998,160241.736,True,Cannot meet any targets
+2536,Pre-school/Daycare,46.2,49.7,21.73038229376258,110040.00000000012,188048.00000000012,True,Cannot meet any targets
+5226,Office,65.0,96.6,45.03105590062111,109817.2800000001,336772.9920000003,True,Hit 42% reduction cap
+1671,Hotel,66.3,63.4,3.6277602523659263,108914.99999999991,126775.9999999999,True,Cannot meet any targets
+3430,Multifamily Housing,57.0,71.9,38.525730180806676,108580.49999999999,236785.91999999995,False,Already meets 2025 target
+5580,Hotel,65.5,80.4,24.004975124378113,108416.21999999997,332476.40799999994,False,Already meets 2025 target
+2140,Multifamily Housing,52.4,55.4,20.21660649819494,108107.99999999999,176529.59999999992,True,Cannot meet any targets
+4808,Multifamily Housing,49.1,52.6,15.969581749049427,106017.21000000005,204241.70199999996,True,Cannot meet any targets
+3017,Multifamily Housing,66.1,97.1,49.948506694129755,105173.5293,224045.55852000008,True,Hit 42% reduction cap
+3444,Office,58.0,65.7,25.266362252663622,104669.66999999998,214795.80399999997,False,Already meets 2025 target
+2992,Office,60.1,70.7,31.117397454031114,104590.07999999997,217646.97599999997,False,Already meets 2025 target
+4516,Multifamily Housing,53.1,67.3,34.32392273402674,104498.775,248010.42599999995,False,Already meets 2025 target
+1607,K-12 School,53.6,71.4,32.77310924369748,104455.68000000002,320330.7520000001,False,Already meets 2025 target
+2887,Multifamily Housing,51.3,49.3,10.344827586206886,103687.55999999992,132024.7839999999,True,Cannot meet any targets
+3779,Worship Facility,52.0,51.1,17.61252446183953,103581.26999999999,141019.164,True,Cannot meet any targets
+4023,Medical Office,82.7,74.7,-1.6064257028112487,103580.99999999996,105882.79999999996,True,Cannot meet any targets
+2907,Multifamily Housing,56.7,63.7,26.687598116169543,103499.65500000006,197142.2,True,Cannot meet any targets
+6136,Non-Refrigerated Warehouse,29.0,29.8,8.724832214765105,103493.61000000002,173116.58400000006,True,Cannot meet any targets
+5260,Retail Store,57.5,72.5,37.24137931034483,102441.09000000001,227098.32,False,Already meets 2025 target
+5125,Office,71.5,102.6,34.50292397660818,102197.02499999992,313404.2099999998,False,Already meets 2025 target
+4907,Mixed Use Property,78.9,120.5,55.68464730290456,102123.00000000006,174073.20000000013,True,Hit 42% reduction cap
+1731,Distribution Center,7.1,0.0,0.0,102067.47,104335.636,True,Near maximum reduction cap
+4388,Office,56.1,82.1,35.32277710109622,101700.0,311880.0,False,Already meets 2025 target
+2388,Multifamily Housing,55.7,66.5,25.563909774436087,101088.00000000004,246412.8000000001,False,Already meets 2025 target
+2996,Office,59.2,66.4,27.259036144578324,100832.49000000002,188295.7560000001,True,Cannot meet any targets
+5023,Retail Store,67.6,91.6,52.51091703056768,100804.16639999997,175634.79696,True,Hit 42% reduction cap

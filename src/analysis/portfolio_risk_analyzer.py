@@ -746,7 +746,7 @@ if __name__ == "__main__":
     analyzer = PortfolioRiskAnalyzer()
     
     # Generate full report
-    output_path = '/Users/robertpadgett/Projects/01_My_Notebooks/500_ED_Risk_Retro_BP/outputs/portfolio_risk_analysis.json'
+    output_path = '/Users/robertpadgett/Projects/01_My_Notebooks/500_ED_Risk_Retro_BP/outputs/data/portfolio_risk_analysis.json'
     scenarios, fig = analyzer.generate_report(output_path)
     
     # Show visualizations
