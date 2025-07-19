@@ -248,18 +248,18 @@ class IntegratedTESHPAnalyzer:
     
     def calculate_project_economics(self, system_type: str = '4pipe_wshp_tes') -> Dict:
         """Calculate detailed project economics for a specific system"""
-        
+
         # Find system config
         config = next(c for c in self.system_configs if c['type'] == system_type)
-        
+
         # Use unified config if available
         if USE_UNIFIED_CONFIG:
             unified_config = get_config()
             costs = unified_config.calculate_project_costs()
             incentives = unified_config.calculate_incentives(costs)
             financial = unified_config.config['financial']
-            
-            return {
+
+            economics = {
                 'system_type': system_type,
                 'total_project_cost': costs['total_project_cost'],
                 'equipment_cost': costs['escalated_equipment'],
@@ -279,12 +279,20 @@ class IntegratedTESHPAnalyzer:
                 'project_yield': financial['annual_noi'] / costs['total_project_cost'],
                 'cash_on_cash': financial['annual_noi'] / incentives['net_project_cost'] if incentives['net_project_cost'] > 0 else float('inf'),
             }
+            # Add OPEX and NOI calculation after annual_revenue if not present
+            if 'annual_opex' not in economics:
+                annual_opex = economics['annual_revenue'] * 0.70
+                annual_noi = economics['annual_revenue'] - annual_opex
+                economics['annual_opex'] = annual_opex
+                economics['annual_noi'] = annual_noi
+            return economics
         else:
             # Legacy calculation method
+            economics = {}
             # Base costs
             base_equipment_cost = config['cost_per_sqft'] * self.building_data['sqft']
             escalated_cost = base_equipment_cost * 1.3  # 30% escalation
-            
+
             # Break down costs
             if config.get('tes_included'):
                 heat_pump_cost = escalated_cost * 0.8
@@ -292,94 +300,80 @@ class IntegratedTESHPAnalyzer:
             else:
                 heat_pump_cost = escalated_cost
                 tes_cost = 0
-                
+
             soft_costs = escalated_cost * 0.25  # 25% soft costs
             developer_fee = escalated_cost * 0.15  # 15% developer fee
             contingency = (escalated_cost + soft_costs + developer_fee) * 0.10
-            
+
             total_project_cost = escalated_cost + soft_costs + developer_fee + contingency
-            
+
             # Calculate incentives
             # ITC - 40% on equipment only
             itc_basis = heat_pump_cost + tes_cost
             itc_amount = itc_basis * 0.40
-            
+
             # Depreciation - 80% bonus
             depreciation_amount = itc_basis * 0.80 * 0.35  # 35% tax rate
-            
+
             # Grants and rebates
             drcog_grant = self.building_data['units'] * 5000 if self.building_data['is_epb'] else 0
             xcel_rebate = self.building_data['units'] * 3500
-            
+
             total_incentives = itc_amount + depreciation_amount + drcog_grant + xcel_rebate
-            
+
             # Net project cost
             net_cost = total_project_cost - total_incentives
-            
+
             # Monthly service fee calculation
             # Target 95% of current energy spend
             monthly_revenue = self.building_data['current_energy_cost_annual'] * 0.95 / 12
             annual_revenue = monthly_revenue * 12
-            
+
             # Operating expenses (30% margin)
             annual_opex = annual_revenue * 0.70
             annual_noi = annual_revenue - annual_opex
-            
-            return {
-                'system_type': system_type,
-                'total_project_cost': total_project_cost,
-                'equipment_cost': heat_pump_cost + tes_cost,
-                'soft_costs': soft_costs,
-                'developer_fee': developer_fee,
-                'contingency': contingency,
-                'itc_amount': itc_amount,
-                'depreciation_value': depreciation_amount,
-                'drcog_grant': drcog_grant,
-                'xcel_rebate': xcel_rebate,
-                'total_incentives': total_incentives,
-                'net_project_cost': net_cost,
-                'incentive_coverage': total_incentives / total_project_cost,
-                'monthly_service_fee': monthly_revenue,
-                'annual_revenue': annual_revenue,
-                'annual_noi': annual_noi,
-                'project_yield': annual_noi / total_project_cost,
-                'cash_on_cash': annual_noi / net_cost if net_cost > 0 else float('inf'),
-            }
+
+            economics['system_type'] = system_type
+            economics['total_project_cost'] = total_project_cost
+            economics['equipment_cost'] = heat_pump_cost + tes_cost
+            economics['soft_costs'] = soft_costs
+            economics['developer_fee'] = developer_fee
+            economics['contingency'] = contingency
+            economics['itc_amount'] = itc_amount
+            economics['depreciation_value'] = depreciation_amount
+            economics['drcog_grant'] = drcog_grant
+            economics['xcel_rebate'] = xcel_rebate
+            economics['total_incentives'] = total_incentives
+            economics['net_project_cost'] = net_cost
+            economics['incentive_coverage'] = total_incentives / total_project_cost
+            economics['monthly_service_fee'] = monthly_revenue
+            economics['annual_revenue'] = annual_revenue
+            economics['annual_opex'] = annual_opex
+            economics['annual_noi'] = annual_noi
+            economics['project_yield'] = annual_noi / total_project_cost
+            economics['cash_on_cash'] = annual_noi / net_cost if net_cost > 0 else float('inf')
+            return economics
     
     def calculate_developer_returns(self, economics: Dict) -> Dict:
-        """Calculate developer profit sources and returns"""
-        
-        # Developer income streams
+        """Calculate developer returns using exit-profit model (no asset mgmt fees, no IRR/payback)"""
         developer_fee = economics['developer_fee']
-        
-        # Tax credit broker spread (5% of ITC)
-        tc_broker_spread = economics['itc_amount'] * 0.05
-        
-        # Depreciation sale (sell at 85% of value)
-        depreciation_sale = economics['depreciation_value'] * 0.85 / 0.35  # Gross up
-        
-        # Rebate origination (2.5% of grants/rebates)
-        rebate_origination = (economics['drcog_grant'] + economics['xcel_rebate']) * 0.025
-        
-        # Total developer profit
-        total_profit = developer_fee + tc_broker_spread + depreciation_sale + rebate_origination
-        
-        # Developer equity needed (pre-construction costs)
-        developer_equity = 200000  # Estimated pre-construction costs
-        
-        # Asset management fee (ongoing)
-        annual_asset_mgmt = economics['annual_revenue'] * 0.02  # 2% of revenue
-        
+        # Developer equity is 0 by default (LP funds bridge loan)
+        developer_equity = 0
+        # Only pre-exit compensation is developer fee
+        # Exit profit: market value of stabilized cashflows
+        exit_value = economics['annual_noi'] / 0.08  # Market cap rate
+        total_profit = developer_fee + exit_value
         return {
             'developer_fee': developer_fee,
-            'tax_credit_spread': tc_broker_spread,
-            'depreciation_sale_profit': depreciation_sale * 0.15,  # 15% profit on sale
-            'rebate_origination': rebate_origination,
-            'total_upfront_profit': total_profit,
+            'exit_sale_proceeds': exit_value,
+            'total_profit': total_profit,
             'developer_equity_needed': developer_equity,
-            'return_on_equity': total_profit / developer_equity,
-            'annual_asset_mgmt_fee': annual_asset_mgmt,
-            '5yr_total_return': total_profit + (annual_asset_mgmt * 5),
+            'lp_gp_placeholder': {
+                'lp_equity': economics['net_project_cost'],
+                'gp_equity': 0,
+                'preferred_return': None,
+                'waterfall_tiers': []
+            }
         }
     
     def calculate_bridge_loan(self, economics: Dict) -> Dict:
@@ -515,9 +509,9 @@ class IntegratedTESHPAnalyzer:
                 'months_to_repayment': bridge_loan['months_outstanding'],
             },
             'developer_returns': {
-                'total_profit': developer_returns['total_upfront_profit'],
-                'return_on_equity': developer_returns['return_on_equity'],
-                '5yr_total': developer_returns['5yr_total_return'],
+                'total_profit': developer_returns['total_profit'],
+                'return_on_equity': developer_returns.get('return_on_equity', 'N/A (no equity)'),
+                '5yr_total': developer_returns['total_profit'],  # Same as total since no ongoing fees
             },
             'exit_valuation': {
                 'market_value': exit_value['cap_rate_valuations']['market']['value'],
@@ -533,8 +527,8 @@ class IntegratedTESHPAnalyzer:
                     "Modern 4-pipe system solves comfort issues",
                 ],
                 'developer': [
-                    f"${developer_returns['total_upfront_profit']:,.0f} upfront profit",
-                    f"{developer_returns['return_on_equity']:.0%} return on ${developer_returns['developer_equity_needed']:,.0f} equity",
+                    f"${developer_returns['total_profit']:,.0f} upfront profit",
+                    f"{developer_returns.get('return_on_equity', 'N/A (no equity)')}",
                     f"Exit value ${exit_value['cap_rate_valuations']['market']['value']:,.0f}",
                     "Minimal capital at risk with bridge financing",
                 ],
@@ -757,7 +751,7 @@ if __name__ == "__main__":
     
     print(f"\nDEVELOPER RETURNS:")
     print(f"Total Upfront Profit: ${summary['developer_returns']['total_profit']:,.0f}")
-    print(f"Return on Equity: {summary['developer_returns']['return_on_equity']:.0%}")
+    print(f"Return on Equity: {summary['developer_returns']['return_on_equity']}")
     print(f"5-Year Total Return: ${summary['developer_returns']['5yr_total']:,.0f}")
     
     print(f"\nEXIT VALUATION:")

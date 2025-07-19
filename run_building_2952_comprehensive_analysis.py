@@ -106,7 +106,12 @@ def run_comprehensive_2952_analysis():
         returns = teaas_summary['developer_returns']
         print(f"\n   DEVELOPER RETURNS:")
         print(f"   Upfront Profit: ${returns['total_profit']:,.0f}")
-        print(f"   Return on Equity: {returns['return_on_equity']:.0%}")
+        roe_value = returns.get('return_on_equity', 'N/A')
+        if isinstance(roe_value, (int, float)) and roe_value != 0:
+            print(f"   Return on Equity: {roe_value:.0%}")
+        else:
+            print(f"   Return on Equity: {roe_value}")
+
         print(f"   5-Year Total: ${returns['5yr_total']:,.0f}")
         
         # Exit Valuation
@@ -151,7 +156,12 @@ def run_comprehensive_2952_analysis():
         print(f"   • {teaas_summary['project_economics']['incentive_coverage']:.0%} incentive coverage")
         print(f"   • ${teaas_summary['recommended_solution']['penalties_avoided_15yr']:,.0f} penalty avoidance")
         print(f"   • {teaas_summary['recommended_solution']['eui_reduction']:.0f}% energy reduction")
-        print(f"   • ${teaas_summary['developer_returns']['return_on_equity']:.0%} developer return on equity")
+        # Handle return on equity safely (may be string or number)
+        roe_value = teaas_summary['developer_returns'].get('return_on_equity', 'N/A')
+        if isinstance(roe_value, (int, float)) and roe_value != 0:
+            print(f"   • {roe_value:.0%} developer return on equity")
+        else:
+            print(f"   • {roe_value} developer return on equity")
         
         print("\n✅ KEY BENEFITS FOR OWNER:")
         for benefit in teaas_summary['key_benefits']['owner']:
